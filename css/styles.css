@@ -8,11 +8,9 @@
     font-family: "Montserrat";
 }
 
-body{
+body {
     min-height: 100vh;
-    background: url('../undraw_dreamer_re_9tua.svg') no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url('../images/newnew.svg') no-repeat;   background-size: cover
 }
 
 .header{
@@ -30,15 +28,18 @@ body{
 
 .logo{
     font-size: 32px;
-    color:seagreen;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 700;
+    background: url('../images/logo/webtree_logo.png') no-repeat;
+   
+
 }
 
 .navbar a {
     position: relative  ;
     font-size: 18px;
-    color: seagreen;
+    color: rgb(249, 249, 249);
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -51,7 +52,7 @@ body{
     left: 0;
     width: 0;
     height: 2px;
-    background:seagreen;
+    background:rgb(255, 255, 255);
     transition: .3s;
 }
 .navbar a:hover:before {
