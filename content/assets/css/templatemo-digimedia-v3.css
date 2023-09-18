@@ -209,7 +209,7 @@ body {
 }
 
 .border-first-button a {
-  display: inline-block !important;
+  display: none !important;
   padding: 10px 20px !important;
   color: #4da6e7 !important;
   border: 1px solid #4da6e7 !important;
