@@ -124,7 +124,7 @@ ul {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 300;
   color: #afafaf;
@@ -355,11 +355,17 @@ header
 .header-area .main-nav .logo {
     line-height: 100px;
     float: left;
-    width: 250px;
+    width: 200px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 992px) {
+  .header-area .main-nav .logo {
+    width: 170px;
+  }
 }
 
 .background-header .main-nav .logo {
