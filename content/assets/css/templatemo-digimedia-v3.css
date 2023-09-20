@@ -233,7 +233,7 @@ header
 */
 
 .pre-header {
-  background-color: #efefef;
+  background-color: #003d10;
   height: 60px;
   padding: 15px 0px;
 }
@@ -247,13 +247,13 @@ header
 }
 
 .pre-header ul.info li a {
-  color: #afafaf;
+  color: #ffffff;
   font-size: 14px;
   transition: all .3s;
 }
 
 .pre-header ul.info li a:hover {
-  color: #00731e;
+  color: #00bb32;
 }
 
 .pre-header ul.info li a i {
@@ -270,8 +270,8 @@ header
 }
 
 .pre-header ul.social-media li a {
-  background-color: #afafaf;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -283,7 +283,7 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: #4de773;
+  background-color: #00bb32;
 }
 
 .background-header {
@@ -663,7 +663,7 @@ header
 }
 
 @media (max-width: 767px) {
-  .pre-header ul.info li:last-child {
+  .pre-header {
     display: none;
   }
   .background-header .main-nav .nav {
