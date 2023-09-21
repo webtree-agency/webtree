@@ -1,10 +1,3 @@
-/*
-
-TemplateMo 568 DigiMedia
-
-https://templatemo.com/tm-568-digimedia
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -23,16 +16,7 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -193,7 +177,6 @@ body {
   color: #2a2a2a;
   font-size: 35px;
   font-weight: 700;
-  text-transform: capitalize;
   margin-bottom: 25px;
 }
 
@@ -896,7 +879,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
+  /* background-image: url(../images/slider-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -908,7 +891,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+  /* background-image: url(../images/slider-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1226,7 +1209,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../images/services-left-dec.jpg);
+  /* background-image: url(../images/services-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1238,7 +1221,7 @@ Services Style
 
 .services:before {
   content: '';
-  background-image: url(../images/services-right-dec.jpg);
+  /* background-image: url(../images/services-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1401,7 +1384,7 @@ Free Quote
 */
 
 .free-quote {
-  background-image: url(../images/quote-bg-v3.jpg);
+  /* background-image: url(../images/quote-bg-v3.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1482,7 +1465,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-image: url(../images/portfolio-right-dec.jpg);
+  /* background-image: url(../images/portfolio-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1494,7 +1477,7 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  background-image: url(../images/portfolio-left-dec.jpg);
+  /* background-image: url(../images/portfolio-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1603,7 +1586,7 @@ Blog
 
 .blog:before {
   content: '';
-  background-image: url(../images/blog-left-dec.jpg);
+  /* background-image: url(../images/blog-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1772,7 +1755,7 @@ contact
 
 
 form#contact:before {
-  background-image: url(../images/contact-top-right-v3.png);
+  /* background-image: url(../images/contact-top-right-v3.png); */
   position: absolute;
   right: 0;
   top: 0;
@@ -1791,7 +1774,7 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-image: url(../images/contact-bottom-right-v3.png);
+  /* background-image: url(../images/contact-bottom-right-v3.png); */
   position: absolute;
   right: 0;
   bottom: 0;
