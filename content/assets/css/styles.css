@@ -5,3 +5,13 @@
 .wave-divider {
     width: 100%;
 }
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 24px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 300;
+}
