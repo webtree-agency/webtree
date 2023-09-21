@@ -14,4 +14,4 @@ function typeWriter(text, index) {
 
 setTimeout(function () {
     typeWriter(text, 0); // Animation starten nach kurzem Timeout
-}, 1200); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
+}, 2800); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
