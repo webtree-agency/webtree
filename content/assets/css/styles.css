@@ -1,5 +1,5 @@
 .custom-color-code {
-    color: #003d10;
+    color: #00731e;
 }
 
 .wave-divider {
@@ -35,4 +35,26 @@
 
 #svgLink:hover #svg2 {
     display: block;
+}
+
+
+.arrow-down {
+    cursor: pointer !important;
+    transform: rotate(180deg);
+    /* width: 80px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-down a {
+    cursor: pointer;
+    text-align: center;
+    width: 60px;
+}
+
+@media (max-width: 992px) {
+    .arrow-down {
+        margin-top: 80px;
+    }
 }
