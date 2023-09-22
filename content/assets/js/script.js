@@ -15,3 +15,19 @@ function typeWriter(text, index) {
 setTimeout(function () {
     typeWriter(text, 0); // Animation starten nach kurzem Timeout
 }, 2800); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
+
+
+
+const coords = {x: 0, y: 0};
+const circles = document.querySelectorAll(".circle");
+
+window.addEventListener("mousemove", function(e) {
+    coords.x = e.clientX;
+    coords.y = e.clientY;
+
+    circles.forEach(function(circle, index) {
+        circle.style.left = coords.x + "px";
+        circle.style.top = coords.y + "px";
+    });
+});
+
