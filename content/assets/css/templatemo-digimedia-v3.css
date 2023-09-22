@@ -253,7 +253,7 @@ header
 }
 
 .pre-header ul.social-media li a {
-  background-color: #000000;
+  /* background-color: #000000; */
   color: #ffffff;
   display: inline-block;
   width: 30px;
@@ -261,7 +261,7 @@ header
   line-height: 30px;
   text-align: center;
   border-radius: 50%;
-  font-size: 14px;
+  font-size: 18px;
   transition: all .3s;
 }
 
