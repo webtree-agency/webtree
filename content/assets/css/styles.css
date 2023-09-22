@@ -5,3 +5,82 @@
 .wave-divider {
     width: 100%;
 }
+.svgContainer {
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+.svg {
+    display: block;
+    transition: .3s ease;
+    width: 40px;
+}
+
+#svg2 {
+    display: none;
+}
+
+#svgLink:hover #svg1 {
+    display: none;
+}
+
+#svgLink:hover #svg2 {
+    display: block;
+}
+
+
+.arrow-down {
+    cursor: pointer !important;
+    transform: rotate(180deg);
+    /* width: 80px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-down a {
+    cursor: pointer;
+    text-align: center;
+    width: 60px;
+}
+
+@media (max-width: 992px) {
+    .arrow-down {
+        margin-top: 80px;
+    }
+}
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    transition: background-color 0.12s ease-out, transform 0.12s ease-out, left 0.12s, top 0.12s; /* Hier wurde die Änderung vorgenommen */
+    background-color: #fff;
+    mix-blend-mode: difference;
+    will-change: transform, background-color, left, top; /* Hier wurde `left` und `top` hinzugefügt */
+    top: -50px;
+    left: -50px;
+}
+@media (max-width: 767px) {
+    .circle {
+        display: none; /* Das versteckt den Kreis auf kleineren Bildschirmen */
+    }
+}
+
+      
+.hovered {
+    transform: scale(1.4);
+    background-color: #000;
+    mix-blend-mode: difference;
+}
