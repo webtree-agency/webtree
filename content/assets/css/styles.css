@@ -5,3 +5,34 @@
 .wave-divider {
     width: 100%;
 }
+
+.svgContainer {
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+.svg {
+    display: block;
+    transition: .3s ease;
+    width: 40px;
+}
+
+#svg2 {
+    display: none;
+}
+
+#svgLink:hover #svg1 {
+    display: none;
+}
+
+#svgLink:hover #svg2 {
+    display: block;
+}
