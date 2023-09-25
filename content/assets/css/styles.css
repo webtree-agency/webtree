@@ -84,3 +84,23 @@
     background-color: #000;
     mix-blend-mode: difference;
 }
+
+.dash {
+    width: 35px;
+    margin-right: 25px;
+    color: white;
+    transition: all 400ms;
+}
+
+.agb-impressum a {
+    color: white;
+}
+
+.agb-impressum a:hover {
+    text-decoration: underline !important;
+}
+
+.wave-footer {
+    margin-bottom: -35%;
+    margin-top: 10%;
+}
