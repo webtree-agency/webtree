@@ -99,8 +99,27 @@
 .agb-impressum a:hover {
     text-decoration: underline !important;
 }
-
-.wave-footer {
-    margin-bottom: -35%;
+  .image-container img {
+    width: 100%; /* Damit das Bild die Container-Breite ausfüllt */
     margin-top: 10%;
+  }
+
+  .webtree-logo-footer {
+    width: 200px;
+  }
+
+  @media(max-width: 992px) {
+    .webtree-logo-footer {
+        width: 170px;
+      }
+  }
+
+@media (max-width: 767px){
+    .webtree-logo-footer {
+        margin-bottom: 15px;
+    }
+}
+
+.footer-links {
+    padding-bottom: 40px !important;
 }
