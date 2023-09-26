@@ -154,9 +154,11 @@
     width: 100%; /* Damit das Bild die Container-Breite ausfüllt */
     margin-top: 10%;
     margin-bottom: -2%;
-    border-left: #003d10;
-    border-right: #003d10;
-    padding: 0;
+    border-left: 1px #003d10;
+    border-right: 1px #003d10;
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   .webtree-logo-footer {
