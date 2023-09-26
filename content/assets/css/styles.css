@@ -154,19 +154,16 @@
     margin-top: 10%;
     margin-bottom: -1%;
     padding: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    border-left: 1px solid #003d10 !important;
     width: 100%;
   }
   
   .image-container img {
     width: 104%; /* 100% + 4% */
     position: relative;
-    left: -4%; /* Negative Verschiebung um 2% nach links */
+    left: -3.8%;
     display: block;
-    margin: 0 auto;
   }
+  
   
 
   .webtree-logo-footer {
