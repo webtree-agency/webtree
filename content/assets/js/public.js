@@ -15,8 +15,7 @@ const dragStart = (e) => {
 const stopDragging = () => {
     isDragging = false;
 };
-// when mouse is pressed 
-ulParentListContainer.addEventListener('mousedown', () => isDragging = true);
+
 // when mouse is move to left
 ulParentListContainer.addEventListener('mousemove', dragStart);
 // when mouse pressed is released
