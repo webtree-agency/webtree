@@ -232,7 +232,29 @@ header
 .pre-header ul.info li a {
   color: #ffffff;
   font-size: 14px;
+  position: relative;
   transition: all .3s;
+}
+
+.pre-header ul.info li a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 4px;
+  margin-top: 12px !important;
+  background-color: #00bb32;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+
+.pre-header ul.info li a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .pre-header ul.info li a:hover {

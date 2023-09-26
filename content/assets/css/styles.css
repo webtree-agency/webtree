@@ -96,21 +96,24 @@
     color: #ffffff;
     position: relative;
     text-decoration: none;
+    transition: all .3s;
   }
-  
+  .agb-impressum a:hover {
+    color: #00bb32;
+  }
   .agb-impressum a::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 3px;
     border-radius: 4px;
-    background-color: #ffffff;
+    margin-top: 12px !important;
+    background-color: #00bb32;
     bottom: 0;
     left: 0;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
-    color: #00731e !important;
   }
   
   .agb-impressum a:hover::before {
@@ -122,10 +125,12 @@
     position: relative;
     text-decoration: none;
     font-size: 17px;
+    transition: all .3s;
   }
 
   .kontakt-links a:hover {
-    cursor: pointer !important;  
+    cursor: pointer !important;
+    color: #00bb32 !important;  
   }
   
   .kontakt-links a::before {
@@ -134,7 +139,7 @@
     width: 100%;
     height: 3px;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #00bb32;
     bottom: 0;
     left: 0;
     transform-origin: right;
