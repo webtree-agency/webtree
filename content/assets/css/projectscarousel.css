@@ -118,3 +118,8 @@ article.sample-col-para img {
         transform: translateX(calc(-100% - 1rem));
     }
 }
+@media (max-width : 768px) {
+    .marquee-wrapper .marquee-content .card-testimonial {
+        max-width: 350px;
+    }
+}

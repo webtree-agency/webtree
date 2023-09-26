@@ -16,6 +16,13 @@ const stopDragging = () => {
     isDragging = false;
 };
 
+
+function mobileAndTabletChecker(){  
+    if(window.innerWidth <= 768)
+    ulParentListContainer.addEventListener('mousedown', () => isDragging = true);
+    window.addEventListener('mouseup', stopDragging);
+    ulParentListContainer.addEventListener('mousemove', dragStart);
+}
 // when mouse is move to left
 ulParentListContainer.addEventListener('mousemove', dragStart);
 // when mouse pressed is released
