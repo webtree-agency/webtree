@@ -164,9 +164,9 @@
 
   }
   .image-container img {
-    width: 100%; /* Damit das Bild die Container-Breite ausfüllt */
-    right: 0 !important;
+    width: 101%; /* Damit das Bild die Container-Breite ausfüllt */
     left: 0 !important;
+    right: 0 !important;
   }
 
   .webtree-logo-footer {
