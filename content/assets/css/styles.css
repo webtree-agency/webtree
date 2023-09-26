@@ -157,10 +157,9 @@
     padding: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    width: 98%;
+    width: 100%;
   }
   .image-container img {
-    width: 102%; /* Damit das Bild die Container-Breite ausfüllt */
     left: 0 !important;
   }
 
