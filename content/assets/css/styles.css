@@ -150,7 +150,7 @@
     transform-origin: left;
     transform: scaleX(1);
   }
-  .image-container {
+  /* .image-container {
     margin-top: 10%;
     margin-bottom: -1%;
     padding: 0 !important;
@@ -158,9 +158,18 @@
   }
   
   .image-container img {
-    width: 104%; /* 100% + 4% */
+    width: 104%; 
     position: relative;
-    left: -3.8%;
+    left: -3%;
+    display: block;
+  } */
+
+  .wave-footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: 10% !important;
+    width: 100%;
     display: block;
   }
   
