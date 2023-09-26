@@ -153,8 +153,9 @@
   .image-container img {
     width: 100%; /* Damit das Bild die Container-Breite ausfüllt */
     margin-top: 10%;
-    background-clip: padding-box;
-    border: 0;
+    margin-bottom: -2%;
+    border-left: #003d10;
+    border-right: #003d10;
     padding: 0;
   }
 
