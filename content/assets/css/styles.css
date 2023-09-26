@@ -150,8 +150,8 @@
     transform-origin: left;
     transform: scaleX(1);
   }
-  .image-container img {
-    width: 100%; /* Damit das Bild die Container-Breite ausfüllt */
+
+  .image-container {
     margin-top: 10%;
     margin-bottom: -2%;
     border-left: 1px #003d10;
@@ -159,6 +159,12 @@
     padding: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
+    width: 101%;
+
+  }
+  .image-container img {
+    width: 100%; /* Damit das Bild die Container-Breite ausfüllt */
+    left: 0 !important;
   }
 
   .webtree-logo-footer {
