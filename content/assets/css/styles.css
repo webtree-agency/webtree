@@ -165,12 +165,8 @@
   } */
 
   .wave-footer {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    margin-top: 10% !important;
+    margin-top: 10%;
     width: 100%;
-    display: block;
   }
   
   
@@ -189,6 +185,13 @@
 @media (max-width: 767px){
     .webtree-logo-footer {
         margin-bottom: 15px;
+    }
+
+    .wave-footer {
+      width: 102%;
+      left: -1%;
+      position: relative;
+      display: block;
     }
 }
 
