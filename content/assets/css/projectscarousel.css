@@ -28,7 +28,7 @@ article.sample-col-para img {
     -o-object-fit: cover;
     object-fit: cover;
     shape-outside: circle();
-    border: 5px solid rgb(164, 67, 31);
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .mb-5 {
@@ -58,11 +58,12 @@ article.sample-col-para img {
 
 .marquee-wrapper .marquee-content .card-testimonial {
     max-width: 400px;
-    background-color: #003d10;
+    background-color:rgb(0, 61, 16, 0.75)	; /* Neue Hintergrundfarbe (grün) */
     padding: 1rem;
     border-radius: 1rem;
-    color: #f5f5f5;
+    color: #a3a3a3;
 }
+
 
 .marquee-wrapper .marquee-content .card-testimonial article picture {
     position: relative;
@@ -90,6 +91,9 @@ article.sample-col-para img {
  
     line-height: 20px;
     margin-bottom: 1.2rem;
+}
+.project-name{
+    color: #ffffff;
 }
 
 @media (max-width: 1024px) {
