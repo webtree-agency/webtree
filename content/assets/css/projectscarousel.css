@@ -56,13 +56,36 @@
     order: 2;
 }
 
-.card-img-top {
-    object-fit: cover;
+.burger-img {
+    background-image: url(../images/burgmeijer-ipad.png);
+    background-size: cover;
+    background-position: center center;
     width: auto;
     height: 100%;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
+
+.colin-img {
+    background-image: url(../images/colinindergand-ipad.png);
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.mdc-img {
+    background-image: url(../images/mdcoaching-ipad.png);
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
 
 .card-text {
     height: 40%; /* Änderung: Festlegen der Höhe auf 40% */
@@ -77,6 +100,7 @@
 
 .card-text p {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .splide__pagination__page {
@@ -108,6 +132,40 @@
 .projectsite-link:hover {
     background-color: #00731e!important;
     color: #fff!important;
+}
+
+@media (max-width: 1300px) {
+    .burger-img {
+        background-image: url(../images/burgmeijer.png);
+        background-position: center top;
+    }
+
+    .colin-img {
+        background-image: url(../images/colinindergand.png);
+        background-position: center top;
+    }
+
+    .mdc-img {
+        background-image: url(../images/mdcoaching.png);
+        background-position: center top;
+    }
+}
+
+@media (max-width: 980px) {
+    .burger-img {
+        background-image: url(../images/burgmeijer-ipad.png);
+        background-position: center top;
+    }
+
+    .colin-img {
+        background-image: url(../images/colinindergand-ipad.png);
+        background-position: center top;
+    }
+
+    .mdc-img {
+        background-image: url(../images/mdcoaching-ipad.png);
+        background-position: center top;
+    }
 }
 
 /* Media Query für Mobilgeräte */
