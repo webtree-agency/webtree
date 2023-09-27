@@ -179,3 +179,10 @@
         object-position: center center; /* Die rechte Seite des Bildes in der Mitte anzeigen */
     }
 }
+
+@media (max-width: 500px) {
+    .burger-img {
+        background-image: url(../images/burgmeijer-handy.png);
+        background-position: center top;
+    }
+}
