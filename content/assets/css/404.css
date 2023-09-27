@@ -1,0 +1,38 @@
+/* Grundlegende Stildefinitionen */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Änderung hier, um die Elemente vertikal anzuordnen */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 60%; /* Dies stellt sicher, dass das Bild responsiv ist und nicht zu groß auf dem Bildschirm angezeigt wird */
+    margin-bottom: 30px; /* Etwas Abstand zum Button */
+}
+
+/* Button-Stil */
+.button {
+    background-color: #00731E; /* Ein schönes Blau */
+    color: #ffffff; /* Weißer Text */
+    padding: 15px 30px; /* Polsterung um den Text herum */
+    border: none; /* Kein Rand */
+    border-radius: 4px; /* Abgerundete Ecken */
+    text-align: center; /* Zentriert den Text */
+    display: inline-block; /* Wird als Inline-Element angezeigt */
+    font-size: 16px; /* Schriftgröße */
+    cursor: pointer; /* Zeigt einen Handzeiger beim Überfahren des Buttons */
+    text-decoration: none; /* Entfernt Unterstreichungen */
+ 
+}
+
+.button:hover {
+    background-color: #00731E; /* Ein dunkleres Blau, wenn der Mauszeiger darüber fährt */
+    transform: scale(1.05);    /* Macht den Button 5% größer */
+    transition: transform 0.3s; /* Optional: Fügt eine sanfte Übergangsanimation hinzu */
+}
