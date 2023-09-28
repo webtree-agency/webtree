@@ -18,18 +18,36 @@ setTimeout(function () {
 
 
 
-const coords = {x: 0, y: 0};
-const circles = document.querySelectorAll(".circle");
+const circle = document.querySelector(".circle");
+let mouseX = 0;
+let mouseY = 0;
+let circleX = 0;
+let circleY = 0;
+const easing = 0.25;
 
+function moveCircle() {
+    let diffX = mouseX - circleX;
+    let diffY = mouseY - circleY;
+
+    circleX += diffX * easing;
+    circleY += diffY * easing;
+    
+    // Kreisposition aktualisieren
+    circle.style.left = circleX + "px";
+    circle.style.top = circleY + "px";
+
+    requestAnimationFrame(moveCircle);
+}
+
+// Eventlistener für die Mausbewegung
 window.addEventListener("mousemove", function(e) {
-    coords.x = e.clientX;
-    coords.y = e.clientY;
-
-    circles.forEach(function(circle, index) {
-        circle.style.left = coords.x + "px";
-        circle.style.top = coords.y + "px";
-    });
+    mouseX = e.clientX;
+    mouseY = e.clientY;
 });
+
+// Animation starten
+moveCircle();
+
 
 
 let mybutton = document.querySelector(".svgContainer");
