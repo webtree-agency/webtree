@@ -71,7 +71,7 @@
     top: -50px;
     left: -50px;
 }
-@media (max-width: 1280px) {
+@media (max-width: 900px) {
     .circle {
         display: none; /* Das versteckt den Kreis auf kleineren Bildschirmen */
     }
