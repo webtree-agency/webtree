@@ -64,7 +64,6 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 9999;
-    transition: background-color 0.12s ease-out, transform 0.12s ease-out, left 0.12s, top 0.12s; /* Hier wurde die Änderung vorgenommen */
     background-color: #fff;
     mix-blend-mode: difference;
     will-change: transform, background-color, left, top; /* Hier wurde `left` und `top` hinzugefügt */
