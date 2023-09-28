@@ -1288,6 +1288,8 @@ Services Style
 .services .naccs .menu {
   text-align: center;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .services .naccs .menu div {
@@ -1307,7 +1309,7 @@ Services Style
 .services .naccs .menu div .thumb {
   display: inline-block;
   width: 100%;
-  padding: 30px 0px;
+  /* padding: 10px 10px; */
   background-color: #fff;
 }
 
@@ -2048,7 +2050,7 @@ responsive
     display: inline-block;
   }
   .services .naccs .menu div .thumb {
-    padding: 5px;
+    /* padding: 5px; */
   }
   .services .icon img {
     margin: 0px;
