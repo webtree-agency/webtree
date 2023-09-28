@@ -99,6 +99,7 @@
 .card-text p {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .splide__pagination__page {
