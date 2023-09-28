@@ -39,9 +39,7 @@
     width: 50px;
     height: 2px;
     background-color: #00731e;
-    margin-top: 5px; /* Platzieren Sie die Linie unterhalb des h4-Elements */
-    margin-left: auto; /* Verschieben Sie die Linie ganz nach rechts */
-    margin-right: auto; /* Verschieben Sie die Linie ganz nach links */
+    margin: 5px auto 5px auto;
 }
 
 
