@@ -66,13 +66,13 @@
     z-index: 9999;
     background-color: #fff;
     mix-blend-mode: difference;
-    will-change: transform, background-color, left, top; /* Hier wurde `left` und `top` hinzugefügt */
+    will-change: transform, background-color, left, top; 
     top: -50px;
     left: -50px;
 }
 @media (max-width: 900px) {
     .circle {
-        display: none; /* Das versteckt den Kreis auf kleineren Bildschirmen */
+        display: none; /* Hide on phone */
     }
 }
 
@@ -165,6 +165,7 @@
 
   .wave-footer {
     margin-top: 10%;
+    margin-bottom: -2px;
     width: 100%;
   }
   
