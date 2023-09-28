@@ -1389,14 +1389,25 @@ Services Style
   margin-bottom: 30px;
 }
 
+.nacc .ticks-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Drei Spalten mit gleicher Breite */
+  gap: 20px 45px; /* Vertikaler und horizontaler Abstand zwischen den Elementen */
+  margin-bottom: 2em;
+}
+
 .nacc .ticks-list span {
-  display: inline-block;
   opacity: 1;
-  margin-right: 45px;
-  margin-bottom: 20px;
   font-size: 15px;
   font-weight: 400;
 }
+@media (max-width: 768px) {
+  .nacc .ticks-list {
+    grid-template-columns: repeat(1, 1fr); /* Drei Spalten mit gleicher Breite */
+  }
+}
+
+
 
 
 
