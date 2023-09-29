@@ -1309,7 +1309,6 @@ Services Style
 .services .naccs .menu div .thumb {
   display: inline-block;
   width: 100%;
-  /* padding: 10px 10px; */
   background-color: #fff;
 }
 
@@ -1332,7 +1331,6 @@ Services Style
   transform: translateX(-50px);
   position: absolute;
   list-style: none;
-  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .services ul.nacc li.active {
