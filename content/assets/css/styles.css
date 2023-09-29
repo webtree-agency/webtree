@@ -6,22 +6,22 @@ margin-top: 4.5rem;
 }
 .parallax {
   /* The image used */
-  background-image: url("/content/assets/images/forrest4.jpg");
+  background-image: url("/content/assets/images/forrest4.jpg") !important;
 
   /* Set a specific height */
-  min-height: 350px;
+  min-height: 350px !important;
 
-  margin-top: 200px;
+  margin-top: 200px !important;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
-    background-attachment: scroll;
+    background-attachment: scroll !important;
   }
 }
 
