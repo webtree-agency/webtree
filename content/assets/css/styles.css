@@ -1,3 +1,19 @@
+.parallax {
+  /* The image used */
+  background-image: url("/content/assets/svg/parallax-picture.svg");
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  margin-top: 100px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .custom-color-code {
     color: #00731e;
 }
