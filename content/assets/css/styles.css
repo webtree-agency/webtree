@@ -6,7 +6,7 @@ margin-top: 4.5rem;
 }
 .parallax {
   /* The image used */
-  background-image: url("/content/assets/images/forrest4.jpg") !important;
+  background-image: url("../images/forrest4.jpg") !important;
 
   /* Set a specific height */
   min-height: 350px !important;
