@@ -969,6 +969,7 @@ About Style
 
 #about {
   padding-top: 130px;
+  margin-bottom: 20px;
 }
 
 .about-left-image img {
@@ -1156,12 +1157,21 @@ Due to the split circle of progress-left and progress right, we must use the ani
   animation: loading-4 1.5s linear forwards 1.5s;
 }
 
-.progress[data-percentage="100"] .progress-right .progress-bar {
-  animation: loading-5 1.5s linear forwards;
-}
+/* Entfernen Sie die ursprünglichen Animationen */
+.progress[data-percentage="100"] .progress-right .progress-bar,
 .progress[data-percentage="100"] .progress-left .progress-bar {
-  animation: loading-5 1.5s linear forwards 1.5s;
+  animation: none;
 }
+
+/* Fügen Sie eine neue CSS-Klasse für die Animation hinzu */
+.skill-item.animated .progress[data-percentage="100"] .progress-right .progress-bar {
+  animation: loading-5 3.5s linear forwards;
+}
+
+.skill-item.animated .progress[data-percentage="100"] .progress-left .progress-bar {
+  animation: loading-5 2.5s linear forwards 3.5s;
+}
+
 
 @keyframes loading-1 {
   0% {
@@ -1230,14 +1240,16 @@ Services Style
 
 .services:after {
   content: '';
-  /* background-image: url(../images/services-left-dec.jpg); */
+  background-image: url(../svg/svg-top.svg);
   background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   left: 0;
-  top: 0px;
-  width: 786px;
-  height: 1217px;
+  top: 0;
+  width: 100% ;
+  height: 200px;
   z-index: 0;
+  overflow: hidden;
 }
 
 .services:before {
@@ -1247,8 +1259,8 @@ Services Style
   position: absolute;
   right: 0;
   top: 400px;
-  width: 161px;
-  height: 413px;
+  width: 100%;
+  height: 113px;
   z-index: 0;
 }
 
@@ -1334,7 +1346,7 @@ Services Style
 }
 
 .services ul.nacc li.active {
-  transition-delay: 0.3s;
+  /* transition-delay: 0.3s; */
   position: relative;
   z-index: 2;
   opacity: 1;

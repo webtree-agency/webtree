@@ -70,3 +70,29 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// Eine Funktion, die überprüft, ob ein Element im Viewport sichtbar ist
+function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+       rect.top >= 0 &&
+       rect.left >= 0 &&
+       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+ }
+ 
+ // Eine Funktion, die die Animation hinzufügt, wenn das Element im Viewport erscheint
+ function handleAnimation() {
+    var skillItems = document.querySelectorAll('.skill-item');
+    skillItems.forEach(function(item) {
+       if (isElementInViewport(item)) {
+          item.classList.add('animated');
+       }
+    });
+ }
+ 
+ // Fügen Sie ein Event-Listener hinzu, um die Animation bei Bedarf auszulösen
+ window.addEventListener('scroll', handleAnimation);
+ window.addEventListener('load', handleAnimation);
+ 
