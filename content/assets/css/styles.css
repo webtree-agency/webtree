@@ -2,9 +2,10 @@
 height: 60px;
 }
 
-@media only screen and (max-device-width: 420px) {
+@media only screen and (max-device-width: 410px) {
   #text-writer{
-    height: 120px;
+    height: 60px;
+    padding-bottom: 120px;
   }
 } 
 
