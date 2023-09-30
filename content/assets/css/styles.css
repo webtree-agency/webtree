@@ -1,6 +1,13 @@
 #text-writer {
 height: 60px;
 }
+
+@media only screen and (max-device-width: 420px) {
+  #text-writer{
+    height: 120px;
+  }
+} 
+
 .p-landingpage{
 margin-top: 4.5rem;
 }
