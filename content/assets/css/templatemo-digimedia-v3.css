@@ -1252,7 +1252,15 @@ Services Style
   overflow: hidden;
 }
 
-.services:before {
+.our-service-h6{
+  margin-top: 15px;
+}
+@media (max-width: 1000px) {
+  .our-service-h6{
+    margin-top: 25px;
+  }
+}
+  .services:before {
   content: '';
   /* background-image: url(../images/services-right-dec.jpg); */
   background-repeat: no-repeat;
