@@ -389,86 +389,56 @@
           
          </div>
       </div>
-      <div id="contact" class="contact-us section">
+      <section class="contact"> 
          <div class="container">
-            <div class="row">
-               <div class="col-lg-6 offset-lg-3">
-                  <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                     <h6>Kontaktiere uns!</h6>
-                     <h4>Go digital, go strong! <br> Deine <em>Website</em> verdient's!</h4>
-                     <div class="line-dec"></div>
+            <div class="left">
+               <div class="form-wrapper">
+                  <div class="contact-heading">
+                     <h1>Lets work together <span>.</span> </h1>  
+                     <p class="text">Or reach us via: <a href="mailto:email.example@gmail.com">email.example@gmail.com</a></p>
                   </div>
-               </div>
-               <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-                  <form id="contact" action="" method="post">
-                     <div class="row">
-                        <div class="col-lg-12">
-                           <div class="contact-dec">
-                              <img src="content/assets/svg/contact-svg.svg" alt="Webtree contact picture">
-                           </div>
-                        </div>
-                        <div class="col-lg-5">
-                           <div id="map">
-                              <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="636px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                           </div>
-                        </div>
-                        <div class="col-lg-7">
-                           <div class="fill-form">
-                              <div class="row">
-                                 <div class="col-lg-4">
-                                    <div class="info-post">
-                                       <div class="icon">
-                                          <img src="content/assets/images/phone-icon.png" alt="Webtree phone icon">
-                                          <a href="#">010-020-0340</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-4">
-                                    <div class="info-post">
-                                       <div class="icon">
-                                          <img src="content/assets/images/email-icon.png" alt="Webtree email icon">
-                                          <a href="#">our@email.com</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-4">
-                                    <div class="info-post">
-                                       <div class="icon">
-                                          <img src="content/assets/images/location-icon.png" alt="Webtree location icon">
-                                          <a href="#">123 Rio de Janeiro</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-6">
-                                    <fieldset>
-                                       <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
-                                    </fieldset>
-                                    <fieldset>
-                                       <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                                    </fieldset>
-                                    <fieldset>
-                                       <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
-                                    </fieldset>
-                                 </div>
-                                 <div class="col-lg-6">
-                                    <fieldset>
-                                       <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
-                                    </fieldset>
-                                 </div>
-                                 <div class="col-lg-12">
-                                    <fieldset>
-                                       <button type="submit" id="form-submit" class="main-button">Send Message Now</button>
-                                    </fieldset>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+
+                  <form action="index.html"method="post" class="contact-form">
+                     <div class="input-wrap">
+                        <input class="contact-input" autocomplete="off" name="First Name"type="text" required>
+                        <label>First Name</label>
+                        <i class="icon fa-solid fa-address-card"></i>
+                     </div>
+
+                     <div class="input-wrap">
+                        <input class="contact-input" autocomplete="off" name="Last Name"type="text" required>
+                        <label>Last Name</label>
+                        <i class="icon fa-solid fa-address-card"></i>
+                     </div>
+
+                     <div class="input-wrap w-100">
+                        <input class="contact-input" autocomplete="off" name="Email"type="email" required>
+                        <label>Email</label>
+                        <i class="icon fa-solid fa-envelope"></i>                    
+                     </div>
+
+                     <div class="input-wrap textarea w-100">
+                        <textarea name="Message" auto-complete="off" class="contact-input" required></textarea>
+                        <label>Message</label>
+                        <i class="icon fa-solid fa-inbox"></i>                    
+                     </div>
+
+                     <div class="contact-buttons">
+                        <button class="btn upload">
+                           <span>
+                              <i class="fa-solid fa-paperclip"></i> Add attachment
+                           </span>
+                           <input type="file" name="attachment">
+                        </button>
+                        <input type="submit" value="Send message" class="btn">
                      </div>
                   </form>
                </div>
             </div>
+            <div class="right"></div>
          </div>
-      </div>
+      </section>
+        
       <img class="wave-footer" src="content/assets/svg/footer-topwave.svg" alt="webtree-footer-social-media">
       <footer
          class="text-left text-lg-start text-white"
@@ -534,5 +504,7 @@
       <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
       <script src="content/assets/js/splide.min.js" defer></script>
       <script src="content/assets/js/public.js"></script>
+      <script src="content/assets/js/contactform.js"></script>
+      <script src="https://kit.fontawesome.com/a7cae2adf0.js" crossorigin="anonymous"></script>
    </body>
 </html>
