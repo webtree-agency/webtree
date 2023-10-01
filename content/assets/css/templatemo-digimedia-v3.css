@@ -1335,7 +1335,7 @@ Services Style
   list-style: none;
   margin: 0;
   padding: 0;
-  transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 1.0s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .services ul.nacc li {
@@ -1343,10 +1343,11 @@ Services Style
   transform: translateX(-50px);
   position: absolute;
   list-style: none;
+  transition: opacity 0s ease, transform 0s ease;
 }
 
 .services ul.nacc li.active {
-  /* transition-delay: 0.3s; */
+  /* transition-delay: 1.2s; */
   position: relative;
   z-index: 2;
   opacity: 1;
@@ -1355,7 +1356,9 @@ Services Style
   background-color: #fff;
   border-radius: 15px;
   padding: 80px 120px 50px 120px;
+  transition: opacity 1.5s ease, transform 1.5s ease, box-shadow 1.5s ease, background-color 1.5s ease;
 }
+
 
 .services ul.nacc li {
   width: 100%;
