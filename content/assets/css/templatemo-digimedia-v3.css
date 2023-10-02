@@ -1954,6 +1954,10 @@ textarea.contact-input ~ .icon{
     display: none;
 
   }
+
+  .contact .container {
+    min-height: 100vh;
+  }
 }
 
 @media (max-width: 440px) {
@@ -1968,7 +1972,9 @@ textarea.contact-input ~ .icon{
     font-size: 1.9rem;
     line-height: 1;
   }
-
+  .contact .container {
+    min-height: 110vh;
+  }
 
 }
 /* 
