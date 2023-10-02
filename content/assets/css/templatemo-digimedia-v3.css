@@ -311,7 +311,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #00731e;
+  color: #00bb32;
 }
 
 .background-header .nav li a.active {
@@ -504,7 +504,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #00731e!important;
+  color: #00bb32!important;
   padding-left: 25px;
 }
 
@@ -644,7 +644,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #00731e;
+  color: #00bb32;
 }
 
 @media (max-width: 1200px) {
