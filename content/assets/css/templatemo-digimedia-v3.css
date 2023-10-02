@@ -1668,7 +1668,7 @@ contact
 
 .contact .container{
   height: 80vh;
-  min-height: 500px;
+  min-height: 750px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
