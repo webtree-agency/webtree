@@ -111,7 +111,7 @@ p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  color: #999999;
 }
 
 img {
@@ -221,6 +221,10 @@ header
   padding: 15px 0px;
 }
 
+.sc-hidden {
+  display: none;
+}
+
 .pre-header ul li {
   display: inline-block;
 }
@@ -319,7 +323,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #00731e;
+  background-color: #00bb32;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -433,12 +437,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #00731e!important;
+  color: #00bb32!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #00731e!important;
+  color: #00bb32!important;
   opacity: 1;
 }
 
@@ -671,6 +675,16 @@ header
   .pre-header {
     display: none;
   }
+
+  .sc-hidden {
+    display: block;
+  }
+
+  .icon-nav {
+    font-size: 20px !important;
+    line-height: 52px !important;
+  }
+
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
@@ -679,7 +693,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #00731e!important;
+    color: #00bb32!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -741,7 +755,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #00731e!important;
+    color: #00bb32!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -1087,7 +1101,7 @@ About Style
 .progress .progress-value span {
   font-size: 18px;
   text-transform: none;
-  color: #afafaf;
+  color: #999999;
   font-weight: 300;
 }
 
@@ -1240,7 +1254,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../svg/svg-top.svg);
+  /* background-image: url(../svg/svg-top.svg); */
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -1478,7 +1492,7 @@ Free Quote
   width: 100%;
   margin-top: 20px;
   margin-left: 30px;
-  color: #afafaf;
+  color: #999999;
   font-weight: 400;
   font-size: 15px;
   height: 40px;
@@ -1598,7 +1612,7 @@ Portfolio
 
 .portfolio-item .down-content span {
   font-size: 15px;
-  color: #afafaf;
+  color: #999999;
   transition: all .3s;
 }
 
@@ -1642,21 +1656,21 @@ contact
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #00731e;
+  color: #00bb32;
   margin-top: 30px;
   width: 100%; /* Setzen Sie die Breite auf 100% */
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #00731e;
+  border: 1px solid #00bb32;
   transition: all 0.3s;
   outline: none;
   margin-top: auto; /* Hinzugefügt, um den Link ganz unten zu positionieren */
 }
 
 .send-btn-contact:hover {
-  background-color: #00731e!important;
+  background-color: #00bb32!important;
   color: #fff!important;
 }
 
@@ -1770,7 +1784,7 @@ contact
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: black;
+  color: #2a2a2a;
   font-size: 1.25rem;
   transform: 0.3s;
 }
