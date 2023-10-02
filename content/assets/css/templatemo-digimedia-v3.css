@@ -1165,11 +1165,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 /* Fügen Sie eine neue CSS-Klasse für die Animation hinzu */
 .skill-item.animated .progress[data-percentage="100"] .progress-right .progress-bar {
-  animation: loading-5 3.5s linear forwards;
+  animation: loading-5 1.5s linear forwards;
 }
 
 .skill-item.animated .progress[data-percentage="100"] .progress-left .progress-bar {
-  animation: loading-5 2.5s linear forwards 3.5s;
+  animation: loading-5 1.5s linear forwards 1.5s;
 }
 
 
@@ -1637,16 +1637,38 @@ Portfolio
 contact
 --------------------------------------------- 
 */
+.send-btn-contact {
+  display: block; /* Ändern Sie die Anzeige von 'inline-block' auf 'block' */
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  color: #00731e;
+  margin-top: 30px;
+  width: 100%; /* Setzen Sie die Breite auf 100% */
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border: 1px solid #00731e;
+  transition: all 0.3s;
+  outline: none;
+  margin-top: auto; /* Hinzugefügt, um den Link ganz unten zu positionieren */
+}
+
+.send-btn-contact:hover {
+  background-color: #00731e!important;
+  color: #fff!important;
+}
 
 .contact{
   width: 100%;
   overflow: hidden;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 .contact .container{
   height: 80vh;
-  min-height: 700px;
+  min-height: 500px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -1796,13 +1818,11 @@ textarea.contact-input ~ .icon{
 .image-wrapper {
   position: relative;
   grid-column: 2;
-  /* width: 100%; */
 }
 
 .image-wrapper .img-contact {
   position: absolute;
   height: 130%;
-  right: 0; /* Bild am rechten Rand ausrichten */
   top: 50%;
   transform: translateY(-50%);
 }
@@ -1874,7 +1894,7 @@ textarea.contact-input ~ .icon{
     left: calc(1.2rem + 2px);
   }
 
-  .input-wrap icon {
+  .input-wrap .icon {
     font-size: 1.1rem;
     right: calc(1.2rem + 2px);
   }
