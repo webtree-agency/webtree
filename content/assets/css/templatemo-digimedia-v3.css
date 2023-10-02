@@ -1832,6 +1832,7 @@ textarea.contact-input ~ .icon{
 .image-wrapper {
   position: relative;
   grid-column: 2;
+  margin-left: 8%;
 }
 
 .image-wrapper .img-contact {
