@@ -374,7 +374,7 @@ header
 
 @media (max-width: 992px) {
   .header-area .main-nav .logo {
-    width: 150px;
+    width: 160px;
   }
 }
 
@@ -1672,21 +1672,21 @@ contact
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #00bb32;
+  color: #00731e;
   margin-top: 30px;
   width: 100%; /* Setzen Sie die Breite auf 100% */
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #00bb32;
+  border: 1px solid #00731e;
   transition: all 0.3s;
   outline: none;
   margin-top: auto; /* Hinzugefügt, um den Link ganz unten zu positionieren */
 }
 
 .send-btn-contact:hover {
-  background-color: #00bb32!important;
+  background-color: #00731e!important;
   color: #fff!important;
 }
 
@@ -1780,7 +1780,7 @@ contact
 }
 
 .contact-input:hover{
-  background-color: hsla(120, 18%, 27%, 6.5%);
+  background-color: #f9f9f9;
 
 }
 
@@ -1821,15 +1821,15 @@ textarea.contact-input ~ .icon{
 }
 
 .input-wrap.focus .contact-input{
-  background-color: #e7e7e7;
-  border: 2px solid hsl(105,91%, 55%);
+  background-color: #f9f9f9;
+  border: 2px solid #00731e;
   /* box-shadow: 0 0 0 5px hsla(120, 91%, 92%, 0.11); */
 }
 .input-wrap.focus label{
-  color: #00bb32;
+  color: #00731e;
 }
 .input-wrap.focus .icon{
-  color: #00bb32;
+  color: #00731e;
 }
 
 .input-wrap.not-empty label{
