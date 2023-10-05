@@ -365,7 +365,7 @@ header
 .header-area .main-nav .logo {
     line-height: 100px;
     float: left;
-    width: 200px;
+    width: 170px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -374,7 +374,7 @@ header
 
 @media (max-width: 992px) {
   .header-area .main-nav .logo {
-    width: 170px;
+    width: 150px;
   }
 }
 
@@ -1261,13 +1261,11 @@ Services Style
   }
 }
 
-
-
-
-
 .services {
-  padding-top: 130px;
+  padding-top: 80px;
   position: relative;
+  padding-bottom: 150px;
+  background-color: hsla(145, 50%, 50%, 6.5%);
 }
 
 .services:after {
@@ -1545,7 +1543,7 @@ Portfolio
 */
 
 .our-portfolio {
-  padding-top: 130px;
+  padding-top: 80px;
   overflow: hidden;
   position: relative;
 }

@@ -15,11 +15,8 @@ margin-top: 4.5rem;
 .parallax {
   /* The image used */
   background-image: url("../images/parallax-picture.jpg") !important;
-
   /* Set a specific height */
   min-height: 350px !important;
-
-  margin-top: 200px !important;
   /* Create the parallax scrolling effect */
   background-attachment: fixed !important;
   background-position: center !important;
@@ -208,13 +205,13 @@ margin-top: 4.5rem;
   
 
   .webtree-logo-footer {
-    width: 200px;
+    width: 180px;
     z-index: 9;
   }
 
   @media(max-width: 992px) {
     .webtree-logo-footer {
-        width: 170px;
+        width: 150px;
       }
   }
 
