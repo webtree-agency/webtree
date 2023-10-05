@@ -659,7 +659,8 @@ header
 }
 
 @media (max-width: 992px) {
-  .header-area .main-nav .nav li:last-child  ,
+  .header-area .main-nav .nav li:last-child  ,media (max-width: 767px)
+.services .naccs .menu div
   .background-header .main-nav .nav li:last-child {
     display: none;
   }
@@ -1332,7 +1333,7 @@ Services Style
 .services .icon img {
   margin-bottom: 10px;
   max-width: 60px;
-  min-width: 60px;
+  min-width: 40px;
 }
 
 .services .naccs .menu {
@@ -1359,11 +1360,14 @@ Services Style
 .services .naccs .menu div .thumb {
   display: inline-block;
   width: 100%;
-  background-color: #fff;
+  background-color: none;
+  padding: 10px 0 10px 0;
+  border: 3px dashed #00731e;
 }
 
 .services .naccs .menu div.active {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+  border: 5px;
 }
 
 .services ul.nacc {
