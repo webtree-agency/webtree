@@ -17,6 +17,7 @@ Table of contents
 
 --------------------------------------------- */
 
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -1027,6 +1028,7 @@ About Style
   position: absolute;
   top: 0;
   left: 0;
+
 }
 .progress > span {
   width: 50%;
@@ -1241,11 +1243,27 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 1em;
 }
 
-/* 
+/*    
 ---------------------------------------------
 Services Style
 --------------------------------------------- 
 */
+.service-section{
+  background-color: white;
+  position: sticky;
+  top: 100px;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .service-section , #services , #about {
+    height: auto;
+  }
+}
+
+
+
+
 
 .services {
   padding-top: 130px;
