@@ -1362,11 +1362,11 @@ Services Style
   width: 100%;
   background-color: none;
   padding: 10px 0 10px 0;
-  border: 2px solid #00731e;
+  /* border: 2px solid #00731e; */
 }
 
 .services .naccs .menu div.active {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
   border: 5px;
 }
 
