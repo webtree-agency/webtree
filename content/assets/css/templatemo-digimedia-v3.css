@@ -994,17 +994,21 @@ About Style
   justify-content: center;
   margin-top: 5%;
   margin-right: 45px;
-  background-image: url(../images/aboutus-standing.jpg) cover;
   border-radius: 50% !important;
+  transition: background-image 0.3s ease; /* smooth transition */
 }
 
 .about-left-image img {
   border-radius: 50% !important;
-  width: 90%;
+}
+
+.about-left-image:hover img {
+  opacity: 0; /*Disappear on hover*/
 }
 
 .about-left-image:hover {
-  background-image: url(../images/aboutus-laptop.jpg) cover !important;
+  background-image: url(../images/aboutus-laptop.jpg);
+  background-size: cover !important; /* make sure the background covers the entire div */
 }
 
 .about-right-content p {
