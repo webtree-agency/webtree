@@ -403,32 +403,33 @@
                         </div>
                   </div>
 
-                  <form action="index.html"method="post" class="contact-form">
+                  <form action="index.html" method="post" class="contact-form">
                      <div class="input-wrap">
-                        <input class="contact-input" autocomplete="off" name="First Name"type="text" required>
-                        <label>Vorname</label>
-                        <i class="icon fa-solid fa-address-card"></i>
+                         <input class="contact-input" autocomplete="off" name="First Name" type="text" pattern="[a-zA-Z\s\-]+" required>
+                         <label>Vorname</label>
+                         <i class="icon fa-solid fa-address-card"></i>
                      </div>
-
+                 
                      <div class="input-wrap">
-                        <input class="contact-input" autocomplete="off" name="Last Name"type="text" required>
-                        <label>Nachname</label>
-                        <i class="icon fa-solid fa-address-card"></i>
+                         <input class="contact-input" autocomplete="off" name="Last Name" type="text" pattern="[a-zA-Z\s\-]+" required>
+                         <label>Nachname</label>
+                         <i class="icon fa-solid fa-address-card"></i>
                      </div>
-
+                 
                      <div class="input-wrap w-100">
-                        <input class="contact-input" autocomplete="off" name="Email"type="email" required>
-                        <label>E-Mail</label>
-                        <i class="icon fa-solid fa-envelope"></i>                    
+                         <input class="contact-input" autocomplete="off" name="Email" type="email" required>
+                         <label>E-Mail</label>
+                         <i class="icon fa-solid fa-envelope"></i>                    
                      </div>
-
+                 
                      <div class="input-wrap textarea w-100">
-                        <textarea name="Message" auto-complete="off" class="contact-input" required></textarea>
-                        <label>Nachricht</label>
-                        <i class="icon fa-solid fa-inbox"></i>                    
+                         <textarea name="Message" auto-complete="off" class="contact-input" required></textarea>
+                         <label>Nachricht</label>
+                         <i class="icon fa-solid fa-inbox"></i>                    
                      </div>
-                        <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap">
-                  </form>
+                 
+                     <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap">
+                 </form>                 
                </div>
             </div>
             <div class="right">
@@ -482,7 +483,7 @@
                  <h6>
                      <label for="q3" class="panel-title">Wieviel kostet die Erstellung einer Website?</label>
                  </h6>
-                 <p class="panel-content">Die Kosten variieren je nach den Funktionen und dem Umfang Deiner Website. Für eine kostenlose Beratung steht Dir unser Team gerne zur Verfügung. Kontaktiere uns einfach!</p>
+                 <p class="panel-content">Die Kosten variieren je nach den Funktionen und dem Umfang Deiner Website. Für eine kostenlose Beratung steht Dir unser Team gerne zur Verfügung. <a href="#contact">Kontaktiere</a> uns einfach!</p>
              </div>
      
          </div>
