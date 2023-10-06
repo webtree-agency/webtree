@@ -34,16 +34,18 @@ height: 60px;
 .p-landingpage{
 margin-top: 4.5rem;
 }
+
+/* PARALLAX */
 .parallax {
   /* The image used */
-  background-image: url("../images/parallax-picture.jpg") !important;
+  background-image: url("../svg/3-codesnippets.svg") !important;
   /* Set a specific height */
   min-height: 350px !important;
   /* Create the parallax scrolling effect */
   background-attachment: fixed !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-size: cover !important;
+  background-size: 95% !important;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1000px) {
