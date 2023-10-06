@@ -1,3 +1,25 @@
+/* SCROLLBAR */
+
+html {
+  scrollbar-width: normal;
+  scrollbar-color: #f4f4f4;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #00731e;
+  border-radius: 20px;
+  height: 80px !important;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+
+/* TEXTWRITER */
 #text-writer {
 height: 60px;
 }
