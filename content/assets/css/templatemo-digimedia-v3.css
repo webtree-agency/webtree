@@ -2094,9 +2094,19 @@ responsive
   .skill-item {
     margin-bottom: 30px;
   }
+
+  .about-left-image {
+    justify-content: center;
+    align-items: center !important;
+    align-content: center;
+    margin-right: 0 !important;
+  }
+
   .about-left-image img {
-    margin-right: 0px;
+    margin-right: 0 !important;
     margin-bottom: 45px;
+    align-items: center;
+    width: 100%;
   }
   .services .naccs .menu div {
     font-size: 15px;
