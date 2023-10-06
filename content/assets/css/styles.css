@@ -2,10 +2,12 @@
 .faq-heading{
   display: flex;
   justify-content: center !important;
+  margin-top: 15px;
 }
 
 .faq-content {
   margin: 0 auto;
+  
 }
 
 .faq-question {
