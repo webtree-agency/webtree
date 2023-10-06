@@ -1016,6 +1016,22 @@ About Style
   margin-bottom: 45px;
 }
 
+@media only screen and (max-width: 768px) {
+  .about-left-image:hover img {
+      opacity: 1; /* Reset the hover effect, so the image remains visible */
+  }
+
+  .about-left-image:hover {
+      background-image: none; /* Remove the background on hover */
+  }
+
+  .about-left-image img {
+      border-radius: 50% !important; /* Ensure the image remains round */
+      margin-right: 0 !important;
+      margin-bottom: 0; /* Remove the additional bottom margin */
+  }
+}
+
 .skills-content {
   position: relative;
   z-index: 1;
