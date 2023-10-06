@@ -988,8 +988,23 @@ About Style
   margin-bottom: 20px;
 }
 
-.about-left-image img {
+.about-left-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
   margin-right: 45px;
+  background-image: url(../images/aboutus-standing.jpg) cover;
+  border-radius: 50% !important;
+}
+
+.about-left-image img {
+  border-radius: 50% !important;
+  width: 90%;
+}
+
+.about-left-image:hover {
+  background-image: url(../images/aboutus-laptop.jpg) cover !important;
 }
 
 .about-right-content p {
@@ -2081,7 +2096,7 @@ responsive
   }
   .about-left-image img {
     margin-right: 0px;
-    margin-bottom: 45px;;
+    margin-bottom: 45px;
   }
   .services .naccs .menu div {
     font-size: 15px;
