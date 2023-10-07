@@ -133,7 +133,6 @@ margin-top: 4.5rem;
   min-height: 350px !important;
   /* Create the parallax scrolling effect */
   background-attachment: fixed !important;
-
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: 80% !important;
@@ -150,9 +149,6 @@ margin-top: 4.5rem;
 @media (max-width: 500px) {
   .parallax {
     background-image: url(../svg/2-code-snippets-phone.svg) !important;
-    background-attachment: scroll !important;
-    background-size: 100% !important;
-    background-position: center center !important;
   }
 }
 

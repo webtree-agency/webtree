@@ -1737,7 +1737,7 @@ contact
 }
 
 .contact .container{
-  height: 80vh;
+  height: fit-content;
   min-height: 750px;
   display: grid;
   grid-template-columns: 1fr;
@@ -1756,7 +1756,7 @@ contact
   padding: 65px 1.5rem;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  align-items: center;
+  /* align-items: center; */
   position: relative;
   z-index: 3;
 }
@@ -1923,7 +1923,7 @@ textarea.contact-input ~ .icon{
 .dashed-wave {
   position: absolute;
   z-index: 3;
-  height: 130%;
+  height: 110%;
   bottom: 60%;
   left: -28px;
   transform: translateY(50%);
@@ -1931,7 +1931,7 @@ textarea.contact-input ~ .icon{
 #dashed-wave{
   fill: none;
   stroke: #003d10;
-  stroke-width: 1px;
+  stroke-width: 2px;
   stroke-dasharray: 6.5;
   opacity: 0.8;
 }
@@ -2014,6 +2014,8 @@ textarea.contact-input ~ .icon{
     padding: 50px 1.5rem 0;
     grid-template-columns: 1fr;
     justify-items: center;
+    /* margin-top: -35% !important; */
+    margin-bottom: 0 !important;
   }
 
   .form-wrapper {
@@ -2023,11 +2025,11 @@ textarea.contact-input ~ .icon{
 
   .right {
     display: none;
-
   }
 
   .contact .container {
-    min-height: 100vh;
+    min-height: fit-content;
+    margin-bottom: 50px;
   }
 }
 
@@ -2044,7 +2046,8 @@ textarea.contact-input ~ .icon{
     line-height: 1;
   }
   .contact .container {
-    min-height: 110vh;
+    min-height: fit-content;
+    margin-bottom: 50px;
   }
 
 }
