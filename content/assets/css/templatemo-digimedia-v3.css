@@ -1582,9 +1582,10 @@ Portfolio
 */
 
 .our-portfolio {
-  padding-top: 80px;
+  padding: 80px 0 80px 0;
   overflow: hidden;
   position: relative;
+  background-color: hsla(145, 50%, 50%, 6.5%);
 }
 
 .our-portfolio:before {
@@ -1731,6 +1732,7 @@ contact
 .contact{
   width: 100%;
   overflow: hidden;
+  margin-top: 20px;
   /* margin-top: 10%; */
 }
 

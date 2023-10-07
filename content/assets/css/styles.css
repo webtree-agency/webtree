@@ -2,12 +2,12 @@
 .faq-heading{
   display: flex;
   justify-content: center !important;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .faq-content {
+  width: 80%;
   margin: 0 auto;
-  
 }
 
 .faq-question {
@@ -15,13 +15,12 @@
   border-bottom: 1.5px solid #00731e;
   margin-right: 20px;
   margin-left: 20px;
-
-  
 }
 
 .panel-title {
   font-size: 22px;
   width: 100%;
+  font-weight: 700;
   position: relative;
   margin: 0;
   padding: 10px 10px 0 48px;
@@ -29,8 +28,12 @@
   cursor: pointer;
 }
 
+.panel-title em {
+  color: #00731e;
+  font-style:normal;
+}
+
 .panel-content {
-  font-size: 20px;
   padding: 0px 14px;
   margin: 0 40px;
   height: 0;
@@ -50,12 +53,19 @@
   padding: 14px;
 }
 
+.contact-faq {
+  color: #00731e;
+}
+
+.contact-faq:hover {
+  color: #00bb32;
+}
+
 .plus {
   position: absolute;
-  margin-left: 10px;
-  margin-top: 4px;
+  margin: 8px 0 auto 10px;
   z-index: 5;
-  font-size: 42px;
+  font-size: 32px;
   line-height: 100%;
   -webkit-user-select: none;    
   -moz-user-select: none;
@@ -118,19 +128,31 @@ margin-top: 4.5rem;
 /* PARALLAX */
 .parallax {
   /* The image used */
-  background-image: url("../svg/3-codesnippets.svg") !important;
+  background-image: url(../svg/all-3-codesnippets.svg) !important;
   /* Set a specific height */
   min-height: 350px !important;
   /* Create the parallax scrolling effect */
   background-attachment: fixed !important;
+
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-size: 95% !important;
+  background-size: 80% !important;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1000px) {
+@media (max-width: 1000px) {
   .parallax {
+    background-image: url(../svg/2-code-handy.svg) !important;
     background-attachment: scroll !important;
+    background-size: 100% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .parallax {
+    background-image: url(../svg/2-code-snippets-phone.svg) !important;
+    background-attachment: scroll !important;
+    background-size: 100% !important;
+    background-position: center center !important;
   }
 }
 
@@ -337,4 +359,11 @@ margin-top: 4.5rem;
 
 .copyright-text {
   font-size: 11px;
+}
+
+.center-line {
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
