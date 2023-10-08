@@ -98,8 +98,8 @@
 }
 
 .card-text p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: left;
 }
 
@@ -127,6 +127,7 @@
     transition: all .3s;
     outline: none;
     margin-top: auto; /* Hinzugefügt, um den Link ganz unten zu positionieren */
+    padding-bottom: auto;
 }
 
 .projectsite-link:hover {

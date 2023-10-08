@@ -155,24 +155,24 @@
     opacity:.3
 }
 .splide__arrow:focus-visible{
-    outline:3px solid #0bf;
-    outline-offset:3px
+    outline:3px solid #00bb32;
+    outline-offset:3px;
 }
 .splide__arrow--prev{
-    left:1em
+    left:1em;
 }
 .splide__arrow--prev svg{
     transform:scaleX(-1)
 }
 .splide__arrow--next{
-    right:1em
+    right:1em;
 }
 .splide.is-focus-in .splide__arrow:focus{
-    outline:3px solid #0bf;
+    outline:3px solid #00bb32;
     outline-offset:3px
 }
 .splide__pagination{
-    bottom:.5em;
+    bottom:-1.5em;
     left:0;
     padding:0 1em;
     position:absolute;
@@ -202,11 +202,11 @@
     opacity:.9
 }
 .splide__pagination__page:focus-visible{
-    outline:3px solid #0bf;
+    outline:3px solid #00bb32;
     outline-offset:3px
 }
 .splide.is-focus-in .splide__pagination__page:focus{
-    outline:3px solid #0bf;
+    outline:3px solid #00bb32;
     outline-offset:3px
 }
 .splide__progress__bar{
@@ -221,38 +221,38 @@
 }
 @supports(outline-offset:-3px){
     .splide__slide:focus-visible{
-        outline:3px solid #0bf;
+        outline:3px solid #00bb32;
         outline-offset:-3px
     }
 }
 @media screen and (-ms-high-contrast:none){
     .splide__slide:focus-visible{
-        border:3px solid #0bf
+        border:3px solid #00bb32
     }
 }
 @supports(outline-offset:-3px){
     .splide.is-focus-in .splide__slide:focus{
-        outline:3px solid #0bf;
+        outline:3px solid #00bb32;
         outline-offset:-3px
     }
 }
 @media screen and (-ms-high-contrast:none){
     .splide.is-focus-in .splide__slide:focus{
-        border:3px solid #0bf
+        border:3px solid #00bb32
     }
     .splide.is-focus-in .splide__track>.splide__list>.splide__slide:focus{
-        border-color:#0bf
+        border-color:#00bb32
     }
 }
 .splide__toggle{
     cursor:pointer
 }
 .splide__toggle:focus-visible{
-    outline:3px solid #0bf;
+    outline:3px solid #00bb32;
     outline-offset:3px
 }
 .splide.is-focus-in .splide__toggle:focus{
-    outline:3px solid #0bf;
+    outline:3px solid #00bb32;
     outline-offset:3px
 }
 .splide__track--nav>.splide__list>.splide__slide{
