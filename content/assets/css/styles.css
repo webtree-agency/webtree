@@ -88,6 +88,16 @@
 .panel {
   display: none;
 }
+
+@media (max-width: 500px) {
+  .faq-content {
+    width: 95%;
+  }
+  .panel-content {
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+}
 /* SCROLLBAR */
 
 html {
