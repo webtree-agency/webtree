@@ -992,7 +992,7 @@ About Style
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5%;
+  margin-bottom: 5%;
   margin-right: 45px;
   border-radius: 50% !important;
   transition: background-image 0.3s ease; /* smooth transition */
@@ -1028,7 +1028,7 @@ About Style
   .about-left-image img {
       border-radius: 50% !important; /* Ensure the image remains round */
       margin-right: 0 !important;
-      margin-bottom: 0; /* Remove the additional bottom margin */
+      margin-bottom: 0 !important; /* Remove the additional bottom margin */
   }
 }
 
