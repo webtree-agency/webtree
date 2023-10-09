@@ -1,0 +1,35 @@
+.h2-impressum {
+    font-size: 58px !important;
+}
+
+.h4-impressum{
+    margin-top: 4.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+.space-table {
+    margin-top: 1rem !important;
+}
+
+.firstrow-table {
+    font-size: 18px;
+    letter-spacing: 2px !important;
+    color: #999999;
+    text-transform: uppercase;
+    padding: 8px 1px 1px !important;
+    vertical-align: top !important;
+    margin-right: 15px !important;
+}
+
+.secondrow-table {
+    font-size: 22px;
+    padding: 1px !important;
+    color: #2a2a2a;
+    vertical-align: middle !important; /* Hier wird die vertikale Ausrichtung geändert */
+}
+
+.secondrow-table a {
+
+}
