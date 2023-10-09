@@ -135,6 +135,19 @@ height: 60px;
 margin-top: 4.5rem;
 }
 
+@media (max-height: 850px) {
+  .p-landingpage {
+    margin-top: 0;
+  }
+}
+
+@media (max-height: 800px) {
+  .p-landingpage {
+    margin-top: 4.5rem;
+  }
+}
+
+
 /* PARALLAX */
 .parallax {
   /* The image used */
