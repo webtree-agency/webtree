@@ -68,36 +68,6 @@
     color: #00731e;
   }
 
-  .svgContainer-impressum {
-    position: fixed;
-    bottom: 4%;
-    right: 3%;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: black;
-    cursor: pointer;
-    display: none;
-}
-
-.svg-impressum {
-    display: block;
-    width: 40px;
-}
-
-#svg2-impressum {
-    display: none;
-}
-
-#svgLink-impressum:hover #svg1-impressum {
-    display: none;
-}
-
-#svgLink-impressum:hover #svg2-impressum {
-    display: block;
-}
-
 @media (min-width: 1400px) {
     .impressum {
         margin-left: 14rem;
