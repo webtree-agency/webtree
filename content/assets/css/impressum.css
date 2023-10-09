@@ -1,7 +1,15 @@
 .h2-impressum {
-    font-size: 58px !important;
+    font-size: 58px;
 }
 
+.impressum-phone {
+    display: none;
+}
+
+.impressum {
+    margin-left: 6rem;
+    margin-bottom: 50px;
+}
 .h4-impressum{
     margin-top: 4.5rem;
     margin-bottom: 1rem;
@@ -20,7 +28,6 @@
     text-transform: uppercase;
     padding: 8px 1px 1px !important;
     vertical-align: top !important;
-    margin-right: 15px !important;
 }
 
 .secondrow-table {
@@ -31,5 +38,97 @@
 }
 
 .secondrow-table a {
+    color: #00731e;
+    position: relative;
+    transition: all .3s;
+  }
 
+.secondrow-table a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 4px;
+    margin-top: 12px !important;
+    background-color: #00731e;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  
+  .secondrow-table a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
+  .secondrow-table a:hover {
+    color: #00731e;
+  }
+
+  .svgContainer-impressum {
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+.svg-impressum {
+    display: block;
+    width: 40px;
+}
+
+#svg2-impressum {
+    display: none;
+}
+
+#svgLink-impressum:hover #svg1-impressum {
+    display: none;
+}
+
+#svgLink-impressum:hover #svg2-impressum {
+    display: block;
+}
+
+@media (min-width: 1400px) {
+    .impressum {
+        margin-left: 14rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .h2-impressum {
+        font-size: 50px;
+    }
+    .impressum-phone {
+        display: block;
+    }
+
+    .impressum-laptop {
+        display: none;
+    }
+
+    .impressum {
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .firstrow-table {
+        font-size: 15px;
+    }
+    .secondrow-table {
+        font-size: 18px;
+    }
+    .impressum {
+        margin-left: 2rem;
+    }
 }
