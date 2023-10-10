@@ -106,9 +106,18 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1320px) {
+    .datenschutz {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1250px) {
     .h2-impressum {
         font-size: 58px;
+    }
+    .datenschutz {
+        width: 80%;
     }
 }
 
@@ -122,6 +131,18 @@
 
     .impressum-laptop {
         display: none;
+    }
+
+    .h4-impressum {
+        font-size: 30px;
+    }
+
+    .h5-impressum {
+        font-size: 24px;
+    }
+
+    .p-text-datenschutz {
+        font-size: 18px !important;
     }
 
     .impressum {
