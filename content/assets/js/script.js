@@ -95,4 +95,3 @@ function isElementInViewport(el) {
  // Fügen Sie ein Event-Listener hinzu, um die Animation bei Bedarf auszulösen
  window.addEventListener('scroll', handleAnimation);
  window.addEventListener('load', handleAnimation);
- 
