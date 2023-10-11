@@ -1,23 +1,3 @@
-const textElement = document.getElementById("text-writer");
-const text = textElement.textContent.trim(); // Text ohne führende oder nachfolgende Leerzeichen
-textElement.textContent = ""; // Text im <h2> leeren
-
-function typeWriter(text, index) {
-    if (index < text.length) {
-        textElement.textContent += text.charAt(index);
-        index++;
-        setTimeout(function () {
-            typeWriter(text, index);
-        }, 60); // Geschwindigkeit der Animation (in Millisekunden)
-    }
-}
-
-setTimeout(function () {
-    typeWriter(text, 0); // Animation starten nach kurzem Timeout
-}, 2800); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
-
-
-
 const circle = document.querySelector(".circle");
 let mouseX = 0;
 let mouseY = 0;
@@ -58,7 +38,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";
@@ -95,3 +75,20 @@ function isElementInViewport(el) {
  // Fügen Sie ein Event-Listener hinzu, um die Animation bei Bedarf auszulösen
  window.addEventListener('scroll', handleAnimation);
  window.addEventListener('load', handleAnimation);
+
+ const inputs = document.querySelectorAll(".contact-input");
+
+
+inputs.forEach(ipt =>{
+  ipt.addEventListener("focus",()=>{
+    ipt.parentNode.classList.add("focus");
+    ipt.parentNode.classList.add("not-empty");
+
+  });
+  ipt.addEventListener("blur",()=>{
+    if(ipt.value == ""){
+        ipt.parentNode.classList.remove("not-empty");
+    }
+    ipt.parentNode.classList.remove("focus");
+  });
+})
