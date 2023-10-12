@@ -285,6 +285,18 @@ margin-top: 4.5rem;
   width: 32% !important;
 }
 
+@media (max-width: 991px) {
+  .agb-impressum {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .agb-impressum {
+    width: 100% !important;
+  }
+}
+
 .agb-impressum a {
     color: #ffffff;
     position: relative;
