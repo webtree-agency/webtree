@@ -151,7 +151,7 @@ margin-top: 4.5rem;
 /* PARALLAX */
 .parallax {
   /* The image used */
-  background-image: url(../svg/new-3-cs.svg) !important;
+  background-image: url(../svg/codesnippet-laptop.svg) !important;
   /* Set a specific height */
   min-height: 70vh !important;
   /* Create the parallax scrolling effect */
