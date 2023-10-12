@@ -151,27 +151,29 @@ margin-top: 4.5rem;
 /* PARALLAX */
 .parallax {
   /* The image used */
-  background-image: url(../svg/all-3-codesnippets.svg) !important;
+  background-image: url(../svg/new-3-cs.svg) !important;
   /* Set a specific height */
-  min-height: 350px !important;
+  min-height: 70vh !important;
   /* Create the parallax scrolling effect */
   background-attachment: fixed !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-size: 80% !important;
+  background-size: 70% !important;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media (max-width: 1000px) {
   .parallax {
-    background-image: url(../svg/2-code-handy.svg) !important;
+    min-height: 60vh !important;
+    background-image: url(../svg/ipad-codesnippet.svg) !important;
     background-attachment: scroll !important;
-    background-size: 100% !important;
+    background-size: 80% !important;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .parallax {
-    background-image: url(../svg/2-code-snippets-phone.svg) !important;
+    background-size: 100% !important;
+    min-height: 48vh !important;
   }
 }
 
