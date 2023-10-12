@@ -281,6 +281,10 @@ margin-top: 4.5rem;
     transition: all 400ms;
 }
 
+.agb-impressum {
+  width: 32% !important;
+}
+
 .agb-impressum a {
     color: #ffffff;
     position: relative;
@@ -400,3 +404,21 @@ margin-top: 4.5rem;
   margin-left: auto;
   margin-right: auto;
 }
+/* 
+#navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+#navbar-phone {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  transition: top 0.3s;
+} */
