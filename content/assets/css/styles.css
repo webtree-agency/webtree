@@ -1,3 +1,19 @@
+/* Bestehendes CSS */
+#changing-sentence {
+  color: #2a2a2a;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+#changing-word {
+  color: #00731e;
+  display: inline-block; /* Wichtig, damit der Übergang funktioniert */
+  opacity: 1; /* Starten Sie bei vollständiger Sichtbarkeit */
+  transition: opacity 0.3s; /* Animieren der Deckkraft, nicht der Farbe */
+}
+
+
+
 /* FAQ */
 .faq-heading{
   display: flex;

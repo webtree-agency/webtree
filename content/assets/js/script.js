@@ -92,3 +92,29 @@ inputs.forEach(ipt =>{
     ipt.parentNode.classList.remove("focus");
   });
 })
+
+// Changing words
+// script.js
+var words = [
+    "Macher", 
+    "Entwickler",
+    "in der Nähe Zürich"
+];
+var index = 0;
+
+function changeWord() {
+    var element = document.getElementById("changing-word");
+
+    // Erstes Ausblenden des Elements
+    element.style.opacity = "0";
+
+    // Nachdem das Element ausgeblendet ist (300ms Übergang), das Wort ändern und wieder einblenden
+    setTimeout(function() {
+        index = (index + 1) % words.length;
+        element.textContent = words[index];
+        element.style.opacity = "1";
+    }, 300); // muss der gleichen Zeit wie der CSS-Übergang entsprechen
+}
+
+setInterval(changeWord, 2000); // Ändert das Wort alle 5 Sekunden, genügend Zeit für den Übergang
+
