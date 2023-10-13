@@ -175,13 +175,21 @@ margin-top: 4.5rem;
   background-repeat: no-repeat !important;
   background-size: 70% !important;
 }
+.divider-code {
+  display: none;
+}
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media (max-width: 1000px) {
   .parallax {
-    min-height: 60vh !important;
+    /* min-height: 60vh !important;
     background-image: url(../svg/ipad-codesnippet.svg) !important;
     background-attachment: scroll !important;
-    background-size: 80% !important;
+    background-size: 80% !important; */
+    display: none;
+  }
+
+  .divider-code {
+    display: block;
   }
 }
 
