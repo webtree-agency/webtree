@@ -124,7 +124,7 @@
     border: 1px solid #00731e;
     transition: all .3s;
     outline: none;
-    margin-top: auto !important; /* Hinzugefügt, um den Link ganz unten zu positionieren */
+    margin-top: 10px !important; /* Hinzugefügt, um den Link ganz unten zu positionieren */
     margin-bottom: auto !important;
 }
 

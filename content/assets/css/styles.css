@@ -118,6 +118,7 @@
 html {
   scrollbar-width: normal;
   scrollbar-color: #f4f4f4;
+  overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
