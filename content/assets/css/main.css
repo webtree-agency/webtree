@@ -1043,7 +1043,7 @@ About Style
 }
 
 .about-left-image:hover {
-  background-image: url(../images/aboutus-laptop.jpg);
+  background-image: url(../images/aboutus-laptop-min.jpg);
   background-size: cover !important; /* make sure the background covers the entire div */
 }
 
