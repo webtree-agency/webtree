@@ -98,7 +98,10 @@ inputs.forEach(ipt =>{
 var words = [
     "Macher", 
     "Entwickler",
-    "in der Nähe Zürich"
+    "in der Nähe Zürich",
+    "Problemlöser",
+    "unkompliziert",
+    "ein eingespieltes Team",
 ];
 var index = 0;
 
@@ -116,5 +119,5 @@ function changeWord() {
     }, 300); // muss der gleichen Zeit wie der CSS-Übergang entsprechen
 }
 
-setInterval(changeWord, 2000); // Ändert das Wort alle 5 Sekunden, genügend Zeit für den Übergang
+setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Zeit für den Übergang
 
