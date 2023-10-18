@@ -176,7 +176,28 @@ margin-top: 4.5rem;
   background-repeat: no-repeat !important;
   background-size: 70% !important;
 }
-.divider-code {
+.divider-code-1000 {
+  display: none;
+}
+.divider-code-900 {
+  display: none;
+}
+.divider-code-800 {
+  display: none;
+}
+.divider-code-700 {
+  display: none;
+}
+.divider-code-600 {
+  display: none;
+}
+.divider-code-500 {
+  display: none;
+}
+.divider-code-400 {
+  display: none;
+}
+.divider-code-300 {
   display: none;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -188,18 +209,52 @@ margin-top: 4.5rem;
     background-size: 80% !important; */
     display: none;
   }
-
-  .divider-code {
+  .divider-code-1000 {
     display: block;
   }
 }
 
-@media (max-width: 600px) {
-  .parallax {
-    background-size: 100% !important;
-    min-height: 48vh !important;
+@media (max-width: 900px) { 
+  .divider-code-900 {
+    display: none;
   }
 }
+
+@media (max-width: 800px) { 
+  .divider-code-800 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) { 
+  .divider-code-700 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .divider-code-600 {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) { 
+  .divider-code-500 {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) { 
+  .divider-code-400 {
+    display: none;
+  }
+}
+@media (max-width: 300px) { 
+  .divider-code-300 {
+    display: none;
+  }
+}
+
 
 .custom-color-code {
     color: #00731e;
