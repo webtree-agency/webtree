@@ -658,8 +658,8 @@ header
   }
 }
 
-@media (max-width: 992px) {
-  .header-area .main-nav .nav li:last-child  ,media (max-width: 767px)
+@media (max-width: 767px){
+  .header-area .main-nav .nav li:last-child
 .services .naccs .menu div
   .background-header .main-nav .nav li:last-child {
     display: none;
@@ -917,7 +917,6 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  /* background-image: url(../images/slider-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -929,7 +928,6 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  /* background-image: url(../images/slider-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -988,7 +986,6 @@ Banner Style
 
 .main-banner-impressum:after {
   content: '';
-  /* background-image: url(../images/slider-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1000,7 +997,6 @@ Banner Style
 
 .main-banner-impressum:before {
   content: '';
-  /* background-image: url(../images/slider-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1043,7 +1039,7 @@ About Style
 }
 
 .about-left-image:hover {
-  background-image: url(../images/aboutus-laptop.jpg);
+  background-image: url(../images/aboutus-laptop-min.jpg);
   background-size: cover !important; /* make sure the background covers the entire div */
 }
 
@@ -1342,7 +1338,6 @@ Services Style
 
 .services:after {
   content: '';
-  /* background-image: url(../svg/svg-top.svg); */
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -1364,7 +1359,6 @@ Services Style
 }
   .services:before {
   content: '';
-  /* background-image: url(../images/services-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1433,7 +1427,6 @@ Services Style
   width: 100%;
   background-color: none;
   padding: 10px 0 10px 0;
-  /* border: 2px solid #00731e; */
 }
 
 .services .naccs .menu div.active {
@@ -1460,7 +1453,6 @@ Services Style
 }
 
 .services ul.nacc li.active {
-  /* transition-delay: 1.2s; */
   position: relative;
   z-index: 2;
   opacity: 1;
@@ -1529,87 +1521,9 @@ Services Style
 }
 @media (max-width: 768px) {
   .nacc .ticks-list {
-    grid-template-columns: repeat(1, 1fr); /* Drei Spalten mit gleicher Breite */
+    grid-template-columns: repeat(1, 1fr); 
   }
 }
-
-
-
-
-
-/* 
----------------------------------------------
-Free Quote
---------------------------------------------- 
-*/
-
-.free-quote {
-  /* background-image: url(../images/quote-bg-v3.jpg); */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 120px 0px;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-  margin-top: 130px;
-}
-
-.free-quote .section-heading {
-  margin-bottom: 60px;
-}
-
-.free-quote .section-heading h6,
-.free-quote .section-heading h4 {
-  color: #fff;
-}
-
-.free-quote .section-heading .line-dec {
-  margin: 0 auto;
-  background-color: #fff;
-}
-
-.free-quote form {
-  background-color: #fff;
-  display: inline-block;
-  width: 100%;
-  min-height: 80px;
-  border-radius: 40px;
-  position: relative;
-  z-index: 1;
-}
-
-.free-quote form input {
-  width: 100%;
-  margin-top: 20px;
-  margin-left: 30px;
-  color: #999999;
-  font-weight: 400;
-  font-size: 15px;
-  height: 40px;
-  background-color: transparent;
-  border-bottom: 1px solid #eee;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  position: relative;
-  z-index: 2;
-  outline: none;
-}
-
-.free-quote form button {
-  width: 100%;
-  height: 80px;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-  outline: none;
-  border: none;
-  margin-left: 30px;
-  background-color: #00731e;
-  font-size: 15px;
-  color: #fff;
-}
-
 
 /* 
 ---------------------------------------------
@@ -1626,7 +1540,6 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  /* background-image: url(../images/portfolio-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1638,7 +1551,6 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  /* background-image: url(../images/portfolio-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
