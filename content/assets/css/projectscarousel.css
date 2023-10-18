@@ -135,7 +135,7 @@
 
 @media (max-width: 1300px) {
     .burger-img {
-        background-image: url(../images/burgmeijer.png);
+        background-image: url(../svg/burger-laptop.svg);
         background-position: center top;
     }
 
@@ -152,7 +152,7 @@
 
 @media (max-width: 980px) {
     .burger-img {
-        background-image: url(../images/burgmeijer-ipad.png);
+        background-image: url(../svg/burger-ipad.svg);
         background-position: center top;
     }
 
