@@ -140,12 +140,12 @@
     }
 
     .colin-img {
-        background-image: url(../images/colinindergand.png);
+        background-image: url(../svg/colin-laptop.svg);
         background-position: center top;
     }
 
     .mdc-img {
-        background-image: url(../images/mdcoaching.png);
+        background-image: url(../svg/mdc-laptop.svg);
         background-position: center top;
     }
 }
@@ -157,12 +157,12 @@
     }
 
     .colin-img {
-        background-image: url(../images/colinindergand-ipad.png);
+        background-image: url(../svg/colin-ipad.svg);
         background-position: center top;
     }
 
     .mdc-img {
-        background-image: url(../images/mdcoaching-ipad.png);
+        background-image: url(../svg/mdc-ipad.svg);
         background-position: center top;
     }
 }
