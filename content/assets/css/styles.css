@@ -167,7 +167,7 @@ margin-top: 4.5rem;
 /* PARALLAX */
 .parallax {
   /* The image used */
-  background-image: url(../svg/codesnippet-laptop.svg) !important;
+  background-image: url(../svg/codesnippet-laptop.svg);
   /* Set a specific height */
   min-height: 70vh !important;
   /* Create the parallax scrolling effect */
@@ -176,9 +176,11 @@ margin-top: 4.5rem;
   background-repeat: no-repeat !important;
   background-size: 70% !important;
 }
-.divider-code {
+
+.divider-code-500 {
   display: none;
 }
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media (max-width: 1000px) {
   .parallax {
@@ -188,16 +190,22 @@ margin-top: 4.5rem;
     background-size: 80% !important; */
     display: none;
   }
-
-  .divider-code {
+  .divider-code-500 {
     display: block;
+    background-image: url(../svg/codesnippet-alone.svg);
+    background-size: 120% !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: 70vh !important;
+    background-attachment: scroll !important;
   }
 }
 
-@media (max-width: 600px) {
-  .parallax {
-    background-size: 100% !important;
-    min-height: 48vh !important;
+@media (max-width: 450px) {
+  .divider-code-500 {
+    background-size: 135% !important;
+    min-height: 45vh !important;
   }
 }
 
