@@ -184,16 +184,12 @@ margin-top: 4.5rem;
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media (max-width: 1000px) {
   .parallax {
-    /* min-height: 60vh !important;
-    background-image: url(../svg/ipad-codesnippet.svg) !important;
-    background-attachment: scroll !important;
-    background-size: 80% !important; */
     display: none;
   }
   .divider-code-500 {
     display: block;
     min-height: 70vh;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
