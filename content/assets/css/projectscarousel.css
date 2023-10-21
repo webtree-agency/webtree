@@ -164,6 +164,24 @@
     }
 }
 
+
+@media (max-width: 580px) {
+    .burger-img {
+        background-image: url(../svg/burger-handy.svg);
+        background-position: center top;
+    }
+
+    .colin-img {
+        background-image: url(../svg/colin-handy.svg);
+        background-position: center top;
+    }
+
+    .mdc-img {
+        background-image: url(../svg/mdc.handy.svg);
+        background-position: center center;
+    }
+}
+
 /* Media Query für Mobilgeräte */
 @media (max-width: 768px) {
     .card {
