@@ -192,19 +192,18 @@ margin-top: 4.5rem;
   }
   .divider-code-500 {
     display: block;
-    background-image: url(../svg/codesnippet-alone.svg);
-    background-size: 120% !important;
-    background-attachment: fixed !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    min-height: 70vh !important;
-    background-attachment: scroll !important;
+    min-height: 70vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
 
 @media (max-width: 450px) {
   .divider-code-500 {
-    background-size: 135% !important;
     min-height: 45vh !important;
   }
 }
