@@ -135,7 +135,7 @@
     }
 
     .colin-img {
-        background-image: url(../svg/colinindergand-laptop.svg);
+        background-image: url(../svg/colin-laptop.svg);
         background-position: center top;
     }
 
@@ -175,7 +175,7 @@
     }
 
     .mdc-img {
-        background-image: url(../svg/mdc.handy.svg);
+        background-image: url(../svg/mdc-handy.svg);
         background-position: center center;
     }
 }
