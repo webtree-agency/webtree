@@ -12,20 +12,20 @@ body {
 }
 
 img {
-    max-width: 60%; /* Dies stellt sicher, dass das Bild responsiv ist und nicht zu groß auf dem Bildschirm angezeigt wird */
+    max-width: 60%; /* Dies stellt sicher, dass das Bild responsiv ist und nicht zu gross auf dem Bildschirm angezeigt wird */
     margin-bottom: 30px; /* Etwas Abstand zum Button */
 }
 
 /* Button-Stil */
 .button {
     background-color: #00731E; /* Ein schönes Blau */
-    color: #ffffff; /* Weißer Text */
+    color: #ffffff; /* Weisser Text */
     padding: 15px 30px; /* Polsterung um den Text herum */
     border: none; /* Kein Rand */
     border-radius: 4px; /* Abgerundete Ecken */
     text-align: center; /* Zentriert den Text */
     display: inline-block; /* Wird als Inline-Element angezeigt */
-    font-size: 16px; /* Schriftgröße */
+    font-size: 16px; /* Schriftgrösse */
     cursor: pointer; /* Zeigt einen Handzeiger beim Überfahren des Buttons */
     text-decoration: none; /* Entfernt Unterstreichungen */
  
@@ -33,6 +33,6 @@ img {
 
 .button:hover {
     background-color: #00731E; /* Ein dunkleres Blau, wenn der Mauszeiger darüber fährt */
-    transform: scale(1.05);    /* Macht den Button 5% größer */
+    transform: scale(1.05);    /* Macht den Button 5% grösser */
     transition: transform 0.3s; /* Optional: Fügt eine sanfte Übergangsanimation hinzu */
 }

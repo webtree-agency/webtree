@@ -187,7 +187,7 @@
         height: 110vh;
     }
     .card-img-top {
-        object-fit: cover; /* Bild auf Containergröße anpassen und überstehende Bereiche abschneiden */
+        object-fit: cover; /* Bild auf Containergrösse anpassen und überstehende Bereiche abschneiden */
         object-position: center center; /* Die rechte Seite des Bildes in der Mitte anzeigen */
     }
 }
