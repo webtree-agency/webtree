@@ -62,7 +62,7 @@
     font-size: 22px;
     padding: 1px !important;
     color: #2a2a2a;
-    vertical-align: middle !important; /* Hier wird die vertikale Ausrichtung geändert */
+    vertical-align: middle !important; 
 }
 
 .secondrow-table a {

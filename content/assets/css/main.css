@@ -285,7 +285,6 @@ header
 }
 
 .pre-header ul.social-media li a {
-  /* background-color: #000000; */
   color: #ffffff;
   display: inline-block;
   width: 30px;
@@ -1007,9 +1006,6 @@ Banner Style
   z-index: -1;
 }
 
-
-
-
 /* 
 ---------------------------------------------
 About Style
@@ -1028,7 +1024,7 @@ About Style
   margin-bottom: 5%;
   margin-right: 45px;
   border-radius: 50% !important;
-  transition: background-image 0.3s ease; /* smooth transition */
+  transition: background-image 0.3s ease;
 }
 
 .about-left-image img {
@@ -1036,12 +1032,12 @@ About Style
 }
 
 .about-left-image:hover img {
-  opacity: 0; /*Disappear on hover*/
+  opacity: 0;
 }
 
 .about-left-image:hover {
   background-image: url(../images/aboutus-laptop-min.jpg);
-  background-size: cover !important; /* make sure the background covers the entire div */
+  background-size: cover !important;
 }
 
 .about-right-content p {
@@ -1051,17 +1047,17 @@ About Style
 
 @media only screen and (max-width: 768px) {
   .about-left-image:hover img {
-      opacity: 1; /* Reset the hover effect, so the image remains visible */
+      opacity: 1;
   }
 
   .about-left-image:hover {
-      background-image: none; /* Remove the background on hover */
+      background-image: none;
   }
 
   .about-left-image img {
-      border-radius: 50% !important; /* Ensure the image remains round */
+      border-radius: 50% !important; 
       margin-right: 0 !important;
-      margin-bottom: 0 !important; /* Remove the additional bottom margin */
+      margin-bottom: 0 !important;
   }
 }
 
@@ -1242,13 +1238,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
   animation: loading-4 1.5s linear forwards 1.5s;
 }
 
-/* Entfernen Sie die ursprünglichen Animationen */
 .progress[data-percentage="100"] .progress-right .progress-bar,
 .progress[data-percentage="100"] .progress-left .progress-bar {
   animation: none;
 }
 
-/* Fügen Sie eine neue CSS-Klasse für die Animation hinzu */
 .skill-item.animated .progress[data-percentage="100"] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
@@ -1256,7 +1250,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .skill-item.animated .progress[data-percentage="100"] .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.5s;
 }
-
 
 @keyframes loading-1 {
   0% {
@@ -1510,8 +1503,8 @@ Services Style
 
 .nacc .ticks-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Drei Spalten mit gleicher Breite */
-  gap: 20px 45px; /* Vertikaler und horizontaler Abstand zwischen den Elementen */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 45px;
   margin-bottom: 2em;
 }
 
@@ -1657,20 +1650,20 @@ contact
 --------------------------------------------- 
 */
 .send-btn-contact {
-  display: block; /* Ändern Sie die Anzeige von 'inline-block' auf 'block' */
+  display: block; 
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
   color: #00731e;
   margin-top: 30px;
-  width: 100%; /* Setzen Sie die Breite auf 100% */
+  width: 100%; 
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
   border: 1px solid #00731e;
   transition: all 0.3s;
   outline: none;
-  margin-top: auto; /* Hinzugefügt, um den Link ganz unten zu positionieren */
+  margin-top: auto; 
 }
 
 .send-btn-contact:hover {
@@ -1682,7 +1675,6 @@ contact
   width: 100%;
   overflow: hidden;
   margin-top: 20px;
-  /* margin-top: 10%; */
 }
 
 .contact .container{
@@ -1705,7 +1697,6 @@ contact
   padding: 65px 1.5rem;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  /* align-items: center; */
   position: relative;
   z-index: 3;
 }
@@ -1812,7 +1803,6 @@ textarea.contact-input ~ .icon{
 .input-wrap.focus .contact-input{
   background-color: #f9f9f9;
   border: 2px solid #00731e;
-  /* box-shadow: 0 0 0 5px hsla(120, 91%, 92%, 0.11); */
 }
 .input-wrap.focus label{
   color: #00731e;
@@ -1846,7 +1836,6 @@ textarea.contact-input ~ .icon{
   top: 50%;
   transform: translateY(-50%);
 }
-
 
 .wave-wrap {
   position: absolute;
@@ -1963,7 +1952,6 @@ textarea.contact-input ~ .icon{
     padding: 50px 1.5rem 0;
     grid-template-columns: 1fr;
     justify-items: center;
-    /* margin-top: -35% !important; */
     margin-bottom: 0 !important;
   }
 

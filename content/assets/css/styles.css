@@ -6,12 +6,10 @@
 }
 #changing-word {
   color: #00731e;
-  display: inline-block; /* Wichtig, damit der Übergang funktioniert */
+  display: inline-block;
   opacity: 1; 
-  transition: opacity 0.3s; /
+  transition: opacity 0.3s;
 }
-
-
 
 /* FAQ */
 .faq-heading{
@@ -113,8 +111,8 @@
     margin: 0 auto 0 auto;
   }
 }
-/* SCROLLBAR */
 
+/* SCROLLBAR */
 html {
   scrollbar-width: normal;
   scrollbar-color: #f4f4f4;
@@ -163,14 +161,10 @@ margin-top: 4.5rem;
   }
 }
 
-
 /* PARALLAX */
 .parallax {
-  /* The image used */
   background-image: url(../svg/codesnippet-laptop.svg);
-  /* Set a specific height */
   min-height: 70vh !important;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -181,7 +175,6 @@ margin-top: 4.5rem;
   display: none;
 }
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media (max-width: 1000px) {
   .parallax {
     display: none;
@@ -252,20 +245,17 @@ margin-top: 4.5rem;
   cursor: pointer;
   text-align: center;
   width: 60px;
-  position: relative; /* Füge eine relative Position hinzu, um die Pfeile zu überlagern */
+  position: relative;
 }
 
-/* Standardmässig ist der grüne Pfeil ausgeblendet */
 .green-arrow {
   display: none;
 }
 
-/* Zeige den grünen Pfeil an, wenn der Link überfahren wird */
 .arrow-link:hover .green-arrow {
   display: block;
 }
 
-/* Blende den schwarzen Pfeil aus, wenn der Link überfahren wird */
 .arrow-link:hover .black-arrow {
   display: none;
 }
@@ -292,11 +282,10 @@ margin-top: 4.5rem;
 }
 @media (max-width: 900px) {
     .circle {
-        display: none; /* Hide on phone */
+        display: none; 
     }
 }
-
-      
+  
 .hovered {
     transform: scale(1.4);
     background-color: #000;
@@ -332,9 +321,11 @@ margin-top: 4.5rem;
     text-decoration: none;
     transition: all .3s;
   }
+
   .agb-impressum a:hover {
     color: #00bb32;
   }
+
   .agb-impressum a::before {
     content: '';
     position: absolute;
@@ -354,6 +345,7 @@ margin-top: 4.5rem;
     transform-origin: left;
     transform: scaleX(1);
   }
+
 .kontakt-links a {
     color: #ffffff;
     position: relative;
@@ -385,19 +377,6 @@ margin-top: 4.5rem;
     transform-origin: left;
     transform: scaleX(1);
   }
-  /* .image-container {
-    margin-top: 10%;
-    margin-bottom: -1%;
-    padding: 0 !important;
-    width: 100%;
-  }
-  
-  .image-container img {
-    width: 104%; 
-    position: relative;
-    left: -3%;
-    display: block;
-  } */
 
   .wave-footer {
     margin-top: 10%;
@@ -405,9 +384,7 @@ margin-top: 4.5rem;
     width: 100%;
   }
   
-  
-
-  .webtree-logo-footer {
+.webtree-logo-footer {
     width: 170px;
     z-index: 9;
   }
@@ -445,21 +422,3 @@ margin-top: 4.5rem;
   margin-left: auto;
   margin-right: auto;
 }
-/* 
-#navbar {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 100;
-  transition: top 0.3s;
-}
-
-#navbar-phone {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 100;
-  transition: top 0.3s;
-} */
