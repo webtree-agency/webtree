@@ -1,36 +1,71 @@
-/* Button-Stil */
+
 .button {
-    background-color: #00731E; /* Ein schönes Blau */
-    color: #ffffff; /* Weisser Text */
-    padding: 15px 30px; /* Polsterung um den Text herum */
-    border: none; /* Kein Rand */
-    border-radius: 4px; /* Abgerundete Ecken */
-    text-align: center; /* Zentriert den Text */
-    display: inline-block; /* Wird als Inline-Element angezeigt */
-    font-size: 16px; /* Schriftgrösse */
-    cursor: pointer; /* Zeigt einen Handzeiger beim Überfahren des Buttons */
-    text-decoration: none; /* Entfernt Unterstreichungen */
- 
+    background-color: #00731E; 
+    color: #ffffff; 
+    padding: 15px 30px; 
+    border: none; 
+    border-radius: 4px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px;
+    cursor: pointer; 
+    text-decoration: none; 
 }
 
 .button:hover {
-    background-color: #00731E; /* Ein dunkleres Blau, wenn der Mauszeiger darüber fährt */
-    transform: scale(1.05);    /* Macht den Button 5% grösser */
-    transition: transform 0.3s; /* Optional: Fügt eine sanfte Übergangsanimation hinzu */
+    background-color: #00731E; 
+    transform: scale(1.05);   
+    transition: transform 0.3s; 
 }
-
-.container-404 {
+/* Container around svg,text and button */
+.container-404{
+    margin-top: -50px;
     display: flex;
-    width: 100%;
     justify-content: center;
-}
-
-.container-404 h4 {
-    text-align: center;
-}
-
-.svg-404 {
-    max-width: 50%;
-    margin-top: 4rem;
     align-items: center;
+    flex-direction:column ;
+} 
+.svg-404 {
+    margin-top: -50px;
+    max-width: 50%;
 }
+
+@media (max-width: 800px) {
+    .svg-404{
+        max-width: 100%;
+    }
+    .button-404{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .svg-404{
+        max-width: 90%;
+    }
+}
+@media (max-width: 800px) {
+    .svg-404{
+        padding-bottom: 30px;
+    }
+}
+
+.button-404{
+    display: inline-block;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    color: #00731e;
+    width: 40%;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border: 1px solid #00731e;
+    transition: all .3s;
+    outline: none;
+    margin-top: -60px;
+}
+.button-404:hover {
+    background-color: #00731e!important;
+    color: #fff!important;
+}
+
