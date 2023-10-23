@@ -529,14 +529,8 @@
                  if (xhr.status === 200) {
                      successMessage.style.display = "block";
                      contactForm.reset();
-                     setTimeout(function() {
-                         successMessage.style.display = "none";
-                     }, 5000);
                  } else {
                      errorMessage.style.display = "block";
-                     setTimeout(function() {
-                         errorMessage.style.display = "none";
-                     }, 5000);
                  }
              };
      
