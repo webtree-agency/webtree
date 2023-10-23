@@ -1013,7 +1013,7 @@ About Style
 */
 
 #about {
-  padding-top: 130px;
+  padding-top: 50 px;
   margin-bottom: 20px;
 }
 
@@ -2081,6 +2081,7 @@ responsive
     margin-right: 0 !important;
     margin-bottom: 45px;
     align-items: center;
+    margin-top: 30px;
   }
   .services .naccs .menu div {
     font-size: 15px;
