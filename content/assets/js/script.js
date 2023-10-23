@@ -999,7 +999,7 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
     const form = document.getElementById('contact-form');
 
     form.addEventListener('submit', function (e) {
-        e.preventDefault(); // Verhindert das Standardverhalten des Formulars (Weiterleitung)
+        e.preventDefault(); 
 
         $.ajax({
             url: "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13",
@@ -1012,8 +1012,8 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
             },
             dataType: "json",
             success: function(response) {
-                clearForm(); // Formular leeren
-                showSuccessMessage(); // Erfolgsmeldung anzeigen
+                clearForm(); 
+                showSuccessMessage(); 
             }
         });
     });
