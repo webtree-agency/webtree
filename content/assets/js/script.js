@@ -994,9 +994,9 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
   });
   
   // CONTACT 
-
   document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('contact-form');
+    const errorMessage = document.getElementById('error-message');
 
     form.addEventListener('submit', function (e) {
         e.preventDefault(); 
@@ -1014,6 +1014,9 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
             success: function(response) {
                 clearForm(); 
                 showSuccessMessage(); 
+            },
+            error: function() {
+                showErrorMessage(); // Fehlermeldung anzeigen
             }
         });
     });
@@ -1026,4 +1029,9 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
         const successMessage = document.getElementById('success-message');
         successMessage.style.display = 'block';
     }
+
+    function showErrorMessage() {
+        errorMessage.style.display = 'block';
+    }
 });
+
