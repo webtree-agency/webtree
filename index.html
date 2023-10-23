@@ -512,36 +512,7 @@
                </div>
             </section>
          </div>
-      </footer>
-      <script>
-         function submitForm() {
-             const contactForm = document.getElementById("contact-form");
-             const successMessage = document.getElementById("success-message");
-         
-             // Holen Sie sich die Formulardaten
-             const formData = new FormData(contactForm);
-         
-             // Erstellen Sie die AJAX-Anfrage
-             const xhr = new XMLHttpRequest();
-             xhr.open("POST", "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13", true);
-         
-             // Setzen Sie die Callback-Funktion für den Abschluss der Anfrage
-             xhr.onload = function() {
-                 if (xhr.status === 200) {
-                     // Erfolgreiche Anfrage
-                     successMessage.style.display = "block"; // Erfolgsmeldung anzeigen
-                     contactForm.reset(); // Formular leeren
-                 } else {
-                     // Fehler bei der Anfrage
-                     console.error("Fehler beim Senden des Formulars");
-                 }
-             };
-         
-             // Senden Sie die Formulardaten
-             xhr.send(formData);
-         }
-         </script>
-         
+      </footer>      
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="content/assets/js/owl-carousel.js"></script>
