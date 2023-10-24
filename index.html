@@ -401,6 +401,7 @@
                   <form action="https://formsubmit.co/36edd6f61d356d3a6af959552e803d13" method="POST" class="contact-form" id="contact-form">
                      <input type="text" name="_honey" style="display: none;">
                      <input type="hidden" name="_captcha" value="false">
+                     <!-- <input type="hidden" name="_autoresponse" value="your custom message"> -->
                      <div class="input-wrap">
                          <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
                          <label>Vorname</label>
@@ -422,8 +423,8 @@
                          <i class="icon fa-solid fa-inbox"></i>
                      </div>
                      <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="submitForm()">
-                     <div id="success-message" style="display: none; color: #00731e; white-space: nowrap; font-weight: bold;">Nachricht erfolgreich gesendet!</div>
-                     <div id="error-message" style="display: none; color: red; white-space: nowrap; font-weight: bold;">Fehler beim Senden der Nachricht!</div>
+                     <div id="success-message" style="display: none; color: #00731e; font-weight: bold; width: 200%;"></div>
+                     <div id="error-message" style="display: none; color: red; white-space: nowrap; font-weight: bold;"></div>
                  </form>
                </div>
             </div>
@@ -516,47 +517,49 @@
       </footer>
       <script>
          function submitForm() {
-             const contactForm = document.getElementById("contact-form");
-             const successMessage = document.getElementById("success-message");
-             const errorMessage = document.getElementById("error-message");
-             const formData = new FormData(contactForm);
+    const contactForm = document.getElementById("contact-form");
+    const successMessage = document.getElementById("success-message");
+    const errorMessage = document.getElementById("error-message");
+    const formData = new FormData(contactForm);
 
+    const firstnameContact = document.getElementById("firstname-contact");
+    const firstnameContactValue = firstnameContact.value;
 
-             const firstnameContact = document.getElementById("firstname-contact");
-             const firstnameContactValue = firstnameContact.value;
+    const lastnameContact = document.getElementById("lastname-contact");
+    const lastnameContactValue = lastnameContact.value;
 
-             const lastnameContact = document.getElementById("lastname-contact");
-             const lastnameContactValue = lastnameContact.value;
+    const emailContact = document.getElementById("email-contact");
+    const emailContactValue = emailContact.value;
 
-             const emailContact = document.getElementById("email-contact");
-             const emailContactValue = emailContact.value;
-             console.log(emailContactValue);
+    const messageContact = document.getElementById("message-contact");
+    const messageContactValue = messageContact.value;
 
-             const messageContact = document.getElementById("message-contact");
-             const messageContactValue = messageContact.value;
+    if (firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue) {
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13", true);
 
-            
-             if(firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue){
-               const xhr = new XMLHttpRequest();
-             xhr.open("POST", "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13", true);
-     
-             xhr.onload = function() {
-                 if (xhr.status === 200) {
-                     successMessage.style.display = "block";
-                     contactForm.reset();
-     
-                     setTimeout(function() {
-                         successMessage.style.display = "none";
-                     }, 10000);
-                 } else {
-                     errorMessage.style.display = "block";
-                 }
-             };
-     
-             xhr.send(formData);
-             }
-            
-         }
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                // Customize the autoresponse message with the customer's name
+                const autoresponseMessage = `Hi ${firstnameContactValue}, danke für deine Nachricht!\nWir melden uns baldmöglichst bei Dir.`;
+
+                // Display the customized autoresponse
+                successMessage.style.display = "block";
+                successMessage.textContent = autoresponseMessage;
+
+                contactForm.reset();
+
+                setTimeout(function () {
+                    successMessage.style.display = "none";
+                }, 100000000);
+            } else {
+                errorMessage.style.display = "block";
+            }
+        };
+
+        xhr.send(formData);
+    }
+}
      </script>         
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
