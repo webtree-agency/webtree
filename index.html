@@ -400,9 +400,9 @@
                   </div>
                   <form action="https://formsubmit.co/36edd6f61d356d3a6af959552e803d13" method="POST" class="contact-form" id="contact-form">
                      <input type="text" name="_honey" style="display: none;">
-                     <input type="hidden" name="_captcha" value="false">
-                     <input type="hidden" name="_template" value="table">
-                     <!-- <input type="hidden" name="_autoresponse" value="your custom message"> -->
+                     <input type="hidden" name="_captcha" value="true">
+                     <input type="hidden" name="_template" value="box">
+                     <input type="hidden" name="_autoresponse" value="test>
                      <div class="input-wrap">
                          <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
                          <label>Vorname</label>
@@ -424,7 +424,7 @@
                          <i class="icon fa-solid fa-inbox"></i>
                      </div>
                      <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="submitForm()">
-                     <div id="success-message" style="display: none; color: #00731e; font-weight: bold; width: 200%;"></div>
+                     <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: nowrap;"></div>
                      <div id="error-message" style="display: none; color: red; white-space: nowrap; font-weight: bold;"></div>
                  </form>
                </div>
@@ -542,7 +542,7 @@
         xhr.onload = function () {
             if (xhr.status === 200) {
                 // Customize the autoresponse message with the customer's name
-                const autoresponseMessage = `Hi ${firstnameContactValue}, danke für deine Nachricht!\nWir melden uns baldmöglichst bei Dir.`;
+                const autoresponseMessage = `Hi ${firstnameContactValue}, danke für deine Nachricht!`;
 
                 // Display the customized autoresponse
                 successMessage.style.display = "block";
