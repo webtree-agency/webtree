@@ -402,7 +402,6 @@
                      <input type="text" name="_honey" style="display: none;">
                      <input type="hidden" name="_captcha" value="true">
                      <input type="hidden" name="_template" value="box">
-                     <input type="hidden" name="_autoresponse" value="test">
                      <div class="input-wrap">
                          <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
                          <label>Vorname</label>
@@ -445,7 +444,7 @@
       <section class="faq" id="faq">
          <div class="faq-heading">
             <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-               <h6 class="faq-heading">Unsicherheiten?</h6>
+               <h6 class="faq-heading">Unsicherheiten</h6>
                <h4>Wir erklären es<em> Dir</em>.</h4>
                <div class="line-dec center-line"></div>
             </div>
@@ -542,7 +541,7 @@
         xhr.onload = function () {
             if (xhr.status === 200) {
                 // Customize the autoresponse message with the customer's name
-                const autoresponseMessage = `Hi ${firstnameContactValue}, danke für deine Nachricht!`;
+                const autoresponseMessage = `Hi ${firstnameContactValue}, danke für Deine Nachricht!`;
 
                 // Display the customized autoresponse
                 successMessage.style.display = "block";
