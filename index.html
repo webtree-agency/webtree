@@ -519,10 +519,25 @@
              const contactForm = document.getElementById("contact-form");
              const successMessage = document.getElementById("success-message");
              const errorMessage = document.getElementById("error-message");
-     
              const formData = new FormData(contactForm);
-     
-             const xhr = new XMLHttpRequest();
+
+
+             const firstnameContact = document.getElementById("firstname-contact");
+             const firstnameContactValue = firstnameContact.value;
+
+             const lastnameContact = document.getElementById("lastname-contact");
+             const lastnameContactValue = lastnameContact.value;
+
+             const emailContact = document.getElementById("email-contact");
+             const emailContactValue = emailContact.value;
+             console.log(emailContactValue);
+
+             const messageContact = document.getElementById("message-contact");
+             const messageContactValue = messageContact.value;
+
+            
+             if(firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue){
+               const xhr = new XMLHttpRequest();
              xhr.open("POST", "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13", true);
      
              xhr.onload = function() {
@@ -539,6 +554,8 @@
              };
      
              xhr.send(formData);
+             }
+            
          }
      </script>         
       <script src="content/vendor/jquery/jquery.min.js"></script>
