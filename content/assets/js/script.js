@@ -1005,10 +1005,10 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
             url: "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13",
             method: "POST",
             data: {
-                name: document.querySelector('[name="name"]').value,
-                lastname: document.querySelector('[name="lastname"]').value,
-                email: document.querySelector('[name="email"]').value,
-                comments: document.querySelector('[name="comments"]').value
+                Vorname: document.querySelector('[name="name"]').value,
+                Nachname: document.querySelector('[name="lastname"]').value,
+                Email: document.querySelector('[name="email"]').value,
+                Nachricht: document.querySelector('[name="comments"]').value
             },
             dataType: "json",
             success: function(response) {
