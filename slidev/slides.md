@@ -197,7 +197,6 @@ Profitiere weiterhin von uns!
 layout: end
 ---
 
-# Thanks!
+# Besten Dank
 
-Some text
-t
+Einfach zum Erfolg mit WebTree!
