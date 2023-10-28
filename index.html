@@ -403,27 +403,27 @@
                      <input type="hidden" name="_captcha" value="false">
                      <input type="hidden" name="_template" value="box">
                      <div class="input-wrap">
-                         <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                         <label>Vorname</label>
-                         <i class="icon fa-solid fa-address-card"></i>
+                        <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                        <label>Vorname</label>
+                        <i class="icon fa-solid fa-address-card"></i>
                      </div>
                      <div class="input-wrap">
-                         <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                         <label>Nachname</label>
-                         <i class="icon fa-solid fa-address-card"></i>
+                        <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                        <label>Nachname</label>
+                        <i class="icon fa-solid fa-address-card"></i>
                      </div>
                      <div class="input-wrap w-100">
-                         <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
-                         <label>E-Mail</label>
-                         <i class="icon fa-solid fa-envelope"></i>
+                        <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
+                        <label>E-Mail</label>
+                        <i class="icon fa-solid fa-envelope"></i>
                      </div>
                      <div class="input-wrap textarea w-100">
-                         <textarea id="message-contact" name="comments, questions" autocomplete="off" class="contact-input" required></textarea>
-                         <label>Nachricht</label>
-                         <i class="icon fa-solid fa-inbox"></i>
+                        <textarea id="message-contact" name="comments, questions" autocomplete="off" class="contact-input" required></textarea>
+                        <label>Nachricht</label>
+                        <i class="icon fa-solid fa-inbox"></i>
                      </div>
                      <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="submitForm()">
-                 </form>
+                  </form>
                   <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: nowrap; margin-top: 15px;"></div>
                   <div id="error-message" style="display: none; color: red; white-space: nowrap; font-weight: bold; margin-top: 15px;">Hoppla! Etwas ist schief gelaufen. Versuche es erneut!</div>
                </div>
@@ -477,15 +477,12 @@
          </div>
       </section>
       <img class="wave-footer" src="content/assets/svg/footer-topwave.svg" alt="footer-social-media">
-      <footer
-         class="text-left text-lg-start text-white"
-         style="background-color: #003d10; width: 100%;"
-         >
+      <footer class="text-left text-lg-start text-white" style="background-color: #003d10; width: 100%;">
          <div class="container p-4 pb-0">
             <section class="">
                <div class="row">
                   <div class="col-md-4 col-lg-8 text-center text-md-start">
-                     <a href="#"><img src="content/assets/svg/webtree-logo-white-new.svg" alt="logo" class="webtree-logo-footer"></a> 
+                     <a href="#"><img src="content/assets/svg/webtree-logo-white-new.svg" alt="logo" class="webtree-logo-footer"></a>
                   </div>
                   <hr class="w-200 clearfix d-md-none" />
                   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 kontakt-links">
@@ -493,8 +490,11 @@
                      <p></p>
                      <a href="tel:+41525081481"><i class="fa fa-phone mr-3"></i> 052-508-14-81</a>
                      <p></p>
-                     <a href="https://www.google.com/maps/place/Z%C3%BCrich/@47.3772426,8.5283606,14z/data=!4m6!3m5!1s0x47900b9749bea219:0xe66e8df1e71fdc03!8m2!3d47.3768866!4d8.541694!16zL20vMDg5NjY?entry=ttu" target="_blank">
-                     <i class="fa fa-map-marker mr-3"></i> Schweiz, Zürich</a>
+                     <a href="https://www.google.com/maps/place/Z%C3%BCrich" target="_blank">
+                     <i class="fa fa-map-marker mr-3"></i> Schweiz, Zürich
+                     </a>
+                     <p></p>
+                     <a href="javascript:void(0);" onclick="zeigeZugangscodeDialog()" target="_blank"><i class="fa fa-lock mr-3"></i> Präsentation</a>
                   </div>
                </div>
             </section>
@@ -502,6 +502,7 @@
             <section class="p-3 pt-0 footer-links">
                <div class="row d-flex align-items-center">
                   <div class="agb-impressum col-md-6 col-lg-3 col-xl-3 text-center text-md-start">
+                     <span class="dash">&nbsp;</span>
                      <a href="./impressum.html">Impressum</a>
                      <span class="dash">&nbsp;</span>
                      <a href="./datenschutz.html">Datenschutz</a>
@@ -515,50 +516,64 @@
             </section>
          </div>
       </footer>
+      <!-- JavaScript, um den Zugangscode-Dialog anzuzeigen -->
+      <script>
+         function zeigeZugangscodeDialog() {
+             const erwarteterCode = "12345"; 
+         
+             const eingegebenerCode = prompt("Bitte gib den Zugangscode ein:");
+         
+             if (eingegebenerCode === erwarteterCode) {
+                 window.location.href = "./slides-export.pdf";
+             } else if (eingegebenerCode !== null) {
+                 alert("Falscher Zugangscode. Versuche es erneut.");
+             }
+         }
+      </script>
       <script>
          function submitForm() {
-    const contactForm = document.getElementById("contact-form");
-    const successMessage = document.getElementById("success-message");
-    const errorMessage = document.getElementById("error-message");
-    const formData = new FormData(contactForm);
-
-    const firstnameContact = document.getElementById("firstname-contact");
-    const firstnameContactValue = firstnameContact.value;
-
-    const lastnameContact = document.getElementById("lastname-contact");
-    const lastnameContactValue = lastnameContact.value;
-
-    const emailContact = document.getElementById("email-contact");
-    const emailContactValue = emailContact.value;
-
-    const messageContact = document.getElementById("message-contact");
-    const messageContactValue = messageContact.value;
-
-    if (firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue) {
-        const xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13", true);
-
-        xhr.onload = function () {
+         const contactForm = document.getElementById("contact-form");
+         const successMessage = document.getElementById("success-message");
+         const errorMessage = document.getElementById("error-message");
+         const formData = new FormData(contactForm);
+         
+         const firstnameContact = document.getElementById("firstname-contact");
+         const firstnameContactValue = firstnameContact.value;
+         
+         const lastnameContact = document.getElementById("lastname-contact");
+         const lastnameContactValue = lastnameContact.value;
+         
+         const emailContact = document.getElementById("email-contact");
+         const emailContactValue = emailContact.value;
+         
+         const messageContact = document.getElementById("message-contact");
+         const messageContactValue = messageContact.value;
+         
+         if (firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue) {
+         const xhr = new XMLHttpRequest();
+         xhr.open("POST", "https://formsubmit.co/36edd6f61d356d3a6af959552e803d13", true);
+         
+         xhr.onload = function () {
             if (xhr.status === 200) {
                 const autoresponseMessage = `Hi ${firstnameContactValue}, danke für Deine Nachricht!`;
-
+         
                 successMessage.style.display = "block";
                 successMessage.textContent = autoresponseMessage;
-
+         
                 contactForm.reset();
-
+         
                 setTimeout(function () {
                     successMessage.style.display = "none";
                 }, 10000);
             } else {
                 errorMessage.style.display = "block";
             }
-        };
-
-        xhr.send(formData);
-    }
-}
-     </script>         
+         };
+         
+         xhr.send(formData);
+         }
+         }
+      </script>         
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="content/assets/js/owl-carousel.js"></script>
