@@ -516,20 +516,6 @@
             </section>
          </div>
       </footer>
-      <!-- JavaScript, um den Zugangscode-Dialog anzuzeigen -->
-      <script>
-         function zeigeZugangscodeDialog() {
-             const erwarteterCode = "12345"; 
-         
-             const eingegebenerCode = prompt("Bitte gib den Zugangscode ein:");
-         
-             if (eingegebenerCode === erwarteterCode) {
-                 window.location.href = "./slides-export.pdf";
-             } else if (eingegebenerCode !== null) {
-                 alert("Falscher Zugangscode. Versuche es erneut.");
-             }
-         }
-      </script>
       <script>
          function submitForm() {
          const contactForm = document.getElementById("contact-form");

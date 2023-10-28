@@ -1027,3 +1027,16 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
         successMessage.style.display = 'block';
     }
 });
+
+// Presentation link
+function zeigeZugangscodeDialog() {
+  const erwarteterCode = "12345"; 
+
+  const eingegebenerCode = prompt("Bitte gib den Zugangscode ein:");
+
+  if (eingegebenerCode === erwarteterCode) {
+      window.location.href = "./slides-export.pdf";
+  } else if (eingegebenerCode !== null) {
+      alert("Falscher Zugangscode. Versuche es erneut.");
+  }
+}
