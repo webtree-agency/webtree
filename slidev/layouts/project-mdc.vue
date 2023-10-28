@@ -8,7 +8,7 @@ const props = defineProps({
 })
 </script>
 <template>
-  <div class="slidev-layout image" style="background-image: url('./public/backgrounds/project-mdc.svg');">
+  <div class="slidev-layout image" style="background-image: url('../public/backgrounds/project-mdc.svg');">
     <div class="pl-40 block" style="top: 40px;">
       <slot />
     </div>
