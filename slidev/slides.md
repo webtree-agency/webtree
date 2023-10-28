@@ -3,87 +3,74 @@ theme: zhozhoba
 layout: cover
 date: Jann & Noah
 title: WebTree
+transition: slide-up
 ---
 
-# WebTree
+# Welcome to WebTree!
 ##### Go digital - Go strong!
-###
+### Eine Agentur die Deine Online-Präsenz zum strahlen bringt. Unsere Stärke liegt in visueller und digitaler Kommunikation.
 
 
 ---
 layout: content-1
+transition: slide-left
 ---
-# Agenda
 
-unsere Themen & Schwerpunkte
+# Inhalt
+unsere Themen & Schwerpunkte.
 
-- Content bullet text
-- Content bullet text
-- Content bullet text
-- Content bullet text
-- Content bullet text
-- Content bullet text
+- Backstory
+- Arbeitsweise
+- Projekte
+- Kundenablauf
+- Offerte & Vertrag
+- Umsetzung
+- Abschluss des Projektes
 
 <br>
 <br>
+
 
 ---
 layout: section-1
 ---
 
-# SECTION BREAK SLIDE TITLE
+# Backstory
 
-Section break slide text
+Motivation? Sinn? Ziel?
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
 ---
 layout: section-2
+transition: slide-left
 ---
 
-# SECTION BREAK SLIDE TITLE
+# Arbeitsweise
 
-Section break slide text
+wie / wann / wo arbeiten wir?
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+- SEO
+- Google on top
+
+
 ---
 layout: content-2
 ---
-# TABLE
 
-Table text
+# PROJEKTE
 
-### Table description
+Kundenerfolge
 
-|     |     |
-| --- | --- |
-| <kbd>item kbd</kbd> / <kbd>item kbd</kbd> / <kbd>item kbd</kbd> | row text, row text, row text, row text |
-| <kbd>item kbd</kbd> | row text |
-| <kbd>item kbd</kbd> | previous slide |
-| <kbd>item kbd</kbd> | next slide |
 
 ---
 layout: image-side
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+image: ./images/burger-handy.svg
 ---
 
-# CODE EXAMPLE
+# Kunden-erfolge
 
-Code description
+BURGMEIJER RAI-Experte
 
-```ts
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
 
 ---
 layout: end
