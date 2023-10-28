@@ -2005,6 +2005,12 @@ footer p a {
   color: #fff;
   transition: all .5s;
 }
+@media (max-width: 767px) {
+  .präsentation-link {
+      display: none; /* Verstecke den Link zur Präsentation */
+  }
+}
+
 
 /* 
 ---------------------------------------------
