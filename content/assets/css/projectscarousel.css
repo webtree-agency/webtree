@@ -54,8 +54,9 @@
 }
 
 .burger-img {
+    background-image: url(../svg/burger-handy.svg);
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     width: auto;
     height: 100%;
     border-radius: 15px;
@@ -63,6 +64,7 @@
 }
 
 .colin-img {
+    background-image: url(../svg/colin-ipad.svg);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -72,6 +74,7 @@
 }
 
 .mdc-img {
+    background-image: url(../svg/mdc-ipad.svg);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -128,7 +131,7 @@
     color: #fff!important;
 }
 
-@media (max-width: 100300px) {
+@media (max-width: 1800px) {
     .burger-img {
         background-image: url(../svg/burger-laptop.svg);
         background-position: center top;
