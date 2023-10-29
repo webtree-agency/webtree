@@ -29,6 +29,29 @@
     max-width: 50%;
 }
 
+
+.button-404{
+    display: inline-block;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    color: #00731e;
+    width: 40%;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border: 1px solid #00731e;
+    transition: all .3s;
+    outline: none;
+    margin-top: -60px;
+    text-align: center;
+    z-index: 10000000 !important;
+}
+.button-404:hover {
+    background-color: #00731e!important;
+    color: #fff!important;
+}
+
 @media (max-width: 800px) {
     .svg-404{
         max-width: 100%;
@@ -48,24 +71,4 @@
     }
 }
 
-.button-404{
-    display: inline-block;
-    background-color: #fff;
-    font-size: 15px;
-    font-weight: 400;
-    color: #00731e;
-    width: 40%;
-    padding: 12px 25px;
-    border-radius: 23px;
-    letter-spacing: 0.25px;
-    border: 1px solid #00731e;
-    transition: all .3s;
-    outline: none;
-    margin-top: -60px;
-    text-align: center;
-}
-.button-404:hover {
-    background-color: #00731e!important;
-    color: #fff!important;
-}
 
