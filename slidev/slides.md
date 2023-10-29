@@ -167,6 +167,7 @@ Erklärung von Beidem
 
 ---
 layout: section-2
+transition: slide-left
 ---
 
 # Umsetzung
@@ -180,7 +181,7 @@ Wie gehen wir vor?
 
 ---
 layout: content-2
-transition: slide-left
+transition: slide-up
 ---
 
 # zusätzliche Informationen
