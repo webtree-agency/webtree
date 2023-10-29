@@ -68,7 +68,7 @@ Kundenerfolge
 
 ---
 layout: project-mdc
-image: ./images/mdc-handy.svg
+image: images/mdc-handy.svg
 transition: slide-left
 ---
 
@@ -85,7 +85,6 @@ Was zeichnet diese Webseite aus?
 
 ---
 layout: project-burger
-image: ./images/burger-ipad.svg
 transition: slide-left
 ---
 
@@ -104,7 +103,6 @@ Was zeichnet diese Webseite aus?
 
 ---
 layout: project-colin
-image: ./images/colin-ipad.svg
 transition: slide-up
 ---
 
@@ -198,6 +196,6 @@ Profitiere weiterhin von uns!
 layout: end
 ---
 
-# Besten Dank
+# Besten Dank!
 
 Einfach zum Erfolg mit WebTree!
