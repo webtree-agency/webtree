@@ -1017,6 +1017,10 @@ About Style
   margin-bottom: 20px;
 }
 
+.hidden {
+  display: none;
+}
+
 .about-left-image {
   display: flex;
   align-items: center;
