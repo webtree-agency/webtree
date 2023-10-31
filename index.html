@@ -561,23 +561,21 @@
          }
       </script> 
 <script>
-   // Eine Funktion, um den Navbar-Link zu aktualisieren
    function updateNavbarLink(sectionId) {
        const links = document.querySelectorAll('.nav a');
        links.forEach(link => {
-           link.style.color = ''; // Setze die Farbe zurück für alle Links
+           link.style.color = ''; 
        });
 
        const currentLink = document.querySelector(`.nav a[href="#${sectionId}"]`);
        if (currentLink) {
-           currentLink.style.color = '#00bb32'; // Setze die Farbe für den aktuellen Link
+           currentLink.style.color = '#00bb32'; 
        }
    }
 
-   // Eine Funktion, um zu überwachen, welche Sektion fast oben am Bildschirm ist
    function trackSectionOnScroll() {
        const sections = document.querySelectorAll('section');
-       const offset = window.innerHeight * 0.35; // Anpassbare Versatzmenge
+       const offset = window.innerHeight * 0.3; 
 
        sections.forEach(section => {
            const rect = section.getBoundingClientRect();
@@ -587,10 +585,8 @@
        });
    }
 
-   // Füge einen Event Listener zum Scrollen hinzu
    window.addEventListener('scroll', trackSectionOnScroll);
 
-   // Initialisiere den Navbar-Link basierend auf der aktuellen Sicht
    trackSectionOnScroll();
 </script>
        
