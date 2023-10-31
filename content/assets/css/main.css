@@ -1013,8 +1013,11 @@ About Style
 */
 
 #about {
-  padding-top: 50 px;
   margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
 }
 
 .about-left-image {
