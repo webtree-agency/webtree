@@ -1045,7 +1045,7 @@ About Style
   margin-bottom: 45px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .about-left-image:hover img {
       opacity: 1;
   }

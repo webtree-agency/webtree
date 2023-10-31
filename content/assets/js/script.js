@@ -406,22 +406,27 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
             });
         });
     });
-  
-    function onScroll(event){
-        var scrollPos = $(document).scrollTop();
-        $('.nav a').each(function () {
-            var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                $('.nav ul li a').removeClass("active");
-                currLink.addClass("active");
-            }
-            else{
-                currLink.removeClass("active");
-            }
-        });
-    }
-  
+
+    // function onScroll(event) {
+    //   var scrollPos = $(document).scrollTop();
+    //   var navLinks = $('.nav a');
+    //   navLinks.each(function () {
+    //       var currLink = $(this);
+    //       var href = currLink.attr("href");
+    //       if (href) {
+    //           var refElement = $(href);
+    //           if (refElement.length && refElement.position() && refElement.height()) {
+    //               if (refElement.position().top <= scrollPos && (refElement.position().top + refElement.height()) > scrollPos) {
+    //                   navLinks.removeClass("active");
+    //                   currLink.addClass("active");
+    //               } else {
+    //                   currLink.removeClass("active");
+    //               }
+    //           }
+    //       }
+    //   });
+    // }
+       
   
     // Acc
     $(document).on("click", ".naccs .menu div", function() {

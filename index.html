@@ -72,12 +72,12 @@
                      <img src="content/assets/svg/webtree-logo-transparent.svg" alt="logo">
                      </a>
                      <ul class="nav">
-                        <li class="scroll-to-section"><a href="#top">Home</a></li>
-                        <li class="scroll-to-section"><a href="#about">Über uns</a></li>
-                        <li class="scroll-to-section"><a href="#services">Services</a></li>
-                        <li class="scroll-to-section"><a href="#portfolio">Projekte</a></li>
-                        <li class="scroll-to-section"><a href="#contact">Kontakt</a></li>
-                        <li class="scroll-to-section"><a href="#faq">FAQ</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#top">Home</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#about">Über uns</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#services">Services</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#portfolio">Projekte</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#contact">Kontakt</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#faq">FAQ</a></li>
                         <li class="sc-hidden"><a target="_blank" href="#"><i class="fa fa-linkedin icon-nav"></i></a></li>
                         <li class="sc-hidden"><a target="_blank" href="#"><i class="fa fa-instagram icon-nav"></i></a></li>
                         <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
@@ -94,7 +94,7 @@
             </div>
          </div>
       </header>
-      <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+      <section class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -125,11 +125,11 @@
                </div>
             </div>
          </div>
-      </div>
+      </section>
       <div>
          <img class="wave-divider" src="content/assets/svg/wave-bg.svg" alt="background wave">
       </div>
-      <div id="about" class="about">
+      <section id="about" class="about">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -211,8 +211,8 @@
                </div>
             </div>
          </div>
-      </div>
-      <div id="services" class="services section">
+      </section>
+      <section id="services" class="services section">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -325,10 +325,10 @@
                </div>
             </div>
          </div>
-      </div>
+      </section>
       <div class="parallax"></div>
       <div class="divider-code-500"><img src="content/assets/svg/codesnippet-handy.svg" alt="Codesnippet"></div>
-      <div id="portfolio" class="our-portfolio section">
+      <section id="portfolio" class="our-portfolio section">
          <div class="container">
             <div class="row">
                <div class="col-lg-5">
@@ -385,7 +385,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </section>
       </div>
       <section class="contact" id="contact">
          <div class="container">
@@ -558,7 +558,41 @@
          xhr.send(formData);
          }
          }
-      </script>         
+      </script> 
+<script>
+   // Eine Funktion, um den Navbar-Link zu aktualisieren
+   function updateNavbarLink(sectionId) {
+       const links = document.querySelectorAll('.nav a');
+       links.forEach(link => {
+           link.style.color = ''; // Setze die Farbe zurück für alle Links
+       });
+
+       const currentLink = document.querySelector(`.nav a[href="#${sectionId}"]`);
+       if (currentLink) {
+           currentLink.style.color = '#00bb32'; // Setze die Farbe für den aktuellen Link
+       }
+   }
+
+   // Eine Funktion, um zu überwachen, welche Sektion fast oben am Bildschirm ist
+   function trackSectionOnScroll() {
+       const sections = document.querySelectorAll('section');
+       const offset = window.innerHeight * 0.3; // Anpassbare Versatzmenge
+
+       sections.forEach(section => {
+           const rect = section.getBoundingClientRect();
+           if (rect.top >= 0 && rect.top <= offset) {
+               updateNavbarLink(section.id);
+           }
+       });
+   }
+
+   // Füge einen Event Listener zum Scrollen hinzu
+   window.addEventListener('scroll', trackSectionOnScroll);
+
+   // Initialisiere den Navbar-Link basierend auf der aktuellen Sicht
+   trackSectionOnScroll();
+</script>
+       
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/assets/js/owl-carousel.js"></script>
       <script src="content/assets/js/script.js"></script>
