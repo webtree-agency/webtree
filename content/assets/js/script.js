@@ -376,15 +376,21 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
           if(width < 991) {
             $('.menu-trigger').removeClass('active');
             $('.header-area .nav').slideUp(200);  
-          }       
+          }
+          
+          var offset = target.offset().top;
+          var windowHeight = $(window).height();
+          
+          // Hier setzen wir die Scroll-Position auf den Anfang der Sektion
           $('html,body').animate({
-            scrollTop: (target.offset().top) + 1
+            scrollTop: offset - ((windowHeight - target.height()) / 2)
           }, 700);
+          
           return false;
         }
       }
     });
-  
+    
     $(document).ready(function () {
         $(document).on("scroll", onScroll);
         
@@ -401,14 +407,18 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
             var target = this.hash,
             menu = target;
             var target = $(this.hash);
+            var windowHeight = $(window).height();
+            
+            // Hier setzen wir die Scroll-Position auf den Anfang der Sektion
             $('html, body').stop().animate({
-                scrollTop: (target.offset().top) + 1
+                scrollTop: (target.offset().top - ((windowHeight - target.height()) / 2))
             }, 500, 'swing', function () {
                 window.location.hash = target;
                 $(document).on("scroll", onScroll);
             });
         });
-    });
+    })
+    
 
     // function onScroll(event) {
     //   var scrollPos = $(document).scrollTop();
