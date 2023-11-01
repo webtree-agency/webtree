@@ -357,59 +357,62 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
     });
       
   
-      // Menu Dropdown Toggle
-    if($('.menu-trigger').length){
-      $(".menu-trigger").on('click', function() { 
-        $(this).toggleClass('active');
-        $('.header-area .nav').slideToggle(200);
-      });
-    }
-  
-  
-    // Menu elevator animation
-    $('.scroll-to-section a[href*=\\#]:not([href=\\#])').on('click', function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          var width = $(window).width();
-          if (width < 991) {
-            $('.menu-trigger').removeClass('active');
-            $('.header-area .nav').slideUp(200);
-          }
-          var offset = $('.main-nav').outerHeight(); // Hier wird die Höhe der Navbar abgerufen
-          $('html,body').animate({
-            scrollTop: (target.offset().top - offset)
-          }, 700);
-          return false;
-        }
+// Menu Dropdown Toggle
+if ($('.menu-trigger').length) {
+  $(".menu-trigger").on('click', function() {
+    $(this).toggleClass('active');
+    $('.header-area .nav').slideToggle(700);
+  });
+}
+
+// Menu elevator animation
+$('.scroll-to-section a[href*="#"]:not([href="#"])').on('click', function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      var width = $(window).width();
+      if (width < 991) {
+        $('.menu-trigger').removeClass('active');
+        $('.header-area .nav').slideUp(200);
       }
+      var offset = $('.main-nav').outerHeight(); // Hier wird die Höhe der Navbar abgerufen
+      $('html, body').animate({
+        scrollTop: (target.offset().top - offset)
+      }, 700);
+      return false;
+    }
+  }
+});
+
+$(document).ready(function () {
+  $(document).on("scroll", onScroll);
+
+  // smoothscroll
+  $('.scroll-to-section a[href^="#"]').on('click', function (e) {
+    e.preventDefault();
+    $(document).off("scroll");
+
+    $('.scroll-to-section a').each(function () {
+      $(this).removeClass('active');
+    })
+    $(this).addClass('active');
+
+    var target = this.hash;
+    var menu = target;
+    var target = $(this.hash);
+    var offset = $('.main-nav').outerHeight(); // Hier wird die Höhe der Navbar abgerufen
+    $('html, body').stop().animate({
+      scrollTop: (target.offset().top - offset) + 1
+    }, 500, 'swing', function () {
+      window.location.hash = target;
+      $(document).on("scroll", onScroll);
     });
-    
-    $(document).ready(function () {
-        $(document).on("scroll", onScroll);
-        
-        //smoothscroll
-        $('.scroll-to-section a[href^="#"]').on('click', function (e) {
-            e.preventDefault();
-            $(document).off("scroll");
-            
-            $('.scroll-to-section a').each(function () {
-                $(this).removeClass('active');
-            })
-            $(this).addClass('active');
-          
-            var target = this.hash,
-            menu = target;
-            var target = $(this.hash);
-            $('html, body').stop().animate({
-                scrollTop: (target.offset().top) + 1
-            }, 500, 'swing', function () {
-                window.location.hash = target;
-                $(document).on("scroll", onScroll);
-            });
-        });
-    });
+  });
+});
+
+
+
 
     // function onScroll(event) {
     //   var scrollPos = $(document).scrollTop();
@@ -501,20 +504,6 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
   }, 2800); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
 
 // IMAGES LOADED
-
-/*!
- * imagesLoaded PACKAGED v4.1.4
- * JavaScript is all like "You images are done yet or what?"
- * MIT License
- */
-
-/**
- * EvEmitter v1.1.0
- * Lil' event emitter
- * MIT License
- */
-
-/* jshint unused: true, undef: true, strict: true */
 
 ( function( global, factory ) {
     // universal module definition
@@ -621,11 +610,7 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
   
   }));
   
-  /*!
-   * imagesLoaded v4.1.4
-   * JavaScript is all like "You images are done yet or what?"
-   * MIT License
-   */
+
   
   ( function( window, factory ) { 'use strict';
     // universal module definition
