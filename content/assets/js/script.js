@@ -376,23 +376,15 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
           if(width < 991) {
             $('.menu-trigger').removeClass('active');
             $('.header-area .nav').slideUp(200);  
-          }
-          
-          var offset = target.offset().top;
-          var windowHeight = $(window).height();
-          
-          const navbarHeight = $('.main-nav').outerHeight(); // Get the height of the navbar
-          const scrollOffset = 0; // Adjust this value as needed
-          
+          }       
           $('html,body').animate({
-              scrollTop: offset - ((windowHeight - target.height()) / 2) - navbarHeight - scrollOffset
+            scrollTop: (target.offset().top) + 1
           }, 700);
-                   
           return false;
         }
       }
     });
-    
+  
     $(document).ready(function () {
         $(document).on("scroll", onScroll);
         
@@ -409,10 +401,35 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
             var target = this.hash,
             menu = target;
             var target = $(this.hash);
-            var windowHeight = $(window).height();
-            
+            $('html, body').stop().animate({
+                scrollTop: (target.offset().top) + 1
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $(document).on("scroll", onScroll);
+            });
         });
-    })
+    });
+
+    // function onScroll(event) {
+    //   var scrollPos = $(document).scrollTop();
+    //   var navLinks = $('.nav a');
+    //   navLinks.each(function () {
+    //       var currLink = $(this);
+    //       var href = currLink.attr("href");
+    //       if (href) {
+    //           var refElement = $(href);
+    //           if (refElement.length && refElement.position() && refElement.height()) {
+    //               if (refElement.position().top <= scrollPos && (refElement.position().top + refElement.height()) > scrollPos) {
+    //                   navLinks.removeClass("active");
+    //                   currLink.addClass("active");
+    //               } else {
+    //                   currLink.removeClass("active");
+    //               }
+    //           }
+    //       }
+    //   });
+    // }
+       
   
     // Acc
     $(document).on("click", ".naccs .menu div", function() {
