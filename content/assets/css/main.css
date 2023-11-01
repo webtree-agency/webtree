@@ -253,6 +253,7 @@ header
   height: 3px;
   border-radius: 4px;
   margin-top: 12px !important;
+  color: #00bb32;
   background-color: #00bb32;
   bottom: 0;
   left: 0;
@@ -265,6 +266,8 @@ header
 .pre-header ul.info li a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+  background-color: #00bb32;
+  color: #00bb32;
 }
 
 .pre-header ul.info li a:hover {
@@ -1013,7 +1016,8 @@ About Style
 */
 
 #about {
-  margin-bottom: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .hidden {
@@ -1329,7 +1333,7 @@ Services Style
 .services {
   padding-top: 80px;
   position: relative;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
   background-color: hsla(145, 50%, 50%, 6.5%);
 }
 
@@ -1367,7 +1371,7 @@ Services Style
 
 .services .section-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .services .section-heading .line-dec {
@@ -1558,7 +1562,7 @@ Portfolio
 }
 
 .our-portfolio .section-heading {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .our-portfolio .container-fluid {
@@ -1677,7 +1681,6 @@ contact
 .contact{
   width: 100%;
   overflow: hidden;
-  margin-top: 20px;
 }
 
 .contact .container{
@@ -1697,7 +1700,7 @@ contact
   width: 100%;
   max-width: 80rem;
   margin: 0 auto;
-  padding: 65px 1.5rem;
+  padding: 80px 1.5rem 0 1.5rem;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   position: relative;
@@ -1952,7 +1955,6 @@ textarea.contact-input ~ .icon{
 
 @media (max-width: 780px){
   .left {
-    padding: 50px 1.5rem 0;
     grid-template-columns: 1fr;
     justify-items: center;
     margin-bottom: 0 !important;
