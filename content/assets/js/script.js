@@ -381,11 +381,13 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
           var offset = target.offset().top;
           var windowHeight = $(window).height();
           
-          // Hier setzen wir die Scroll-Position auf den Anfang der Sektion
-          $('html,body').animate({
-            scrollTop: offset - ((windowHeight - target.height()) / 2)
-          }, 700);
+          const navbarHeight = $('.main-nav').outerHeight(); // Get the height of the navbar
+          const scrollOffset = 0; // Adjust this value as needed
           
+          $('html,body').animate({
+              scrollTop: offset - ((windowHeight - target.height()) / 2) - navbarHeight - scrollOffset
+          }, 700);
+                   
           return false;
         }
       }
@@ -409,37 +411,8 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
             var target = $(this.hash);
             var windowHeight = $(window).height();
             
-            // Hier setzen wir die Scroll-Position auf den Anfang der Sektion
-            $('html, body').stop().animate({
-                scrollTop: (target.offset().top - ((windowHeight - target.height()) / 2))
-            }, 500, 'swing', function () {
-                window.location.hash = target;
-                $(document).on("scroll", onScroll);
-            });
         });
     })
-    
-
-    // function onScroll(event) {
-    //   var scrollPos = $(document).scrollTop();
-    //   var navLinks = $('.nav a');
-    //   navLinks.each(function () {
-    //       var currLink = $(this);
-    //       var href = currLink.attr("href");
-    //       if (href) {
-    //           var refElement = $(href);
-    //           if (refElement.length && refElement.position() && refElement.height()) {
-    //               if (refElement.position().top <= scrollPos && (refElement.position().top + refElement.height()) > scrollPos) {
-    //                   navLinks.removeClass("active");
-    //                   currLink.addClass("active");
-    //               } else {
-    //                   currLink.removeClass("active");
-    //               }
-    //           }
-    //       }
-    //   });
-    // }
-       
   
     // Acc
     $(document).on("click", ".naccs .menu div", function() {
@@ -458,16 +431,13 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
           $(".naccs ul").height(listItemHeight + "px");
         }
     });
-  
-  
+    
       // Page loading animation
        $(window).on('load', function() {
   
           $('#js-preloader').addClass('loaded');
   
       });
-  
-      
   
       // Window Resize Mobile Menu Fix
     function mobileNav() {
