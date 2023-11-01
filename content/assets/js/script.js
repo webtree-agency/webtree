@@ -376,9 +376,8 @@ $('.scroll-to-section a[href*="#"]').on('click', function() {
         $('.menu-trigger').removeClass('active');
         $('.header-area .nav').slideUp(200);
       }
-      var offset = $('.main-nav').outerHeight();
       $('html, body').animate({
-        scrollTop: (target.offset().top - offset)
+        scrollTop: (target.offset().top - 80)
       }, 200);
       return false;
     }
