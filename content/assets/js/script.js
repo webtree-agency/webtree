@@ -373,18 +373,19 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
           var width = $(window).width();
-          if(width < 991) {
+          if (width < 991) {
             $('.menu-trigger').removeClass('active');
-            $('.header-area .nav').slideUp(200);  
-          }       
+            $('.header-area .nav').slideUp(200);
+          }
+          var offset = $('.main-nav').outerHeight(); // Hier wird die Höhe der Navbar abgerufen
           $('html,body').animate({
-            scrollTop: (target.offset().top) + 1
+            scrollTop: (target.offset().top - offset)
           }, 700);
           return false;
         }
       }
     });
-  
+    
     $(document).ready(function () {
         $(document).on("scroll", onScroll);
         
@@ -432,22 +433,22 @@ setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Ze
        
   
     // Acc
-    $(document).on("click", ".naccs .menu div", function() {
-      var numberIndex = $(this).index();
+    // $(document).on("click", ".naccs .menu div", function() {
+    //   var numberIndex = $(this).index();
   
-      if (!$(this).is("active")) {
-          $(".naccs .menu div").removeClass("active");
-          $(".naccs ul li").removeClass("active");
+    //   if (!$(this).is("active")) {
+    //       $(".naccs .menu div").removeClass("active");
+    //       $(".naccs ul li").removeClass("active");
   
-          $(this).addClass("active");
-          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+    //       $(this).addClass("active");
+    //       $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
   
-          var listItemHeight = $(".naccs ul")
-            .find("li:eq(" + numberIndex + ")")
-            .innerHeight();
-          $(".naccs ul").height(listItemHeight + "px");
-        }
-    });
+    //       var listItemHeight = $(".naccs ul")
+    //         .find("li:eq(" + numberIndex + ")")
+    //         .innerHeight();
+    //       $(".naccs ul").height(listItemHeight + "px");
+    //     }
+    // });
     
       // Page loading animation
        $(window).on('load', function() {
