@@ -15,7 +15,7 @@
 .faq-heading{
   display: flex;
   justify-content: center !important;
-  margin-top: 20px;
+  padding-top: 30px;
 }
 
 .faq-content {
