@@ -969,15 +969,25 @@ $('.scroll-to-section a[href*="#"]').on('click', function() {
 });
 
 // Presentation link
-function zeigeZugangscodeDialog() {
-  const erwarteterCode = "12345"; 
+async function zeigeZugangscodeDialog() {
+  const erwarteterGehashterCode = "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5";
+
+  async function hash(code) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(code);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    return hashHex;
+  }
 
   const eingegebenerCode = prompt("Bitte gib den Zugangscode ein:");
+  const gehashterEingegebenerCode = await hash(eingegebenerCode);
 
-  if (eingegebenerCode === erwarteterCode) {
-      window.location.href = "./slides-export.pdf";
+  if (gehashterEingegebenerCode === erwarteterGehashterCode) {
+    window.location.href = "./slides-export.pdf";
   } else if (eingegebenerCode !== null) {
-      alert("Falscher Zugangscode. Versuche es erneut.");
+    alert("Falscher Zugangscode. Versuche es erneut.");
   }
 }
 
