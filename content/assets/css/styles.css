@@ -433,8 +433,8 @@ margin-top: 4.5rem;
 }
 
 .skill {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   position: relative;
   margin: 10px; /* Add some space around each skill */
 }
@@ -450,16 +450,15 @@ margin-top: 4.5rem;
   .skill {
     width: 100%; 
     height: auto; 
-    margin-right: auto;
-    margin-left: auto;
+    align-items: center;
 
   }
 }
 
 
 .outer {
-  height: 160px;
-  width: 160px;
+  height: 140px;
+  width: 140px;
   border-radius: 50%;
   padding: 20px;
   /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
