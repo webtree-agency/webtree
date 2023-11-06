@@ -494,6 +494,7 @@ margin-top: 4.5rem;
 }
 
 .progress-svg{
+  transform: rotate(-90deg); /* Add this line to rotate the starting point to the top */
   position: absolute;
   top: 0;
   left: 0;
