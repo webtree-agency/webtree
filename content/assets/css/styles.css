@@ -433,44 +433,23 @@ margin-top: 4.5rem;
 }
 
 .skill {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   position: relative;
-  margin: 10px; /* Add some space around each skill */
 }
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-  .skill-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .skill {
-    width: 100%; 
-    height: auto; 
-    align-items: center;
-
-  }
-}
-
 
 .outer {
-  height: 140px;
-  width: 140px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
-  padding: 20px;
-  /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-              -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
 }
 
 .inner {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120px;
-  width: 120px;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
   box-shadow: inset 1px 1px 1.5px -0.25px rgba(0, 0, 0, 0.2),
               inset -1px -1px 1.5px -0.25px rgba(255, 255, 255, 0.7),
@@ -496,11 +475,22 @@ margin-top: 4.5rem;
 }
 .circle-progress{
   fill: none;
-  stroke: url(#GradientColor);
-  stroke-width: 8px;
-  stroke-dasharray: 440; /* Anpassen, wenn nötig */
-  stroke-dashoffset: 440; /* Anpassen, wenn nötig */
+  stroke-width: 6px;
+  stroke-dasharray: 480; /* Anpassen, wenn nötig */
+  stroke-dashoffset: 600; /* Anpassen, wenn nötig */
   animation: anim 4s linear forwards;
+}
+
+#innovativ {
+  stroke: #00bb32;
+}
+
+#zuverlaessig {
+  stroke: #00731e;
+}
+
+#handgefertigt {
+  stroke: #003d10;
 }
 
 .progress-svg{
@@ -511,5 +501,19 @@ margin-top: 4.5rem;
 @keyframes anim{
   100%{
     stroke-dashoffset: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .skill {
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
   }
 }
