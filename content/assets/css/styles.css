@@ -445,16 +445,16 @@ margin-top: 4.5rem;
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+  box-shadow: inset 2px 2px 3px -0.5px rgba(0, 0, 0, 0.2),
+              inset -2px -2px 3px -0.5px rgba(255, 255, 255, 0.7),
               -0.5px -0.5px 0px rgba(255, 255, 255, 1),
               0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+              0px 16px 5px -5px rgba(0, 0, 0, 0.05);
 }
 #number{
-  font-size: 600; 
-  color: #555;
+  display: flex;
   text-align: center;
+  flex-direction: column;
 }
 #progress-value{
   font-size: 35px;
@@ -464,11 +464,13 @@ margin-top: 4.5rem;
 }
 .progress-span{
   font-size: 18px;
+  margin-top: -8px;
+  font-weight: 300;
 }
 .circle-progress{
   fill: none;
   stroke: url(#GradientColor);
-  stroke-width: 10px;
+  stroke-width: 8px;
   stroke-dasharray: 440; /* Anpassen, wenn nötig */
   stroke-dashoffset: 440; /* Anpassen, wenn nötig */
   animation: anim 4s linear forwards;
