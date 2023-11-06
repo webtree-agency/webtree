@@ -1004,3 +1004,19 @@ setInterval(() =>{
   
 },30);
 
+// Select all your skill elements that need to be observed
+const skillElements = document.querySelectorAll('.skill');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    // Check if the element is intersecting
+    if (entry.isIntersecting) {
+      entry.target.classList.add('start-animation'); // Add the animation class when the element is in the viewport
+    } else {
+      entry.target.classList.remove('start-animation'); // Remove the animation class when the element is not in the viewport
+    }
+  });
+}, { threshold: 0.5 }); // Adjust the threshold value as needed
+
+// Observe each '.skill' element
+skillElements.forEach((el) => observer.observe(el));

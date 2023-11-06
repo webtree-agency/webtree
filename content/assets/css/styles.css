@@ -457,28 +457,36 @@ margin-top: 4.5rem;
               0.25px 0.25px 0px rgba(0, 0, 0, 0.15),
               0px 8px 2.5px -2.5px rgba(0, 0, 0, 0.05);
 }
-#number{
+
+#number {
   display: flex;
   text-align: center;
   flex-direction: column;
 }
-#progress-value{
+
+#progress-value {
   font-size: 35px;
   font-family: inherit;
   font-weight: 700;
   margin-top: 10px;
 }
-.progress-span{
+
+.progress-span {
   font-size: 18px;
   margin-top: -8px;
   font-weight: 300;
 }
-.circle-progress{
+
+.circle-progress {
   fill: none;
   stroke-width: 6px;
-  stroke-dasharray: 480; /* Anpassen, wenn nötig */
-  stroke-dashoffset: 600; /* Anpassen, wenn nötig */
-  animation: anim 4s linear forwards;
+  stroke-dasharray: 480;
+  stroke-dashoffset: 480;
+  transition: stroke-dashoffset 4s linear;
+}
+
+.skill.start-animation .circle-progress {
+  stroke-dashoffset: 0;
 }
 
 #innovativ {
@@ -493,16 +501,11 @@ margin-top: 4.5rem;
   stroke: #003d10;
 }
 
-.progress-svg{
-  transform: rotate(-90deg); /* Add this line to rotate the starting point to the top */
+.progress-svg {
+  transform: rotate(-90deg);
   position: absolute;
   top: 0;
   left: 0;
-}
-@keyframes anim{
-  100%{
-    stroke-dashoffset: 0;
-  }
 }
 
 @media (max-width: 768px) {
@@ -513,7 +516,7 @@ margin-top: 4.5rem;
   }
 
   .skill {
-    height: auto; 
+    height: auto;
     margin-left: auto;
     margin-right: auto;
   }
