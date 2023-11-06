@@ -454,6 +454,16 @@ margin-top: 4.5rem;
 #number{
   font-size: 600; 
   color: #555;
+  text-align: center;
+}
+#progress-value{
+  font-size: 35px;
+  font-family: inherit;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.progress-span{
+  font-size: 18px;
 }
 .circle-progress{
   fill: none;
