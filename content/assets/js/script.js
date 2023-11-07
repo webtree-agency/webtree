@@ -101,10 +101,9 @@ inputs.forEach(ipt =>{
 var words = [
     "Macher", 
     "Entwickler",
-    "in der Nähe Zürich",
+    "kooperativ",
     "Problemlöser",
     "unkompliziert",
-    "ein eingespieltes Team",
 ];
 var index = 0;
 
