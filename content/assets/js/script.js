@@ -1012,8 +1012,7 @@ const observer = new IntersectionObserver((entries) => {
     // Check if the element is intersecting
     if (entry.isIntersecting) {
       entry.target.classList.add('start-animation'); // Add the animation class when the element is in the viewport
-    } else {
-      entry.target.classList.remove('start-animation'); // Remove the animation class when the element is not in the viewport
+      observer.unobserve(entry.target); // Stop observing the element after the animation starts
     }
   });
 }, { threshold: 0.5 }); // Adjust the threshold value as needed
