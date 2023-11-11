@@ -388,28 +388,33 @@
                      <input type="text" name="_honey" style="display: none;">
                      <input type="hidden" name="_captcha" value="false">
                      <input type="hidden" name="_template" value="box">
+                     
                      <div class="input-wrap">
-                        <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                        <label>Vorname</label>
-                        <i class="icon fa-solid fa-address-card"></i>
+                         <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                         <label for="firstname-contact">Vorname</label>
+                         <i class="icon fa-solid fa-address-card"></i>
                      </div>
+                     
                      <div class="input-wrap">
-                        <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                        <label>Nachname</label>
-                        <i class="icon fa-solid fa-address-card"></i>
+                         <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                         <label for="lastname-contact">Nachname</label>
+                         <i class="icon fa-solid fa-address-card"></i>
                      </div>
+                     
                      <div class="input-wrap w-100">
-                        <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
-                        <label>E-Mail</label>
-                        <i class="icon fa-solid fa-envelope"></i>
+                         <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
+                         <label for="email-contact">E-Mail</label>
+                         <i class="icon fa-solid fa-envelope"></i>
                      </div>
+                     
                      <div class="input-wrap textarea w-100">
-                        <textarea id="message-contact" name="comments, questions" autocomplete="off" class="contact-input" required></textarea>
-                        <label>Nachricht</label>
-                        <i class="icon fa-solid fa-inbox"></i>
+                         <textarea id="message-contact" name="comments, questions" autocomplete="off" class="contact-input" required></textarea>
+                         <label for="message-contact">Nachricht</label>
+                         <i class="icon fa-solid fa-inbox"></i>
                      </div>
+                     
                      <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="submitForm()">
-                  </form>
+                 </form>
                   <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: nowrap; margin-top: 15px;"></div>
                   <div id="error-message" style="display: none; color: red; white-space: nowrap; font-weight: bold; margin-top: 15px;">Hoppla! Etwas ist schief gelaufen. Versuche es erneut!</div>
                </div>
