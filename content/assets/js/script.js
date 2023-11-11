@@ -941,7 +941,7 @@ $('.scroll-to-section a[href*="#"]').on('click', function() {
         e.preventDefault(); 
 
         $.ajax({
-            url: "https://formsubmit.co/info@webtree.ch",
+            url: "https://formsubmit.co/b1f0cbd4f4e26238fa5398b613a211e6",
             method: "POST",
             data: {
                 Vorname: document.querySelector('[name="name"]').value,
