@@ -1472,6 +1472,7 @@ Services Style
 
 .services ul.nacc li .right-image img {
   max-width: 420px;
+  max-height: 300px;
   float: right;
 }
 
