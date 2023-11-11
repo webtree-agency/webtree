@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.webtree.ch/datenschutz.html</loc>
+        <loc>https://www.webtree.ch/datenschutz</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/impressum.html</loc>
+        <loc>https://www.webtree.ch/impressum</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/404.html</loc>
+        <loc>https://www.webtree.ch/404</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/index.html</loc>
+        <loc>https://www.webtree.ch/index</loc>
     </url>
 </urlset>
