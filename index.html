@@ -150,60 +150,45 @@
                            </div>
                            <h4 id="changing-sentence">Wir sind <span id="changing-word">Macher</span></h4>
                            <p>Zwei junge, hochmotivierte Webentwickler, immer auf der Jagd nach dem Maximum. Bei uns ist 100% Coding-Action angesagt, und wir sind auf einer Mission, nur das Beste zu liefern. Mit voller Power und Leidenschaft zaubern wir massgeschneiderte Webseiten für unsere Kunden.</p>
-                           <div class="row">
-                              <div class="col-lg-4 col-sm-4">
-                                 <div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                                    <div class="progress" data-percentage="100" data-animate="false">
-                                       <span class="progress-left">
-                                       <span class="progress-bar"></span>
-                                       </span>
-                                       <span class="progress-right">
-                                       <span class="progress-bar"></span>
-                                       </span>
-                                       <div class="progress-value">
-                                          <div>
-                                             100%<br>
-                                             <span>Innovativ</span>
-                                          </div>
+                           <div class="skill-container">
+                              <div class="skill">
+                                 <div class="outer">
+                                    <div class="inner">
+                                       <div id="number">
+                                          <div id="progress-value">100%</div>
+                                          <span class="progress-span">Innovativ</span>
                                        </div>
                                     </div>
                                  </div>
+                                 <svg class="progress-svg" xmlns="http://www.w3.org/2000/svg" width="160px" height="160px">
+                                    <circle class="circle-progress" id="innovativ" cx="80" cy="80" r="77" stroke-linecap="round" />
+                                 </svg>
                               </div>
-                              <div class="col-lg-4 col-sm-4">
-                                 <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                                    <div class="progress" data-percentage="100" data-animate="false">
-                                       <span class="progress-left">
-                                       <span class="progress-bar"></span>
-                                       </span>
-                                       <span class="progress-right">
-                                       <span class="progress-bar"></span>
-                                       </span>
-                                       <div class="progress-value">
-                                          <div>
-                                             100%<br>
-                                             <span>Zuverlässig</span>
-                                          </div>
+                              <div class="skill">
+                                 <div class="outer">
+                                    <div class="inner">
+                                       <div id="number">
+                                          <div id="progress-value">100%</div>
+                                          <span class="progress-span">Zuverlässig</span>
                                        </div>
                                     </div>
                                  </div>
+                                 <svg class="progress-svg" xmlns="http://www.w3.org/2000/svg" width="160px" height="160px">
+                                    <circle class="circle-progress" id="zuverlaessig" cx="80" cy="80" r="77" stroke-linecap="round" />
+                                 </svg>
                               </div>
-                              <div class="col-lg-4 col-sm-4">
-                                 <div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                                    <div class="progress" data-percentage="100" data-animate="false">
-                                       <span class="progress-left">
-                                       <span class="progress-bar"></span>
-                                       </span>
-                                       <span class="progress-right">
-                                       <span class="progress-bar"></span>
-                                       </span>
-                                       <div class="progress-value">
-                                          <div>
-                                             100%<br>
-                                             <span>Handgefertigt</span>
-                                          </div>
+                              <div class="skill">
+                                 <div class="outer">
+                                    <div class="inner">
+                                       <div id="number">
+                                          <div id="progress-value">100%</div>
+                                          <span class="progress-span">Handgefertigt</span>
                                        </div>
                                     </div>
                                  </div>
+                                 <svg class="progress-svg" xmlns="http://www.w3.org/2000/svg" width="160px" height="160px">
+                                    <circle class="circle-progress" id="handgefertigt" cx="80" cy="80" r="77" stroke-linecap="round" />
+                                 </svg>
                               </div>
                            </div>
                         </div>
@@ -211,6 +196,7 @@
                   </div>
                </div>
             </div>
+         </div>
          </div>
       </section>
       <section id="services" class="services section">
@@ -559,36 +545,35 @@
          }
          }
       </script> 
-<script>
-   function updateNavbarLink(sectionId) {
-       const links = document.querySelectorAll('.nav a');
-       links.forEach(link => {
-           link.style.color = ''; 
-       });
-
-       const currentLink = document.querySelector(`.nav a[href="#${sectionId}"]`);
-       if (currentLink) {
-           currentLink.style.color = '#00bb32'; 
-       }
-   }
-
-   function trackSectionOnScroll() {
-       const sections = document.querySelectorAll('section');
-       const offset = window.innerHeight * 0.3; 
-
-       sections.forEach(section => {
-           const rect = section.getBoundingClientRect();
-           if (rect.top >= 0 && rect.top <= offset) {
-               updateNavbarLink(section.id);
-           }
-       });
-   }
-
-   window.addEventListener('scroll', trackSectionOnScroll);
-
-   trackSectionOnScroll();
-</script>
-       
+      <script>
+         function updateNavbarLink(sectionId) {
+             const links = document.querySelectorAll('.nav a');
+             links.forEach(link => {
+                 link.style.color = ''; 
+             });
+         
+             const currentLink = document.querySelector(`.nav a[href="#${sectionId}"]`);
+             if (currentLink) {
+                 currentLink.style.color = '#00bb32'; 
+             }
+         }
+         
+         function trackSectionOnScroll() {
+             const sections = document.querySelectorAll('section');
+             const offset = window.innerHeight * 0.3; 
+         
+             sections.forEach(section => {
+                 const rect = section.getBoundingClientRect();
+                 if (rect.top >= 0 && rect.top <= offset) {
+                     updateNavbarLink(section.id);
+                 }
+             });
+         }
+         
+         window.addEventListener('scroll', trackSectionOnScroll);
+         
+         trackSectionOnScroll();
+      </script>
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/assets/js/owl-carousel.js"></script>
       <script src="content/assets/js/script.js"></script>

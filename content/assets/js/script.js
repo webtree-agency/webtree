@@ -101,10 +101,9 @@ inputs.forEach(ipt =>{
 var words = [
     "Macher", 
     "Entwickler",
-    "in der Nähe Zürich",
+    "kooperativ",
     "Problemlöser",
     "unkompliziert",
-    "ein eingespieltes Team",
 ];
 var index = 0;
 
@@ -969,14 +968,53 @@ $('.scroll-to-section a[href*="#"]').on('click', function() {
 });
 
 // Presentation link
-function zeigeZugangscodeDialog() {
-  const erwarteterCode = "12345"; 
+async function zeigeZugangscodeDialog() {
+  const erwarteterGehashterCode = "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5";
+
+  async function hash(code) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(code);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    return hashHex;
+  }
 
   const eingegebenerCode = prompt("Bitte gib den Zugangscode ein:");
+  const gehashterEingegebenerCode = await hash(eingegebenerCode);
 
-  if (eingegebenerCode === erwarteterCode) {
-      window.location.href = "./slides-export.pdf";
+  if (gehashterEingegebenerCode === erwarteterGehashterCode) {
+    window.location.href = "./slides-export.pdf";
   } else if (eingegebenerCode !== null) {
-      alert("Falscher Zugangscode. Versuche es erneut.");
+    alert("Falscher Zugangscode. Versuche es erneut.");
   }
 }
+
+
+// Progress Bar
+let number = document.getElementById("number");
+let counter = 0;
+setInterval(() =>{
+  if(counter == 100){
+    clearInterval();
+  }else{
+    counter += 1;
+  }
+  
+},30);
+
+// Select all your skill elements that need to be observed
+const skillElements = document.querySelectorAll('.skill');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    // Check if the element is intersecting
+    if (entry.isIntersecting) {
+      entry.target.classList.add('start-animation'); // Add the animation class when the element is in the viewport
+      observer.unobserve(entry.target); // Stop observing the element after the animation starts
+    }
+  });
+}, { threshold: 0.5 }); // Adjust the threshold value as needed
+
+// Observe each '.skill' element
+skillElements.forEach((el) => observer.observe(el));
