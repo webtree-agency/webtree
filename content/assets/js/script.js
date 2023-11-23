@@ -1018,3 +1018,17 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe each '.skill' element
 skillElements.forEach((el) => observer.observe(el));
+
+
+// FAQ 
+const panels = document.querySelectorAll('.panel');
+         
+panels.forEach(panel => {
+    panel.addEventListener('change', () => {
+        panels.forEach(otherPanel => {
+            if (otherPanel !== panel) {
+                otherPanel.checked = false;
+            }
+        });
+    });
+});
