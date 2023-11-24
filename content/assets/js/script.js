@@ -969,7 +969,7 @@ $('.scroll-to-section a[href*="#"]').on('click', function() {
 
 // Presentation link
 async function zeigeZugangscodeDialog() {
-  const erwarteterGehashterCode = "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5";
+  const erwarteterGehashterCode = "0f133324d8ecca76ed8a027d3c94dadd20d01debe411e89f709e1874840dfbfa";
 
   async function hash(code) {
     const encoder = new TextEncoder();
