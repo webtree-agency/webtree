@@ -89,6 +89,7 @@
   -moz-transition: .2s ease;
   -o-transition: .2s ease;
   transition: .2s ease;
+  cursor: pointer;
 }
 
 .panel:checked ~ .plus {
