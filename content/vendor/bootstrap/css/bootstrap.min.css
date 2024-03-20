@@ -4716,7 +4716,7 @@ textarea.form-control-lg{
     left:0;
     z-index:1050;
     width:100vw;
-    height:100vh;
+    height:100dvh;
     background-color:#000
 }
 .modal-backdrop.fade{
@@ -5389,7 +5389,7 @@ textarea.form-control-lg{
     left:0;
     z-index:1040;
     width:100vw;
-    height:100vh;
+    height:100dvh;
     background-color:#000
 }
 .offcanvas-backdrop.fade{
@@ -5966,10 +5966,10 @@ textarea.form-control-lg{
     max-height:100%!important
 }
 .vh-100{
-    height:100vh!important
+    height:100dvh!important
 }
 .min-vh-100{
-    min-height:100vh!important
+    min-height:100dvh!important
 }
 .flex-fill{
     flex:1 1 auto!important
