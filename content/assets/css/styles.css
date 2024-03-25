@@ -526,5 +526,26 @@ margin-top: 4.5rem;
 
 /* Highlighted for Translation Button */
 .highlighted{
-  background-color: red;
+  background-color: #00731e;
+  font-weight: bold;
+}
+
+#en-link, #de-link {
+  margin: auto 30px auto 30px;
+  width: 30px !important;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+#en-link .projectsite-link {
+  padding-left: 0 !important;
+}
+.language-links {
+  display: flex;
+  align-items: center;
+}
+.language-links a {
+  margin-right: 10px;
 }

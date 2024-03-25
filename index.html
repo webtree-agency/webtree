@@ -19,7 +19,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-      <title>WebTree - Deine Schweizer Webentwickler</title>
+      <title data-lang="index-title"></title>
       <link href="content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="content/assets/css/fontawesome.css">
       <link rel="stylesheet" href="content/assets/css/main.css">
@@ -68,36 +68,33 @@
       </div>
       <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
          <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <nav class="main-nav">
-                     <a href="#" class="logo">
-                     <img src="content/assets/svg/webtree-logo-transparent.svg" alt="agentur logo">
-                     </a>
-                     <a id="en-link" class="btn btn-light btn-sm-square rounded-circle ms-3">EN</a class="nav-item nav-link"><a id="de-link" class="btn btn-light btn-sm-square rounded-circle ms-3">DE</a></a>
-                     <ul class="nav">
-                        <li class="link-navbar scroll-to-section"><a href="#top">Home</a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#about" data-lang="about"></a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#services">Services</a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#portfolio" data-lang="projects"></a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#contact" data-lang="contact"></a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#faq">FAQ</a></li>
-                        <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
-                        <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
-                        <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
-                        <!-- <li class="scroll-to-section">
-                           <div class="border-first-button"><a href="#contact">Free Quote</a>
-                           </div>
-                        </li> -->
-                     </ul>
-                     <a class='menu-trigger'>
-                     <span>Menu</span>
-                     </a>
-                  </nav>
-               </div>
-            </div>
+             <div class="row">
+                 <div class="col-12">
+                     <nav class="main-nav">
+                         <a href="#" class="logo">
+                             <img src="content/assets/svg/webtree-logo-transparent.svg" alt="agentur logo">
+                         </a>
+                             <a id="en-link" class="projectsite-link">EN</a>
+                             <a id="de-link" class="projectsite-link">DE</a>
+                         <ul class="nav">
+                             <li class="link-navbar scroll-to-section"><a href="#top">Home</a></li>
+                             <li class="link-navbar scroll-to-section"><a href="#about" data-lang="about"></a></li>
+                             <li class="link-navbar scroll-to-section"><a href="#services">Services</a></li>
+                             <li class="link-navbar scroll-to-section"><a href="#portfolio" data-lang="projects"></a></li>
+                             <li class="link-navbar scroll-to-section"><a href="#contact" data-lang="contact"></a></li>
+                             <li class="link-navbar scroll-to-section"><a href="#faq">FAQ</a></li>
+                             <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
+                             <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
+                             <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
+                         </ul>
+                         <a class='menu-trigger'>
+                             <span>Menu</span>
+                         </a>
+                     </nav>
+                 </div>
+             </div>
          </div>
-      </header>
+     </header>
       <section class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
          <div class="container">
             <div class="row">
@@ -463,7 +460,7 @@
                <input id="q4" type="checkbox" class="panel" checked>
                <label for="q4" class="plus">+</label>
                <h6>
-                   <label for="q4" class="panel-title">Wie kann ich auch wenn ich keine <em>Webseite</em> brauche von WebTree <em>profitieren</em>?</label>
+                   <label for="q4" class="panel-title"><span data-lang="faq1-question-1-part"></span> <em data-lang="website"></em> <span data-lang="faq1-question-2-part"></span> <em data-lang="profitieren"></em>?</label>
                </h6>
                <p class="panel-content" data-lang="faq1-answer"></p>
            </div>           
@@ -471,7 +468,7 @@
                <input id="q1" type="checkbox" class="panel">
                <label for="q1" class="plus">+</label>
                <h6>
-                  <label for="q1" class="panel-title">Brauche ich <em>Vorwissen</em>?</label>
+                  <label for="q1" class="panel-title"><span data-lang="faq2-question"></span> <em data-lang="prior-knowledge"></em>?</label>
                </h6>
                <p class="panel-content" data-lang="faq2-answer"></p>
             </div>
@@ -479,7 +476,7 @@
                <input id="q5" type="checkbox" class="panel">
                <label for="q5" class="plus">+</label>
                <h6>
-                   <label for="q5" class="panel-title">Was für <em>Arten</em> von Webseiten realisiert ihr?</label>
+                   <label for="q5" class="panel-title"><span data-lang="faq3-question-1-part"></span> <em data-lang="types"></em> <span data-lang="faq3-question-2-part"></span>?</label>
                </h6>
                <p class="panel-content" data-lang="faq3-answer"></p>
            </div>
@@ -487,7 +484,7 @@
             <input id="q6" type="checkbox" class="panel">
             <label for="q6" class="plus">+</label>
             <h6>
-                <label for="q6" class="panel-title">Erstellt ihr nur neue <em>Webseiten</em> oder aktualisiert ihr auch <em>veraltete</em> Webseiten?</label>
+                <label for="q6" class="panel-title"><span data-lang="faq4-question-1-part"></span> <em data-lang="websites"></em> <span data-lang="faq4-question-2-part"></span> <em data-lang="outdated"></em> <span data-lang="websites"></span>?</label>
             </h6>
             <p class="panel-content" data-lang="faq4-answer"></p>
         </div>        
@@ -495,7 +492,7 @@
                <input id="q2" type="checkbox" class="panel">
                <label for="q2" class="plus">+</label>
                <h6>
-                  <label for="q2" class="panel-title">Wie lange dauert die <em>Erstellung</em> einer <em>Webseite</em>?</label>
+                  <label for="q2" class="panel-title"><span data-lang="faq5-question-1-part"></span> <em data-lang="create"></em> <span data-lang="a"></span> <em data-lang="website"></em>?</label>
                </h6>
                <p class="panel-content" data-lang="faq5-answer"></p>
             </div>
@@ -503,7 +500,7 @@
                <input id="q3" type="checkbox" class="panel">
                <label for="q3" class="plus">+</label>
                <h6>
-                  <label for="q3" class="panel-title">Wie viel <em>kostet</em> die Erstellung einer <em>Webseite</em>?</label>
+                  <label for="q3" class="panel-title"><span data-lang="faq6-question-1-part"></span> <em data-lang="cost">kostet</em> <span data-lang="faq6-question-2-part"></span> <em data-lang="website"></em>?</label>
                </h6>
                <p class="panel-content" data-lang="faq6-answer"></p>
             </div>
