@@ -523,3 +523,8 @@ margin-top: 4.5rem;
     margin-right: auto;
   }
 }
+
+/* Highlighted for Translation Button */
+.highlighted{
+  background-color: red;
+}

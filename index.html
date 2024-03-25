@@ -74,20 +74,21 @@
                      <a href="#" class="logo">
                      <img src="content/assets/svg/webtree-logo-transparent.svg" alt="agentur logo">
                      </a>
+                     <a id="en-link" class="btn btn-light btn-sm-square rounded-circle ms-3">EN</a class="nav-item nav-link"><a id="de-link" class="btn btn-light btn-sm-square rounded-circle ms-3">DE</a></a>
                      <ul class="nav">
                         <li class="link-navbar scroll-to-section"><a href="#top">Home</a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#about">Über uns</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#about" data-lang="about"></a></li>
                         <li class="link-navbar scroll-to-section"><a href="#services">Services</a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#portfolio">Projekte</a></li>
-                        <li class="link-navbar scroll-to-section"><a href="#contact">Kontakt</a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#portfolio" data-lang="projects"></a></li>
+                        <li class="link-navbar scroll-to-section"><a href="#contact" data-lang="contact"></a></li>
                         <li class="link-navbar scroll-to-section"><a href="#faq">FAQ</a></li>
                         <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
                         <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
                         <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
-                        <li class="scroll-to-section">
+                        <!-- <li class="scroll-to-section">
                            <div class="border-first-button"><a href="#contact">Free Quote</a>
                            </div>
-                        </li>
+                        </li> -->
                      </ul>
                      <a class='menu-trigger'>
                      <span>Menu</span>
@@ -108,7 +109,7 @@
                               <div class="col-lg-12">
                                  <h2 >Dein Wachstum, unser <code class="custom-color-code">&lt;/Code&gt;</code>.</h2>
                                  <h2 id="text-writer">Individuell für Deinen Erfolg!</h2>
-                                 <p class="p-landingpage">Wir coden, damit Du chillen kannst! WebTree - wo Code und Kreativität sich treffen, um Deine digitale Welt zu rocken. Lass uns Dein Online-Game auf das nächste Level bringen!</p>
+                                 <p class="p-landingpage" data-lang="landing-text"></p>
                               </div>
                            </div>
                         </div>
@@ -152,14 +153,14 @@
                               <div class="line-dec"></div>
                            </div>
                            <h4 id="changing-sentence">Wir sind <span id="changing-word">Macher</span></h4>
-                           <p>Zwei junge, hochmotivierte Webentwickler, immer auf der Jagd nach dem Maximum. Bei uns ist 100% Coding-Action angesagt, und wir sind auf einer Mission, nur das Beste zu liefern. Mit voller Power und Leidenschaft zaubern wir massgeschneiderte Webseiten für unsere Kunden.</p>
+                           <p data-lang="about-us-text"></p>
                            <div class="skill-container">
                               <div class="skill">
                                  <div class="outer">
                                     <div class="inner">
                                        <div id="number">
                                           <div id="progress-value">100%</div>
-                                          <span class="progress-span">Innovativ</span>
+                                          <span class="progress-span" data-lang="innovative"></span>
                                        </div>
                                     </div>
                                  </div>
@@ -172,7 +173,7 @@
                                     <div class="inner">
                                        <div id="number">
                                           <div id="progress-value">100%</div>
-                                          <span class="progress-span">Zuverlässig</span>
+                                          <span class="progress-span" data-lang="reliable"></span>
                                        </div>
                                     </div>
                                  </div>
@@ -185,7 +186,7 @@
                                     <div class="inner">
                                        <div id="number">
                                           <div id="progress-value">100%</div>
-                                          <span class="progress-span">Handgefertigt</span>
+                                          <span class="progress-span" data-lang="handmade"></span>
                                        </div>
                                     </div>
                                  </div>
@@ -207,8 +208,8 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                     <h6 class="our-service-h6">Unser Service</h6>
-                     <h4>Was unsere Agentur <em>bietet</em>.</h4>
+                     <h6 class="our-service-h6" data-lang="our-services"></h6>
+                     <h4><span data-lang="offer1"></span><em data-lang="offer2"></em>.</h4>
                      <div class="line-dec"></div>
                   </div>
                </div>
@@ -221,7 +222,7 @@
                                  <div class="first-thumb active">
                                     <div class="thumb">
                                        <span class="icon"><img src="content/assets/gif/terminal.gif" alt="development icon"></span>
-                                       Entwicklung
+                                       <span data-lang="development"></span>
                                     </div>
                                  </div>
                                  <div>
@@ -246,10 +247,10 @@
                                           <div class="row">
                                              <div class="col-lg-6 align-self-center">
                                                 <div class="left-text">
-                                                   <h4>Entwicklung &amp; Realisierung</h4>
-                                                   <p>Wir helfen Dir, eine tolle Webseite zu erstellen, die gut aussieht und funktioniert. Von der Idee bis zur fertigen Seite kümmern wir uns um alles. Mit unserer Unterstützung wird deine digitale Visitenkarte ein Erfolg im Internet.</p>
-                                                   <div class="ticks-list"><span><i class="fa fa-check"></i> Kostentransparenz</span> <span><i class="fa fa-check"></i> Sicherheit</span>
-                                                      <span><i class="fa fa-check"></i> Funktionalität</span> <span><i class="fa fa-check"></i> durchdachter Code</span>
+                                                   <h4><span data-lang="development"></span> &amp; <span data-lang="realisation"></span></h4>
+                                                   <p data-lang="development-text"></p>
+                                                   <div class="ticks-list"><span><i class="fa fa-check"></i> <a data-lang="cost-transparency"></a></span> <span><i class="fa fa-check"></i> <a data-lang="safety"></a></span>
+                                                      <span><i class="fa fa-check"></i> <a data-lang="functionality"></a></span> <span><i class="fa fa-check"></i> <a data-lang="well-thought-out-code"></a></span>
                                                    </div>
                                                 </div>
                                              </div>
@@ -268,10 +269,10 @@
                                           <div class="row">
                                              <div class="col-lg-6 align-self-center">
                                                 <div class="left-text">
-                                                   <h4>Hosting &amp; Wartung</h4>
-                                                   <p>Wir helfen Dir, sicherzustellen, dass Deine Webseite nicht nur optimal entwickelt ist, sondern auch auf einem Hosting-Service läuft, damit Dein Webprojekt strahlt und Du Deinen Besuchern eine erstklassige Performance bieten kannst.</p>
-                                                   <div class="ticks-list"><span><i class="fa fa-check"></i> zuverlässiges Hosting</span> <span><i class="fa fa-check"></i> nahtlose Integration</span> <span><i class="fa fa-check"></i> Skalierbarkeit</span>
-                                                      <span><i class="fa fa-check"></i> Suchoptimierung</span>
+                                                   <h4>Hosting &amp; <span data-lang="maintenance"></span></h4>
+                                                   <p data-lang="hosting-text"></p>
+                                                   <div class="ticks-list"><span><i class="fa fa-check"></i> <a data-lang="reliable-hosting"></a></span> <span><i class="fa fa-check"></i> <a data-lang="seamless-integration"></a></span> <span><i class="fa fa-check"></i> <a data-lang="scalability"></a></span>
+                                                      <span><i class="fa fa-check"></i> <a data-lang="search-optimisation"></a></span>
                                                    </div>
                                                 </div>
                                              </div>
@@ -290,10 +291,10 @@
                                           <div class="row">
                                              <div class="col-lg-6 align-self-center">
                                                 <div class="left-text">
-                                                   <h4>Design &amp; Gestaltung</h4>
-                                                   <p>Wir unterstützen Dich bei der Gestaltung einer einzigartigen und ansprechenden Webseite. Vom Design bis zur technischen Umsetzung sorgen wir dafür, dass deine Webseite sowohl gut aussieht als auch reibungslos funktioniert. </p>
-                                                   <div class="ticks-list"><span><i class="fa fa-check"></i> responsives Design</span> <span><i class="fa fa-check"></i> kreative Gestaltung</span> <span><i class="fa fa-check"></i> schnelle Ladezeiten</span>
-                                                      <span><i class="fa fa-check"></i> Ästhetik</span>
+                                                   <h4>Design &amp; <span data-lang="design"></span></h4>
+                                                   <p data-lang="design-text"></p>
+                                                   <div class="ticks-list"><span><i class="fa fa-check"></i> <a data-lang="responsive-design"></a></span> <span><i class="fa fa-check"></i> <a data-lang="creative-design"></a></span> <span><i class="fa fa-check"></i> <a data-lang="loading-time"></a></span>
+                                                      <span><i class="fa fa-check"></i> <a data-lang="aesthetics"></a></span>
                                                    </div>
                                                 </div>
                                              </div>
@@ -322,8 +323,8 @@
             <div class="row">
                <div class="col-lg-5">
                   <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                     <h6>Kundenerfolge</h6>
-                     <h4>Hier blitzt unsere <em>Kreativität</em>.</h4>
+                     <h6 data-lang="customer-successes"></h6>
+                     <h4><span data-lang="a-flash"></span><em> <span data-lang="creativity"></span></em>.</h4>
                      <div class="line-dec"></div>
                   </div>
                </div>
@@ -339,8 +340,8 @@
                            <div class="card-image burger-img">
                            </div>
                            <div class="card-text">
-                              <p>RAI-Experte vereinfacht die Pflegedokumentation für Krankenkassen. Wir unterstützten unseren Kunden bei seinem Weg in die Selbstständigkeit mit unserer Webseite.</p>
-                              <a href="https://rai-experte.ch" target="_blank" class="projectsite-link">Zur Webseite</a>
+                              <p data-lang="burger-text"></p>
+                              <a href="https://rai-experte.ch" target="_blank" class="projectsite-link" data-lang="to-website"></a>
                            </div>
                         </div>
                      </div>
@@ -352,8 +353,8 @@
                            <div class="card-image colin-img">
                            </div>
                            <div class="card-text">
-                              <p>Colin Indergand teilt sein Trading-Wissen auf seiner Webseite. Wir haben diese Plattform entwickelt, um sein Expertenwissen zu erweitern und zu teilen.</p>
-                              <a href="https://noahbenz.github.io/colinindergand-website/" target="_blank" class="projectsite-link">Zur Webseite</a>
+                              <p data-lang="colin-text"></p>
+                              <a href="https://noahbenz.github.io/colinindergand-website/" target="_blank" class="projectsite-link" data-lang="to-website"></a>
                             </div> 
                         </div>
                      </div>
@@ -365,8 +366,8 @@
                            <div class="card-image mdc-img">
                            </div>
                            <div class="card-text">
-                              <p>MDCoaching digitalisiert und aktualisiert Fitness-Coaching für die heutige Generation und bringt verlässliche Fitnessangebote näher. Unsere Mission ist es, Dich zu unterstützen.</p>
-                              <a href="https://mdcoaching.ch" target="_blank" class="projectsite-link">Zur Webseite</a>
+                              <p data-lang="md-text"></p>
+                              <a href="https://mdcoaching.ch" target="_blank" class="projectsite-link" data-lang="to-website"></a>
                            </div>
                         </div>
                      </div>
@@ -378,8 +379,8 @@
                            <div class="card-image urban-img">
                            </div>
                            <div class="card-text">
-                              <p>Entdecke UrbanForge: Ein Architekten-Webseiten-Mockup von WebTree, das innovative Designs und inspirierende Projekte präsentiert.</p>
-                              <a href="https://jannfanzun.github.io/UrbanForge/" target="_blank" class="projectsite-link">Zur Webseite</a>
+                              <p data-lang="urban-text"></p>
+                              <a href="https://jannfanzun.github.io/UrbanForge/" target="_blank" class="projectsite-link" data-lang="to-website"></a>
                            </div>
                         </div>
                      </div>
@@ -395,8 +396,8 @@
                <div class="form-wrapper">
                   <div class="row">
                      <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <h6>Kontaktiere uns!</h6>
-                        <h4>Go digital, go strong! <br> Deine <em>Webseite</em> verdient's!</h4>
+                        <h6 data-lang="contact-us"></h6>
+                        <h4>Go digital, go strong! <br> <span data-lang="your"></span> <em><span data-lang="website"></span></em> <span data-lang="deserves-it"></span></h4>
                         <div class="line-dec"></div>
                      </div>
                   </div>
@@ -408,32 +409,32 @@
                      
                      <div class="input-wrap">
                          <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                         <label for="firstname-contact">Vorname</label>
+                         <label for="firstname-contact" data-lang="firstname"></label>
                          <i class="icon fa-solid fa-address-card"></i>
                      </div>
                      
                      <div class="input-wrap">
                          <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                         <label for="lastname-contact">Nachname</label>
+                         <label for="lastname-contact" data-lang="lastname"></label>
                          <i class="icon fa-solid fa-address-card"></i>
                      </div>
                      
                      <div class="input-wrap w-100">
                          <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
-                         <label for="email-contact">E-Mail</label>
+                         <label for="email-contact" data-lang="mail"></label>
                          <i class="icon fa-solid fa-envelope"></i>
                      </div>
                      
                      <div class="input-wrap textarea w-100">
                          <textarea id="message-contact" name="comments, questions" autocomplete="off" class="contact-input" required></textarea>
-                         <label for="message-contact">Nachricht</label>
+                         <label for="message-contact" data-lang="message"></label>
                          <i class="icon fa-solid fa-inbox"></i>
                      </div>
                      
-                     <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="submitForm()">
-                 </form>
+                     <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="submitForm()" id="send-btn">
+                  </form>
                   <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: nowrap; margin-top: 15px;"></div>
-                  <div id="error-message" style="display: none; color: red; white-space: nowrap; font-weight: bold; margin-top: 15px;">Hoppla! Etwas ist schief gelaufen. Versuche es erneut!</div>
+                  <div id="error-message" style="display: none; color: red; white-space: nowrap; font-weight: bold; margin-top: 15px;" data-lang="error-message"></div>
                </div>
             </div>
             <div class="right">
@@ -452,8 +453,8 @@
       <section class="faq" id="faq">
          <div class="faq-heading">
             <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-               <h6 class="faq-heading">Unsicherheiten</h6>
-               <h4>Wir erklären es<em> Dir</em>.</h4>
+               <h6 class="faq-heading" data-lang="insecurities"></h6>
+               <h4><span data-lang="we-explain">Wir erklären es</span><em> <span data-lang="to-you">Dir</span></em>.</h4>
                <div class="line-dec center-line"></div>
             </div>
          </div>
@@ -464,7 +465,7 @@
                <h6>
                    <label for="q4" class="panel-title">Wie kann ich auch wenn ich keine <em>Webseite</em> brauche von WebTree <em>profitieren</em>?</label>
                </h6>
-               <p class="panel-content">Das Einbringen eines erfolgreichen Projektes führt dazu, dass du einen Bonus von <b>CHF 100</b> erhältst!</p>
+               <p class="panel-content" data-lang="faq1-answer"></p>
            </div>           
             <div class="faq-question">
                <input id="q1" type="checkbox" class="panel">
@@ -472,7 +473,7 @@
                <h6>
                   <label for="q1" class="panel-title">Brauche ich <em>Vorwissen</em>?</label>
                </h6>
-               <p class="panel-content">Nein, absolut nicht. Bei uns bist Du gut aufgehoben und erhältst professionelle Unterstützung, damit jede Webseite nach deinem Wunsch realisert werden kann.</p>
+               <p class="panel-content" data-lang="faq2-answer"></p>
             </div>
             <div class="faq-question">
                <input id="q5" type="checkbox" class="panel">
@@ -480,7 +481,7 @@
                <h6>
                    <label for="q5" class="panel-title">Was für <em>Arten</em> von Webseiten realisiert ihr?</label>
                </h6>
-               <p class="panel-content">Wir realisieren verschiedene Arten von Webseiten, darunter statische Webseiten, Multipager, Onepager, Online-Shops und viele weitere. Da ist sicher etwas für jeden dabei, der eine Webseite braucht.</p>
+               <p class="panel-content" data-lang="faq3-answer"></p>
            </div>
            <div class="faq-question">
             <input id="q6" type="checkbox" class="panel">
@@ -488,7 +489,7 @@
             <h6>
                 <label for="q6" class="panel-title">Erstellt ihr nur neue <em>Webseiten</em> oder aktualisiert ihr auch <em>veraltete</em> Webseiten?</label>
             </h6>
-            <p class="panel-content">Nein, wir sind ein kreatives Team, das gerne auch veraltete Projekte wieder auf den neuesten Stand bringen möchte, um den digitalen Auftritt auf das beste Level zu bringen.</p>
+            <p class="panel-content" data-lang="faq4-answer"></p>
         </div>        
             <div class="faq-question">
                <input id="q2" type="checkbox" class="panel">
@@ -496,7 +497,7 @@
                <h6>
                   <label for="q2" class="panel-title">Wie lange dauert die <em>Erstellung</em> einer <em>Webseite</em>?</label>
                </h6>
-               <p class="panel-content">Die Dauer der Projektumsetzung hängt von der Komplexität Deines Wunsches ab. In der Regel setzen wir Projekte zeitnah um und benötigen im Durchschnitt etwa einen bis zwei Monate.</p>
+               <p class="panel-content" data-lang="faq5-answer"></p>
             </div>
             <div class="faq-question">
                <input id="q3" type="checkbox" class="panel">
@@ -504,7 +505,7 @@
                <h6>
                   <label for="q3" class="panel-title">Wie viel <em>kostet</em> die Erstellung einer <em>Webseite</em>?</label>
                </h6>
-               <p class="panel-content">Die Kosten variieren je nach den Funktionen und dem Umfang Deiner Webseite. Für eine kostenlose Beratung steht Dir unser Team gerne zur Verfügung. Zögere nicht, uns zu kontaktieren!</p>
+               <p class="panel-content" data-lang="faq6-answer"></p>
             </div>
          </div>
       </section>
@@ -523,10 +524,10 @@
                      <a href="tel:+41525081481"><i class="fa fa-phone mr-3"></i> 052-508-14-81</a>
                      <p></p>
                      <a href="https://www.google.com/maps/place/Z%C3%BCrich" target="_blank">
-                     <i class="fa fa-map-marker mr-3"></i> Schweiz, Zürich
+                     <i class="fa fa-map-marker mr-3"></i> <span data-lang="location"></span> 
                      </a>
                      <p></p>
-                     <a href="javascript:void(0);" onclick="zeigeZugangscodeDialog()"class="präsentation-link"><i class="fa fa-lock mr-3"></i> Präsentation</a>
+                     <a href="javascript:void(0);" onclick="zeigeZugangscodeDialog()"class="präsentation-link"><i class="fa fa-lock mr-3"></i> <span data-lang="presentation"></span></a>
                   </div>
                </div>
             </section>
@@ -534,9 +535,9 @@
             <section class="p-3 pt-0 footer-links">
                <div class="row d-flex align-items-center">
                   <div class="agb-impressum col-md-6 col-lg-3 col-xl-3 text-center text-md-start">
-                     <a href="./impressum">Impressum</a>
+                     <a href="./impressum" data-lang="imprint"></a>
                      <span class="dash">&nbsp;</span>
-                     <a href="./datenschutz">Datenschutz</a>
+                     <a href="./datenschutz" data-lang="data-protection"></a>
                   </div>
                   <div class="col-md-6 col-lg-8 text-center text-md-end">
                      <div class="p-3 copyright-text">
@@ -621,6 +622,7 @@
          trackSectionOnScroll();
       </script>
       <script src="content/vendor/jquery/jquery.min.js"></script>
+      <script src="content/assets/js/translation.js"></script>
       <script src="content/assets/js/owl-carousel.js"></script>
       <script src="content/assets/js/script.js"></script>
       <script src="content/assets/js/splide.min.js" defer></script>
