@@ -89,6 +89,18 @@ var texts = {
       "1. privacy policy at a glance" : "1. privacy policy at a glance",
       "General information" : "General information",
       "hints" : "The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally. Detailed information on the subject of data protection can be found in our data protection declaration listed below this text.",
+      "data-collection" : "Data collection on this website",
+      "who-data" : "Who is responsible for data collection on this website?",
+      "answer-data" : "Data processing on this website is carried out by the website operator. You can find the operator's contact details in the imprint of this website.",
+      "how-collect" : "How do we collect your data?",
+      "answer-collect" : "On the one hand, your data is collected when you provide it to us. This may, for example, be data that you enter in a contact form.",
+      "other-data" : "Other data is collected automatically or with your consent by our IT systems when you visit the website. This is primarily technical data (e.g. internet browser, operating system or time of page view). This data is collected automatically as soon as you enter this website.",
+      "what-for" : "What do we use your data for?",
+      "some-of-data" : "Some of the data is collected to ensure that the website is provided without errors. Other data can be used to analyze your user behavior.",
+      "what-rights" : "What rights do you have with regard to your data?",
+      "answer-rights" : "You have the right to receive information about the origin, recipient and purpose of your stored personal data free of charge at any time. You also have the right to request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time for the future. You also have the right to request the restriction of the processing of your personal data under certain circumstances. You also have the right to lodge a complaint with the competent supervisory authority.",
+      "add-on-answer" : "You can contact us at any time at the address given in the imprint if you have further questions on the subject of data protection.",
+      
 
     },
     "de": {
@@ -179,7 +191,20 @@ var texts = {
         "privacy-policy" : "Datenschutz",
         "1. privacy policy at a glance" : "1. Daten­schutz auf einen Blick",
         "General information" : "Allgemeine Hinweise",
-        "hints" : "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Webseite besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung."
+        "hints" : "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Webseite besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.",
+        "data-collection" : "Daten­erfassung auf dieser Webseite",
+        "who-data" : "Wer ist verantwortlich für die Datenerfassung auf dieser Webseite?",
+        "answer-data" : "Die Datenverarbeitung auf dieser Webseite erfolgt durch den Webseitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Webseite entnehmen.",
+        "how-collect" : "Wie erfassen wir Ihre Daten?",
+        "answer-collect" : "Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.",
+        "other-data" : "Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Webseite durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Webseite betreten.",
+        "what-for" : "Wofür nutzen wir Ihre Daten?",
+        "some-of-data" : "Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Webseite zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.",
+        "what-rights" : "Welche Rechte haben Sie bezüglich Ihrer Daten?",
+        "answer-rights" : "Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben ausserdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Ausserdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.",
+        "add-on-answer" : "Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.",
+
+
     }
   };
 
