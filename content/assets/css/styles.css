@@ -526,26 +526,37 @@ margin-top: 4.5rem;
 
 /* Highlighted for Translation Button */
 .highlighted{
-  background-color: #00731e;
+  background-color: #00731e !important;
+  color: white !important;
   font-weight: bold;
 }
 
 #en-link, #de-link {
-  margin: auto 30px auto 30px;
-  width: 30px !important;
+  margin: auto 10px auto;
   align-items: center;
   text-align: center;
   color: black;
   font-weight: bold;
 }
 
-#en-link .projectsite-link {
-  padding-left: 0 !important;
+.translation-link {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 15px;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 9px;
+  border-radius: 100px;
+  letter-spacing: 0.25px;
+  border: 1px solid #00731e;
+  transition: all .3s;
+  outline: none;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  text-align: center !important;
 }
-.language-links {
-  display: flex;
-  align-items: center;
-}
-.language-links a {
-  margin-right: 10px;
+
+.translation-link:hover {
+  background-color: #00731e!important;
+  color: #fff!important;
 }
