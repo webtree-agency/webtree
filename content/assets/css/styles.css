@@ -538,25 +538,43 @@ margin-top: 4.5rem;
   color: black;
   font-weight: bold;
 }
-
-.translation-link {
+.dropdown {
+  position: relative;
   display: inline-block;
-  background-color: #fff;
-  font-size: 15px;
-  width: 40px !important;
-  height: 40px !important;
-  padding: 9px;
-  border-radius: 100px;
-  letter-spacing: 0.25px;
-  border: 1px solid #00731e;
-  transition: all .3s;
-  outline: none;
-  margin-top: auto !important;
-  margin-bottom: auto !important;
-  text-align: center !important;
 }
 
-.translation-link:hover {
-  background-color: #00731e!important;
-  color: #fff!important;
+.dropbtn {
+  font-weight: bold !important;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content span {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.dropdown-content span:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn :hover {
+  background-color: none;
+  color: #00731e;
 }

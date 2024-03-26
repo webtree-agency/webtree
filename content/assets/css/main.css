@@ -665,7 +665,7 @@ header
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 1000px){
   .header-area .main-nav .nav li:last-child
 .services .naccs .menu div
   .background-header .main-nav .nav li:last-child {
@@ -680,7 +680,7 @@ header
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .pre-header {
     display: none;
   }
@@ -799,7 +799,7 @@ header
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1000px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }

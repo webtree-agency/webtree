@@ -7,7 +7,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-      <title>Datenschutz - WebTree</title>
+      <title data-lang="privacy-policy-title"></title>
       <link href="content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="content/assets/css/fontawesome.css">
       <link rel="stylesheet" href="content/assets/css/main.css">
@@ -54,44 +54,47 @@
          <img id="svg2" class="svg" src="content/assets/svg/white-arrow-up.svg" alt="arrow down">
          </a>
       </div>
-      <header class="header-area header-sticky wow slideInDown" id="navbar" data-wow-duration="0.75s" data-wow-delay="0s">
+      <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
          <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <nav class="main-nav">
-                     <a href="#" class="logo">
-                     <img src="content/assets/svg/webtree-logo-transparent.svg" alt="logo">
-                     </a>
-                     <ul class="nav">
-                        <li class="scroll-to-section"><a href="./">Home</a></li>
-                        <li class="scroll-to-section"><a href="./#about">Über uns</a></li>
-                        <li class="scroll-to-section"><a href="./#services">Services</a></li>
-                        <li class="scroll-to-section"><a href="./#portfolio">Projekte</a></li>
-                        <li class="scroll-to-section"><a href="./#contact">Kontakt</a></li>
-                        <li class="scroll-to-section"><a href="./#faq">FAQ</a></li>
-                        <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
-                        <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
-                        <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
-                        <li class="scroll-to-section">
-                           <div class="border-first-button"><a href="#contact">Free Quote</a>
-                           </div>
-                        </li>
-                     </ul>
-                     <a class='menu-trigger'>
-                     <span>Menu</span>
-                     </a>
-                  </nav>
-               </div>
-            </div>
+             <div class="row">
+                 <div class="col-12">
+                     <nav class="main-nav">
+                         <a href="#" class="logo">
+                             <img src="content/assets/svg/webtree-logo-transparent.svg" alt="agentur logo">
+                         </a>
+                         <ul class="nav">
+                             <li class="link-navbar scroll-to-section"><a href="./">Home</a></li>
+                             <li class="link-navbar scroll-to-section"><a href="./#about" data-lang="about"></a></li>
+                             <li class="link-navbar scroll-to-section"><a href="./#services">Services</a></li>
+                             <li class="link-navbar scroll-to-section"><a href="./#portfolio" data-lang="projects"></a></li>
+                             <li class="link-navbar scroll-to-section"><a href="./#contact" data-lang="contact"></a></li>
+                             <li class="link-navbar scroll-to-section"><a href="./#faq">FAQ</a></li>
+                             <li class="dropdown">
+                                 <a href="#" class="dropbtn" data-lang="language"></a>
+                                 <div class="dropdown-content">
+                                    <span id="de-link">DE</span>
+                                    <span id="en-link">EN</span>
+                                 </div>
+                             </li>
+                             <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
+                             <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
+                             <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
+                         </ul>
+                         <a class='menu-trigger'>
+                             <span>Menu</span>
+                         </a>
+                     </nav>
+                 </div>
+             </div>
          </div>
-      </header>
+     </header>
       <div class="main-banner-impressum" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
          <div class="datenschutz">
             <div class="absatz-datenschutz wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
-               <h2 class="h2-impressum">Datenschutz</h2>
-               <h4 class="h4-impressum">1. Daten­schutz auf einen Blick</h4>
-               <h5 class="h5-impressum">Allgemeine Hinweise</h5>
-               <p class="p-text-datenschutz">Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Webseite besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
+               <h2 class="h2-impressum" data-lang="privacy-policy"></h2>
+               <h4 class="h4-impressum" data-lang="1. privacy policy at a glance"></h4>
+               <h5 class="h5-impressum" data-lang="General information"></h5>
+               <p class="p-text-datenschutz" data-lang="hints"></p>
                <h5 class="h5-impressum">Daten­erfassung auf dieser Webseite</h5>
                <h6 class="h6-datenschutz">Wer ist verantwortlich für die Datenerfassung auf dieser Webseite?</h6>
                <p class="p-text-datenschutz">Die Datenverarbeitung auf dieser Webseite erfolgt durch den Webseitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Webseite entnehmen.</p>
@@ -202,5 +205,6 @@
       <script src="content/assets/js/owl-carousel.js"></script>
       <script src="content/assets/js/script.js"></script>
       <script src="https://kit.fontawesome.com/a7cae2adf0.js" crossorigin="anonymous"></script>
+      <script src="content/assets/js/translation.js"></script>
    </body>
 </html>

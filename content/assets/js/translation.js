@@ -82,7 +82,14 @@ var texts = {
       "presentation": "Presentation",
       "imprint": "Imprint",
       "data-protection": "Data protection",
-      "index-title" : "WebTree - Your Swiss web developers"
+      "index-title" : "WebTree - Your Swiss web developers",
+      "language" : "Language",
+      "privacy-policy-title" : "Privacy Policy - WebTree",
+      "privacy-policy" : "Privacy Policy",
+      "1. privacy policy at a glance" : "1. privacy policy at a glance",
+      "General information" : "General information",
+      "hints" : "The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally. Detailed information on the subject of data protection can be found in our data protection declaration listed below this text.",
+
     },
     "de": {
         "about": "Über uns",
@@ -167,6 +174,12 @@ var texts = {
         "imprint": "Impressum",
         "data-protection": "Datenschutz",
         "index-title": "WebTree - Deine Schweizer Webentwickler",
+        "language" : "Sprache",
+        "privacy-policy-title" : "Datenschutz - WebTree",
+        "privacy-policy" : "Datenschutz",
+        "1. privacy policy at a glance" : "1. Daten­schutz auf einen Blick",
+        "General information" : "Allgemeine Hinweise",
+        "hints" : "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Webseite besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung."
     }
   };
 
