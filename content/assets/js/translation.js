@@ -81,7 +81,7 @@ var texts = {
       "location": "Zurich, Switzerland",
       "presentation": "Presentation",
       "imprint": "Imprint",
-      "data-protection": "Data protection",
+      "data-protection": "Privacy Policy",
       "index-title" : "WebTree - Your Swiss web developers",
       "language" : "Language",
       "privacy-policy-title" : "Privacy Policy - WebTree",
@@ -100,7 +100,19 @@ var texts = {
       "what-rights" : "What rights do you have with regard to your data?",
       "answer-rights" : "You have the right to receive information about the origin, recipient and purpose of your stored personal data free of charge at any time. You also have the right to request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time for the future. You also have the right to request the restriction of the processing of your personal data under certain circumstances. You also have the right to lodge a complaint with the competent supervisory authority.",
       "add-on-answer" : "You can contact us at any time at the address given in the imprint if you have further questions on the subject of data protection.",
-      
+      "external-hosting" : "External hosting",
+      "hosting-1" : "This website is hosted by an external service provider (hoster). The personal data collected on this website is stored on the hoster's servers. This may include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website accesses and other data generated via a website.",
+      "hosting-2" : "External hosting is carried out for the purpose of fulfilling the contract with our potential and existing customers (Art. 6 para. 1 lit. b GDPR) and in the interest of a secure, fast and efficient provision of our online offer by a professional provider (Art. 6 para. 1 lit. f GDPR). If a corresponding consent has been requested, the processing is carried out exclusively on the basis of Art. 6 para. 1 lit. a GDPR and § 25 para. 1 TTDSG, insofar as the consent includes the storage of cookies or access to information in the user's terminal device (e.g. device fingerprinting) within the meaning of the TTDSG. Consent can be revoked at any time.",
+      "hosting-3" : "Our hoster will only process your data to the extent necessary to fulfill its performance obligations and follow our instructions with regard to this data.",
+      "hosting-4" : "We use the following hoster(s):",
+      "united-states" : "United States",
+      "data-storage" : "3. Data Storage",
+      "data-storage-1" : "How long do we store your data?",
+      "data-storage-2" : "We only store personal data for as long as is necessary to fulfill the purposes for which it was collected. The exact storage period may vary depending on the type of data and processing purposes. As a rule, we store personal data for a period of one month.",
+      "data-storage-3" : "However, it is important to note that in some cases legal requirements or legal obligations may require a longer retention period. In such cases, we will retain the data in accordance with the applicable laws.",
+      "data-storage-4" : "If you have any questions about the retention period of your data or the deletion of your data, you can contact us at any time using the contact details provided in our imprint. We are committed to ensuring that your personal data is stored securely in accordance with data protection laws and regulations.",
+      "plugins" : "4. Plugins and Tools",
+
 
     },
     "de": {
@@ -203,6 +215,18 @@ var texts = {
         "what-rights" : "Welche Rechte haben Sie bezüglich Ihrer Daten?",
         "answer-rights" : "Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben ausserdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Ausserdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.",
         "add-on-answer" : "Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.",
+        "external-hosting" : "Externes Hosting",
+        "hosting-1" : "Diese Webseite wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Webseite erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Webseitezugriffe und sonstige Daten, die über eine Webseite generiert werden, handeln.",
+        "hosting-2" : "Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschliesslich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.",
+        "hosting-3" : "Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.",
+        "hosting-4" : "Wir setzen folgende(n) Hoster ein:",
+        "united-states" : "Vereinigte Staaten",
+        "data-storage" : "3. Datenspeicher",
+        "data-storage-1" : "Wie lange speichern wir Ihre Daten?",
+        "data-storage-2" : "Wir speichern personenbezogene Daten nur so lange, wie dies für die Erfüllung der Zwecke, für die sie erhoben wurden, erforderlich ist. Die genaue Speicherdauer kann je nach Art der Daten und Verarbeitungszwecke variieren. In der Regel bewahren wir personenbezogene Daten für einen Zeitraum von einem Monat auf.",
+        "data-storage-3" : "Es ist jedoch wichtig zu beachten, dass in einigen Fällen gesetzliche Anforderungen oder rechtliche Verpflichtungen eine längere Aufbewahrungsdauer erfordern können. In solchen Fällen werden wir die Daten gemäss den geltenden Gesetzen aufbewahren.",
+        "data-storage-4" : "Wenn Sie Fragen zur Speicherdauer Ihrer Daten oder zur Löschung Ihrer Daten haben, können Sie sich jederzeit unter den in unserem Impressum angegebenen Kontaktdaten an uns wenden. Wir sind bestrebt, sicherzustellen, dass Ihre personenbezogenen Daten in Übereinstimmung mit den Datenschutzgesetzen und -bestimmungen sicher aufbewahrt werden.",
+        "plugins" : "4. Plugins und Tools",
 
 
     }
