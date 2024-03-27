@@ -259,6 +259,37 @@ var texts = {
   };
 
 // Funktion zum Aktualisieren der Texte basierend auf der ausgewählten Sprache
+const textElement = document.getElementById("text-writer");
+const enText = "Individually for Your Success!";
+const deText = "Individuell für Deinen Erfolg!";
+let text;
+
+function setText(language) {
+    textElement.textContent = ""; // Leeren des Texts im <h2>
+    if (language === 'en') {
+        text = enText;
+    } else {
+        text = deText;
+    }
+}
+
+function typeWriter(text, index) {
+    if (index < text.length) {
+        textElement.textContent += text.charAt(index);
+        index++;
+        setTimeout(function () {
+            typeWriter(text, index);
+        }, 60); // Geschwindigkeit der Animation (in Millisekunden)
+    }
+}
+
+function startAnimation(language) {
+    setText(language);
+    setTimeout(function () {
+        typeWriter(text, 0); // Animation starten nach kurzem Timeout
+    }, 2800); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
+}
+
 var enButton = document.getElementById('en-link');
 var deButton = document.getElementById('de-link');
 
@@ -295,18 +326,22 @@ window.addEventListener('DOMContentLoaded', function() {
     var savedLanguage = localStorage.getItem('language');
     if (savedLanguage) {
         updateTexts(savedLanguage);
+        startAnimation(savedLanguage); // Starten der Animation mit der gespeicherten Sprache
     } else {
         // Wenn keine Spracheinstellung im localStorage gefunden wurde, standardmäßig auf Deutsch starten
         updateTexts('de');
+        startAnimation('de'); // Starten der Animation mit Deutsch als Standard
     }
 });
 
 // Beispiel: Wenn der Benutzer auf den Link für Deutsch klickt
 deButton.addEventListener('click', function() {
     updateTexts('de');
+    startAnimation('de'); // Starten der Animation mit Deutsch als Sprache
 });
 
 // Beispiel: Wenn der Benutzer auf den Link für Englisch klickt
 enButton.addEventListener('click', function() {
     updateTexts('en');
+    startAnimation('en'); // Starten der Animation mit Englisch als Sprache
 });
