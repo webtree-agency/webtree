@@ -131,6 +131,10 @@ var texts = {
       "address-1" : "Address 1",
       "address-2" : "Address 2",
       "switzerland" : "Switzerland",
+      "404-1" : "This URL does not",
+      "404-2" : "exist",
+      "404-title" : "Page not found - WebTree",
+      "404-3" : "This is the way back!",
     },
     "de": {
         "about": "Über uns",
@@ -263,6 +267,10 @@ var texts = {
         "address-1" : "Anschrift 1",
         "address-2" : "Anschrift 2",
         "switzerland" : "Schweiz",
+        "404-1" : "Diese URL existiert",
+        "404-2" : "nicht",
+        "404-title" : "Seite nicht gefunden - WebTree",
+        "404-3" : "Hier geht es zurück!",
     }
   };
 
