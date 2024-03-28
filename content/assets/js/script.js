@@ -98,27 +98,42 @@ inputs.forEach(ipt =>{
 
 // Changing words
 // script.js
-var words = [
-    "Macher", 
-    "Entwickler",
-    "kooperativ",
-    "Problemlöser",
-    "unkompliziert",
+var wordsDe = [
+  "Macher", 
+  "Entwickler",
+  "kooperativ",
+  "Problemlöser",
+  "unkompliziert",
 ];
+
+var wordsEn = [
+  "achiever",
+  "developer",
+  "cooperative",
+  "problem solver",
+  "uncomplicated",
+];
+
 var index = 0;
 
 function changeWord() {
-    var element = document.getElementById("changing-word");
+  var element = document.getElementById("changing-word");
 
-    // Erstes Ausblenden des Elements
-    element.style.opacity = "0";
+  // Erstes Ausblenden des Elements
+  element.style.opacity = "0";
 
-    // Nachdem das Element ausgeblendet ist (300ms Übergang), das Wort ändern und wieder einblenden
-    setTimeout(function() {
-        index = (index + 1) % words.length;
-        element.textContent = words[index];
-        element.style.opacity = "1";
-    }, 300); // muss der gleichen Zeit wie der CSS-Übergang entsprechen
+  // Nachdem das Element ausgeblendet ist (300ms Übergang), das Wort ändern und wieder einblenden
+  setTimeout(function() {
+      // Lese die Spracheinstellung aus dem LocalStorage
+      var language = localStorage.getItem("language");
+
+      // Wähle die Wörter entsprechend der Spracheinstellung
+      var words = (language === "de") ? wordsDe : wordsEn;
+
+      index = (index + 1) % words.length;
+      element.textContent = words[index];
+      element.style.opacity = "1";
+  }, 300); // muss der gleichen Zeit wie der CSS-Übergang entsprechen
 }
 
 setInterval(changeWord, 2500); // Ändert das Wort alle 5 Sekunden, genügend Zeit für den Übergang
