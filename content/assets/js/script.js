@@ -108,9 +108,9 @@ var wordsDe = [
 
 var wordsEn = [
   "achiever",
-  "developer",
+  "developers",
   "cooperative",
-  "problem solver",
+  "problem solvers",
   "uncomplicated",
 ];
 
