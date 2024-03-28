@@ -1,6 +1,7 @@
 
 var texts = {
     "en": {
+      "we-are": "We are",
       "your-growth": "Your growth, our",
       "about": "About",
       "projects": "Projects",
@@ -138,6 +139,7 @@ var texts = {
       "404-3" : "This is the way back!",
     },
     "de": {
+        "we-are": "Wir sind",
         "your-growth": "Dein Wachstum, unser",
         "about": "Über uns",
         "projects": "Projekte",
