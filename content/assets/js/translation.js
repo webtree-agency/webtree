@@ -128,6 +128,14 @@ var texts = {
       "storyset1" : "Illustrations from Storyset are used for the visual design of this website. Storyset is a service that provides graphics and illustrations.",
       "storyset2" : "Storyset's illustrations are used to make the website more appealing and user-friendly. No personal data is collected or transmitted when these illustrations are used.",
       "storyset3" : "They are used solely in the interest of improving the visual presentation and enriching the user experience on our website.",
+      "imprint-title" : "Imprint - WebTree",
+      "address-1" : "Address 1",
+      "address-2" : "Address 2",
+      "switzerland" : "Switzerland",
+      "404-1" : "This URL does not",
+      "404-2" : "exist",
+      "404-title" : "Page not found - WebTree",
+      "404-3" : "This is the way back!",
     },
     "de": {
         "your-growth": "Dein Wachstum, unser",
@@ -257,6 +265,14 @@ var texts = {
         "storyset1" : "Zur visuellen Gestaltung dieser Website werden Illustrationen von Storyset verwendet. Storyset ist ein Dienst, der Grafiken und Illustrationen bereitstellt.",
         "storyset2" : "Die Illustrationen von Storyset dienen dazu, die Website ansprechender und benutzerfreundlicher zu gestalten. Bei der Verwendung dieser Illustrationen werden keine personenbezogenen Daten erfasst oder übertragen.",
         "storyset3" : "Die Nutzung erfolgt einzig und allein im Interesse einer verbesserten visuellen Darstellung und zur Bereicherung des Benutzererlebnisses auf unserer Website.",
+        "imprint-title" : "Impressum - WebTree",
+        "address-1" : "Anschrift 1",
+        "address-2" : "Anschrift 2",
+        "switzerland" : "Schweiz",
+        "404-1" : "Diese URL existiert",
+        "404-2" : "nicht",
+        "404-title" : "Seite nicht gefunden - WebTree",
+        "404-3" : "Hier geht es zurück!",
     }
   };
 
