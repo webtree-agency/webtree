@@ -1,6 +1,7 @@
 
 var texts = {
     "en": {
+      "your-growth": "Your growth, our",
       "about": "About",
       "projects": "Projects",
       "contact": "Contact",
@@ -129,6 +130,7 @@ var texts = {
       "storyset3" : "They are used solely in the interest of improving the visual presentation and enriching the user experience on our website.",
     },
     "de": {
+        "your-growth": "Dein Wachstum, unser",
         "about": "Über uns",
         "projects": "Projekte",
         "contact": "Kontakt",
