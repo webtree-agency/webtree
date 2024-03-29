@@ -525,22 +525,21 @@ margin-top: 4.5rem;
 }
 
 /* Highlighted for Translation Button */
-.highlighted{
+.highlighted {
   background-color: #00731e !important;
   color: white !important;
   font-weight: bold;
 }
 
 #en-link, #de-link {
-  margin: auto 10px auto;
-  align-items: center;
   text-align: center;
   color: black;
   font-weight: bold;
 }
+
 .dropdown {
-  position: relative;
   display: inline-block;
+  text-align: center; 
 }
 
 .dropbtn {
@@ -554,6 +553,8 @@ margin-top: 4.5rem;
   width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  left: 50%; 
+  transform: translateX(-50%); 
 }
 
 .dropdown-content span {
@@ -561,8 +562,6 @@ margin-top: 4.5rem;
   padding: 12px 12px;
   text-decoration: none;
   display: block;
-  text-align: center;
-  justify-content: center;
 }
 
 .dropdown-content span:hover {
@@ -574,7 +573,7 @@ margin-top: 4.5rem;
   display: block;
 }
 
-.dropbtn :hover {
+.dropbtn:hover {
   background-color: none;
   color: #00731e;
 }
