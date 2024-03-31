@@ -583,3 +583,24 @@ margin-top: 4.5rem;
 .offerte {
   margin-top: 15vh;
 }
+
+.offerten-link {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  color: #00731e;
+  width: fit-content;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border: 1px solid #00731e;
+  transition: all .3s;
+  outline: none;
+  margin-bottom: auto !important;
+}
+
+.offerten-link:hover {
+  background-color: #00731e!important;
+  color: #fff!important;
+}

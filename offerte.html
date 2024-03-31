@@ -106,7 +106,7 @@
                  <div class="form-wrapper">
                      <div class="row">
                          <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-                             <h6>Offerten-Anfrage</h6>
+                             <h6 data-lang="request-quotation"></h6>
                              <h4>Go digital, go strong! <br> Let's <em>Make</em> It Happen!</h4>
                              <div class="line-dec"></div>
                          </div>
@@ -137,27 +137,27 @@
                         
                         <div class="input-wrap">
                             <input id="business-name-contact" class="contact-input" autocomplete="off" name="business-name" type="text" required>
-                            <label for="business-name-contact">Geschäftsname</label>
+                            <label for="business-name-contact" data-lang="business-name"></label>
                             <i class="icon fa-solid fa-building"></i>
                         </div>
                         
                         <div class="input-wrap">
                             <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
                                 <option value="" selected disabled></option>
-                                <option value="Neu erstellen">Neu erstellen</option>
-                                <option value="Erneuern">Erneuern</option>
+                                <option value="Neu erstellen" data-lang="create">Neu erstellen</option>
+                                <option value="Erneuern" data-lang="renew">Erneuern</option>
                             </select>
-                            <label for="webpage-type-contact">Webseite erstellen oder erneuern?</label>
+                            <label for="webpage-type-contact" data-lang="create-renew"></label>
                             <i class="icon fa-solid fa-sync"></i>
                         </div>
                         
-                        <div class="input-wrap">
+                        <div class="input-wrap w-100">
                             <select id="cms-contact" name="cms" class="contact-input" required>
                                 <option value="" selected disabled></option>
-                                <option value="Ja">Ja</option>
-                                <option value="Nein">Nein</option>
+                                <option value="Ja" data-lang="yes"></option>
+                                <option value="Nein" data-lang="no"></option>
                             </select>
-                            <label for="cms-contact">Mit CMS?</label>
+                            <label for="cms-contact" data-lang="cms"></label>
                             <i class="icon fa-solid fa-laptop"></i>
                         </div>
                         
@@ -168,12 +168,11 @@
                                <option value="Portfolio">Portfolio</option>
                                <option value="Shop">Shop / E-Commerce</option>
                                <option value="Service">Service</option>
-                               <option value="Informationsseite">Informationsseite</option>
+                               <option value="Informationsseite" data-lang="information-site"></option>
                                <option value="Landing Page">Landing Page</option>
-                               <option value="Personal Webseite">Personal Webseite</option>
-                               <option value="Anderes">Anderes</option>
+                               <option value="Anderes" data-lang="other"></option>
                            </select>
-                           <label for="webpage-category-contact">Art von Webseite?</label>
+                           <label for="webpage-category-contact" data-lang="type-website"></label>
                            <i class="icon fa-solid fa-laptop"></i>
                        </div>
                        
@@ -181,38 +180,28 @@
                         <div class="input-wrap">
                             <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
                                 <option value="" selected disabled></option>
-                                <option value="Ja">Ja</option>
-                                <option value="Nein">Nein</option>
+                                <option value="Ja" data-lang="yes"></option>
+                                <option value="Nein" data-lang="no"></option>
                             </select>
-                            <label for="logo-desired-contact">Logo erwünscht?</label>
+                            <label for="logo-desired-contact" data-lang="logo-desired"></label>
                             <i class="icon fa-solid fa-image"></i>
-                        </div>
-                        
-                        <div class="input-wrap">
-                            <select id="graphic-content-desired-contact" name="graphic-content-desired" class="contact-input" required>
-                                <option value="" selected disabled></option>
-                                <option value="Ja">Ja</option>
-                                <option value="Nein">Nein</option>
-                            </select>
-                            <label for="graphic-content-desired-contact">Grafikinhalt erwünscht?</label>
-                            <i class="icon fa-solid fa-paint-brush"></i>
                         </div>
                         
                         <div class="input-wrap w-100">
                             <input id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website" type="text">
-                            <label for="inspiration-website-contact">Inspirationsquellen für Webseiten oder Deine eigene</label>
+                            <label for="inspiration-website-contact" data-lang="inspiration-sources"></label>
                             <i class="icon fa-solid fa-globe"></i>
                         </div>
                         
                         <div class="input-wrap w-100">
-                            <textarea id="business-description-contact" class="contact-input" autocomplete="off" name="business-description" type="text" required></textarea>
-                            <label for="business-description-contact">Beschreibung Deines Geschäfts und Deine Zielgruppe</label>
+                            <textarea id="business-description-contact" class="contact-input" autocomplete="off" name="business-description-target-group" type="text" required></textarea>
+                            <label for="business-description-contact" data-lang="target-group"></label>
                             <i class="icon fa-solid fa-info-circle"></i>
                         </div>
                         
                         <div class="input-wrap w-100">
                             <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
-                            <label for="message-contact">Besondere Anliegen?</label>
+                            <label for="message-contact" data-lang="concerns"></label>
                             <i class="icon fa-solid fa-inbox"></i>
                         </div>
                         
@@ -275,48 +264,56 @@
          </div>
       </footer>
       <script>
-         function submitForm() {
-         const contactForm = document.getElementById("contact-form");
-         const successMessage = document.getElementById("success-message");
-         const errorMessage = document.getElementById("error-message");
-         const formData = new FormData(contactForm);
-         
-         const firstnameContact = document.getElementById("firstname-contact");
-         const firstnameContactValue = firstnameContact.value;
-         
-         const lastnameContact = document.getElementById("lastname-contact");
-         const lastnameContactValue = lastnameContact.value;
-         
-         const emailContact = document.getElementById("email-contact");
-         const emailContactValue = emailContact.value;
-         
-         const messageContact = document.getElementById("message-contact");
-         const messageContactValue = messageContact.value;
-         
-         if (firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue) {
-         const xhr = new XMLHttpRequest();
-         xhr.open("POST", "https://formsubmit.co/b1f0cbd4f4e26238fa5398b613a211e6", true);
-         
-         xhr.onload = function () {
+function submitForm() {
+    const contactForm = document.getElementById("contact-form");
+    const successMessage = document.getElementById("success-message");
+    const errorMessage = document.getElementById("error-message");
+    const formData = new FormData(contactForm);
+
+    const firstnameContact = document.getElementById("firstname-contact");
+    const firstnameContactValue = firstnameContact.value;
+
+    const lastnameContact = document.getElementById("lastname-contact");
+    const lastnameContactValue = lastnameContact.value;
+
+    const emailContact = document.getElementById("email-contact");
+    const emailContactValue = emailContact.value;
+
+    const messageContact = document.getElementById("message-contact");
+    const messageContactValue = messageContact.value;
+
+    // Sprache aus dem LocalStorage lesen
+    const language = localStorage.getItem("language");
+
+    if (firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue) {
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://formsubmit.co/b1f0cbd4f4e26238fa5398b613a211e6", true);
+
+        xhr.onload = function () {
             if (xhr.status === 200) {
-                const autoresponseMessage = `Hi ${firstnameContactValue}, danke für Deine Anfrage! Wir melden uns baldmöglichst bei dir.`;
-         
+                let autoresponseMessage;
+                if (language === "de") {
+                    autoresponseMessage = `Hallo ${firstnameContactValue}, danke für deine Anfrage! Wir melden uns baldmöglichst bei dir.`;
+                } else {
+                    autoresponseMessage = `Hi ${firstnameContactValue}, thank you for your request! We will get back to you as soon as possible.`;
+                }
+
                 successMessage.style.display = "block";
                 successMessage.textContent = autoresponseMessage;
-         
+
                 contactForm.reset();
-         
+
                 setTimeout(function () {
                     successMessage.style.display = "none";
                 }, 10000);
             } else {
                 errorMessage.style.display = "block";
             }
-         };
-         
-         xhr.send(formData);
-         }
-         }
+        };
+
+        xhr.send(formData);
+    }
+}
       </script> 
       <script>
          document.addEventListener("DOMContentLoaded", function() {

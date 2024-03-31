@@ -254,6 +254,7 @@
                                                    <div class="ticks-list"><span><i class="fa fa-check"></i> <a data-lang="cost-transparency"></a></span> <span><i class="fa fa-check"></i> <a data-lang="safety"></a></span>
                                                       <span><i class="fa fa-check"></i> <a data-lang="functionality"></a></span> <span><i class="fa fa-check"></i> <a data-lang="well-thought-out-code"></a></span>
                                                    </div>
+                                                   <a href="./offerte.html" class="offerten-link"><span data-lang="to-the-quotation-request"></span> <i class="fa fa-arrow-right"></i></a>
                                                 </div>
                                              </div>
                                              <div class="col-lg-6 align-self-center">
@@ -276,6 +277,7 @@
                                                    <div class="ticks-list"><span><i class="fa fa-check"></i> <a data-lang="reliable-hosting"></a></span> <span><i class="fa fa-check"></i> <a data-lang="seamless-integration"></a></span> <span><i class="fa fa-check"></i> <a data-lang="scalability"></a></span>
                                                       <span><i class="fa fa-check"></i> <a data-lang="search-optimisation"></a></span>
                                                    </div>
+                                                   <a href="./offerte.html" class="offerten-link"><span data-lang="to-the-quotation-request"></span> <i class="fa fa-arrow-right"></i></a>
                                                 </div>
                                              </div>
                                              <div class="col-lg-6 align-self-center">
@@ -298,6 +300,7 @@
                                                    <div class="ticks-list"><span><i class="fa fa-check"></i> <a data-lang="responsive-design"></a></span> <span><i class="fa fa-check"></i> <a data-lang="creative-design"></a></span> <span><i class="fa fa-check"></i> <a data-lang="loading-time"></a></span>
                                                       <span><i class="fa fa-check"></i> <a data-lang="aesthetics"></a></span>
                                                    </div>
+                                                      <a href="./offerte.html" class="offerten-link"><span data-lang="to-the-quotation-request"></span> <i class="fa fa-arrow-right"></i></a>
                                                 </div>
                                              </div>
                                              <div class="col-lg-6 align-self-center">
@@ -575,20 +578,25 @@
          
          xhr.onload = function () {
             if (xhr.status === 200) {
-                const autoresponseMessage = `Hi ${firstnameContactValue}, danke für Deine Nachricht!`;
-         
+                let autoresponseMessage;
+                if (language === "de") {
+                    autoresponseMessage = `Hallo ${firstnameContactValue}, danke für deine Nachricht! Wir melden uns baldmöglichst bei dir.`;
+                } else {
+                    autoresponseMessage = `Hi ${firstnameContactValue}, thank you for your message! We will get back to you as soon as possible.`;
+                }
+
                 successMessage.style.display = "block";
                 successMessage.textContent = autoresponseMessage;
-         
+
                 contactForm.reset();
-         
+
                 setTimeout(function () {
                     successMessage.style.display = "none";
                 }, 10000);
             } else {
                 errorMessage.style.display = "block";
             }
-         };
+        };
          
          xhr.send(formData);
          }
