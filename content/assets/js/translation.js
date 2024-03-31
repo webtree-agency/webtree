@@ -299,6 +299,7 @@ var texts = {
         "no" : "Nein",
         "other" : "Anderes",
         "type-website" : "Art der Webseite?",
+        "information-site" : "Information Webseite",
         "cms" : "CMS erwünscht?",
         "create-renew" : "Webseite erstellen / erneuern?",
         "create" : "Neu erstellen",
