@@ -1534,6 +1534,9 @@ contact
   border: 2px solid transparent;
   box-shadow: 0 0 0 0px hsla(100, 92%, 54%, 0.169);
   transition: 0.3s;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
 }
 
 .contact-input:hover{
@@ -1673,6 +1676,18 @@ textarea.contact-input ~ .icon{
     border-radius: 17px;
     font-size: .87rem;
     padding:  1.5rem 1.2rem calc(0.75rem - 2px) 1.2rem;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+  }
+
+  select.contact-input {
+    border-radius: 17px;
+    font-size: .87rem;
+    padding:  1.5rem 1.2rem calc(0.75rem - 2px) 1.2rem;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
   }
 
   .input-wrap label {
