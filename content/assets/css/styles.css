@@ -597,7 +597,7 @@ margin-top: 4.5rem;
   border: 1px solid #00731e;
   transition: all .3s;
   outline: none;
-  margin-bottom: auto !important;
+  margin-bottom: 30px !important;
 }
 
 .offerten-link:hover {
