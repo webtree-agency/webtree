@@ -138,7 +138,6 @@ var texts = {
       "404-title" : "Page not found - WebTree",
       "404-3" : "This is the way back!",
       "concerns" : "Do you have any other concerns?",
-      "target-group" : "Description of your business and your target group",
       "inspiration-sources" : "Sources of inspiration for websites",
       "logo-desired" : "Logo desired?",
       "yes" : "Yes",
@@ -153,6 +152,7 @@ var texts = {
       "business-name" : "Business name",
       "request-quotation" : "Request For Quotation",
       "to-the-quotation-request" : "To the quotation request",
+      "phone-nr" : "Phone number",
     },
     "de": {
         "we-are": "Wir sind",
@@ -292,7 +292,6 @@ var texts = {
         "404-title" : "Seite nicht gefunden - WebTree",
         "404-3" : "Hier geht es zurück!",
         "concerns" : "Hast Du noch weitere Anliegen?",
-        "target-group" : "Beschreibung Deines Geschäfts und Deiner Zielgruppe",
         "inspiration-sources" : "Inspirationsquellen für Webseiten",
         "logo-desired" : "Logo erwünscht?",
         "yes" : "Ja",
@@ -307,6 +306,7 @@ var texts = {
         "business-name" : "Geschäftsname",
         "request-quotation" : "Offerten-Anfrage",
         "to-the-quotation-request" : "Zur Offerten-Anfrage",
+        "phone-nr" : "Telefonnummer",
     }
   };
 
