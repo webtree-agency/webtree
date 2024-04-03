@@ -99,7 +99,7 @@ var texts = {
       "what-for" : "What do we use your data for?",
       "some-of-data" : "Some of the data is collected to ensure that the website is provided without errors. Other data can be used to analyze your user behavior.",
       "what-rights" : "What rights do you have with regard to your data?",
-      "answer-rights" : "You have the right to receive information about the origin, recipient and purpose of your stored personal data free of charge at any time. You also have the right to request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time for the future. You also have the right to request the restriction of the processing of your personal data under certain circumstances. You also have the right to lodge a complaint with the competent supervisory authority.",
+      "answer-rights" : "You have the right to receive information about the origin, recipient and purpose of your stored personal data free of charge at any time. You also have the right to request request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time for the future. You also have the right to request the restriction of the processing of your personal data under certain circumstances. You also have the right to lodge a complaint with the competent supervisory authority.",
       "add-on-answer" : "You can contact us at any time at the address given in the imprint if you have further questions on the subject of data protection.",
       "external-hosting" : "External hosting",
       "hosting-1" : "This website is hosted by an external service provider (hoster). The personal data collected on this website is stored on the hoster's servers. This may include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website accesses and other data generated via a website.",
@@ -150,8 +150,9 @@ var texts = {
       "create" : "Create",
       "renew" : "Renew",
       "business-name" : "Business name",
-      "request-quotation" : "Request For Quotation",
-      "to-the-quotation-request" : "To the quotation request",
+      "request-quotation" : "Request For an offer",
+      "to-the-quotation-request" : "To the offer request",
+      "offerte-title" : "Offer Request - Webtree",
       "phone-nr" : "Phone number",
     },
     "de": {
@@ -306,6 +307,7 @@ var texts = {
         "business-name" : "Geschäftsname",
         "request-quotation" : "Offerten-Anfrage",
         "to-the-quotation-request" : "Zur Offerten-Anfrage",
+        "offerte-title" : "Offerten-Anfrage - Webtree",
         "phone-nr" : "Telefonnummer",
     }
   };
