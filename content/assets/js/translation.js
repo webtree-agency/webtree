@@ -151,7 +151,7 @@ var texts = {
       "renew" : "Renew",
       "business-name" : "Business name",
       "request-quotation" : "Request For an offer",
-      "to-the-quotation-request" : "To the offer request",
+      "to-the-quotation-request" : "Request an offer",
       "offerte-title" : "Offer Request - Webtree",
       "phone-nr" : "Phone number",
     },
