@@ -111,7 +111,7 @@
                              <div class="line-dec"></div>
                          </div>
                      </div>
-                     <form action="https://formsubmit.co/b1f0cbd4f4e26238fa5398b613a211e6" method="POST" class="contact-form" id="contact-form">
+                     <form method="POST" class="contact-form" id="contact-form">
                         <input type="text" name="_honey" style="display: none;">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="box">
@@ -205,7 +205,7 @@
                             <i class="icon fa-solid fa-inbox"></i>
                         </div>
                         
-                        <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="submitForm()" id="send-btn">
+                        <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap" onclick="return submitForm()" id="send-btn">
                     </form>                    
                     
                      <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: nowrap; margin-top: 15px;"></div>
@@ -265,55 +265,58 @@
       </footer>
       <script>
 function submitForm() {
-    const contactForm = document.getElementById("contact-form");
-    const successMessage = document.getElementById("success-message");
-    const errorMessage = document.getElementById("error-message");
-    const formData = new FormData(contactForm);
+    var formData = {
+        firstname: $('#firstname-contact').val(),
+        lastname: $('#lastname-contact').val(),
+        email: $('#email-contact').val(),
+        phone: $('#phone-contact').val(),
+        businessName: $('#business-name-contact').val(),
+        webpageType: $('#webpage-type-contact').val(),
+        cms: $('#cms-contact').val(),
+        webpageCategory: $('#webpage-category-contact').val(),
+        logoDesired: $('#logo-desired-contact').val(),
+        inspirationWebsite: $('#inspiration-website-contact').val(),
+        message: $('#message-contact').val()
+    };
 
-    const firstnameContact = document.getElementById("firstname-contact");
-    const firstnameContactValue = firstnameContact.value;
-
-    const lastnameContact = document.getElementById("lastname-contact");
-    const lastnameContactValue = lastnameContact.value;
-
-    const emailContact = document.getElementById("email-contact");
-    const emailContactValue = emailContact.value;
-
-    const messageContact = document.getElementById("message-contact");
-    const messageContactValue = messageContact.value;
-
-    // Sprache aus dem LocalStorage lesen
-    const language = localStorage.getItem("language");
-
-    if (firstnameContactValue && lastnameContactValue && emailContactValue && messageContactValue) {
-        const xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://formsubmit.co/b1f0cbd4f4e26238fa5398b613a211e6", true);
-
-        xhr.onload = function () {
-            if (xhr.status === 200) {
-                let autoresponseMessage;
-                if (language === "de") {
-                    autoresponseMessage = `Hallo ${firstnameContactValue}, danke für deine Anfrage! Wir melden uns baldmöglichst bei dir.`;
-                } else {
-                    autoresponseMessage = `Hi ${firstnameContactValue}, thank you for your request! We will get back to you as soon as possible.`;
-                }
-
-                successMessage.style.display = "block";
-                successMessage.textContent = autoresponseMessage;
-
-                contactForm.reset();
-
-                setTimeout(function () {
-                    successMessage.style.display = "none";
-                }, 10000);
-            } else {
-                errorMessage.style.display = "block";
-            }
-        };
-
-        xhr.send(formData);
+    var language = localStorage.getItem('language');
+    if (!language) {
+        language = "de";
     }
+
+    var autoresponseMessage;
+    var errorMessage;
+    if (language === "de") {
+        autoresponseMessage = `Hallo ${formData.firstname}, danke für deine Anfrage! Wir melden uns baldmöglichst bei dir.`;
+        errorMessage = "Hoppla! Etwas ist schief gelaufen. Versuche es erneut!";
+    } else {
+        autoresponseMessage = `Hi ${formData.firstname}, thank you for your inquiry! We will get back to you as soon as possible.`;
+        errorMessage = "Oops! Something went wrong. Please try again!";
+    }
+
+    $.ajax({
+        url: "https://formsubmit.co/ajax/info@webtree.ch",
+        method: "POST",
+        data: formData,
+        dataType: "json",
+        success: function(response) {
+            $('#success-message').html(autoresponseMessage).show();
+            $('#error-message').hide();
+            setTimeout(function(){
+                $('#success-message').fadeOut('fast');
+            }, 10000);
+        },
+        error: function(xhr, status, error) {
+            $('#error-message').html(errorMessage).show();
+            $('#success-message').hide();
+        }
+    });
+
+    $('#contact-form')[0].reset();
+
+    return false;
 }
+
       </script> 
       <script>
          document.addEventListener("DOMContentLoaded", function() {
