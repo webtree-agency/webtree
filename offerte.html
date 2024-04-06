@@ -265,6 +265,21 @@
       </footer>
       <script>
 function submitForm() {
+    var fields = ['#firstname-contact', '#lastname-contact', '#email-contact', '#phone-contact', '#business-name-contact', '#webpage-type-contact', '#cms-contact', '#webpage-category-contact', '#logo-desired-contact', '#inspiration-website-contact', '#message-contact'];
+    var isValid = true;
+
+    fields.forEach(function(field) {
+        if ($(field).val() === '') {
+            isValid = false;
+            return false;
+        }
+    });
+
+    if (!isValid) {
+        alert("Bitte füllen Sie alle Felder aus.");
+        return false;
+    }
+
     var formData = {
         firstname: $('#firstname-contact').val(),
         lastname: $('#lastname-contact').val(),

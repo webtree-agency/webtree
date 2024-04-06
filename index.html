@@ -431,7 +431,7 @@
                      </div>
                      
                      <div class="input-wrap textarea w-100">
-                         <textarea id="message-contact" name="comments, questions" autocomplete="off" class="contact-input" required></textarea>
+                         <textarea id="message-contact" name="comments, questions" autocomplete="off" class="contact-input" aria-required="true"></textarea>
                          <label for="message-contact" data-lang="message"></label>
                          <i class="icon fa-solid fa-inbox"></i>
                      </div>
@@ -554,13 +554,25 @@
          </div>
       </footer>
       <script>
-         function submitForm() {
+function validateForm(formData) {
+    if (!formData.firstname || !formData.lastname || !formData.email || !formData.message) {
+        return false;
+    }
+    return true;
+}
+
+function submitForm() {
     var formData = {
         firstname: $('#firstname-contact').val(),
         lastname: $('#lastname-contact').val(),
         email: $('#email-contact').val(),
         message: $('#message-contact').val()
     };
+
+    if (!validateForm(formData)) {
+        alert("Please fill out all required fields.");
+        return false;
+    }
 
     var language = localStorage.getItem('language');
     if (!language) {
@@ -599,7 +611,6 @@
 
     return false;
 }
-
       </script> 
       <script>
          document.addEventListener("DOMContentLoaded", function() {
