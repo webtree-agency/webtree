@@ -155,6 +155,7 @@ var texts = {
       "to-the-quotation-request" : "Request an offer",
       "offerte-title" : "Offer Request - Webtree",
       "phone-nr" : "Phone number",
+      "pangri-text" : "PAT Cloud Solutions offers tailor-made cloud solutions, software development and professional coaching to help companies optimize their digital processes.",
     },
     "de": {
         "we-are": "Wir sind",
@@ -278,7 +279,7 @@ var texts = {
         "formsubmit-text" : "Forms submit vereinfacht die Formulardatenübermittlung auf dieser Webseite. Ihre Daten werden verschlüsselt übertragen, und form submit speichert nur Daten, die Sie über das Formular senden. Die Nutzung erfolgt im Einklang mit den Datenschutzbestimmungen.",
         "undraw1": "Diese Website verwendet Illustrationen von unDraw.co zur visuellen Gestaltung. unDraw ist ein Anbieter von Grafiken und Illustrationen.",
         "undraw2": "Die Illustrationen von unDraw werden genutzt, um die Website ansprechender zu gestalten. Bei der Verwendung dieser Illustrationen werden keine personenbezogenen Daten erfasst oder übertragen.",
-        "undraw3": "Die Nutzung erfolgt ausschließlich im Interesse einer visuell ansprechenden Gestaltung der Website und zur Verbesserung des Benutzererlebnisses.",
+        "undraw3": "Die Nutzung erfolgt ausschliesslich im Interesse einer visuell ansprechenden Gestaltung der Website und zur Verbesserung des Benutzererlebnisses.",
         "haikei-1" : "Zur visuellen Gestaltung dieser Website werden Illustrationen von Haikei verwendet. Haikei ist ein Anbieter von grafischen Elementen und Illustrationen.",
         "haikei-2" : "Die Illustrationen von Haikei dienen dazu, die Ästhetik der Website zu verbessern und visuell ansprechende Elemente hinzuzufügen. Bei der Nutzung dieser Illustrationen werden keine personenbezogenen Daten erfasst oder übertragen.",
         "haikei-3" : "Die Verwendung erfolgt einzig und allein im Interesse der visuellen Gestaltung und der Verbesserung des Gesamterlebnisses unserer Website für die Besucher.",
@@ -311,6 +312,7 @@ var texts = {
         "to-the-quotation-request" : "Zur Offerten-Anfrage",
         "offerte-title" : "Offerten-Anfrage - Webtree",
         "phone-nr" : "Telefonnummer",
+        "pangri-text" : "PAT Cloud Solutions bietet massgeschneiderte Cloud-Lösungen, Softwareentwicklung und professionelles Coaching an, um Unternehmen bei der Optimierung ihrer digitalen Prozesse zu unterstützen."
     }
   };
 
@@ -384,7 +386,7 @@ window.addEventListener('DOMContentLoaded', function() {
         updateTexts(savedLanguage);
         startAnimation(savedLanguage); // Starten der Animation mit der gespeicherten Sprache
     } else {
-        // Wenn keine Spracheinstellung im localStorage gefunden wurde, standardmäßig auf Deutsch starten
+        // Wenn keine Spracheinstellung im localStorage gefunden wurde, standardmässig auf Deutsch starten
         updateTexts('de');
         startAnimation('de'); // Starten der Animation mit Deutsch als Standard
     }
