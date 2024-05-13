@@ -709,5 +709,6 @@ margin-top: 4.5rem;
   cursor: pointer;
   transform-origin: left;
   transform: scaleX(1);
-  transition: color .3s ease-in-out; 
+  transition: color .3s ease-in-out;
+  font-weight: 600;
 }
