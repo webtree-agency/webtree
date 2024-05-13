@@ -280,7 +280,9 @@ margin-top: 4.5rem;
     will-change: transform, background-color, left, top; 
     top: -50px;
     left: -50px;
+    transition: width 0.3s ease, height 0.3s ease;
 }
+
 @media (max-width: 900px) {
     .circle {
         display: none; 

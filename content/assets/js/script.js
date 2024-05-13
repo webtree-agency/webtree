@@ -1,6 +1,3 @@
-
-console.log("%cWebTree", "font-size: 80px; font-weight: bold; color: #00731e;");
-
 const circle = document.querySelector(".circle");
 let mouseX = 0;
 let mouseY = 0;
@@ -19,7 +16,36 @@ function moveCircle() {
     circle.style.left = circleX + "px";
     circle.style.top = circleY + "px";
 
+    // Überprüfen, ob sich der Cursor über einem der Elemente mit der Klasse "circle-big" befindet
+    const bigElements = document.querySelectorAll(".circle-big");
+    let isCursorOverBigElement = false;
+    bigElements.forEach(element => {
+        if (isCursorOverElement(element)) {
+            isCursorOverBigElement = true;
+        }
+    });
+
+    // Kreisgröße entsprechend anpassen
+    if (isCursorOverBigElement) {
+        circle.style.width = "24px";
+        circle.style.height = "24px";
+    } else {
+        circle.style.width = "12px";
+        circle.style.height = "12px";
+    }
+
     requestAnimationFrame(moveCircle);
+}
+
+// Funktion zum Überprüfen, ob sich der Cursor über einem bestimmten Element befindet
+function isCursorOverElement(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        mouseX >= rect.left &&
+        mouseX <= rect.right &&
+        mouseY >= rect.top &&
+        mouseY <= rect.bottom
+    );
 }
 
 // Eventlistener für die Mausbewegung
