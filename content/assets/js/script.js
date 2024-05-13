@@ -1,3 +1,5 @@
+console.log("%cWebTree", "font-size: 80px; font-weight: bold; color: #00731e;");
+
 const circle = document.querySelector(".circle");
 let mouseX = 0;
 let mouseY = 0;
