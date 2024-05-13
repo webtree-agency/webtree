@@ -700,9 +700,9 @@ margin-top: 4.5rem;
   transform: scaleX(1);
 }
 
-.hover-1:hover h3 {
+.hover-1 h3 {
   cursor: pointer;
-  color: #00bb32;
   transform-origin: left;
   transform: scaleX(1);
+  transition: color .3s ease-in-out; 
 }
