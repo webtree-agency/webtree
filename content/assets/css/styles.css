@@ -678,9 +678,14 @@ margin-top: 4.5rem;
 .hover-1:hover .hover-overlay {
   opacity: 0;
 }
+.project-image {
+  width: 100%; /* Verhindert, dass das Bild breiter als sein Container wird */
+  height: 100%; /* Verhindert, dass das Bild höher als sein Container wird */
+  object-fit: contain; /* Das Bild wird so skaliert, dass es innerhalb des Containers enthalten ist, ohne seine Proportionen zu verzerren */
+}
+
 
 /* FONT Animation */
-
 .hover-1 h3::before {
   content: '';
   position: absolute;
