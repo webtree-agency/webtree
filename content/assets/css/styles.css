@@ -645,7 +645,7 @@ margin-top: 4.5rem;
 }
 
 .hover-1-content {
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   z-index: 99;
@@ -678,4 +678,3 @@ margin-top: 4.5rem;
 .hover-1:hover .hover-overlay {
   opacity: 0;
 }
-
