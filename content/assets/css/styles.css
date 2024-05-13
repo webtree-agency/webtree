@@ -644,6 +644,10 @@ margin-top: 4.5rem;
   transition: all 0.3s;
 }
 
+.hover-1 {
+  cursor: pointer;
+}
+
 .hover-1-content {
   position: absolute;
   bottom: 0;
@@ -711,4 +715,9 @@ margin-top: 4.5rem;
   transform: scaleX(1);
   transition: color .3s ease-in-out;
   font-weight: 600;
+}
+
+.hover-1 a {
+  text-decoration: none;
+  color: #fff;
 }
