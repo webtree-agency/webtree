@@ -3,20 +3,12 @@ console.log("%cWebTree", "font-size: 80px; font-weight: bold; color: #00731e;");
 const circle = document.querySelector(".circle");
 let mouseX = 0;
 let mouseY = 0;
-let circleX = 0;
-let circleY = 0;
-const easing = 0.8;
+const circleSize = 20; // Durchmesser des Kreises
 
 function moveCircle() {
-    let diffX = mouseX - circleX;
-    let diffY = mouseY - circleY;
-
-    circleX += diffX * easing;
-    circleY += diffY * easing;
-    
     // Kreisposition aktualisieren
-    circle.style.left = circleX + "px";
-    circle.style.top = circleY + "px";
+    circle.style.left = mouseX - circleSize / 2 + "px";
+    circle.style.top = mouseY - circleSize / 2 + "px";
 
     // Überprüfen, ob sich der Cursor über einem der Elemente mit der Klasse "circle-big" befindet
     const bigElements = document.querySelectorAll(".circle-big");
@@ -27,17 +19,15 @@ function moveCircle() {
         }
     });
 
-    // Kreisgröße entsprechend anpassen
+    // Kreisgröße und Transparenz entsprechend anpassen
     if (isCursorOverBigElement) {
         circle.style.width = "38px";
         circle.style.height = "38px";
-        circle.style.opacity = "0.5"; 
-
+        circle.style.opacity = "0.5";
     } else {
         circle.style.width = "20px";
         circle.style.height = "20px";
-        circle.style.opacity = "1"; 
-
+        circle.style.opacity = "1";
     }
 
     requestAnimationFrame(moveCircle);
