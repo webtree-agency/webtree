@@ -31,8 +31,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="black"/></svg>'), auto;
 }
-
+.circle-big:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="black" opacity="0.5"/></svg>') 8 8, auto;
+}
 /* clear fix */
 .grid:after {
   content: '';
