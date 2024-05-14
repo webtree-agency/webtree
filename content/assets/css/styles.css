@@ -742,5 +742,28 @@ margin-top: 4.5rem;
 
 /* Round Button */
 .round-button {
-  border-radius: 50%;   
+  background-color: black; 
+  color: var(--white); 
+  display: inline-block;
+  width: 30px; 
+  height: 30px; 
+  line-height: 30px; 
+  text-align: center;
+  border: none; 
+  border-radius: 50%;
+  font-size: 18px; 
+  margin-left: 5px; 
+  transition: all .3s; 
+}
+
+.round-button:hover {
+  background-color: var(--light-green); 
+}
+
+.round-button:hover i {
+  color: var(--white); 
+}
+
+.round-button i {
+  margin-right: 8px; /* Abstand zwischen dem Icon und dem Text */
 }
