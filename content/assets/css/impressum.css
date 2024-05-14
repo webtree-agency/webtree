@@ -34,14 +34,14 @@
     margin-bottom: 1.5rem;
     font-size: 35px;
     font-weight: 600;
-    color: #2a2a2a;
+    color: var(--black);
 }
 
 .h5-impressum {
     margin-bottom: 1rem;
     margin-top: 2rem;
     font-size: 25px;
-    color: #2a2a2a;
+    color: var(--black);
     font-weight: 600;
 }
 
@@ -52,7 +52,7 @@
 .firstrow-table {
     font-size: 18px;
     letter-spacing: 2px !important;
-    color: #999999;
+    color: var(--grey);
     text-transform: uppercase;
     padding: 8px 1px 1px !important;
     vertical-align: top !important;
@@ -61,12 +61,12 @@
 .secondrow-table {
     font-size: 22px;
     padding: 1px !important;
-    color: #2a2a2a;
+    color: var(--black);
     vertical-align: middle !important; 
 }
 
 .secondrow-table a {
-    color: #00731e;
+    color: var(--primary-green);
     position: relative;
     transition: all .3s;
   }
@@ -78,7 +78,7 @@
     height: 3px;
     border-radius: 4px;
     margin-top: 12px !important;
-    background-color: #00731e;
+    background-color: var(--primary-green);
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -93,11 +93,11 @@
   }
   
   .secondrow-table a:hover {
-    color: #00731e;
+    color: var(--primary-green);
   }
 
   .datenschutz-link a {
-    color: #00731e;
+    color: var(--primary-green);
     position: relative;
     transition: all .3s;
   }
@@ -109,7 +109,7 @@
     height: 3px;
     border-radius: 4px;
     margin-top: 12px !important;
-    background-color: #00731e;
+    background-color: var(--primary-green);
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -124,7 +124,7 @@
   }
   
   .datenschutz-link a:hover {
-    color: #00731e;
+    color: var(--primary-green);
   }
 
 @media (min-width: 1400px) {

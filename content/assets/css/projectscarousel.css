@@ -5,7 +5,7 @@
     padding: 20px;
     text-align: center;
     border-radius: 15px;
-    background-color: #fff;
+    background-color: var(--white);
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
     position: relative;
     overflow: hidden;
@@ -30,7 +30,7 @@
 }
 
 .card-name em {
-    color: #00731e;
+    color: var(--primary-green);
     font-style: normal;
 }
 
@@ -39,7 +39,7 @@
     display: block;
     width: 50px;
     height: 2px;
-    background-color: #00731e;
+    background-color: var(--primary-green);
     margin: 12px auto 12px auto;
 }
 
@@ -130,15 +130,15 @@
 
 .projectsite-link {
     display: inline-block;
-    background-color: #fff;
+    background-color: var(--white);
     font-size: 15px;
     font-weight: 400;
-    color: #00731e;
+    color: var(--primary-green);
     width: 100%;
     padding: 12px 25px;
     border-radius: 23px;
     letter-spacing: 0.25px;
-    border: 1px solid #00731e;
+    border: 1px solid var(--primary-green);
     transition: all .3s;
     outline: none;
     margin-top: 10px !important;
@@ -146,8 +146,8 @@
 }
 
 .projectsite-link:hover {
-    background-color: #00731e!important;
-    color: #fff!important;
+    background-color: var(--primary-green)!important;
+    color: var(--white)!important;
 }
 
 @media (max-width: 1800px) {

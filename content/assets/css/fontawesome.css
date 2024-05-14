@@ -185,7 +185,7 @@
   }
   
   .fa-inverse {
-    color: #fff;
+    color: var(--white);
   }
   
   /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
@@ -345,7 +345,7 @@
   }
   
   .fa-inverse {
-    color: #fff;
+    color: var(--white);
   }
   
   .fa-glass:before {

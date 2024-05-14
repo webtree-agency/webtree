@@ -1,11 +1,20 @@
+:root {
+  --black: #2a2a2a;
+  --white: #ffffff;
+  --dark-green: #003d10;
+  --primary-green: #00731e;
+  --light-green: #00bb32;
+  --grey: #999999;
+}
+
 #changing-sentence {
-  color: #2a2a2a;
+  color: var(--black);
   font-size: 22px;
   font-weight: 700;
   margin-top: 25px;
 }
 #changing-word {
-  color: #00731e;
+  color: var(--primary-green);
   display: inline-block;
   opacity: 1; 
   transition: opacity 0.3s;
@@ -25,7 +34,7 @@
 
 .faq-question {
   padding: 20px 0;
-  border-bottom: 1.5px solid #00731e;
+  border-bottom: 1.5px solid var(--primary-green);
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -42,7 +51,7 @@
 }
 
 .panel-title em {
-  color: #00731e;
+  color: var(--primary-green);
   font-style:normal;
 }
 
@@ -67,11 +76,11 @@
 }
 
 .contact-faq {
-  color: #00731e;
+  color: var(--primary-green);
 }
 
 .contact-faq:hover {
-  color: #00bb32;
+  color: var(--light-green);
 }
 
 .plus {
@@ -125,7 +134,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #00731e;
+  background: var(--primary-green);
   border-radius: 20px;
   height: 80px !important;
 }
@@ -199,7 +208,7 @@ margin-top: 4.5rem;
 }
 
 .custom-color-code {
-    color: #00731e;
+    color: var(--primary-green);
 }
 
 .wave-divider {
@@ -213,7 +222,7 @@ margin-top: 4.5rem;
     border: none;
     outline: none;
     background-color: transparent;
-    color: black;
+    color: var(--black);
     cursor: pointer;
     display: none;
 }
@@ -293,7 +302,7 @@ margin-top: 4.5rem;
 .dash {
     width: 35px;
     margin-right: 25px;
-    color: white;
+    color: var(--white);
     transition: all 400ms;
 }
 
@@ -314,14 +323,14 @@ margin-top: 4.5rem;
 }
 
 .agb-impressum a {
-    color: #ffffff;
+    color: var(--white);
     position: relative;
     text-decoration: none;
     transition: all .3s;
   }
 
   .agb-impressum a:hover {
-    color: #00bb32;
+    color: var(--light-green);
   }
 
   .agb-impressum a::before {
@@ -331,7 +340,7 @@ margin-top: 4.5rem;
     height: 3px;
     border-radius: 4px;
     margin-top: 12px !important;
-    background-color: #00bb32;
+    background-color: var(--light-green);
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -345,7 +354,7 @@ margin-top: 4.5rem;
   }
 
 .kontakt-links a {
-    color: #ffffff;
+    color: var(--white);
     position: relative;
     text-decoration: none;
     font-size: 17px;
@@ -354,7 +363,7 @@ margin-top: 4.5rem;
 
   .kontakt-links a:hover {
     cursor: pointer !important;
-    color: #00bb32 !important;  
+    color: var(--light-green) !important;  
   }
   
   .kontakt-links a::before {
@@ -363,7 +372,7 @@ margin-top: 4.5rem;
     width: 100%;
     height: 3px;
     border-radius: 4px;
-    background-color: #00bb32;
+    background-color: var(--light-green);
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -471,7 +480,7 @@ margin-top: 4.5rem;
 
 .progress-span {
   font-size: 18px;
-  color: #999999;
+  color: var(--grey);
   margin-top: -8px;
   font-weight: 300;
 }
@@ -489,15 +498,15 @@ margin-top: 4.5rem;
 }
 
 #innovativ {
-  stroke: #00bb32;
+  stroke: var(--light-green);
 }
 
 #zuverlaessig {
-  stroke: #00731e;
+  stroke: var(--primary-green);
 }
 
 #handgefertigt {
-  stroke: #003d10;
+  stroke: var(--dark-green);
 }
 
 .progress-svg {
@@ -523,14 +532,14 @@ margin-top: 4.5rem;
 
 /* Highlighted for Translation Button */
 .highlighted {
-  background-color: #00731e !important;
-  color: white !important;
+  background-color: var(--primary-green) !important;
+  color: var(--white) !important;
   font-weight: bold;
 }
 
 #en-link, #de-link {
   text-align: center;
-  color: black;
+  color: var(--black);
   font-weight: bold;
 }
 
@@ -555,7 +564,7 @@ margin-top: 4.5rem;
 }
 
 .dropdown-content span {
-  color: black;
+  color: var(--black);
   padding: 12px 12px;
   text-decoration: none;
   display: block;
@@ -572,7 +581,7 @@ margin-top: 4.5rem;
 
 .dropbtn:hover {
   background-color: none;
-  color: #00731e;
+  color: var(--primary-green);
 }
 
 /* Offerten */
@@ -583,23 +592,23 @@ margin-top: 4.5rem;
 
 .offerten-link {
   display: inline-block;
-  background-color: #fff;
+  background-color: var(--white);
   font-size: 15px;
   font-weight: 400;
-  color: #00731e;
+  color: var(--primary-green);
   width: fit-content;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #00731e;
+  border: 1px solid var(--primary-green);
   transition: all .3s;
   outline: none;
   margin-bottom: 30px !important;
 }
 
 .offerten-link:hover {
-  background-color: #00731e!important;
-  color: #fff!important;
+  background-color: var(--primary-green)!important;
+  color: var(--white)!important;
 }
 /* Projects */
 .hover {
@@ -658,8 +667,8 @@ margin-top: 4.5rem;
   top: 2rem;
   left: 2rem;
   text-align: left;
-  border-left: 3px solid #fff;
-  color: #fff;
+  border-left: 3px solid var(--primary-green);
+  color: var(--white);
   padding: 0 1rem;
   z-index: 99;
   transform: translateX(-1.5rem);
@@ -693,14 +702,14 @@ margin-top: 4.5rem;
 
 /* FONT Animation */
 .project-title a {
-  color: #ffffff;
+  color: var(--white);
   position: relative;
   text-decoration: none;
   transition: all .3s;
 }
 
 .project-title a:hover {
-  color: #00bb32;
+  color: var(--light-green);
 }
 
 .project-title a::before {
@@ -709,7 +718,7 @@ margin-top: 4.5rem;
   width: 100%;
   height: 3px;
   border-radius: 4px;
-  background-color: #00bb32;
+  background-color: var(--light-green);
   bottom: 0;
   left: 0;
   transform-origin: right;
