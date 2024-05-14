@@ -268,15 +268,17 @@ margin-top: 4.5rem;
 }
 
 .circle {
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    z-index: 9999;
-    background-color: #000;
-    top: -50px;
-    left: -50px;
-    transition: width 0.3s ease, height 0.3s ease;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  background-color: #333333; 
+  top: -50px;
+  left: -50px;
+  transition: width 0.3s ease, height 0.3s ease;
 }
+
+
 
 @media (max-width: 900px) {
     .circle {
@@ -632,78 +634,62 @@ margin-top: 4.5rem;
 }
 
 
-/* DEMO 4 ============================== */
-.hover-4 img {
-  width: 110%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hover-4 .hover-overlay {
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 90;
-}
-
-.hover-4-title {
+/* DEMO 1 ============================== */
+.hover-1 img {
+  width: 105%;
   position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 3rem;
-  z-index: 99;
-}
-
-.hover-4-description {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-  text-align: left;
-  border-left: 3px solid #fff;
-  color: #fff;
-  padding: 0 1rem;
-  z-index: 99;
-  transform: translateX(-1.5rem);
-  opacity: 0;
+  top: 0;
+  left: -5%;
   transition: all 0.3s;
 }
 
-@media (min-width: 992px) {
-  .hover-4-description {
-    width: 50%;
-  }
+.hover-1 {
+  cursor: pointer;
 }
 
-.hover-4:hover img {
-  width: 100%;
+.hover-1-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
 }
 
-.hover-4:hover::after {
+.hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+  bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-description {
   opacity: 1;
   transform: none;
 }
 
-.hover-4:hover .hover-4-description {
-  opacity: 1;
-  transform: none;
+.hover-1:hover img {
+  left: 0;
 }
 
-.hover-4:hover .hover-overlay {
-  background: rgba(0, 0, 0, 0.8);
+.hover-1:hover .hover-overlay {
+  opacity: 0;
 }
+.project-image {
+  width: 100%; /* Verhindert, dass das Bild breiter als sein Container wird */
+  height: 100%; /* Verhindert, dass das Bild höher als sein Container wird */
+  object-fit: contain; /* Das Bild wird so skaliert, dass es innerhalb des Containers enthalten ist, ohne seine Proportionen zu verzerren */
+}
+
 
 /* FONT Animation */
-.project-title a {
-  color: #ffffff;
-  position: relative;
-  text-decoration: none;
-  transition: all .3s;
-}
-
-.project-title a:hover {
-  color: #00bb32;
-}
-
-.project-title a::before {
+.hover-1 h3::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -717,16 +703,20 @@ margin-top: 4.5rem;
   transition: transform .3s ease-in-out;
 }
 
-.project-title a:hover::before {
+.hover-1:hover h3::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-.hidden-arrow {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out
+.hover-1 h3 {
+  cursor: pointer;
+  transform-origin: left;
+  transform: scaleX(1);
+  transition: color .3s ease-in-out;
+  font-weight: 600;
 }
 
-.hover-4:hover .hidden-arrow {
-  opacity: 1;
+.hover-1 a {
+  text-decoration: none;
+  color: #fff;
 }
