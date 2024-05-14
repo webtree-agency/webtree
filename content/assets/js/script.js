@@ -13,37 +13,13 @@ function moveCircle() {
 
     circleX += diffX * easing;
     circleY += diffY * easing;
-    
-    // Kreisposition aktualisieren
-    circle.style.left = circleX + "px";
-    circle.style.top = circleY + "px";
 
-    // Überprüfen, ob sich der Cursor über einem der Elemente mit der Klasse "circle-big" befindet
-    const bigElements = document.querySelectorAll(".circle-big");
-    let isCursorOverBigElement = false;
-    bigElements.forEach(element => {
-        if (isCursorOverElement(element)) {
-            isCursorOverBigElement = true;
-        }
-    });
-
-    // Kreisgröße entsprechend anpassen
-    if (isCursorOverBigElement) {
-        circle.style.width = "38px";
-        circle.style.height = "38px";
-        circle.style.opacity = "0.5"; 
-
-    } else {
-        circle.style.width = "20px";
-        circle.style.height = "20px";
-        circle.style.opacity = "1"; 
-
-    }
+    circle.style.left = circleX - circle.offsetWidth / 2 + "px";
+    circle.style.top = circleY - circle.offsetHeight / 2 + "px";
 
     requestAnimationFrame(moveCircle);
 }
 
-// Funktion zum Überprüfen, ob sich der Cursor über einem bestimmten Element befindet
 function isCursorOverElement(element) {
     const rect = element.getBoundingClientRect();
     return (
@@ -54,16 +30,30 @@ function isCursorOverElement(element) {
     );
 }
 
-// Eventlistener für die Mausbewegung
 window.addEventListener("mousemove", function(e) {
     mouseX = e.clientX;
     mouseY = e.clientY;
+
+    const bigElements = document.querySelectorAll(".circle-big");
+    let isCursorOverBigElement = false;
+    bigElements.forEach(element => {
+        if (isCursorOverElement(element)) {
+            isCursorOverBigElement = true;
+        }
+    });
+
+    if (isCursorOverBigElement) {
+        circle.style.width = "38px";
+        circle.style.height = "38px";
+        circle.style.opacity = "0.5"; 
+    } else {
+        circle.style.width = "20px";
+        circle.style.height = "20px";
+        circle.style.opacity = "1"; 
+    }
 });
 
-// Animation starten
 moveCircle();
-
-
 
 let mybutton = document.querySelector(".svgContainer");
 
