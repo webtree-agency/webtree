@@ -5,7 +5,7 @@ let mouseX = 0;
 let mouseY = 0;
 let circleX = 0;
 let circleY = 0;
-const easing = 0.25;
+const easing = 0.8;
 
 function moveCircle() {
     let diffX = mouseX - circleX;
@@ -29,11 +29,15 @@ function moveCircle() {
 
     // Kreisgröße entsprechend anpassen
     if (isCursorOverBigElement) {
-        circle.style.width = "24px";
-        circle.style.height = "24px";
+        circle.style.width = "38px";
+        circle.style.height = "38px";
+        circle.style.opacity = "0.5"; 
+
     } else {
-        circle.style.width = "12px";
-        circle.style.height = "12px";
+        circle.style.width = "20px";
+        circle.style.height = "20px";
+        circle.style.opacity = "1"; 
+
     }
 
     requestAnimationFrame(moveCircle);
