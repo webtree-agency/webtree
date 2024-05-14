@@ -1,63 +1,63 @@
 console.log("%cWebTree", "font-size: 80px; font-weight: bold; color: #00731e;");
 
-// const circle = document.querySelector(".circle");
-// let mouseX = 0;
-// let mouseY = 0;
-// let circleX = 0;
-// let circleY = 0;
-// const easing = 0.25;
+const circle = document.querySelector(".circle");
+let mouseX = 0;
+let mouseY = 0;
+let circleX = 0;
+let circleY = 0;
+const easing = 0.25;
 
-// function moveCircle() {
-//     let diffX = mouseX - circleX;
-//     let diffY = mouseY - circleY;
+function moveCircle() {
+    let diffX = mouseX - circleX;
+    let diffY = mouseY - circleY;
 
-//     circleX += diffX * easing;
-//     circleY += diffY * easing;
+    circleX += diffX * easing;
+    circleY += diffY * easing;
     
-//     // Kreisposition aktualisieren
-//     circle.style.left = circleX + "px";
-//     circle.style.top = circleY + "px";
+    // Kreisposition aktualisieren
+    circle.style.left = circleX + "px";
+    circle.style.top = circleY + "px";
 
-//     // Überprüfen, ob sich der Cursor über einem der Elemente mit der Klasse "circle-big" befindet
-//     const bigElements = document.querySelectorAll(".circle-big");
-//     let isCursorOverBigElement = false;
-//     bigElements.forEach(element => {
-//         if (isCursorOverElement(element)) {
-//             isCursorOverBigElement = true;
-//         }
-//     });
+    // Überprüfen, ob sich der Cursor über einem der Elemente mit der Klasse "circle-big" befindet
+    const bigElements = document.querySelectorAll(".circle-big");
+    let isCursorOverBigElement = false;
+    bigElements.forEach(element => {
+        if (isCursorOverElement(element)) {
+            isCursorOverBigElement = true;
+        }
+    });
 
-//     // Kreisgröße entsprechend anpassen
-//     if (isCursorOverBigElement) {
-//         circle.style.width = "24px";
-//         circle.style.height = "24px";
-//     } else {
-//         circle.style.width = "12px";
-//         circle.style.height = "12px";
-//     }
+    // Kreisgröße entsprechend anpassen
+    if (isCursorOverBigElement) {
+        circle.style.width = "24px";
+        circle.style.height = "24px";
+    } else {
+        circle.style.width = "12px";
+        circle.style.height = "12px";
+    }
 
-//     requestAnimationFrame(moveCircle);
-// }
+    requestAnimationFrame(moveCircle);
+}
 
-// // Funktion zum Überprüfen, ob sich der Cursor über einem bestimmten Element befindet
-// function isCursorOverElement(element) {
-//     const rect = element.getBoundingClientRect();
-//     return (
-//         mouseX >= rect.left &&
-//         mouseX <= rect.right &&
-//         mouseY >= rect.top &&
-//         mouseY <= rect.bottom
-//     );
-// }
+// Funktion zum Überprüfen, ob sich der Cursor über einem bestimmten Element befindet
+function isCursorOverElement(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        mouseX >= rect.left &&
+        mouseX <= rect.right &&
+        mouseY >= rect.top &&
+        mouseY <= rect.bottom
+    );
+}
 
-// // Eventlistener für die Mausbewegung
-// window.addEventListener("mousemove", function(e) {
-//     mouseX = e.clientX;
-//     mouseY = e.clientY;
-// });
+// Eventlistener für die Mausbewegung
+window.addEventListener("mousemove", function(e) {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+});
 
-// // Animation starten
-// moveCircle();
+// Animation starten
+moveCircle();
 
 
 
