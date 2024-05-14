@@ -742,28 +742,25 @@ margin-top: 4.5rem;
 
 /* Round Button */
 .round-button {
-  background-color: black; 
-  color: var(--white); 
-  display: inline-block;
-  width: 30px; 
-  height: 30px; 
-  line-height: 30px; 
-  text-align: center;
-  border: none; 
-  border-radius: 50%;
-  font-size: 18px; 
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center; 
+  background-color: var(--white); 
+  font-size: 16px; 
+  color: var(--primary-green); 
+  width: 40px; 
+  height: 40px; 
+  border: 1px solid var(--primary-green); 
+  border-radius: 50%; 
   margin-left: 5px; 
-  transition: all .3s; 
+  transition: all 0.3s; 
 }
 
 .round-button:hover {
-  background-color: var(--light-green); 
+  background-color: var(--primary-green); 
+  color: var(--white); 
 }
 
 .round-button:hover i {
   color: var(--white); 
-}
-
-.round-button i {
-  margin-right: 8px; /* Abstand zwischen dem Icon und dem Text */
 }
