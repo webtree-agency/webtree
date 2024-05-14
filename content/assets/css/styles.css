@@ -739,3 +739,8 @@ margin-top: 4.5rem;
 .hover-4:hover .hidden-arrow {
   opacity: 1;
 }
+
+/* Round Button */
+.round-button {
+  border-radius: 50%;   
+}
