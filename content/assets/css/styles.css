@@ -268,16 +268,11 @@ margin-top: 4.5rem;
 }
 
 .circle {
-    width: 12px;
-    height: 12px;
     border-radius: 50%;
     position: fixed;
-    transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 9999;
-    background-color: #fff;
-    mix-blend-mode: difference;
-    will-change: transform, background-color, left, top; 
+    background-color: #000;
     top: -50px;
     left: -50px;
     transition: width 0.3s ease, height 0.3s ease;
@@ -664,9 +659,9 @@ margin-top: 4.5rem;
   left: 2rem;
   text-align: left;
   border-left: 3px solid #fff;
+  color: #fff;
   padding: 0 1rem;
   z-index: 99;
-  color: white;
   transform: translateX(-1.5rem);
   opacity: 0;
   transition: all 0.3s;
