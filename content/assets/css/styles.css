@@ -666,6 +666,7 @@ margin-top: 4.5rem;
   border-left: 3px solid #fff;
   padding: 0 1rem;
   z-index: 99;
+  color: white;
   transform: translateX(-1.5rem);
   opacity: 0;
   transition: all 0.3s;
@@ -696,7 +697,18 @@ margin-top: 4.5rem;
 }
 
 /* FONT Animation */
-.hover-4 h3::before {
+.project-title a {
+  color: #ffffff;
+  position: relative;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.project-title a:hover {
+  color: #00bb32;
+}
+
+.project-title a::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -710,20 +722,16 @@ margin-top: 4.5rem;
   transition: transform .3s ease-in-out;
 }
 
-.hover-4:hover h3::before {
+.project-title a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-.hover-4 h3 {
-  cursor: pointer;
-  transform-origin: left;
-  transform: scaleX(1);
-  transition: color .3s ease-in-out;
-  font-weight: 600;
+.hidden-arrow {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out
 }
 
-.hover-4 a {
-  text-decoration: none;
-  color: #fff;
+.hover-4:hover .hidden-arrow {
+  opacity: 1;
 }
