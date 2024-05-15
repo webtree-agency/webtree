@@ -1092,3 +1092,17 @@ document.addEventListener("DOMContentLoaded", function() {
     sliderButton.classList.remove("button-active");
   });
 });
+
+// Time Box
+function updateTime() {
+  var now = new Date();
+  var hour = now.getHours();
+  var minute = now.getMinutes();
+  var timeZoneOffset = now.getTimezoneOffset() / 60;
+  var timeZoneString = "GMT" + (timeZoneOffset >= 0 ? "+" : "") + timeZoneOffset;
+  document.getElementById('timeDisplay').innerHTML = '<span class="time">' + hour + ':' + (minute < 10 ? "0" : "") + minute + '</span> (' + timeZoneString + ')';
+}
+
+updateTime(); 
+
+setInterval(updateTime, 3000);

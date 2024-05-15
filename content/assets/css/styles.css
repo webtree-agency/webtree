@@ -151,7 +151,7 @@ height: 60px;
 @media only screen and (max-device-width: 410px) {
   #text-writer{
     height: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 160px;
   }
 } 
 
@@ -807,4 +807,18 @@ margin-top: 4.5rem;
 .round-button:hover .tooltip {
   visibility: visible;
   opacity: 1;
+}
+
+/* Time Box */
+.time-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px; /* Normaler Textgröße für die Zeitzone */
+}
+
+.time {
+  font-weight: bold; /* Fettschrift für die Zeit */
 }
