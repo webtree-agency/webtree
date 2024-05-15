@@ -774,6 +774,10 @@ margin-top: 4.5rem;
 .round-button:hover i {
   color: var(--white); 
 }
+.button-active{
+  background-color: var(--primary-green); 
+  color: var(--white); 
+}
 
 #ansicht-filter {
     display: flex;

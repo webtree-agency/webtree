@@ -1053,3 +1053,42 @@ panels.forEach(panel => {
         });
     });
 });
+
+// Slider
+document.addEventListener("DOMContentLoaded", function() {
+  var sliderButton = document.getElementById("filter-slider-button");
+  var gridButton = document.getElementById("filter-grid-button");
+  var filterSlider = document.querySelector(".filter-slider");
+  var filterGrid = document.querySelector(".filter-grid");
+
+  var isMobile = window.matchMedia("only screen and (max-width: 768px)").matches;
+
+  // On mobile -> slider
+  if (isMobile) {
+    filterSlider.style.display = "block";
+    filterGrid.style.display = "none";
+    sliderButton.classList.add("button-active");
+    gridButton.classList.remove("button-active");
+  } else {
+    filterSlider.style.display = "none";
+    filterGrid.style.display = "block";
+    gridButton.classList.add("button-active");
+    sliderButton.classList.remove("button-active");
+  }
+
+  sliderButton.addEventListener("click", function() {
+    filterSlider.style.display = "block";
+    filterGrid.style.display = "none";
+
+    sliderButton.classList.add("button-active");
+    gridButton.classList.remove("button-active");
+  });
+
+  gridButton.addEventListener("click", function() {
+    filterSlider.style.display = "none";
+    filterGrid.style.display = "block";
+
+    gridButton.classList.add("button-active");
+    sliderButton.classList.remove("button-active");
+  });
+});
