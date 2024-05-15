@@ -2719,7 +2719,7 @@
 	 */
 	Autoplay.Defaults = {
 		autoplay: false,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 3000,
 		autoplayHoverPause: false,
 		autoplaySpeed: false
 	};
@@ -2961,7 +2961,7 @@
 	 * @todo Rename `slideBy` to `navBy`
 	 */
 	Navigation.Defaults = {
-		nav: false,
+		nav: true, 
 		navText: [
 			'<span aria-label="' + 'Previous' + '">&#x2039;</span>',
 			'<span aria-label="' + 'Next' + '">&#x203a;</span>'
