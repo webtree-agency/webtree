@@ -156,6 +156,11 @@ var texts = {
       "offerte-title" : "Offer Request - Webtree",
       "phone-nr" : "Phone number",
       "pangri-text" : "PAT Cloud Solutions offers tailor-made cloud solutions, software development and professional coaching to help companies optimize their digital processes.",
+      "grid-description-pat" : "PAT Cloud Solutions optimizes digital processes for companies.",
+      "grid-description-burger" : "RAI-Experte simplifies care documentation for health insurance companies.",
+      "grid-description-urbanforge" : "UrbanForge showcases inspiring architecture and innovative design.",
+      "grid-description-colin" : "Colin Indergand shares his trading knowledge on the website we developed for him.",
+      "grid-description-mdc" : "MDCoaching helps you to achieve your dream figure with digital coaching.",
     },
     "de": {
         "we-are": "Wir sind",
@@ -312,7 +317,12 @@ var texts = {
         "to-the-quotation-request" : "Zur Offerten-Anfrage",
         "offerte-title" : "Offerten-Anfrage - Webtree",
         "phone-nr" : "Telefonnummer",
-        "pangri-text" : "PAT Cloud Solutions bietet massgeschneiderte Cloud-Lösungen, Softwareentwicklung und professionelles Coaching an, um Unternehmen bei der Optimierung ihrer digitalen Prozesse zu unterstützen."
+        "pangri-text" : "PAT Cloud Solutions bietet massgeschneiderte Cloud-Lösungen, Softwareentwicklung und professionelles Coaching an, um Unternehmen bei der Optimierung ihrer digitalen Prozesse zu unterstützen.",
+        "grid-description-pat" : "PAT Cloud Solutions optimiert digitale Prozesse für Unternehmen.",
+        "grid-description-burger" : "RAI-Experte vereinfacht die Pflegedokumentation für Krankenkassen.",
+        "grid-description-urbanforge" : "UrbanForge zeigt inspirierende Architekturen sowie innovatives Design.",
+        "grid-description-colin" : "Colin Indergand teilt sein Trading-Wissen auf seiner von uns entwickelten Webseite.",
+        "grid-description-mdc" : "MDCoaching hilft dir, deine Traumfigur mit digitalem Coaching zu erreichen.",
     }
   };
 
