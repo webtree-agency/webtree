@@ -777,7 +777,7 @@ margin-top: 4.5rem;
 
 #ansicht-filter {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-bottom: 20px !important;
 }
 
