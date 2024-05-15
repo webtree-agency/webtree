@@ -1393,7 +1393,33 @@ Portfolio
   transition: all .3s;
 }
 
+.our-portfolio .owl-nav {
+  position: relative;
+  display: inline-block!important;
+  max-width: 1320px;
+}
 
+.our-portfolio .owl-nav .owl-next {
+  margin-left: 10px;
+}
+
+.our-portfolio .owl-nav span {
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  font-size: 30px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: var(--white);
+  transition: all 0.5s;
+}
+
+.our-portfolio .owl-nav span:hover {
+  color: var(--white);
+  background-color: var(--primary-green);
+}
 
 /* 
 ---------------------------------------------
