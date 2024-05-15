@@ -740,6 +740,14 @@ margin-top: 4.5rem;
   opacity: 1;
 }
 
+.hover-4-title {
+  transition: transform 0.3s ease;
+}
+
+.hover-4:hover .hover-4-title {
+  transform: translateX(1.5rem);
+}
+
 /* Round Button */
 .round-button {
   display: inline-flex; 
@@ -755,6 +763,7 @@ margin-top: 4.5rem;
   margin-left: 5px; 
   transition: all 0.3s; 
   background-color: transparent;
+  position: relative;
 }
 
 .round-button:hover {
@@ -764,4 +773,34 @@ margin-top: 4.5rem;
 
 .round-button:hover i {
   color: var(--white); 
+}
+
+#ansicht-filter {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px !important;
+}
+
+/* Tooltip Filter Btns */
+
+.tooltip {
+  visibility: hidden;
+  width: 50px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -25px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.round-button:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
