@@ -1394,10 +1394,8 @@ Portfolio
 }
 
 .our-portfolio .owl-nav {
+  position: relative;
   display: inline-block!important;
-  position: absolute;
-  top: -125px;
-  right: 15%;
   max-width: 1320px;
 }
 
