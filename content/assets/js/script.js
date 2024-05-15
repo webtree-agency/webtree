@@ -45,10 +45,10 @@ window.addEventListener("mousemove", function(e) {
     if (isCursorOverBigElement) {
         circle.style.width = "38px";
         circle.style.height = "38px";
-        circle.style.opacity = "0.5"; 
+        circle.style.opacity = "0.4"; 
     } else {
-        circle.style.width = "20px";
-        circle.style.height = "20px";
+        circle.style.width = "16px";
+        circle.style.height = "16px";
         circle.style.opacity = "1"; 
     }
 });

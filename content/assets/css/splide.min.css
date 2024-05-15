@@ -144,7 +144,7 @@
     z-index:1
 }
 .splide__arrow svg{
-    fill:#000;
+    fill:var(--black);
     height:1.2em;
     width:1.2em
 }
@@ -260,7 +260,7 @@
     cursor:pointer
 }
 .splide__track--nav>.splide__list>.splide__slide.is-active{
-    border:3px solid #000
+    border:3px solid var(--black)
 }
 .splide__arrows--rtl .splide__arrow--prev{
     left:auto;

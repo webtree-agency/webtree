@@ -281,7 +281,7 @@ margin-top: 4.5rem;
     position: fixed;
     pointer-events: none;
     z-index: 9999;
-    background-color: #000;
+    background-color: var(--black);
     top: -50px;
     left: -50px;
     transition: width 0.3s ease, height 0.3s ease;
@@ -295,7 +295,7 @@ margin-top: 4.5rem;
   
 .hovered {
     transform: scale(1.4);
-    background-color: #000;
+    background-color: var(--black);
     mix-blend-mode: difference;
 }
 
