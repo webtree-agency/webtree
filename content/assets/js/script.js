@@ -1096,10 +1096,9 @@ document.addEventListener("DOMContentLoaded", function() {
 // Time Box
 function updateTime() {
   var now = new Date();
-  var hour = now.getHours();
-  var minute = now.getMinutes();
-  var timeZoneOffset = now.getTimezoneOffset() / 60;
-  var timeZoneString = "GMT" + (timeZoneOffset >= 0 ? "+" : "") + timeZoneOffset;
+  var hour = now.getUTCHours() + 2; // Zeitzone +2
+  var minute = now.getUTCMinutes();
+  var timeZoneString = "GMT+2"; // Zeitzone +2
   document.getElementById('timeDisplay').innerHTML = '<span class="time">' + hour + ':' + (minute < 10 ? "0" : "") + minute + '</span> (' + timeZoneString + ')';
 }
 

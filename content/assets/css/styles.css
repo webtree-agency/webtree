@@ -812,13 +812,13 @@ margin-top: 4.5rem;
 /* Time Box */
 .time-box {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 10px;
+  bottom: 4%;
+  left: 3%;
   border-radius: 5px;
-  font-size: 16px; /* Normaler Textgröße für die Zeitzone */
+  color: var(--grey);
+  font-weight: lighter;
 }
 
 .time {
-  font-weight: bold; /* Fettschrift für die Zeit */
+  color: var(--black);
 }
