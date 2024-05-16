@@ -450,12 +450,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: var(--light-green)!important;
+  color: var(--light-green);
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: var(--light-green)!important;
+  color: var(--light-green);
   opacity: 1;
 }
 
@@ -966,7 +966,7 @@ Banner Style
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 44px;
   color: var(--black);
   margin-bottom: 20px;
 }
