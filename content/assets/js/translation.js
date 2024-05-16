@@ -161,6 +161,7 @@ var texts = {
       "grid-description-urbanforge" : "UrbanForge showcases inspiring architecture and innovative design.",
       "grid-description-colin" : "Colin Indergand shares his trading knowledge on the website we developed for him.",
       "grid-description-mdc" : "MDCoaching helps you to achieve your dream figure with digital coaching.",
+      "landing-word" : "/Goal",
     },
     "de": {
         "we-are": "Wir sind",
@@ -323,6 +324,7 @@ var texts = {
         "grid-description-urbanforge" : "UrbanForge zeigt inspirierende Architekturen sowie innovatives Design.",
         "grid-description-colin" : "Colin Indergand teilt sein Trading-Wissen auf seiner von uns entwickelten Webseite.",
         "grid-description-mdc" : "MDCoaching hilft dir, deine Traumfigur mit digitalem Coaching zu erreichen.",
+        "landing-word" : "/Ziel",
     }
   };
 

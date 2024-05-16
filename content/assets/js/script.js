@@ -121,20 +121,21 @@ inputs.forEach(ipt =>{
 // Changing words
 // script.js
 var wordsDe = [
-  "Macher", 
-  "Entwickler",
-  "kooperativ",
-  "Problemlöser",
-  "unkompliziert",
+  "Webseitenentwickler",
+  "Multimedia-Designer",
+  "IT-Berater",
+  "Hosting-Anbieter",
+  "SEO-Experten",
 ];
 
 var wordsEn = [
-  "achiever",
-  "developers",
-  "cooperative",
-  "problem solvers",
-  "uncomplicated",
+  "website developers",
+  "multimedia designers",
+  "IT consultants",
+  "hosting providers",
+  "SEO experts",
 ];
+
 
 var index = 0;
 
