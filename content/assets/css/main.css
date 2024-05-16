@@ -200,14 +200,17 @@ body {
 
 .border-first-button {
   z-index: 1000;
+  text-align: center;
 }
 
 .border-first-button a {
+  display: flex !important;
+  justify-content: center;
+  align-items: center; 
   padding: 10px 20px !important;
   color: var(--primary-green) !important;
   border: 1px solid var(--primary-green) !important;
   border-radius: 23px;
-  align-content: center;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
@@ -217,6 +220,7 @@ body {
   background-color: var(--primary-green);
   color: var(--white) !important;
 }
+
 
 
 
