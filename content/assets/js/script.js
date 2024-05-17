@@ -989,30 +989,6 @@ $('.scroll-to-section a[href*="#"]').on('click', function() {
     }
 });
 
-// Presentation link
-async function zeigeZugangscodeDialog() {
-  const erwarteterGehashterCode = "0f133324d8ecca76ed8a027d3c94dadd20d01debe411e89f709e1874840dfbfa";
-
-  async function hash(code) {
-    const encoder = new TextEncoder();
-    const data = encoder.encode(code);
-    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-    return hashHex;
-  }
-
-  const eingegebenerCode = prompt("Bitte gib den Zugangscode ein:");
-  const gehashterEingegebenerCode = await hash(eingegebenerCode);
-
-  if (gehashterEingegebenerCode === erwarteterGehashterCode) {
-    window.location.href = "./slides-export.pdf";
-  } else if (eingegebenerCode !== null) {
-    alert("Falscher Zugangscode. Versuche es erneut.");
-  }
-}
-
-
 // Progress Bar
 let number = document.getElementById("number");
 let counter = 0;

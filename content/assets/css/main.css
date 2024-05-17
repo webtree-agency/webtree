@@ -542,6 +542,8 @@ header
 }
 
 .header-area .main-nav .menu-trigger {
+  border: none;
+  background-color: transparent;
   cursor: pointer;
   display: block;
   position: absolute;
@@ -1808,11 +1810,6 @@ footer p {
 footer p a {
   color: var(--white);
   transition: all .5s;
-}
-@media (max-width: 767px) {
-  .präsentation-link {
-      display: none; /* Verstecke den Link zur Präsentation */
-  }
 }
 
 
