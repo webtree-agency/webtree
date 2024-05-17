@@ -914,3 +914,25 @@ margin-top: 4.5rem;
 .full-service {
   margin-top: 15vh;
 }
+
+.service-selection {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--primary-green);
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border: 1px solid var(--primary-green);
+  transition: all .3s;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.service-selection:hover {
+  background-color: var(--primary-green)!important;
+  color: var(--white)!important;
+}
