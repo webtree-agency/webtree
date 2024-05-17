@@ -4,6 +4,7 @@
   --dark-green: #003d10;
   --primary-green: #00731e;
   --light-green: #00bb32;
+  --opacity-light-green: hsla(145, 50%, 50%, 6.5%);
   --grey: #999999;
 }
 
@@ -603,7 +604,7 @@ margin-top: 4.5rem;
   border: 1px solid var(--primary-green);
   transition: all .3s;
   outline: none;
-  margin-bottom: 30px !important;
+  margin-top: 40px !important;
 }
 
 .offerten-link:hover {
@@ -821,4 +822,91 @@ margin-top: 4.5rem;
 
 .time {
   color: var(--black);
+}
+
+/* SERVICE */
+
+/* Grundlayout für große Bildschirme: 3 Spalten */
+.service-item {
+  z-index: 1;
+  position: relative;
+  left: 0;
+  padding-top: 22px;
+}
+
+.service-item:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--primary-green);
+  transition: width .6s;
+}
+
+.service-item:hover::after {
+  width: 0;
+}
+
+.service-count {
+  font-size: 12.5em;
+  line-height: 0.8em;
+  font-weight: 900;
+  color: var(--opacity-light-green);
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  z-index: -1;
+  user-select: none;
+}
+
+.read-more-services {
+  display: flex;
+  justify-content: center;
+}
+
+#services .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#services .row.g-md-3 {
+  max-width: 1320px;
+}
+
+#services .col-md-4 {
+  flex: 1 0 33.3333%;
+  box-sizing: border-box;
+}
+
+.service-box {
+  margin-top: 50px;
+}
+
+#services .service-box:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+@media (max-width: 992px) {
+  #services .service-box:nth-child(-n+2) {
+    margin-top: 0; 
+  }
+  #services .service-box:nth-child(3) {
+    margin-top: 50px;
+  }
+  #services .col-md-4 {
+    flex: 1 0 50%;
+  }
+}
+
+@media (max-width: 796px) {
+  #services .service-box:first-child {
+    margin-top: 0;
+  }
+  #services .service-box:nth-child(2) {
+    margin-top: 50px;
+  }
+  #services .col-md-4 {
+    flex: 1 0 100%;
+  }
 }
