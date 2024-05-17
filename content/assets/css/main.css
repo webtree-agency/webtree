@@ -1807,11 +1807,6 @@ footer p a {
   color: var(--white);
   transition: all .5s;
 }
-@media (max-width: 767px) {
-  .präsentation-link {
-      display: none; /* Verstecke den Link zur Präsentation */
-  }
-}
 
 
 /* 
