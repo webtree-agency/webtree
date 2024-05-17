@@ -8,7 +8,7 @@ var texts = {
       "contact": "Contact",
       "landing-text": "WebTree - Where creativity and innovation meet to maximise your digital presence. Let's raise your online presence to the next level together!",
       "text-writer": "Individualised for your success!",
-      "about-us-text": "Two young, highly motivated web developers, always on the hunt for the maximum. We are 100% coding action, and we are on a mission to deliver only the best. With full power and passion, we conjure up customised websites for our customers.",
+      "about-us-text": "Two young, dedicated digital experts, always on the lookout for the best. We are 100% committed and on a mission to deliver only the best. With full power and passion, we deliver customized solutions for our customers.",
       "innovative": "Innovative",
       "reliable": "Reliable",
       "handmade": "Handmade",
@@ -162,6 +162,7 @@ var texts = {
       "grid-description-colin" : "Colin Indergand shares his trading knowledge on the website we developed for him.",
       "grid-description-mdc" : "MDCoaching helps you to achieve your dream figure with digital coaching.",
       "landing-word" : "/Goal",
+      "free-offer" : "Free Offer",
     },
     "de": {
         "we-are": "Wir sind",
@@ -171,7 +172,7 @@ var texts = {
         "contact": "Kontakt",
         "landing-text": "WebTree - Wo Kreativität und Innovation zusammentreffen, um deine digitale Präsenz zu maximieren. Lass uns gemeinsam deine Online-Präsenz auf das nächste Level bringen!",
         "text-writer": "Individuell für Deinen Erfolg!",
-        "about-us-text": "Zwei junge, hochmotivierte Webentwickler, immer auf der Jagd nach dem Maximum. Bei uns ist 100% Coding-Action angesagt, und wir sind auf einer Mission, nur das Beste zu liefern. Mit voller Power und Leidenschaft zaubern wir massgeschneiderte Webseiten für unsere Kunden.",
+        "about-us-text": "Zwei junge, engagierte Digitalexperten, immer auf der Suche nach dem Besten. Bei uns ist 100 % Einsatz angesagt, und wir sind auf einer Mission, nur das Beste zu liefern. Mit voller Power und Leidenschaft bringen wir massgeschneiderte Lösungen für unsere Kunden.",
         "innovative": "Innovativ",
         "reliable": "Zuverlässig",
         "handmade": "Handgefertigt",
@@ -325,6 +326,7 @@ var texts = {
         "grid-description-colin" : "Colin Indergand teilt sein Trading-Wissen auf seiner von uns entwickelten Webseite.",
         "grid-description-mdc" : "MDCoaching hilft dir, deine Traumfigur mit digitalem Coaching zu erreichen.",
         "landing-word" : "/Ziel",
+        "free-offer" : "Gratis Offerte",
     }
   };
 
