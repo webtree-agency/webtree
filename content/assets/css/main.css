@@ -538,6 +538,8 @@ header
 }
 
 .header-area .main-nav .menu-trigger {
+  border: none;
+  background-color: transparent;
   cursor: pointer;
   display: block;
   position: absolute;
