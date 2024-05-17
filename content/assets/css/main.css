@@ -351,6 +351,10 @@ header
   background-color: transparent;
 }
 
+.background-header .main-nav .nav li a.active {
+  color: var(--light-green) !important;
+}
+
 .header-area {
   background-color: var(--white);
   box-shadow: 0px 5px 8px rgba(0,0,0,0.03);

@@ -74,11 +74,11 @@
                      <img src="content/assets/svg/webtree-logo-transparent.svg" alt="agentur logo">
                      </a>
                      <ul class="nav">
-                        <li class="link-navbar scroll-to-section circle-big"><a href="#top">Home</a></li>
-                        <li class="link-navbar scroll-to-section circle-big"><a href="#about" data-lang="about"></a></li>
-                        <li class="link-navbar scroll-to-section circle-big"><a href="#services">Services</a></li>
-                        <li class="link-navbar scroll-to-section circle-big"><a href="#portfolio" data-lang="projects"></a></li>
-                        <li class="sc-hidden"><a href="offerte.html" data-lang="free-offer"></a></li>
+                        <li class="link-navbar scroll-to-section circle-big"><a class="active" href="#top">Home</a></li>
+                        <li class="link-navbar scroll-to-section circle-big"><a href="./about" data-lang="about"></a></li>
+                        <li class="link-navbar scroll-to-section circle-big"><a href="./services">Services</a></li>
+                        <li class="link-navbar scroll-to-section circle-big"><a href="./projects" data-lang="projects"></a></li>
+                        <li class="sc-hidden"><a href="./offerte" data-lang="free-offer"></a></li>
                         <li class="dropdown circle-big">
                            <a href="#" class="dropbtn" >EN | DE</a>
                            <div class="dropdown-content">
@@ -87,7 +87,7 @@
                            </div>
                         </li>
                         <li class="free-offer-btn-lappi">
-                           <div class="border-first-button circle-big"><a href="offerte.html" data-lang="free-offer"></a></div>
+                           <div class="border-first-button circle-big"><a href="./offerte" data-lang="free-offer"></a></div>
                         </li>
                         <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
                         <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
@@ -765,35 +765,6 @@
             }
          });
          });
-      </script>
-      <script>
-         function updateNavbarLink(sectionId) {
-             const links = document.querySelectorAll('.nav a');
-             links.forEach(link => {
-                 link.style.color = ''; 
-             });
-         
-             const currentLink = document.querySelector(`.nav a[href="#${sectionId}"]`);
-             if (currentLink) {
-                 currentLink.style.color = 'var(--light-green)'; 
-             }
-         }
-         
-         function trackSectionOnScroll() {
-             const sections = document.querySelectorAll('section');
-             const offset = window.innerHeight * 0.3; 
-         
-             sections.forEach(section => {
-                 const rect = section.getBoundingClientRect();
-                 if (rect.top >= 0 && rect.top <= offset) {
-                     updateNavbarLink(section.id);
-                 }
-             });
-         }
-         
-         window.addEventListener('scroll', trackSectionOnScroll);
-         
-         trackSectionOnScroll();
       </script>
       <script>
          document.addEventListener("DOMContentLoaded", function() {

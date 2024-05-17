@@ -173,6 +173,9 @@ var texts = {
       "service-text-4" : "Comprehensive hosting support for a strong online presence.",
       "service-text-5" : "Improved and enhanced visibility for search engines.",
       "service-text-6" : "High-quality content for a convincing online presence.",
+      "service-full-text-1" : "Explore our ",
+      "service-full-text-2" : "full ",
+      "service-full-text-3" : "range",
     },
     "de": {
         "we-are": "Wir sind",
@@ -347,6 +350,9 @@ var texts = {
         "service-text-4" : "Hosting-Support für eine starke Online-Präsenz.",
         "service-text-5" : "Verbesserung der Sichtbarkeit für Suchmaschinen.",
         "service-text-6" : "Hochwertige Inhalte für ein überzeugendes Online-Auftreten.",
+        "service-full-text-1" : "Erkunde ",
+        "service-full-text-2" : "unsere ",
+        "service-full-text-3" : "Leistungen",
     }
   };
 
