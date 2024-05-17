@@ -675,6 +675,9 @@ header
 }
 
 @media (max-width: 1000px){
+  .free-offer-btn-lappi {
+    display: none;
+  }
   .header-area .main-nav .nav li:last-child
 .services .naccs .menu div
   .background-header .main-nav .nav li:last-child {
