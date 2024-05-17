@@ -587,10 +587,6 @@ margin-top: 4.5rem;
 
 /* Offerten */
 
-.offerte {
-  margin-top: 15vh;
-}
-
 .offerten-link {
   display: inline-block;
   background-color: var(--white);
@@ -911,10 +907,6 @@ margin-top: 4.5rem;
   }
 }
 
-.full-service {
-  margin-top: 15vh;
-}
-
 .service-selection {
   display: block;
   width: 100%;
@@ -935,4 +927,13 @@ margin-top: 4.5rem;
 .service-selection:hover {
   background-color: var(--primary-green)!important;
   color: var(--white)!important;
+}
+
+.subpage-padding {
+  padding: 80px 0;
+}
+
+.contact.subpage-padding {
+  text-align: left;
+  padding: 15px 0;
 }

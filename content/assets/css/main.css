@@ -1119,9 +1119,7 @@ Services Style
 }
 
 .services {
-  padding-top: 80px;
   position: relative;
-  padding-bottom: 80px;
 }
 
 .services:after {
