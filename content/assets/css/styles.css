@@ -10,7 +10,7 @@
 
 #changing-sentence {
   color: var(--black);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   margin-top: 25px;
 }
@@ -41,7 +41,7 @@
 }
 
 .panel-title {
-  font-size: 22px;
+  font-size: 1.375rem;
   width: 100%;
   font-weight: 700;
   position: relative;
@@ -88,7 +88,7 @@
   position: absolute;
   margin: 8px 0 auto 10px;
   z-index: 5;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 100%;
   -webkit-user-select: none;    
   -moz-user-select: none;
@@ -358,7 +358,7 @@ margin-top: 4.5rem;
     color: var(--white);
     position: relative;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.125rem;
     transition: all .3s;
   }
 
@@ -421,7 +421,7 @@ margin-top: 4.5rem;
 }
 
 .copyright-text {
-  font-size: 13px;
+  font-size: 0.875rem;
 }
 
 .center-line {
@@ -473,14 +473,14 @@ margin-top: 4.5rem;
 }
 
 #progress-value {
-  font-size: 35px;
+  font-size: 2.25rem;
   font-family: inherit;
   font-weight: 700;
   margin-top: 10px;
 }
 
 .progress-span {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--grey);
   margin-top: -8px;
   font-weight: 300;
@@ -594,7 +594,7 @@ margin-top: 4.5rem;
 .offerten-link {
   display: inline-block;
   background-color: var(--white);
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--primary-green);
   width: fit-content;
@@ -755,7 +755,7 @@ margin-top: 4.5rem;
   align-items: center;
   justify-content: center; 
   background-color: var(--white); 
-  font-size: 16px; 
+  font-size: 1rem; 
   color: var(--primary-green); 
   width: 40px; 
   height: 40px; 

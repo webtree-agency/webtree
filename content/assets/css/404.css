@@ -6,7 +6,7 @@
     border-radius: 4px; 
     text-align: center; 
     display: inline-block; 
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer; 
     text-decoration: none; 
 }
@@ -34,7 +34,7 @@
 .button-404{
     display: inline-block;
     background-color: var(--white);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--primary-green);
     width: 40%;
