@@ -177,7 +177,7 @@ var texts = {
       "service-full-text-3" : "range",
       "project-site-title" : "Projects - WebTree",
       "project-preview-title1" : "Project preview",
-      "project-preview-title2" : "Our success",
+      "project-preview-title2" : "Our success ",
       "project-preview-title3" : "highlights",
       "hall-of-fame" : "To the hall of fame",
     },
@@ -358,7 +358,7 @@ var texts = {
         "service-full-text-3" : "Leistungen",
         "project-site-title" : "Projekte - WebTree",
         "project-preview-title1" : "Projektvorschau",
-        "project-preview-title2" : "Unsere Erfolgs-",
+        "project-preview-title2" : "Unsere Erfolg-",
         "project-preview-title3" : "Highlights",
         "hall-of-fame" : "Zur Hall of Fame",
     }
