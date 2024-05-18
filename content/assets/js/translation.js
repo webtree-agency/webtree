@@ -175,6 +175,7 @@ var texts = {
       "service-full-text-1" : "Explore our ",
       "service-full-text-2" : "full ",
       "service-full-text-3" : "range",
+      "project-site-title" : "Projects - WebTree",
     },
     "de": {
         "we-are": "Wir sind",
@@ -351,6 +352,7 @@ var texts = {
         "service-full-text-1" : "Erkunde ",
         "service-full-text-2" : "unsere ",
         "service-full-text-3" : "Leistungen",
+        "project-site-title" : "Projekte - WebTree",
     }
   };
 
