@@ -1000,7 +1000,8 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 0px 0px;
+  padding: 80px 0px 0px 0px !important;
+  text-align: left !important;
   position: relative;
   overflow: hidden;
 }
