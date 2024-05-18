@@ -79,7 +79,7 @@
                             <li class="link-navbar scroll-to-section circle-big"><a href="./about" data-lang="about"></a></li>
                             <li class="link-navbar scroll-to-section circle-big"><a href="./services">Services</a></li>
                             <li class="link-navbar scroll-to-section circle-big"><a href="./projects" data-lang="projects"></a></li>
-                            <li class="sc-hidden"><a href="./offerte" data-lang="free-offer"></a></li>
+                            <li class="sc-hidden"><a href="#" data-lang="free-offer"></a></li>
                             <li class="dropdown circle-big">
                                <a href="#" class="dropbtn" >EN | DE</a>
                                <div class="dropdown-content">
@@ -88,7 +88,7 @@
                                </div>
                             </li>
                             <li class="free-offer-btn-lappi">
-                               <div class="border-first-button circle-big"><a href="./offerte" data-lang="free-offer"></a></div>
+                               <div class="border-first-button circle-big"><a href="#" data-lang="free-offer"></a></div>
                             </li>
                             <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
                             <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
@@ -143,18 +143,12 @@
                         </div>
 
                         <div class="input-wrap w-100">
-                            <input id="email-contact" class="contact-input" autocomplete="off" name="phone" type="number" required>
-                            <label for="email-contact" data-lang="phone-nr"></label>
+                            <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
+                            <label for="phone-nr" data-lang="phone-nr"></label>
                             <i class="icon fa-solid fa-phone"></i>
                         </div>
                         
-                        <div class="input-wrap w-100">
-                            <input id="business-name-contact" class="contact-input" autocomplete="off" name="business-name" type="text" required>
-                            <label for="business-name-contact" data-lang="business-name"></label>
-                            <i class="icon fa-solid fa-building"></i>
-                        </div>
-                        
-                        <div class="input-wrap">
+                        <!-- <div class="input-wrap">
                             <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
                                 <option value="" selected disabled></option>
                                 <option value="Neu erstellen" data-lang="create"></option>
@@ -198,10 +192,10 @@
                             </select>
                             <label for="logo-desired-contact" data-lang="logo-desired"></label>
                             <i class="icon fa-solid fa-image"></i>
-                        </div>
+                        </div> -->
                         
                         <div class="input-wrap w-100">
-                            <input id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website" type="text">
+                            <textarea id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website" type="text"></textarea>
                             <label for="inspiration-website-contact" data-lang="inspiration-sources"></label>
                             <i class="icon fa-solid fa-globe"></i>
                         </div>
