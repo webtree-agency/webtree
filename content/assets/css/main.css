@@ -1216,6 +1216,10 @@ Services Style
   padding: 10px 0 10px 0;
 }
 
+.services ul.nacc li {
+  text-align: left;
+}
+
 .services .naccs .menu div.active {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.08);
   border: 5px;
