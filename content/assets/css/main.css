@@ -1345,10 +1345,22 @@ Portfolio
 */
 
 .our-portfolio {
-  padding: 80px 0 80px 0;
-  overflow: hidden;
   position: relative;
+  padding: 80px 0;
   background-color: var(--opacity-light-green);
+}
+
+.our-portfolio:after {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100% ;
+  height: 200px;
+  z-index: 0;
+  overflow: hidden;
 }
 
 .our-portfolio:before {
@@ -1356,22 +1368,12 @@ Portfolio
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
-  top: 0px;
-  width: 414px;
-  height: 861px;
-  z-index: 1;
+  top: 400px;
+  width: 100%;
+  height: 113px;
+  z-index: 0;
 }
 
-.our-portfolio:after {
-  content: '';
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  top: 0px;
-  width: 677px;
-  height: 759px;
-
-}
 
 .our-portfolio .section-heading {
   margin-bottom: 40px;
