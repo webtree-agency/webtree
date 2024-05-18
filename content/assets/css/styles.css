@@ -929,6 +929,11 @@ margin-top: 4.5rem;
   color: var(--white)!important;
 }
 
+.service-selection.active {
+  background-color: var(--primary-green)!important;
+  color: var(--white)!important;
+}
+
 /* SUBPAGE */
 
 .subpage-padding {
