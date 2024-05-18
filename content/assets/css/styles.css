@@ -589,7 +589,7 @@ margin-top: 4.5rem;
 
 .offerten-link {
   display: inline-block;
-  background-color: var(--white);
+  background-color: transparent;
   font-size: 1rem;
   font-weight: 400;
   color: var(--primary-green);
