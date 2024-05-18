@@ -339,7 +339,7 @@ var texts = {
         "grid-description-mdc" : "MDCoaching hilft dir, deine Traumfigur mit digitalem Coaching zu erreichen.",
         "landing-word" : "/Ziel",
         "free-offer" : "Gratis Offerte",
-        "read-more" : "Mehr lesen",
+        "read-more" : "Mehr erfahren",
         "web-develop": "Webentwicklung",
         "seo-optimization": "SEO-Optimierung",
         "service-text-1" : "Erstellen und erneuern von Webseiten mit individuellem Charakter.",
