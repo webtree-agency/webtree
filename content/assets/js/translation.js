@@ -196,7 +196,11 @@ var texts = {
       "content-creation-bullet-1": "High-quality",
       "content-creation-bullet-2": "Visually Appealing",
       "content-creation-bullet-3": "Professional",
-      "content-creation-bullet-4": "Memorable"
+      "content-creation-bullet-4": "Memorable",
+      "successful-projects" : "successful projects",
+      "happy-customers" : "Happy customers",
+      "years-of-experience" : "Years of experience",
+      "goal-digital" : "Goal - Go digital go strong!",
     },
     "de": {
         "we-are": "Wir sind",
@@ -393,7 +397,11 @@ var texts = {
         "multimedia-design-bullet-1": "Kreativ",
         "multimedia-design-bullet-2": "Professionell",
         "multimedia-design-bullet-3": "Einprägsam",
-        "multimedia-design-bullet-4": "Eindrucksvoll"
+        "multimedia-design-bullet-4": "Eindrucksvoll",
+        "successful-projects" : "Erfolgreiche Projekte",
+        "happy-customers" : "Glückliche Kunden",
+        "years-of-experience" : "Jahre an Erfahrung",
+        "goal-digital" : "Ziel - Go digital, go strong!",
 
     }
   };
