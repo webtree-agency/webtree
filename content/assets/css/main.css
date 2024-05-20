@@ -172,12 +172,12 @@ body {
   z-index: 2;
 }
 
-.section-heading h6 {
+.section-heading .top-heading {
   font-size: 1rem;
   font-weight: 700;
   color: var(--primary-green);
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin:0;
 }
 
 .section-heading h4 {
