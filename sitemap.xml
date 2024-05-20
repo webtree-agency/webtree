@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.webtree.ch/datenschutz</loc>
+        <loc>https://www.webtree.ch/index.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/impressum</loc>
+        <loc>https://www.webtree.ch/offerte.html</loc>
+    </url>
+        <url>
+        <loc>https://www.webtree.ch/projekte.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/404</loc>
+        <loc>https://www.webtree.ch/services.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/index</loc>
+        <loc>https://www.webtree.ch/404.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/offerte</loc>
+        <loc>https://www.webtree.ch/impressum.html</loc>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/datenschutz.html</loc>
     </url>
 </urlset>
