@@ -356,7 +356,7 @@ var texts = {
         "renew" : "Erneuern",
         "business-name" : "Geschäftsname",
         "request-quotation" : "Offerten-Anfrage",
-        "to-the-quotation-request" : "Zur kostenlosen Offerten-Anfrage",
+        "to-the-quotation-request" : "Zur kostenlosen Offerten",
         "offerte-title" : "Gratis Offerte - WebTree",
         "offer-contact" : "Hole dir deine",
         "phone-nr" : "Telefonnummer",
