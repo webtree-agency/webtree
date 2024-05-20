@@ -116,32 +116,32 @@
               </div>
            </div>
         </div>
-          <div class="container">
-             <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="offerte-heading section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
                     <h6 data-lang="request-quotation"></h6>
                     <h4><span data-lang="offer-contact"></span><br><em data-lang="free-offer"></em></h4>
                     <div class="line-dec"></div>
                 </div>
-             </div>
-             <div class="grid" id="services">
+            </div>
+            <div class="grid" id="services">
                 <div class="row">
                     <div class="col-lg-10 service-selection-btns">
                         <div class="row">
-                          <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span data-lang="development"></span></button>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span data-lang="design-creation"></span></button>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span>Support</span></button>
-                          </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <button class="circle-big service-selection" id="development-btn"><span data-lang="development"></span></button>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <button class="circle-big service-selection" id="design-btn"><span data-lang="design-creation"></span></button>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <button class="circle-big service-selection" id="support-btn"><span>Support</span></button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-             </div>
-             <form method="POST" class="contact-form" id="contact-form">
+            </div>
+            <form method="POST" class="contact-form" id="contact-form">
                 <input type="text" name="_honey" style="display: none;">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_template" value="box">
@@ -164,69 +164,70 @@
                     <label for="email-contact" data-lang="mail"></label>
                     <i class="icon fa-solid fa-envelope"></i>
                 </div>
-
+        
                 <div class="input-wrap">
                     <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
                     <label for="phone-nr" data-lang="phone-nr"></label>
                     <i class="icon fa-solid fa-phone"></i>
                 </div>
-
+        
                 <!-- Option-Entwicklung Start -->
                 
-                <div class="input-wrap">
-                    <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Neu erstellen" data-lang="create"></option>
-                        <option value="Erneuern" data-lang="renew">n</option>
-                    </select>
-                    <label for="webpage-type-contact" data-lang="create-renew"></label>
-                    <i class="icon fa-solid fa-sync"></i>
+                <div id="development-options" class="option-inputs" style="display: none;">
+                    <div class="input-wrap">
+                        <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
+                            <option value="" selected disabled></option>
+                            <option value="Neu erstellen" data-lang="create"></option>
+                            <option value="Erneuern" data-lang="renew">n</option>
+                        </select>
+                        <label for="webpage-type-contact" data-lang="create-renew"></label>
+                        <i class="icon fa-solid fa-sync"></i>
+                    </div>
+                    
+                    <div class="input-wrap">
+                        <select id="cms-contact" name="cms" class="contact-input" required>
+                            <option value="" selected disabled></option>
+                            <option value="Ja" data-lang="yes"></option>
+                            <option value="Nein" data-lang="no"></option>
+                        </select>
+                        <label for="cms-contact" data-lang="cms"></label>
+                        <i class="icon fa-solid fa-laptop"></i>
+                    </div>
+                    
+                    <div class="input-wrap">
+                        <select id="webpage-category-contact" name="webpage-category" class="contact-input" required>
+                            <option value="" selected disabled></option>
+                            <option value="Blog">Blog</option>
+                            <option value="Portfolio">Portfolio</option>
+                            <option value="Shop">Shop / E-Commerce</option>
+                            <option value="Service">Service</option>
+                            <option value="Informationsseite" data-lang="information-site"></option>
+                            <option value="Landing Page">Landing Page</option>
+                            <option value="Anderes" data-lang="other"></option>
+                        </select>
+                        <label for="webpage-category-contact" data-lang="type-website"></label>
+                        <i class="icon fa-solid fa-laptop"></i>
+                    </div>
+                    
+                    <div class="input-wrap">
+                        <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
+                            <option value="" selected disabled></option>
+                            <option value="Ja" data-lang="yes"></option>
+                            <option value="Nein" data-lang="no"></option>
+                        </select>
+                        <label for="logo-desired-contact" data-lang="logo-desired"></label>
+                        <i class="icon fa-solid fa-image"></i>
+                    </div>
                 </div>
-                
-                <div class="input-wrap">
-                    <select id="cms-contact" name="cms" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Ja" data-lang="yes"></option>
-                        <option value="Nein" data-lang="no"></option>
-                    </select>
-                    <label for="cms-contact" data-lang="cms"></label>
-                    <i class="icon fa-solid fa-laptop"></i>
-                </div>
-                
-                <div class="input-wrap">
-                   <select id="webpage-category-contact" name="webpage-category" class="contact-input" required>
-                       <option value="" selected disabled></option>
-                       <option value="Blog">Blog</option>
-                       <option value="Portfolio">Portfolio</option>
-                       <option value="Shop">Shop / E-Commerce</option>
-                       <option value="Service">Service</option>
-                       <option value="Informationsseite" data-lang="information-site"></option>
-                       <option value="Landing Page">Landing Page</option>
-                       <option value="Anderes" data-lang="other"></option>
-                   </select>
-                   <label for="webpage-category-contact" data-lang="type-website"></label>
-                   <i class="icon fa-solid fa-laptop"></i>
-               </div>
-               
-
-                <div class="input-wrap">
-                    <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Ja" data-lang="yes"></option>
-                        <option value="Nein" data-lang="no"></option>
-                    </select>
-                    <label for="logo-desired-contact" data-lang="logo-desired"></label>
-                    <i class="icon fa-solid fa-image"></i>
-                </div>
-
-            <!-- Option-Entwicklung Ende -->
+        
+                <!-- Option-Entwicklung Ende -->
                 
                 <div class="input-wrap">
                     <textarea id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website"></textarea>
                     <label for="inspiration-website-contact" data-lang="inspiration-sources"></label>
                     <i class="icon fa-solid fa-globe"></i>
                 </div>
-
+        
                 <div class="input-wrap">
                     <textarea id="description" class="contact-input" autocomplete="off" name="description"></textarea>
                     <label for="description" data-lang="description-offerte"></label>
@@ -241,10 +242,10 @@
                 
                 <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" onclick="return submitForm()" id="send-btn">
             </form>                    
-            
-             <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: wrap; margin-top: 15px;"></div>
-             <div id="error-message" style="display: none; color: red; white-space: wrap; font-weight: bold; margin-top: 15px;" data-lang="error-message"></div>
-          </div>
+          
+            <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: wrap; margin-top: 15px;"></div>
+            <div id="error-message" style="display: none; color: red; white-space: wrap; font-weight: bold; margin-top: 15px;" data-lang="error-message"></div>
+        </div>
        </section>
 
       <img class="wave-footer" src="content/assets/svg/footer-topwave.svg" alt="footer-social-media">
@@ -376,6 +377,26 @@ function submitForm() {
         });
     });
       </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const buttons = document.querySelectorAll(".service-selection");
+        const developmentOptions = document.getElementById("development-options");
+    
+        buttons.forEach(button => {
+            button.addEventListener("click", function() {
+                buttons.forEach(btn => btn.classList.remove("active"));
+    
+                button.classList.add("active");
+    
+                if (button.id === "development-btn") {
+                    developmentOptions.style.visibility = "block";
+                } else {
+                    developmentOptions.style.visibility = "none";
+                }
+            });
+        });
+    });
+    </script>
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/assets/js/translation.js"></script>
       <script src="content/assets/js/owl-carousel.js"></script>
