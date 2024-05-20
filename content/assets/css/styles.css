@@ -656,6 +656,7 @@ margin-top: 4.5rem;
   bottom: 0;
   right: 0;
   padding: 3rem;
+  color: var(--white);
   z-index: 99;
 }
 
