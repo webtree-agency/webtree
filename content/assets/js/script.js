@@ -56,7 +56,6 @@ window.addEventListener("mousemove", function(e) {
 moveCircle();
 // Counter
 $(document).ready(function() {
-  console.log("Das Dokument wurde geladen. Die Counter werden animiert.");
 
   $('.counter').each(function () {
     $(this).prop('Counter',0).animate({
@@ -832,7 +831,6 @@ $('.scroll-to-section a[href*="#"]').on('click', function() {
     }
   
     if ( this.options.debug && console ) {
-      console.log( 'progress: ' + message, image, elem );
     }
   };
   
@@ -1098,19 +1096,3 @@ function updateTime() {
 updateTime(); 
 
 setInterval(updateTime, 3000);
-// Counter
-$(document).ready(function() {
-  console.log("Das Dokument wurde geladen. Die Counter werden animiert.");
-
-  $('.counter').each(function () {
-    $(this).prop('Counter',0).animate({
-      Counter: $(this).text()
-    }, {
-      duration: 4000,
-      easing: 'swing',
-      step: function (now) {
-        $(this).text(Math.ceil(now));
-      }
-    });
-  }); 
-});
