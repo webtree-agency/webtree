@@ -136,7 +136,6 @@ inputs.forEach(ipt =>{
 })
 
 // Changing words
-// script.js
 var wordsDe = [
   "Web-Entwickler",
   "Multimedia-Designer",

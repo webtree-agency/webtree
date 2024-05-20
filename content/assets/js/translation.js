@@ -419,9 +419,11 @@ const textElement = document.getElementById("text-writer");
 const enText = "Individually for Your Success!";
 const deText = "Individuell für Deinen Erfolg!";
 let text;
+let typingTimeout;
+let isTyping = false;
 
 function setText(language) {
-    textElement.textContent = ""; // Leeren des Texts im <h2>
+    textElement.textContent = ""; 
     if (language === 'en') {
         text = enText;
     } else {
@@ -430,21 +432,31 @@ function setText(language) {
 }
 
 function typeWriter(text, index) {
-    if (index < text.length) {
+    if (index < text.length && isTyping) {
         textElement.textContent += text.charAt(index);
         index++;
-        setTimeout(function () {
+        typingTimeout = setTimeout(function () {
             typeWriter(text, index);
-        }, 60); // Geschwindigkeit der Animation (in Millisekunden)
+        }, 60); 
+    } else {
+        isTyping = false; 
     }
 }
 
 function startAnimation(language) {
     setText(language);
+    if (isTyping) {
+        clearTimeout(typingTimeout); 
+        isTyping = false;
+    }
     setTimeout(function () {
-        typeWriter(text, 0); // Animation starten nach kurzem Timeout
-    }, 2800); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
+        isTyping = true;
+        typeWriter(text, 0); 
+    }, 2400); 
 }
+
+
+
 
 var enButton = document.getElementById('en-link');
 var deButton = document.getElementById('de-link');
