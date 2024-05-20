@@ -207,6 +207,11 @@ var texts = {
       "design-creation" : "Design / Creation",
       "let-us-make" : "Let's make it",
       "happen" : "happen",
+      "faq7-question-1-part": "What  ",
+      "faq7-question-2-part": "payment methods ",
+      "faq7-question-3-part": "does WebTree accept",
+      "faq7-answer": "We accept various payment methods, including bank transfers and common online payment services. Details will be discussed in the quote. ",
+      
     },
     "de": {
         "we-are": "Wir sind",
@@ -413,6 +418,11 @@ var texts = {
         "design-creation" : "Design / Erstellung",
         "let-us-make" : "Lass es uns",
         "happen" : "verwirklichen",
+        "faq7-question-1-part": "Welche ",
+        "faq7-question-2-part": "Zahlungsmethoden ",
+        "faq7-question-3-part": "akzeptiert WebTree",
+        "faq7-answer": "Wir akzeptieren verschiedene Zahlungsmethoden, einschliesslich Banküberweisungen und gängige Online-Zahlungsdienste. Details werden im Angebot besprochen.",
+
     }
   };
 
