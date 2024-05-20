@@ -1586,7 +1586,7 @@ contact
 
 .contact-form{
   display: grid;
-  margin-top: 2.55rem;
+  margin-top: 2rem;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   row-gap: 1rem;
@@ -1746,7 +1746,7 @@ textarea.contact-input ~ .icon{
 
   .contact-form {
     display: grid;
-    margin-top: 1.9rem;
+    margin-top: 1.2rem;
     column-gap: 0.8rem;
     row-gap: 0.65rem;
   }
