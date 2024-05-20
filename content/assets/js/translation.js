@@ -203,6 +203,9 @@ var texts = {
       "happy-customers" : "Happy customers",
       "years-of-experience" : "Years of experience",
       "goal-digital" : "Goal - Go digital go strong!",
+      "design-creation" : "Design / Creation",
+      "let-us-make" : "Let's make it",
+      "happen" : "happen",
     },
     "de": {
         "we-are": "Wir sind",
@@ -406,7 +409,10 @@ var texts = {
         "happy-customers" : "Glückliche Kunden",
         "years-of-experience" : "Jahre an Erfahrung",
         "goal-digital" : "Ziel - Go digital, go strong!",
-
+        "development" : "Entwicklung",
+        "design-creation" : "Design / Erstellung",
+        "let-us-make" : "Lass es uns",
+        "happen" : "verwirklichen",
     }
   };
 

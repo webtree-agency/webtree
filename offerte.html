@@ -129,22 +129,13 @@
                     <div class="col-lg-10 service-selection-btns">
                         <div class="row">
                           <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span data-lang="web-develop"></span></button>
+                            <button class="circle-big service-selection"><span data-lang="development"></span></button>
                           </div>
                           <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span>Multi Media Design</span></button>
+                            <button class="circle-big service-selection"><span data-lang="design-creation"></span></button>
                           </div>
                           <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span>IT-Support</span></button>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span>Hosting Services</span></button>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span data-lang="seo-optimization"></span></button>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-6">
-                            <button class="circle-big service-selection"><span>Content Creation</span></button>
+                            <button class="circle-big service-selection"><span>Support</span></button>
                           </div>
                         </div>
                       </div>
@@ -179,8 +170,10 @@
                     <label for="phone-nr" data-lang="phone-nr"></label>
                     <i class="icon fa-solid fa-phone"></i>
                 </div>
+
+                <!-- Option-Entwicklung Start -->
                 
-                <!-- <div class="input-wrap">
+                <div class="input-wrap">
                     <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
                         <option value="" selected disabled></option>
                         <option value="Neu erstellen" data-lang="create"></option>
@@ -215,7 +208,7 @@
                    <i class="icon fa-solid fa-laptop"></i>
                </div>
                
-                
+
                 <div class="input-wrap">
                     <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
                         <option value="" selected disabled></option>
@@ -224,7 +217,9 @@
                     </select>
                     <label for="logo-desired-contact" data-lang="logo-desired"></label>
                     <i class="icon fa-solid fa-image"></i>
-                </div> -->
+                </div>
+
+            <!-- Option-Entwicklung Ende -->
                 
                 <div class="input-wrap">
                     <textarea id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website"></textarea>
@@ -380,35 +375,6 @@ function submitForm() {
             }
         });
     });
-      </script>
-      <script>
-         function updateNavbarLink(sectionId) {
-             const links = document.querySelectorAll('.nav a');
-             links.forEach(link => {
-                 link.style.color = ''; 
-             });
-         
-             const currentLink = document.querySelector(`.nav a[href="#${sectionId}"]`);
-             if (currentLink) {
-                 currentLink.style.color = 'var(--light-green)'; 
-             }
-         }
-         
-         function trackSectionOnScroll() {
-             const sections = document.querySelectorAll('section');
-             const offset = window.innerHeight * 0.3; 
-         
-             sections.forEach(section => {
-                 const rect = section.getBoundingClientRect();
-                 if (rect.top >= 0 && rect.top <= offset) {
-                     updateNavbarLink(section.id);
-                 }
-             });
-         }
-         
-         window.addEventListener('scroll', trackSectionOnScroll);
-         
-         trackSectionOnScroll();
       </script>
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/assets/js/translation.js"></script>
