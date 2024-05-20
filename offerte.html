@@ -167,63 +167,63 @@
                     <label for="phone-nr" data-lang="phone-nr"></label>
                     <i class="icon fa-solid fa-phone"></i>
                 </div>
-        
-                <!-- Option-Entwicklung Start -->
-                
-                <div id="development-options" class="option-inputs" style="display: none;">
-                    <div class="input-wrap">
-                        <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
-                            <option value="" selected disabled></option>
-                            <option value="Neu erstellen" data-lang="create"></option>
-                            <option value="Erneuern" data-lang="renew">n</option>
-                        </select>
-                        <label for="webpage-type-contact" data-lang="create-renew"></label>
-                        <i class="icon fa-solid fa-sync"></i>
-                    </div>
-                    
-                    <div class="input-wrap">
-                        <select id="cms-contact" name="cms" class="contact-input" required>
-                            <option value="" selected disabled></option>
-                            <option value="Ja" data-lang="yes"></option>
-                            <option value="Nein" data-lang="no"></option>
-                        </select>
-                        <label for="cms-contact" data-lang="cms"></label>
-                        <i class="icon fa-solid fa-laptop"></i>
-                    </div>
-                    
-                    <div class="input-wrap">
-                        <select id="webpage-category-contact" name="webpage-category" class="contact-input" required>
-                            <option value="" selected disabled></option>
-                            <option value="Blog">Blog</option>
-                            <option value="Portfolio">Portfolio</option>
-                            <option value="Shop">Shop / E-Commerce</option>
-                            <option value="Service">Service</option>
-                            <option value="Informationsseite" data-lang="information-site"></option>
-                            <option value="Landing Page">Landing Page</option>
-                            <option value="Anderes" data-lang="other"></option>
-                        </select>
-                        <label for="webpage-category-contact" data-lang="type-website"></label>
-                        <i class="icon fa-solid fa-laptop"></i>
-                    </div>
-                    
-                    <div class="input-wrap">
-                        <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
-                            <option value="" selected disabled></option>
-                            <option value="Ja" data-lang="yes"></option>
-                            <option value="Nein" data-lang="no"></option>
-                        </select>
-                        <label for="logo-desired-contact" data-lang="logo-desired"></label>
-                        <i class="icon fa-solid fa-image"></i>
-                    </div>
-                </div>
-        
-                <!-- Option-Entwicklung Ende -->
                 
                 <div class="input-wrap">
                     <textarea id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website"></textarea>
                     <label for="inspiration-website-contact" data-lang="inspiration-sources"></label>
                     <i class="icon fa-solid fa-globe"></i>
                 </div>
+
+                                <!-- Option-Entwicklung Start -->
+                
+                                <div id="development-options" class="option-inputs" style="display: none;">
+                                    <div class="input-wrap">
+                                        <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
+                                            <option value="" selected disabled></option>
+                                            <option value="Neu erstellen" data-lang="create"></option>
+                                            <option value="Erneuern" data-lang="renew">n</option>
+                                        </select>
+                                        <label for="webpage-type-contact" data-lang="create-renew"></label>
+                                        <i class="icon fa-solid fa-sync"></i>
+                                    </div>
+                                    
+                                    <div class="input-wrap">
+                                        <select id="cms-contact" name="cms" class="contact-input" required>
+                                            <option value="" selected disabled></option>
+                                            <option value="Ja" data-lang="yes"></option>
+                                            <option value="Nein" data-lang="no"></option>
+                                        </select>
+                                        <label for="cms-contact" data-lang="cms"></label>
+                                        <i class="icon fa-solid fa-laptop"></i>
+                                    </div>
+                                    
+                                    <div class="input-wrap">
+                                        <select id="webpage-category-contact" name="webpage-category" class="contact-input" required>
+                                            <option value="" selected disabled></option>
+                                            <option value="Blog">Blog</option>
+                                            <option value="Portfolio">Portfolio</option>
+                                            <option value="Shop">Shop / E-Commerce</option>
+                                            <option value="Service">Service</option>
+                                            <option value="Informationsseite" data-lang="information-site"></option>
+                                            <option value="Landing Page">Landing Page</option>
+                                            <option value="Anderes" data-lang="other"></option>
+                                        </select>
+                                        <label for="webpage-category-contact" data-lang="type-website"></label>
+                                        <i class="icon fa-solid fa-laptop"></i>
+                                    </div>
+                                    
+                                    <div class="input-wrap">
+                                        <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
+                                            <option value="" selected disabled></option>
+                                            <option value="Ja" data-lang="yes"></option>
+                                            <option value="Nein" data-lang="no"></option>
+                                        </select>
+                                        <label for="logo-desired-contact" data-lang="logo-desired"></label>
+                                        <i class="icon fa-solid fa-image"></i>
+                                    </div>
+                                </div>
+                        
+                                <!-- Option-Entwicklung Ende -->
         
                 <div class="input-wrap">
                     <textarea id="description" class="contact-input" autocomplete="off" name="description"></textarea>
@@ -386,9 +386,9 @@ function submitForm() {
                 button.classList.add("active");
     
                 if (button.id === "development-btn") {
-                    developmentOptions.style.visibility = "block";
+                    developmentOptions.style.display = "grid";
                 } else {
-                    developmentOptions.style.visibility = "none";
+                    developmentOptions.style.display = "none";
                 }
             });
         });
