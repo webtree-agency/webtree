@@ -362,7 +362,7 @@
 }
 
 .burger-img {
-    background-image: url(../images/burger-handy.png);
+    background-image: url(../images/burger-handy-min.png);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -460,7 +460,7 @@
 
 @media (max-width: 1800px) {
     .burger-img {
-        background-image: url(../images/burger-laptop.png);
+        background-image: url(../images/burger-laptop-min.png);
         background-position: center top;
     }
 
@@ -487,7 +487,7 @@
 
 @media (max-width: 980px) {
     .burger-img {
-        background-image: url(../images/burger-ipad.png);
+        background-image: url(../images/burger-ipad-min.png);
         background-position: center top;
     }
 
@@ -515,7 +515,7 @@
 
 @media (max-width: 580px) {
     .burger-img {
-        background-image: url(../images/burger-handy.png);
+        background-image: url(../images/burger-handy-min.png);
         background-position: center top;
     }
 
