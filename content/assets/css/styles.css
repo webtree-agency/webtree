@@ -174,12 +174,12 @@ margin-top: 4.5rem;
 
 /* PARALLAX */
 .parallax {
-  background-image: url(../svg/codesnippet-laptop.svg);
-  min-height: 70vh !important;
+  background-image: url(../svg/parallax.svg);
+  min-height: 60vh !important;
   background-attachment: fixed !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-size: 70% !important;
+  background-size: 100% !important;
 }
 
 .divider-code-500 {
