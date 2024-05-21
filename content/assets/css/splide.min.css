@@ -190,7 +190,8 @@
     padding:0;
     position:relative;
     transition:transform .2s linear;
-    width:8px
+    width:8px;
+    margin-bottom: 1rem;
 }
 .splide__pagination__page.is-active{
     background:#fff;
@@ -302,8 +303,9 @@
     left:auto;
     padding:1em 0;
     right:.5em;
-    top:0
+    top:0;;
 }
+
 
 /* Projectcarousel */
 .card {
@@ -390,6 +392,16 @@
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
+.jungle-img {
+    background-image: url(../images/jungle-ipad.png);
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
 
 .urban-img {
     background-image: url(../svg/urbanforge-ipad.svg);
@@ -474,9 +486,13 @@
         background-position: center top;
     }
 
+    .jungle-img{
+        background-image: url(../images/jungle-laptop.png);
+        background-position: center center;
+    }
     .urban-img {
         background-image: url(../svg/urbanforge-laptop.svg);
-        background-position: center top;
+        background-position: center ;
     }
 
     .pangri-img {
@@ -498,6 +514,10 @@
 
     .mdc-img {
         background-image: url(../svg/mdc-ipad.svg);
+        background-position: center top;
+    }
+    .jungle-img{
+        background-image: url(../images/jungle-ipad.png);
         background-position: center top;
     }
 
@@ -529,6 +549,10 @@
         background-position: center center;
     }
 
+    .jungle-img{
+        background-image: url(../images/jungle-handy.png);
+        background-position: center top;
+    }
     .urban-img {
         background-image: url(../svg/urbanforge-handy.svg);
         background-position: center top;
