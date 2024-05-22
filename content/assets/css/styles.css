@@ -182,7 +182,11 @@ margin-top: 4.5rem;
   background-size: 100% !important;
 }
 
-.divider-code-500 {
+.divider-ipad {
+  display: none;
+}
+
+.divider-handy {
   display: none;
 }
 
@@ -190,10 +194,10 @@ margin-top: 4.5rem;
   .parallax {
     display: none;
   }
-  .divider-code-500 {
+  .divider-ipad {
     display: block;
-    min-height: 70vh;
-    width: 90%;
+    min-height: 40vh;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -202,10 +206,13 @@ margin-top: 4.5rem;
   }
 }
 
-@media (max-width: 450px) {
-  .divider-code-500 {
-    min-height: 45vh !important;
+@media (max-width: 700px) {
+  .divider-ipad {
+    display: none;
   }
+.divider-handy {
+  display: block;
+}
 }
 
 .custom-color-code {
