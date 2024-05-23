@@ -374,30 +374,26 @@
       </script> 
       <script>
 document.addEventListener("DOMContentLoaded", function() {
-   // Standardmäßig Entwicklung anzeigen
+   // Standardmäßig Entwicklung anzeigen und aktiv setzen
+   document.getElementById("development-btn").classList.add("active");
    document.getElementById("development-options").style.display = "block";
 
-   // Event Listener für die Schaltflächen
-   document.getElementById("development-btn").addEventListener("click", function() {
-      showOptions('development-options');
-   });
-   document.getElementById("design-btn").addEventListener("click", function() {
-      showOptions('design-options');
-   });
-   document.getElementById("support-btn").addEventListener("click", function() {
-      showOptions('support-options');
+   const buttons = document.querySelectorAll(".service-selection");
+   
+   buttons.forEach(button => {
+       button.addEventListener("click", function() {
+           buttons.forEach(btn => btn.classList.remove("active"));
+           button.classList.add("active");
+           
+           // Alle Optionen ausblenden
+           document.querySelectorAll('.option-inputs').forEach(option => option.style.display = 'none');
+           
+           // Die ausgewählte Option anzeigen
+           const optionId = button.id.replace('-btn', '-options');
+           document.getElementById(optionId).style.display = 'block';
+       });
    });
 });
-
-function showOptions(optionId) {
-   // Alle Optionen ausblenden
-   const options = document.querySelectorAll('.option-inputs');
-   options.forEach(option => option.style.display = 'none');
-   
-   // Die ausgewählte Option anzeigen
-   document.getElementById(optionId).style.display = 'block';
-}
-
 
       </script>
       <script>
