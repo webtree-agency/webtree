@@ -1217,6 +1217,12 @@ Services Style
   text-align: center;
   margin-bottom: 40px;
 }
+.partner .section-heading {
+  text-align: center;
+}
+.partner .section-heading .line-dec {
+  margin: 0 auto;
+}
 
 .services .section-heading .line-dec {
   margin: 0 auto;
