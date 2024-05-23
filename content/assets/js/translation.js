@@ -213,7 +213,9 @@ var texts = {
       "faq7-question-2-part": "payment methods ",
       "faq7-question-3-part": "does WebTree accept",
       "faq7-answer": "We accept various payment methods, including bank transfers and common online payment services. Details will be discussed in the quote. ",
-      
+      "partner-h" : "Collaboration",
+      "partner-h-1" : "Partners ",
+      "partner-h-3" : "cooperations",
     },
     "de": {
         "we-are": "Wir sind",
@@ -426,7 +428,9 @@ var texts = {
         "faq7-question-2-part": "Zahlungsmethoden ",
         "faq7-question-3-part": "akzeptiert WebTree",
         "faq7-answer": "Wir akzeptieren verschiedene Zahlungsmethoden, einschliesslich Banküberweisungen und gängige Online-Zahlungsdienste. Details werden im Angebot besprochen.",
-
+        "partner-h" : "Zusammenarbeit",
+        "partner-h-1" : "Partner ",
+        "partner-h-3" : "Kooperationen",
     }
   };
 

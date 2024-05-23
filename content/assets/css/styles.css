@@ -1208,3 +1208,26 @@ margin-top: 4.5rem;
       margin-left: 1.5rem;
   }
 }
+
+.logo {
+  opacity: 30%;
+  filter: grayscale(1);
+  transition: opacity 0.6s, filter 0.6s;
+}
+
+.logo:hover {
+  opacity: 100%;
+  filter: grayscale(0);
+}
+
+@media (max-width: 1024px) {
+  .logo {
+     opacity: 100%;
+     filter: none;
+  }
+  
+  .logo:hover {
+     opacity: 100%;
+     filter: none;
+  }
+}
