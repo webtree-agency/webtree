@@ -134,133 +134,200 @@
                   </div>
                </div>
             </div>
-            
-            <form method="POST" class="contact-form" id="contact-form">
-               <input type="text" name="_honey" style="display: none;">
-               <input type="hidden" name="_captcha" value="false">
-               <input type="hidden" name="_template" value="box">
-               <input type="hidden" name="_subject" value="Neue Offerten-Anfrage WebTree!">
+            <div id="development">
+               <form method="POST" class="contact-form">
+                  <input type="text" name="_honey" style="display: none;">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_template" value="box">
+                  <input type="hidden" name="_subject" value="Entwicklung. Neue Offerten-Anfrage WebTree!">
+                  
+                  <div class="input-wrap">
+                     <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                     <label for="firstname-contact" data-lang="firstname">Vorname</label>
+                     <i class="icon fa-solid fa-address-card"></i>
+                  </div>
+                  <div class="input-wrap">
+                     <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                     <label for="lastname-contact" data-lang="lastname">Nachname</label>
+                     <i class="icon fa-solid fa-address-card"></i>
+                  </div>
+                  <div class="input-wrap">
+                     <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
+                     <label for="email-contact" data-lang="mail">E-Mail</label>
+                     <i class="icon fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="input-wrap">
+                     <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
+                     <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
+                     <i class="icon fa-solid fa-phone"></i>
+                  </div>
                
-               <!-- Gemeinsame Felder -->
-               <div class="input-wrap">
-                  <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                  <label for="firstname-contact" data-lang="firstname">Vorname</label>
-                  <i class="icon fa-solid fa-address-card"></i>
-               </div>
-               <div class="input-wrap">
-                  <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                  <label for="lastname-contact" data-lang="lastname">Nachname</label>
-                  <i class="icon fa-solid fa-address-card"></i>
-               </div>
-               <div class="input-wrap">
-                  <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
-                  <label for="email-contact" data-lang="mail">E-Mail</label>
-                  <i class="icon fa-solid fa-envelope"></i>
-               </div>
-               <div class="input-wrap">
-                  <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
-                  <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
-                  <i class="icon fa-solid fa-phone"></i>
-               </div>
+                     <div class="input-wrap">
+                        <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
+                           <option value="" selected disabled></option>
+                           <option value="Neu erstellen" data-lang="create">Neu erstellen</option>
+                           <option value="Erneuern" data-lang="renew">Erneuern</option>
+                        </select>
+                        <label for="webpage-type-contact" data-lang="create-renew">Erstellen/Erneuern</label>
+                        <i class="icon fa-solid fa-sync"></i>
+                     </div>
+                     <div class="input-wrap">
+                        <select id="cms-contact" name="cms" class="contact-input" required>
+                           <option value="" selected disabled></option>
+                           <option value="Ja" data-lang="yes">Ja</option>
+                           <option value="Nein" data-lang="no">Nein</option>
+                        </select>
+                        <label for="cms-contact" data-lang="cms">CMS</label>
+                        <i class="icon fa-solid fa-laptop"></i>
+                     </div>
+                     <div class="input-wrap">
+                        <select id="webpage-category-contact" name="webpage-category" class="contact-input" required>
+                           <option value="" selected disabled></option>
+                           <option value="Blog">Blog</option>
+                           <option value="Portfolio">Portfolio</option>
+                           <option value="Shop">Shop / E-Commerce</option>
+                           <option value="Service">Service</option>
+                           <option value="Informationsseite" data-lang="information-site">Informationsseite</option>
+                           <option value="Landing Page">Landing Page</option>
+                           <option value="Anderes" data-lang="other">Anderes</option>
+                        </select>
+                        <label for="webpage-category-contact" data-lang="type-website">Webseiten-Kategorie</label>
+                        <i class="icon fa-solid fa-laptop"></i>
+                     </div>
+                     <div class="input-wrap">
+                        <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
+                           <option value="" selected disabled></option>
+                           <option value="Ja" data-lang="yes">Ja</option>
+                           <option value="Nein" data-lang="no">Nein</option>
+                        </select>
+                        <label for="logo-desired-contact" data-lang="logo-desired">Logo gewünscht</label>
+                        <i class="icon fa-solid fa-image"></i>
+                     </div>
+                     <div class="input-wrap">
+                        <textarea id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website"></textarea>
+                        <label for="inspiration-website-contact" data-lang="inspiration-sources">Inspirationsquellen</label>
+                        <i class="icon fa-solid fa-globe"></i>
+                     </div>
+                  
+                  <div class="input-wrap">
+                     <textarea id="description" class="contact-input" autocomplete="off" name="description"></textarea>
+                     <label for="description" data-lang="description-offerte">Beschreibung</label>
+                     <i class="icon fa-regular fa-lightbulb"></i>
+                  </div>
+                  <div class="input-wrap w-100">
+                     <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
+                     <label for="message-contact" data-lang="concerns">Besondere Anliegen</label>
+                     <i class="icon fa-solid fa-inbox"></i>
+                  </div>
+                  <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" onclick="return submitForm()">
+               </form>
+            </div>
             
-               <!-- Option-Entwicklung -->
-               <div id="development-options" class="option-inputs">
+            <div id="design-content">
+               <form method="POST" class="contact-form">
+                  <input type="text" name="_honey" style="display: none;">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_template" value="box">
+                  <input type="hidden" name="_subject" value="Content - Design. Neue Offerten-Anfrage WebTree!">
+                  
                   <div class="input-wrap">
-                     <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Neu erstellen" data-lang="create">Neu erstellen</option>
-                        <option value="Erneuern" data-lang="renew">Erneuern</option>
-                     </select>
-                     <label for="webpage-type-contact" data-lang="create-renew">Erstellen/Erneuern</label>
-                     <i class="icon fa-solid fa-sync"></i>
+                     <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                     <label for="firstname-contact" data-lang="firstname">Vorname</label>
+                     <i class="icon fa-solid fa-address-card"></i>
                   </div>
                   <div class="input-wrap">
-                     <select id="cms-contact" name="cms" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Ja" data-lang="yes">Ja</option>
-                        <option value="Nein" data-lang="no">Nein</option>
-                     </select>
-                     <label for="cms-contact" data-lang="cms">CMS</label>
-                     <i class="icon fa-solid fa-laptop"></i>
+                     <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                     <label for="lastname-contact" data-lang="lastname">Nachname</label>
+                     <i class="icon fa-solid fa-address-card"></i>
                   </div>
                   <div class="input-wrap">
-                     <select id="webpage-category-contact" name="webpage-category" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Blog">Blog</option>
-                        <option value="Portfolio">Portfolio</option>
-                        <option value="Shop">Shop / E-Commerce</option>
-                        <option value="Service">Service</option>
-                        <option value="Informationsseite" data-lang="information-site">Informationsseite</option>
-                        <option value="Landing Page">Landing Page</option>
-                        <option value="Anderes" data-lang="other">Anderes</option>
-                     </select>
-                     <label for="webpage-category-contact" data-lang="type-website">Webseiten-Kategorie</label>
-                     <i class="icon fa-solid fa-laptop"></i>
+                     <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
+                     <label for="email-contact" data-lang="mail">E-Mail</label>
+                     <i class="icon fa-solid fa-envelope"></i>
                   </div>
                   <div class="input-wrap">
-                     <select id="logo-desired-contact" name="logo-desired" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Ja" data-lang="yes">Ja</option>
-                        <option value="Nein" data-lang="no">Nein</option>
-                     </select>
-                     <label for="logo-desired-contact" data-lang="logo-desired">Logo gewünscht</label>
-                     <i class="icon fa-solid fa-image"></i>
+                     <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
+                     <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
+                     <i class="icon fa-solid fa-phone"></i>
                   </div>
-                  <div class="input-wrap">
-                     <textarea id="inspiration-website-contact" class="contact-input" autocomplete="off" name="inspiration-website"></textarea>
-                     <label for="inspiration-website-contact" data-lang="inspiration-sources">Inspirationsquellen</label>
-                     <i class="icon fa-solid fa-globe"></i>
-                  </div>
-               </div>
-            
-               <!-- Option-Design -->
-               <div id="design-options" class="option-inputs" style="display: none;">
-                  <div class="input-wrap">
-                     <textarea id="desired-design-contact" class="contact-input" autocomplete="off" name="desired-design"></textarea>
-                     <label for="desired-design-contact">Gewünschtes Design</label>
-                     <i class="icon fa-solid fa-paint-brush"></i>
-                  </div>
-                  <div class="input-wrap">
-                     <textarea id="style-contact" class="contact-input" autocomplete="off" name="style"></textarea>
-                     <label for="style-contact">Stil</label>
-                     <i class="icon fa-solid fa-paint-roller"></i>
-                  </div>
-                  <div class="input-wrap">
-                     <textarea id="inspiration-design-contact" class="contact-input" autocomplete="off" name="inspiration-design"></textarea>
-                     <label for="inspiration-design-contact" data-lang="inspiration-sources">Inspirationsquellen</label>
-                     <i class="icon fa-solid fa-globe"></i>
-                  </div>
-               </div>
-            
-               <!-- Option-Support -->
-               <div id="support-options" class="option-inputs" style="display: none;">
-                  <div class="input-wrap">
-                     <input id="device-contact" class="contact-input" autocomplete="off" name="device" type="text" required>
-                     <label for="device-contact">Gerät</label>
-                     <i class="icon fa-solid fa-laptop-code"></i>
-                  </div>
-                  <div class="input-wrap">
-                     <textarea id="problem-description-contact" class="contact-input" autocomplete="off" name="problem-description"></textarea>
-                     <label for="problem-description-contact">Problem beschreiben</label>
-                     <i class="icon fa-solid fa-exclamation-triangle"></i>
-                  </div>
-               </div>
                
-               <div class="input-wrap">
-                  <textarea id="description" class="contact-input" autocomplete="off" name="description"></textarea>
-                  <label for="description" data-lang="description-offerte">Beschreibung</label>
-                  <i class="icon fa-regular fa-lightbulb"></i>
-               </div>
-               <div class="input-wrap w-100">
-                  <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
-                  <label for="message-contact" data-lang="concerns">Besondere Anliegen</label>
-                  <i class="icon fa-solid fa-inbox"></i>
-               </div>
-               <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" onclick="return submitForm()" id="send-btn">
-            </form>
+                     <div class="input-wrap">
+                        <textarea id="desired-design-contact" class="contact-input" autocomplete="off" name="desired-design"></textarea>
+                        <label for="desired-design-contact">Gewünschtes Design</label>
+                        <i class="icon fa-solid fa-paint-brush"></i>
+                     </div>
+                     <div class="input-wrap">
+                        <textarea id="style-contact" class="contact-input" autocomplete="off" name="style"></textarea>
+                        <label for="style-contact">Stil</label>
+                        <i class="icon fa-solid fa-paint-roller"></i>
+                     </div>
+                     <div class="input-wrap">
+                        <textarea id="inspiration-design-contact" class="contact-input" autocomplete="off" name="inspiration-design"></textarea>
+                        <label for="inspiration-design-contact" data-lang="inspiration-sources">Inspirationsquellen</label>
+                        <i class="icon fa-solid fa-globe"></i>
+                     </div>
+                  
+                  <div class="input-wrap">
+                     <textarea id="description" class="contact-input" autocomplete="off" name="description"></textarea>
+                     <label for="description" data-lang="description-offerte">Beschreibung</label>
+                     <i class="icon fa-regular fa-lightbulb"></i>
+                  </div>
+                  <div class="input-wrap w-100">
+                     <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
+                     <label for="message-contact" data-lang="concerns">Besondere Anliegen</label>
+                     <i class="icon fa-solid fa-inbox"></i>
+                  </div>
+                  <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" onclick="return submitForm()">
+               </form>
+            </div>
             
-            
-            
+<div id="support">
+   <form method="POST" class="contact-form">
+      <input type="text" name="_honey" style="display: none;">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+      <input type="hidden" name="_subject" value="Support. Neue Offerten-Anfrage WebTree!">
+      
+      <div class="input-wrap">
+         <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
+         <label for="firstname-contact" data-lang="firstname">Vorname</label>
+         <i class="icon fa-solid fa-address-card"></i>
+      </div>
+      <div class="input-wrap">
+         <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
+         <label for="lastname-contact" data-lang="lastname">Nachname</label>
+         <i class="icon fa-solid fa-address-card"></i>
+      </div>
+      <div class="input-wrap">
+         <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
+         <label for="email-contact" data-lang="mail">E-Mail</label>
+         <i class="icon fa-solid fa-envelope"></i>
+      </div>
+      <div class="input-wrap">
+         <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
+         <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
+         <i class="icon fa-solid fa-phone"></i>
+      </div>
+   
+         <div class="input-wrap">
+            <textarea id="device-contact" class="contact-input" autocomplete="off" name="device" type="text" required></textarea>
+            <label for="device-contact">Gerät</label>
+            <i class="icon fa-solid fa-laptop-code"></i>
+         </div>
+         <div class="input-wrap">
+            <textarea id="problem-description-contact" class="contact-input" autocomplete="off" name="problem-description"></textarea>
+            <label for="problem-description-contact">Problem beschreiben</label>
+            <i class="icon fa-solid fa-exclamation-triangle"></i>
+         </div>
+      
+      <div class="input-wrap w-100">
+         <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
+         <label for="message-contact" data-lang="concerns">Besondere Anliegen</label>
+         <i class="icon fa-solid fa-inbox"></i>
+      </div>
+      <input type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" onclick="return submitForm()">
+   </form>
+</div>
             <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: wrap; margin-top: 15px;"></div>
             <div id="error-message" style="display: none; color: red; white-space: wrap; font-weight: bold; margin-top: 15px;" data-lang="error-message"></div>
          </div>
@@ -371,51 +438,56 @@
              return false;
          }
             
-      </script> 
-      <script>
-document.addEventListener("DOMContentLoaded", function() {
-   // Standardmäßig Entwicklung anzeigen und aktiv setzen
-   document.getElementById("development-btn").classList.add("active");
-   document.getElementById("development-options").style.display = "block";
-
-   const buttons = document.querySelectorAll(".service-selection");
+      </script>
+  <script>
+   document.addEventListener("DOMContentLoaded", function() {
+       const developmentButton = document.getElementById("development-btn");
+       const designButton = document.getElementById("design-btn");
+       const supportButton = document.getElementById("support-btn");
    
-   buttons.forEach(button => {
-       button.addEventListener("click", function() {
-           buttons.forEach(btn => btn.classList.remove("active"));
-           button.classList.add("active");
-           
-           // Alle Optionen ausblenden
-           document.querySelectorAll('.option-inputs').forEach(option => option.style.display = 'none');
-           
-           // Die ausgewählte Option anzeigen
-           const optionId = button.id.replace('-btn', '-options');
-           document.getElementById(optionId).style.display = 'block';
+       const developmentOptions = document.getElementById("development");
+       const designOptions = document.getElementById("design-content");
+       const supportOptions = document.getElementById("support");
+   
+       function removeActiveClassFromButtons() {
+           developmentButton.classList.remove("active");
+           designButton.classList.remove("active");
+           supportButton.classList.remove("active");
+       }
+   
+       // Standardmäßig das Entwicklungsoptionen anzeigen und die anderen ausblenden
+       developmentOptions.style.display = "grid";
+       designOptions.style.display = "none";
+       supportOptions.style.display = "none";
+       developmentButton.classList.add("active");
+   
+       developmentButton.addEventListener("click", function() {
+           removeActiveClassFromButtons();
+           developmentButton.classList.add("active");
+           developmentOptions.style.display = "grid";
+           designOptions.style.display = "none";
+           supportOptions.style.display = "none";
+       });
+   
+       designButton.addEventListener("click", function() {
+           removeActiveClassFromButtons();
+           designButton.classList.add("active");
+           developmentOptions.style.display = "none";
+           designOptions.style.display = "grid";
+           supportOptions.style.display = "none";
+       });
+   
+       supportButton.addEventListener("click", function() {
+           removeActiveClassFromButtons();
+           supportButton.classList.add("active");
+           developmentOptions.style.display = "none";
+           designOptions.style.display = "none";
+           supportOptions.style.display = "grid";
        });
    });
-});
+   </script>
+   
 
-      </script>
-      <script>
-         document.addEventListener("DOMContentLoaded", function() {
-             const buttons = document.querySelectorAll(".service-selection");
-             const developmentOptions = document.getElementById("development-options");
-         
-             buttons.forEach(button => {
-                 button.addEventListener("click", function() {
-                     buttons.forEach(btn => btn.classList.remove("active"));
-         
-                     button.classList.add("active");
-         
-                     if (button.id === "development-btn") {
-                         developmentOptions.style.display = "grid";
-                     } else {
-                         developmentOptions.style.display = "none";
-                     }
-                 });
-             });
-         });
-      </script>
       <script src="content/vendor/jquery/jquery.min.js"></script>
       <script src="content/assets/js/translation.js"></script>
       <script src="content/assets/js/owl-carousel.js"></script>
