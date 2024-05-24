@@ -500,11 +500,11 @@ function updateTexts(language) {
     if (language === 'en') {
         deButton.classList.remove('highlighted');
         enButton.classList.add('highlighted');
-        document.getElementById("send-btn").value = "Send Message";
+        document.getElementsByClassName("send-btn-contact").value = "Send Message";
     } else {
       enButton.classList.remove('highlighted');
         deButton.classList.add('highlighted');
-        document.getElementById("send-btn").value = "Nachricht senden";
+        document.getElementsByClassName("send-btn-contact").value = "Nachricht senden";
     }
 }
 
