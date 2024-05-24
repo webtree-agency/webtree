@@ -280,7 +280,7 @@ var texts = {
         "websites" : "Webseiten",
         "outdated" : "veraltete",
         "faq5-question-1-part": "Arbeitet WebTree auch mit",
-        "faq5-question-2-part": "Partnern ",
+        "faq5-question-2-part": "Partnern",
         "create" : "Erstellung",
         "a" : "einer",
         "faq6-question-1-part": "Wie kann ich ein",
