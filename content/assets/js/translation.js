@@ -434,49 +434,46 @@ var texts = {
     }
   };
 
-// Funktion zum Aktualisieren der Texte basierend auf der ausgewählten Sprache
-const textElement = document.getElementById("text-writer");
-const enText = "Individually for Your Success!";
-const deText = "Individuell für Deinen Erfolg!";
-let text;
-let typingTimeout;
-let isTyping = false;
-
-function setText(language) {
-    textElement.textContent = ""; 
-    if (language === 'en') {
-        text = enText;
-    } else {
-        text = deText;
-    }
-}
-
-function typeWriter(text, index) {
-    if (index < text.length && isTyping) {
-        textElement.textContent += text.charAt(index);
-        index++;
-        typingTimeout = setTimeout(function () {
-            typeWriter(text, index);
-        }, 60); 
-    } else {
-        isTyping = false; 
-    }
-}
-
-function startAnimation(language) {
-    setText(language);
-    if (isTyping) {
-        clearTimeout(typingTimeout); 
-        isTyping = false;
-    }
-    setTimeout(function () {
-        isTyping = true;
-        typeWriter(text, 0); 
-    }, 2400); 
-}
-
-
-
+  const textElement = document.getElementById("text-writer");
+  const enText = "Individually for Your Success!";
+  const deText = "Individuell für Deinen Erfolg!";
+  let text = "";
+  let typingTimeout;
+  let isTyping = false;
+  
+  function setText(language) {
+      textElement.textContent = ""; 
+      if (language === 'en') {
+          text = enText;
+      } else {
+          text = deText;
+      }
+  }
+  
+  function typeWriter(text, index) {
+      if (index < text.length && isTyping) {
+          textElement.textContent += text.charAt(index);
+          index++;
+          typingTimeout = setTimeout(function () {
+              typeWriter(text, index);
+          }, 60); 
+      } else {
+          isTyping = false; 
+      }
+  }
+  
+  function startAnimation(language) {
+      if (isTyping) {
+          clearTimeout(typingTimeout);
+          isTyping = false;
+      }
+      setText(language);
+      setTimeout(function () {
+          textElement.textContent = "";  // Sicherstellen, dass das Element geleert ist.
+          isTyping = true;
+          typeWriter(text, 0); 
+      }, 2400); 
+  }  
 
 var enButton = document.getElementById('en-link');
 var deButton = document.getElementById('de-link');
