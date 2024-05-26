@@ -147,30 +147,15 @@ html::-webkit-scrollbar-track {
 /* TEXTWRITER */
 #text-writer {
 height: 60px;
+padding-bottom: 6.5rem;
 }
 
 @media only screen and (max-device-width: 410px) {
   #text-writer{
     height: 60px;
-    padding-bottom: 160px;
+    padding-bottom: 8rem;
   }
 } 
-
-.p-landingpage{
-margin-top: 4.5rem;
-}
-
-@media (max-height: 850px) {
-  .p-landingpage {
-    margin-top: 0;
-  }
-}
-
-@media (max-height: 800px) {
-  .p-landingpage {
-    margin-top: 4.5rem;
-  }
-}
 
 /* PARALLAX */
 .parallax {
