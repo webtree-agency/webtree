@@ -159,7 +159,7 @@ function changeWord() {
   element.style.opacity = "0";
 
   setTimeout(function() {
-      var language = localStorage.getItem("language") || "de"; // Default to "de" if not set
+      var language = localStorage.getItem("language") || "de"; 
 
       var words = (language === "de") ? wordsDe : wordsEn;
 
@@ -169,7 +169,7 @@ function changeWord() {
   }, 300); 
 }
 
-setInterval(changeWord, 2500); // Ändert das Wort alle 2.5 Sekunden, genügend Zeit für den Übergang
+setInterval(changeWord, 2500); 
 
 (function() {
     var Util,
