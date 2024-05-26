@@ -204,7 +204,9 @@ padding-bottom: 6.5rem;
     display: none;
   }
 .divider-handy {
-  display: block;
+  display: flex;
+  margin: 20px auto;
+  width: 85%;
 }
 }
 
