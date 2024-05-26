@@ -30,6 +30,9 @@
     max-width: 50%;
 }
 
+.erfolg {
+    max-width: 50%;
+}
 
 .button-404{
     display: inline-block;
@@ -53,6 +56,28 @@
     color: var(--white)!important;
 }
 
+.erfolg-btn{
+    display: inline-block;
+    background-color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-green);
+    width: 40%;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border: 1px solid var(--primary-green);
+    transition: all .3s;
+    outline: none;
+    text-align: center;
+    z-index: 10000000 !important;
+    margin-top: 30px;
+}
+.erfolg-btn:hover {
+    background-color: var(--primary-green)!important;
+    color: var(--white)!important;
+}
+
 @media (max-width: 800px) {
     .svg-404{
         max-width: 100%;
@@ -62,9 +87,21 @@
         margin-top: 15px;
         width: 80%;
     }
+
+    .erfolg{
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .erfolg-btn{
+        width: 80%;
+    }
 }
 @media (max-width: 1000px) {
     .svg-404{
+        max-width: 90%;
+    }
+
+    .erfolg {
         max-width: 90%;
     }
 }

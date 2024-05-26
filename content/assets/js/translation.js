@@ -217,6 +217,11 @@ var texts = {
       "partner-h" : "Collaboration",
       "partner-h-1" : "Partners ",
       "partner-h-3" : "cooperations",
+      "submit-btn-text" : "Submit Message",
+      "erfolg-title" : "Message successfully sent - WebTree",
+      "erfolg-text-1" : "Your ",
+      "erfolg-text-2" : "inquiry ",
+      "erfolg-text-3" : "has been sent successfully. We will get back to you as soon as possible."
     },
     "de": {
         "we-are": "Wir sind",
@@ -433,6 +438,11 @@ var texts = {
         "partner-h" : "Zusammenarbeit",
         "partner-h-1" : "Partner ",
         "partner-h-3" : "Kooperationen",
+        "submit-btn-text" : "Nachricht senden",
+        "erfolg-title" : "Nachricht erfolgreich gesendet - WebTree",
+        "erfolg-text-1" : "Deine ",
+        "erfolg-text-2" : "Anfrage ",
+        "erfolg-text-3" : "wurde erfolgreich gesendet. Wir melden uns so schnell wie möglich bei dir.",
     }
   };
 
@@ -492,19 +502,6 @@ function updateTexts(language) {
     if (currentLanguage !== language) {
         // Speichern der Spracheinstellung im localStorage
         localStorage.setItem('language', language);
-    }
-
-    // Entferne zuerst alle Markierungen von Buttons
-
-    // Markiere den entsprechenden Button, falls vorhanden
-    if (language === 'en') {
-        deButton.classList.remove('highlighted');
-        enButton.classList.add('highlighted');
-        document.getElementsByClassName("send-btn-contact").value = "Send Message";
-    } else {
-      enButton.classList.remove('highlighted');
-        deButton.classList.add('highlighted');
-        document.getElementsByClassName("send-btn-contact").value = "Nachricht senden";
     }
 }
 
