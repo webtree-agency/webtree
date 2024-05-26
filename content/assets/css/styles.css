@@ -26,6 +26,7 @@
   display: flex;
   justify-content: center !important;
   padding-top: 30px;
+  text-align: center;
 }
 
 .faq-content {
@@ -607,6 +608,9 @@ padding-bottom: 6.5rem;
   color: var(--white)!important;
 }
 /* Projects */
+.filter-slider {
+  margin-bottom: 30px;
+}
 .hover {
   overflow: hidden;
   position: relative;
