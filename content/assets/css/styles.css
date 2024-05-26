@@ -1237,3 +1237,9 @@ padding-bottom: 6.5rem;
      max-width: 180px; /* Set a maximum width */
   }
 }
+/* Time Box */
+@media (max-width: 768px) {
+  #timeDisplay {
+    margin-top: 25px;
+ }
+}
