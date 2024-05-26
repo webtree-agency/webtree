@@ -221,7 +221,10 @@ var texts = {
       "erfolg-title" : "Message successfully sent - WebTree",
       "erfolg-text-1" : "Your ",
       "erfolg-text-2" : "inquiry ",
-      "erfolg-text-3" : "has been sent successfully. We will get back to you as soon as possible."
+      "erfolg-text-3" : "has been sent successfully. We will get back to you as soon as possible.",
+      "desired-design" : "Desired design",
+      "device" : "Device",
+      "problem-beschreiben" : "Describe problem",
     },
     "de": {
         "we-are": "Wir sind",
@@ -443,6 +446,9 @@ var texts = {
         "erfolg-text-1" : "Deine ",
         "erfolg-text-2" : "Anfrage ",
         "erfolg-text-3" : "wurde erfolgreich gesendet. Wir melden uns so schnell wie möglich bei dir.",
+        "desired-design" : "Gewünschtes Design",
+        "device" : "Gerät",
+        "problem-beschreiben" : "Problem beschreiben",
     }
   };
 
@@ -503,7 +509,16 @@ function updateTexts(language) {
         // Speichern der Spracheinstellung im localStorage
         localStorage.setItem('language', language);
     }
+    if (language === 'en') {
+        deButton.classList.remove('highlighted');
+        enButton.classList.add('highlighted');
+    } else {
+      enButton.classList.remove('highlighted');
+        deButton.classList.add('highlighted');
+    }
+    
 }
+
 
 // Überprüfen und Laden der Spracheinstellung aus dem localStorage beim Laden der Seite
 window.addEventListener('DOMContentLoaded', function() {
