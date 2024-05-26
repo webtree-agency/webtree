@@ -913,6 +913,12 @@ padding-bottom: 6.5rem;
   }
 }
 
+@media (max-width: 600px) {
+  .service-short-box.row {
+    padding: 0;
+  }
+}
+
 .service-selection {
   display: block;
   width: 100%;
