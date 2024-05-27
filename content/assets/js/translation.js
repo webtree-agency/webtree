@@ -223,9 +223,11 @@ var texts = {
       "erfolg-text-2" : "inquiry ",
       "erfolg-text-3" : "has been sent successfully",
       "erfolg-text-4" : "We will get back to you as soon as possible.",
-      "desired-design" : "Desired design",
+      "desired-design" : "Desired design / creation",
       "device" : "Device",
       "problem-beschreiben" : "Describe problem",
+      "support-beschreiben" : "Describe support concerns",
+      "desired-support" : "Desired support",
     },
     "de": {
         "we-are": "Wir sind",
@@ -448,9 +450,11 @@ var texts = {
         "erfolg-text-2" : "Anfrage ",
         "erfolg-text-3" : "wurde erfolgreich gesendet",
         "erfolg-text-4" : "Wir melden uns so schnell wie möglich bei dir.",
-        "desired-design" : "Gewünschtes Design",
+        "desired-design" : "Gewünschtes Design / Erstellung",
         "device" : "Gerät",
         "problem-beschreiben" : "Problem beschreiben",
+        "support-beschreiben" : "Support-Anliegen beschreiben",
+        "desired-support" : "Gewünschter Support",
     }
   };
 

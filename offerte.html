@@ -177,7 +177,7 @@
                         <option value="Nein" data-lang="no">Nein</option>
                      </select>
                      <label for="cms-contact" data-lang="cms">CMS</label>
-                     <i class="icon fa-solid fa-laptop"></i>
+                     <i class="icon fa-solid fa-code"></i>
                   </div>
                   <div class="input-wrap">
                      <select id="webpage-category-contact" name="webpage-category" class="contact-input" required>
@@ -248,12 +248,16 @@
                      <i class="icon fa-solid fa-phone"></i>
                   </div>
                   <div class="input-wrap">
-                     <textarea id="desired-design-contact" class="contact-input" autocomplete="off" name="desired-design" required></textarea>
-                     <label for="desired-design-contact" data-lang="desired-design">Gewünschtes Design</label>
-                     <i class="icon fa-solid fa-paint-brush"></i>
+                     <select id="desired-design" name="desired-design" class="contact-input" required>
+                        <option value="" selected disabled></option>
+                        <option value="Multi Media Design">Multi Media Design</option>
+                        <option value="Content Creation">Content Creation</option>
+                     </select>
+                     <label for="desired-design" data-lang="desired-design"></label>
+                     <i class="icon fa-solid fa-paintbrush"></i>
                   </div>
                   <div class="input-wrap">
-                     <textarea id="style-contact" class="contact-input" autocomplete="off" name="style" required></textarea>
+                     <input id="style-contact" class="contact-input" autocomplete="off" name="style" required>
                      <label for="style-contact">Stil</label>
                      <i class="icon fa-solid fa-paint-roller"></i>
                   </div>
@@ -303,13 +307,18 @@
                      <i class="icon fa-solid fa-phone"></i>
                   </div>
                   <div class="input-wrap">
-                     <textarea id="device-contact" class="contact-input" autocomplete="off" name="device" type="text" required></textarea>
-                     <label for="device-contact" data-lang="device">Gerät</label>
-                     <i class="icon fa-solid fa-laptop-code"></i>
+                     <select id="desired-support" name="desired-support" class="contact-input" required>
+                        <option value="" selected disabled></option>
+                        <option value="IT-Support">IT-Support</option>
+                        <option value="SEO-Optimierung" data-lang="seo-optimization"></option>
+                        <option value="Hosting-Services">Hosting-Services</option>
+                     </select>
+                     <label for="desired-support" data-lang="desired-support"></label>
+                     <i class="icon fa-solid fa-headset"></i>
                   </div>
                   <div class="input-wrap">
-                     <textarea id="problem-description-contact" class="contact-input" autocomplete="off" name="problem-description" required></textarea>
-                     <label for="problem-description-contact" data-lang="problem-beschreiben"></label>
+                     <input id="support-description-contact" class="contact-input" autocomplete="off" name="support-description" required>
+                     <label for="support-description-contact" data-lang="support-beschreiben">Support-Anliegen beschreiben</label>
                      <i class="icon fa-solid fa-exclamation-triangle"></i>
                   </div>
                   <div class="input-wrap w-100">
