@@ -962,8 +962,8 @@ padding-bottom: 6.5rem;
 /* Counter */
 
 .counter-section i { display:block; margin:0 0 10px}
-.counter-section span.counter { font-size: 2.5rem; color:#000; line-height:60px; display:block; font-family: "Oswald",sans-serif; letter-spacing: 2px}
-.counter-title{ font-size: .75rem; letter-spacing:2px; text-transform: uppercase}
+.counter-section span.counter { font-size: 2.5rem; color:var(--black); line-height:60px; display:block; letter-spacing: 2px}
+.counter-title{ font-size: 1rem; letter-spacing:2px; text-transform: uppercase}
 .counter-icon {top:25px; position:relative}
 .counter-style2 .counter-title {letter-spacing: 0.55px; float: left;}
 .counter-style2 span.counter {letter-spacing: 0.55px; float: left; margin-right: 10px;}
