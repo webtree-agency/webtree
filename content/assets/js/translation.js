@@ -323,7 +323,7 @@ const deText = "Individuell für Deinen Erfolg!";
 let text;
 
 function setText(language) {
-    textElement.textContent = ""; // Leeren des Texts im <h2>
+    textElement.textContent = ""; 
     if (language === 'en') {
         text = enText;
     } else {
@@ -344,8 +344,8 @@ function typeWriter(text, index) {
 function startAnimation(language) {
     setText(language);
     setTimeout(function () {
-        typeWriter(text, 0); // Animation starten nach kurzem Timeout
-    }, 2800); // Kurzer Timeout vor Beginn der Animation (in Millisekunden)
+        typeWriter(text, 0);
+    }, 2800); 
 }
 
 var enButton = document.getElementById('en-link');
@@ -358,14 +358,10 @@ function updateTexts(language) {
         element.textContent = texts[language][key];
     });
 
-    // Überprüfen, ob die Sprache tatsächlich geändert wurde
     var currentLanguage = localStorage.getItem('language');
     if (currentLanguage !== language) {
-        // Speichern der Spracheinstellung im localStorage
         localStorage.setItem('language', language);
     }
-
-    // Entferne zuerst alle Markierungen von Buttons
 
     // Markiere den entsprechenden Button, falls vorhanden
     if (language === 'en') {
@@ -392,14 +388,12 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Beispiel: Wenn der Benutzer auf den Link für Deutsch klickt
 deButton.addEventListener('click', function() {
     updateTexts('de');
-    startAnimation('de'); // Starten der Animation mit Deutsch als Sprache
+    startAnimation('de');
 });
 
-// Beispiel: Wenn der Benutzer auf den Link für Englisch klickt
 enButton.addEventListener('click', function() {
     updateTexts('en');
-    startAnimation('en'); // Starten der Animation mit Englisch als Sprache
+    startAnimation('en'); 
 });
