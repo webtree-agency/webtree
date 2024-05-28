@@ -531,22 +531,19 @@ window.addEventListener('DOMContentLoaded', function() {
     var savedLanguage = localStorage.getItem('language');
     if (savedLanguage) {
         updateTexts(savedLanguage);
-        startAnimation(savedLanguage); // Starten der Animation mit der gespeicherten Sprache
+        startAnimation(savedLanguage); 
     } else {
-        // Wenn keine Spracheinstellung im localStorage gefunden wurde, standardmässig auf Deutsch starten
         updateTexts('de');
-        startAnimation('de'); // Starten der Animation mit Deutsch als Standard
+        startAnimation('de'); 
     }
 });
 
-// Beispiel: Wenn der Benutzer auf den Link für Deutsch klickt
 deButton.addEventListener('click', function() {
     updateTexts('de');
-    startAnimation('de'); // Starten der Animation mit Deutsch als Sprache
+    startAnimation('de');
 });
 
-// Beispiel: Wenn der Benutzer auf den Link für Englisch klickt
 enButton.addEventListener('click', function() {
     updateTexts('en');
-    startAnimation('en'); // Starten der Animation mit Englisch als Sprache
+    startAnimation('en'); 
 });

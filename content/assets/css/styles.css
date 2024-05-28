@@ -493,7 +493,7 @@ padding-bottom: 6.5rem;
   stroke-width: 6px;
   stroke-dasharray: 600;
   stroke-dashoffset: 480;
-  transition: stroke-dashoffset 4s linear;
+  transition: stroke-dashoffset 2.75s linear;
 }
 
 .skill.start-animation .circle-progress {
