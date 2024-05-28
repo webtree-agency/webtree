@@ -1092,7 +1092,7 @@ About Style
 }
 
 .about-left-image:hover {
-  background-image: url(../images/laptop_picture_ret-min.jpg);
+  background-image: url(../images/laptop_picture_ret-min.webp);
   background-size: cover !important;
 }
 
