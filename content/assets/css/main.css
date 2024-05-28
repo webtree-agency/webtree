@@ -746,7 +746,7 @@ header
     margin-top: 80px !important;
   }
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: var(--black);
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -1634,7 +1634,7 @@ contact
   top: 50%;
   left: calc(1.35rem + 2px);
   transform: translateY(-50%);
-  color: #1e1e1e;
+  color: var(--black);
   pointer-events: none;
   transition: .25s;
 }
