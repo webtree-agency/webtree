@@ -144,7 +144,7 @@
     z-index:1
 }
 .splide__arrow svg{
-    fill:#000;
+    fill:var(--black);
     height:1.2em;
     width:1.2em
 }
@@ -155,7 +155,7 @@
     opacity:.3
 }
 .splide__arrow:focus-visible{
-    outline:3px solid #00bb32;
+    outline:3px solid var(--light-green);
     outline-offset:3px;
 }
 .splide__arrow--prev{
@@ -168,7 +168,7 @@
     right:1em;
 }
 .splide.is-focus-in .splide__arrow:focus{
-    outline:3px solid #00bb32;
+    outline:3px solid var(--light-green);
     outline-offset:3px
 }
 .splide__pagination{
@@ -190,7 +190,8 @@
     padding:0;
     position:relative;
     transition:transform .2s linear;
-    width:8px
+    width:8px;
+    margin-bottom: 1rem;
 }
 .splide__pagination__page.is-active{
     background:#fff;
@@ -202,11 +203,11 @@
     opacity:.9
 }
 .splide__pagination__page:focus-visible{
-    outline:3px solid #00bb32;
+    outline:3px solid var(--light-green);
     outline-offset:3px
 }
 .splide.is-focus-in .splide__pagination__page:focus{
-    outline:3px solid #00bb32;
+    outline:3px solid var(--light-green);
     outline-offset:3px
 }
 .splide__progress__bar{
@@ -221,38 +222,38 @@
 }
 @supports(outline-offset:-3px){
     .splide__slide:focus-visible{
-        outline:3px solid #00bb32;
+        outline:3px solid var(--light-green);
         outline-offset:-3px
     }
 }
 @media screen and (-ms-high-contrast:none){
     .splide__slide:focus-visible{
-        border:3px solid #00bb32
+        border:3px solid var(--light-green)
     }
 }
 @supports(outline-offset:-3px){
     .splide.is-focus-in .splide__slide:focus{
-        outline:3px solid #00bb32;
+        outline:3px solid var(--light-green);
         outline-offset:-3px
     }
 }
 @media screen and (-ms-high-contrast:none){
     .splide.is-focus-in .splide__slide:focus{
-        border:3px solid #00bb32
+        border:3px solid var(--light-green)
     }
     .splide.is-focus-in .splide__track>.splide__list>.splide__slide:focus{
-        border-color:#00bb32
+        border-color:var(--light-green)
     }
 }
 .splide__toggle{
     cursor:pointer
 }
 .splide__toggle:focus-visible{
-    outline:3px solid #00bb32;
+    outline:3px solid var(--light-green);
     outline-offset:3px
 }
 .splide.is-focus-in .splide__toggle:focus{
-    outline:3px solid #00bb32;
+    outline:3px solid var(--light-green);
     outline-offset:3px
 }
 .splide__track--nav>.splide__list>.splide__slide{
@@ -260,7 +261,7 @@
     cursor:pointer
 }
 .splide__track--nav>.splide__list>.splide__slide.is-active{
-    border:3px solid #000
+    border:3px solid var(--black)
 }
 .splide__arrows--rtl .splide__arrow--prev{
     left:auto;
@@ -302,5 +303,276 @@
     left:auto;
     padding:1em 0;
     right:.5em;
-    top:0
+    top:0;;
 }
+
+
+/* Projectcarousel */
+.card {
+    width: 40rem;
+    height: 85vh;
+    margin: 10px auto; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    order: 1;
+    width: 100%;
+    position: relative;
+}
+
+.card-name h4 {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.card-name em {
+    color: var(--primary-green);
+    font-style: normal;
+}
+
+.card-name h4::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary-green);
+    margin: 12px auto 12px auto;
+}
+
+.card-image {
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+
+.burger-img {
+    background-image: url(../images/burger-ipad-min.webp);
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.colin-img {
+    background-image: url(../svg/colin-ipad.svg);
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.mdc-img {
+    background-image: url(../svg/mdc-ipad.svg);
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.jungle-img {
+    background-image: url(../images/jungle-ipad.webp);
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+
+.urban-img {
+    background-image: url(../svg/urbanforge-ipad.svg);
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.pangri-img {
+    background-image: url(../svg/pangri-ipad.svg);
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.card-text {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    order: 3;
+}
+
+.card-text p {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.splide__pagination__page {
+    background: #a1a1a1 !important;
+}
+
+.splide__pagination__page.is-active {
+    background: #555555 !important;
+}
+
+.projectsite-link {
+    display: inline-block;
+    background-color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-green);
+    width: 100%;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border: 1px solid var(--primary-green);
+    transition: all .3s;
+    outline: none;
+    margin-top: 10px !important;
+    margin-bottom: auto !important;
+}
+
+.projectsite-link:hover {
+    background-color: var(--primary-green)!important;
+    color: var(--white)!important;
+}
+
+@media (max-width: 1800px) {
+    .burger-img {
+        background-image: url(../images/burger-laptop-min.webp);
+        background-position: center top;
+    }
+
+    .colin-img {
+        background-image: url(../svg/colin-laptop.svg);
+        background-position: center top;
+    }
+
+    .mdc-img {
+        background-image: url(../svg/mdc-laptop.svg);
+        background-position: center top;
+    }
+
+    .jungle-img{
+        background-image: url(../images/jungle-laptop.webp);
+        background-position: center center;
+    }
+    .urban-img {
+        background-image: url(../svg/urbanforge-laptop.svg);
+        background-position: center ;
+    }
+
+    .pangri-img {
+        background-image: url(../svg/pangri-laptop.svg);
+        background-position: center top;
+    }
+}
+
+@media (max-width: 980px) {
+    .burger-img {
+        background-image: url(../images/burger-ipad-min.webp);
+        background-position: center top;
+    }
+
+    .colin-img {
+        background-image: url(../svg/colin-ipad.svg);
+        background-position: center top;
+    }
+
+    .mdc-img {
+        background-image: url(../svg/mdc-ipad.svg);
+        background-position: center top;
+    }
+    .jungle-img{
+        background-image: url(../images/jungle-ipad.webp);
+        background-position: center top;
+    }
+
+    .urban-img {
+        background-image: url(../svg/urbanforge-ipad.svg);
+        background-position: center top;
+    }
+
+    .pangri-img {
+        background-image: url(../svg/pangri-ipad.svg);
+        background-position: center top;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .burger-img {
+        background-image: url(../images/burger-handy-min.webp);
+        background-position: center top;
+    }
+
+    .colin-img {
+        background-image: url(../svg/colin-handy.svg);
+        background-position: center top;
+    }
+
+    .mdc-img {
+        background-image: url(../svg/mdc-handy.svg);
+        background-position: center center;
+    }
+
+    .jungle-img{
+        background-image: url(../images/jungle-handy.webp);
+        background-position: center top;
+    }
+    .urban-img {
+        background-image: url(../svg/urbanforge-handy.svg);
+        background-position: center top;
+    }
+
+    .pangri-img {
+        background-image: url(../svg/pangri-handy.svg);
+        background-position: center top;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; 
+        height: 120vh;
+    }
+    .card-img-top {
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+

@@ -4,19 +4,12 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="icon" href="content/assets/svg/favicon-webtree.svg" type="image/svg+xml">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
       <title data-lang="imprint-title">Impressum - WebTree</title>
       <link href="content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="content/assets/css/fontawesome.css">
       <link rel="stylesheet" href="content/assets/css/main.css">
       <link rel="stylesheet" href="content/assets/css/animated.css">
-      <link rel="stylesheet" href="content/assets/css/owl.css">
       <link rel="stylesheet" href="content/assets/css/styles.css">
-      <link rel="stylesheet" href="content/assets/css/projectscarousel.css">
-      <link rel="stylesheet" href="content/assets/css/splide.min.css">
-      <link rel="stylesheet" href="content/assets/css/impressum.css">
    </head>
    <body>
       <div class="circle"></div>
@@ -35,14 +28,14 @@
             <div class="row">
                <div class="col-lg-8 col-sm-8 col-7">
                   <ul class="info">
-                     <li><a href="mailto:info@webtree.ch"><i class="fa fa-envelope"></i>info@webtree.ch</a></li>
-                     <li><a href="tel:+41525081481"><i class="fa fa-phone"></i>052-508-14-81</a></li>
+                     <li class="circle-big"><a href="mailto:info@webtree.ch"><i class="fa fa-envelope"></i>info@webtree.ch</a></li>
+                     <li class="circle-big"><a href="tel:+41525081481"><i class="fa fa-phone"></i>052-508-14-81</a></li>
                   </ul>
                </div>
                <div class="col-lg-4 col-sm-4 col-5">
                   <ul class="social-media">
-                     <li><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin"></i></a></li>
-                     <li><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram"></i></a></li>
+                     <li class="circle-big"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin"></i></a></li>
+                     <li class="circle-big"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram"></i></a></li>
                   </ul>
                </div>
             </div>
@@ -50,45 +43,60 @@
       </div>
       <div class="svgContainer">
          <a onclick="topFunction()" href="#" id="svgLink">
-         <img id="svg1" class="svg" src="content/assets/svg/green-arrow-up.svg" alt="arrow up">
-         <img id="svg2" class="svg" src="content/assets/svg/white-arrow-up.svg" alt="arrow down">
+         <img id="svg1" class="svg circle-big" src="content/assets/svg/green-arrow-up.svg" alt="arrow up" loading="lazy">
+         <img id="svg2" class="svg circle-big" src="content/assets/svg/white-arrow-up.svg" alt="arrow down">
          </a>
       </div>
       <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
          <div class="container">
              <div class="row">
                  <div class="col-12">
-                     <nav class="main-nav">
-                         <a href="#" class="logo">
-                             <img src="content/assets/svg/webtree-logo-transparent.svg" alt="agentur logo">
-                         </a>
-                         <ul class="nav">
-                             <li class="link-navbar scroll-to-section"><a href="./">Home</a></li>
-                             <li class="link-navbar scroll-to-section"><a href="./#about" data-lang="about"></a></li>
-                             <li class="link-navbar scroll-to-section"><a href="./#services">Services</a></li>
-                             <li class="link-navbar scroll-to-section"><a href="./#portfolio" data-lang="projects"></a></li>
-                             <li class="link-navbar scroll-to-section"><a href="./#contact" data-lang="contact"></a></li>
-                             <li class="link-navbar scroll-to-section"><a href="./#faq">FAQ</a></li>
-                             <li class="dropdown">
-                                 <a href="#" class="dropbtn" >EN | DE</a>
-                                 <div class="dropdown-content">
-                                    <span id="de-link">DE</span>
-                                    <span id="en-link">EN</span>
-                                 </div>
-                             </li>
-                             <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
-                             <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
-                             <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
-                         </ul>
-                         <a class='menu-trigger'>
-                             <span>Menu</span>
-                         </a>
-                     </nav>
+                  <nav class="main-nav">
+                     <a href="./" class="logo">
+                         <img src="content/assets/svg/webtree-logo-transparent.svg" alt="agentur logo">
+                     </a>
+                     <ul class="nav">
+                        <li class="link-navbar scroll-to-section circle-big"><a href="./">Home</a></li>
+                        <li class="link-navbar scroll-to-section circle-big"><a href="./services">Services</a></li>
+                        <li class="link-navbar scroll-to-section circle-big"><a href="./projekte" data-lang="projects"></a></li>
+                        <li class="sc-hidden"><a href="./offerte" data-lang="free-offer"></a></li>
+                        <li class="dropdown circle-big">
+                           <a href="#" class="dropbtn" >EN | DE</a>
+                           <div class="dropdown-content">
+                              <span id="de-link" class="circle-big">DE</span>
+                              <span id="en-link" class="circle-big">EN</span>
+                           </div>
+                        </li>
+                        <li class="free-offer-btn-lappi">
+                           <div class="border-first-button circle-big"><a href="./offerte" data-lang="free-offer"></a></div>
+                        </li>
+                        <li class="sc-hidden"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/"><i class="fa fa-linkedin icon-nav"></i></a></li>
+                        <li class="sc-hidden"><a target="_blank" href="https://www.instagram.com/webtree.ch/"><i class="fa fa-instagram icon-nav"></i></a></li>
+                        <li class="sc-hidden"><a target="_blank" href="tel:+41525081481"><i class="fa fa-phone icon-nav"></i></a></li>
+                     </ul>
+                     <button class='menu-trigger'>
+                         <span>Menu</span>
+                     </button>
+                 </nav>
                  </div>
              </div>
          </div>
      </header>
-      <div class="main-banner-impressum wow fadeInUpBig" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+      <div class="main-banner-impressum main-banner wow fadeInUpBig" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+         <div style="visibility: hidden;" class="col-lg-6 align-self-center">
+            <div class="left-content show-up header-text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas repudiandae ab maiores, consequuntur neque impedit aliquid ipsa in voluptatum delectus culpa, doloremque alias accusantium at cupiditate dolor tenetur architecto modi!
+               <div class="div-fix-navbar-650">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas repudiandae ab maiores.
+               </div>
+               <div class="div-fix-navbar-1900">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+               </div>
+               <div class="div-fix-navbar-2200">
+                  Voluptas repudiandae ab maiores. consequuntur neque impedit aliquid ipsa in voluptatum delectus culpa. doloremque alias accusantium at cupiditate dolor tenetur architecto modi!
+               </div>
+            </div>
+         </div>
          <div class="impressum">
             <h2 class="h2-impressum" data-lang="imprint"></h2>
             <h4 class="h4-impressum">WebTree</h4>
@@ -109,28 +117,28 @@
                </tr>
                <tr class="column-table">
                   <td class="firstrow-table">Mail</td>
-                  <td class="secondrow-table"><a href="">info@webtree.ch</a></td>
+                  <td class="secondrow-table circle-big"><a href="mailto:info@webree.ch">info@webtree.ch</a></td>
                </tr>
                <tr>
                   <td></td>
                </tr>
                <tr class="column-table">
                   <td class="firstrow-table">TEL</td>
-                  <td class="secondrow-table"><a href="">052 508 14 81</a></td>
+                  <td class="secondrow-table circle-big"><a href="tel:+41525081481">052-508-14-81</a></td>
                </tr>
                <tr>
                   <td></td>
                </tr>
                <tr class="column-table">
                   <td class="firstrow-table">Instagram</td>
-                  <td class="secondrow-table"><a target="_blank" href="https://www.instagram.com/webtree.ch/">WebTree - Instagram</a></td>
+                  <td class="secondrow-table circle-big"><a target="_blank" href="https://www.instagram.com/webtree.ch/">WebTree - Instagram</a></td>
                </tr>
                <tr>
                   <td></td>
                </tr>
                <tr class="column-table">
                   <td class="firstrow-table">Linkedin</td>
-                  <td class="secondrow-table"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/">WebTree - LinkedIn</a></td>
+                  <td class="secondrow-table circle-big"><a target="_blank" href="https://www.linkedin.com/company/webtree-agentur/">WebTree - LinkedIn</a></td>
                </tr>
             </table>
             <table class="table table-borderless impressum-phone">
@@ -156,7 +164,7 @@
                   <td class="firstrow-table">Mail</td>
                </tr>
                <tr class="column-table">
-                  <td class="secondrow-table"><a href="">info@webtree.ch</a></td>
+                  <td class="secondrow-table"><a href="mailto:info@webtree.ch">info@webtree.ch</a></td>
                </tr>
                <tr>
                   <td></td>
@@ -165,7 +173,7 @@
                   <td class="firstrow-table">TEL</td>
                </tr>
                <tr class="column-table">
-                  <td class="secondrow-table"><a href="">052 508 14 81</a></td>
+                  <td class="secondrow-table"><a href="tel:+41525081481">052-508-14-81</a></td>
                </tr>
                <tr>
                   <td></td>
@@ -188,25 +196,23 @@
             </table>
          </div>
       </div>
-      <img class="wave-footer" src="content/assets/svg/footer-topwave.svg" alt="footer-social-media">
-      <footer class="text-left text-lg-start text-white" style="background-color: #003d10; width: 100%;">
+      <img class="wave-footer" src="content/assets/svg/footer-topwave.svg" alt="footer-social-media" loading="lazy">
+      <footer class="text-left text-lg-start text-white" style="background-color: var(--dark-green); width: 100%;">
          <div class="container p-4 pb-0">
             <section class="">
                <div class="row">
                   <div class="col-md-4 col-lg-8 text-center text-md-start">
-                     <a href="#"><img src="content/assets/svg/webtree-logo-white-new.svg" alt="Webtree logo" class="webtree-logo-footer"></a>
+                     <a href="#"><img src="content/assets/svg/webtree-logo-white-new.svg" alt="Webtree logo" class="webtree-logo-footer" loading="lazy"></a>
                   </div>
                   <hr class="w-200 clearfix d-md-none" />
                   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 kontakt-links">
-                     <a href="mailto:info@webtree.ch"><i class="fa fa-envelope mr-3"></i> info@webtree.ch</a>
+                     <a href="mailto:info@webtree.ch" class="circle-big"><i class="fa fa-envelope mr-3"></i> info@webtree.ch</a>
                      <p></p>
-                     <a href="tel:+41525081481"><i class="fa fa-phone mr-3"></i> 052-508-14-81</a>
+                     <a href="tel:+41525081481" class="circle-big"><i class="fa fa-phone mr-3"></i> 052-508-14-81</a>
                      <p></p>
-                     <a href="https://www.google.com/maps/place/Z%C3%BCrich" target="_blank">
+                     <a href="https://www.google.com/maps/place/Z%C3%BCrich" target="_blank" class="circle-big">
                         <i class="fa fa-map-marker mr-3"></i> <span data-lang="location"></span> 
                         </a>
-                     <p></p>
-                     <a href="javascript:void(0);" onclick="zeigeZugangscodeDialog()"class="präsentation-link"><i class="fa fa-lock mr-3"></i> <span data-lang="presentation"></span></a>
                   </div>
                </div>
             </section>
@@ -215,9 +221,9 @@
                <div class="row d-flex align-items-center">
                   <div class="agb-impressum col-md-6 col-lg-3 col-xl-3 text-center text-md-start">
                      <span class="dash">&nbsp;</span>
-                     <a href="#" data-lang="imprint">Impressum</a>
+                     <a href="#" data-lang="imprint" class="circle-big"></a>
                      <span class="dash">&nbsp;</span>
-                     <a href="./datenschutz" data-lang="privacy-policy">Datenschutz</a>
+                     <a href="./datenschutz" data-lang="privacy-policy" class="circle-big"></a>
                      <span class="dash">&nbsp;</span>
                   </div>
                   <div class="col-md-6 col-lg-8 text-center text-md-end">
@@ -252,7 +258,7 @@
     });
       </script>
       <script src="content/vendor/jquery/jquery.min.js"></script>
-      <script src="content/assets/js/owl-carousel.js"></script>
+      
       <script src="content/assets/js/script.js"></script>
       <script src="https://kit.fontawesome.com/a7cae2adf0.js" crossorigin="anonymous"></script>
       <script src="content/assets/js/translation.js"></script>
