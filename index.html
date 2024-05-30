@@ -319,7 +319,7 @@
                         <div class="line-dec"></div>
                      </div>
                   </div>
-                  <form method="POST" class="contact-form" id="contact-form">
+                  <form method="POST" class="contact-form" id="contact-form" action="https://usebasin.com/f/217c5203e363">
                      <input type="text" name="_honey" style="display: none;">
                      <input type="hidden" name="_captcha" value="false">
                      <input type="hidden" name="_template" value="box">
@@ -346,8 +346,8 @@
                      </div>
                      <button type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" onclick="return submitForm()" id="send-btn-contact" data-lang="submit-btn-text"></button>
                   </form>
-                  <div id="success-message" style="display: none; color: #00731e; font-weight: bold; white-space: wrap; margin-top: 15px;"></div>
-                  <div id="error-message" style="display: none; color: red; white-space: wrap; font-weight: bold; margin-top: 15px;" data-lang="error-message"></div>
+                  <div id="success-message" style="color: #00731e; font-weight: bold; white-space: wrap; margin-top: 15px;"></div>
+                  <div id="error-message" style="color: red; white-space: wrap; font-weight: bold; margin-top: 15px;"></div>
                </div>
             </div>
             <div class="right">
@@ -467,66 +467,37 @@
             </section>
          </div>
       </footer>
-      <script>
-         function validateForm(formData) {
-             if (!formData.firstname || !formData.lastname || !formData.email || !formData.message) {
-                 return false;
-             }
-             return true;
-         }
-         
-         function submitForm() {
-             var formData = {
-                 firstname: $('#firstname-contact').val(),
-                 lastname: $('#lastname-contact').val(),
-                 email: $('#email-contact').val(),
-                 message: $('#message-contact').val()
-             };
-         
-             if (!validateForm(formData)) {
-                 alert("Please fill out all required fields.");
-                 return false;
-             }
-         
-             var language = localStorage.getItem('language');
-             if (!language) {
-                 language = "de"; 
-             }
-         
-             var autoresponseMessage;
-             var errorMessage;
-             if (language === "de") {
-                 autoresponseMessage = `Hallo ${formData.firstname}, danke für deine Nachricht! Wir melden uns baldmöglichst bei dir.`;
-                 errorMessage = "Hoppla! Etwas ist schief gelaufen. Versuche es erneut!";
-             } else {
-                 autoresponseMessage = `Hi ${formData.firstname}, thank you for your message! We will get back to you as soon as possible.`;
-                 errorMessage = "Oops! Something went wrong. Please try again!";
-             }
-         
-             $.ajax({
-                 url: "https://formsubmit.co/ajax/info@webtree.ch",
-                 method: "POST",
-                 data: formData,
-                 dataType: "json",
-                 success: function(response) {
-                     $('#success-message').html(autoresponseMessage).show();
-                     $('#error-message').hide();
-                     setTimeout(function(){
-                         $('#success-message').fadeOut('fast');
-                     }, 10000);
-                 },
-                 error: function(xhr, status, error) {
-                     $('#error-message').html(errorMessage).show();
-                     $('#success-message').hide();
-                 }
-             });
-         
-             $('#contact-form')[0].reset();
-         
-             return false;
-         }
-               
-      </script> 
+<script type="text/javascript">
+var form = document.getElementById("contact-form");
+var successMessage = document.getElementById("success-message");
+var errorMessage = document.getElementById("error-message");
+form.onsubmit = function(event) {
+    event.preventDefault();
+    var formData = new FormData(form);
+    var firstNameValue = document.getElementById("firstname-contact").value;
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", form.action, true);
+    xhr.send(formData);
+    
+    xhr.onload = function(e) {
+        if (xhr.status === 200) {
+            var lang = localStorage.getItem("language");
+            if (lang === "en") {
+                successMessage.innerHTML = "Hi " + firstNameValue +"! Thank you for your message, we will get back to you as soon as possible.";
+            } else {
+                successMessage.innerHTML = "Hi " + firstNameValue +"! Danke für deine Nachricht, wir melden uns baldmöglichst bei dir.";
+            }
+            form.reset();  
+        } else {
+            var response = JSON.parse(xhr.response);
+            errorMessage.innerHTML = "Error";
+        }
+    };
+};
+</script>
+
+         </script>
+                        
       <script>
          document.addEventListener("DOMContentLoaded", function() {
          var dropdownBtn = document.querySelector('.dropdown .dropbtn');
