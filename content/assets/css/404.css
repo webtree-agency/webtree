@@ -31,7 +31,7 @@
 }
 
 .erfolg {
-    max-width: 50%;
+    max-width: 30%;
 }
 
 .button-404{
@@ -89,7 +89,7 @@
     }
 
     .erfolg{
-        max-width: 100%;
+        max-width: 70%;
         margin-top: 15px;
     }
     .erfolg-btn{
@@ -98,10 +98,6 @@
 }
 @media (max-width: 1000px) {
     .svg-404{
-        max-width: 90%;
-    }
-
-    .erfolg {
         max-width: 90%;
     }
 }
