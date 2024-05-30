@@ -248,83 +248,96 @@
                           };
                       };
                   });
-              </script>
-                       
+              </script>      
             </div>
             <div id="design-content">
                <form action="https://usebasin.com/f/217c5203e363" method="POST" class="contact-form" id="design-form">
                   <input type="hidden" name="_subject" value="Content - Design. Neue Offerten-Anfrage WebTree!">
                   <div class="input-wrap">
-                     <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                     <label for="firstname-contact" data-lang="firstname">Vorname</label>
-                     <i class="icon fa-solid fa-address-card"></i>
+                      <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                      <label for="firstname-contact" data-lang="firstname">Vorname</label>
+                      <i class="icon fa-solid fa-address-card"></i>
                   </div>
                   <div class="input-wrap">
-                     <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                     <label for="lastname-contact" data-lang="lastname">Nachname</label>
-                     <i class="icon fa-solid fa-address-card"></i>
+                      <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
+                      <label for="lastname-contact" data-lang="lastname">Nachname</label>
+                      <i class="icon fa-solid fa-address-card"></i>
                   </div>
                   <div class="input-wrap">
-                     <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
-                     <label for="email-contact" data-lang="mail">E-Mail</label>
-                     <i class="icon fa-solid fa-envelope"></i>
+                      <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
+                      <label for="email-contact" data-lang="mail">E-Mail</label>
+                      <i class="icon fa-solid fa-envelope"></i>
                   </div>
                   <div class="input-wrap">
-                     <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
-                     <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
-                     <i class="icon fa-solid fa-phone"></i>
+                      <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
+                      <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
+                      <i class="icon fa-solid fa-phone"></i>
                   </div>
                   <div class="input-wrap">
-                     <select id="desired-design" name="desired-design" class="contact-input" required>
-                        <option value="" selected disabled></option>
-                        <option value="Multi Media Design">Multi Media Design</option>
-                        <option value="Content Creation">Content Creation</option>
-                     </select>
-                     <label for="desired-design" data-lang="desired-design"></label>
-                     <i class="icon fa-solid fa-paintbrush"></i>
+                      <select id="desired-design" name="desired-design" class="contact-input" required>
+                          <option value="" selected disabled></option>
+                          <option value="Multi Media Design">Multi Media Design</option>
+                          <option value="Content Creation">Content Creation</option>
+                      </select>
+                      <label for="desired-design" data-lang="desired-design"></label>
+                      <i class="icon fa-solid fa-paintbrush"></i>
                   </div>
                   <div class="input-wrap">
-                     <input id="style-contact" class="contact-input" autocomplete="off" name="style" required>
-                     <label for="style-contact">Stil</label>
-                     <i class="icon fa-solid fa-paint-roller"></i>
+                      <input id="style-contact" class="contact-input" autocomplete="off" name="style" required>
+                      <label for="style-contact">Stil</label>
+                      <i class="icon fa-solid fa-paint-roller"></i>
                   </div>
                   <div class="input-wrap">
-                     <textarea id="inspiration-design-contact" class="contact-input" autocomplete="off" name="inspiration-design" required></textarea>
-                     <label for="inspiration-design-contact" data-lang="inspiration-sources">Inspirationsquellen</label>
-                     <i class="icon fa-solid fa-globe"></i>
+                      <textarea id="inspiration-design-contact" class="contact-input" autocomplete="off" name="inspiration-design" required></textarea>
+                      <label for="inspiration-design-contact" data-lang="inspiration-sources">Inspirationsquellen</label>
+                      <i class="icon fa-solid fa-globe"></i>
                   </div>
                   <div class="input-wrap">
-                     <textarea id="description" class="contact-input" autocomplete="off" name="description" required></textarea>
-                     <label for="description" data-lang="description-offerte">Beschreibung</label>
-                     <i class="icon fa-regular fa-lightbulb"></i>
+                      <textarea id="description" class="contact-input" autocomplete="off" name="description" required></textarea>
+                      <label for="description" data-lang="description-offerte">Beschreibung</label>
+                      <i class="icon fa-regular fa-lightbulb"></i>
                   </div>
                   <div class="input-wrap w-100">
-                     <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
-                     <label for="message-contact" data-lang="concerns">Besondere Anliegen</label>
-                     <i class="icon fa-solid fa-inbox"></i>
+                      <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
+                      <label for="message-contact" data-lang="concerns">Besondere Anliegen</label>
+                      <i class="icon fa-solid fa-inbox"></i>
                   </div>
-                  <button type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" data-lang="submit-btn-text"></button>
-               </form>
-               <script type="text/javascript">
-                  var form = document.getElementById("design-form");
-                  form.onsubmit = function(event) {
-                      event.preventDefault();
-                      var formData = new FormData(form);
-                      var xhr = new XMLHttpRequest();
-                      xhr.open("POST", form.action, true);
-                      xhr.send(formData);
-                      
-                      xhr.onload = function(e) {
-                          if (xhr.status === 200) {
-                              window.location.href = 'erfolg.html';  // Redirect auf erfolg.html
-                              form.reset();  
-                          } else {
-                              var response = JSON.parse(xhr.response);
-                              // Handle error response
-                          }
-                      };
-                  };
-              </script>   
+                  <button type="submit" value="Nachricht senden" class="send-btn-contact w-100 input-wrap circle-big" data-lang="submit-btn-text">Nachricht senden</button>
+              </form>                       
+              <script type="text/javascript" defer>
+               document.addEventListener("DOMContentLoaded", function() {
+                   var form = document.getElementById("design-form");
+                   form.onsubmit = function(event) {
+                       event.preventDefault();
+                       var formData = new FormData(form);
+                       var xhr = new XMLHttpRequest();
+                       xhr.open("POST", form.action, true);
+                       xhr.setRequestHeader("Accept", "application/json");
+                       xhr.send(formData);
+                       
+                       xhr.onload = function() {
+                           if (xhr.status === 200) {
+                               window.location.href = 'erfolg.html';  // Redirect auf erfolg.html
+                               form.reset();
+                           } else {
+                               try {
+                                   var response = JSON.parse(xhr.responseText);
+                                   console.error("Error:", response.error);
+                                   alert("Error: " + response.error);
+                               } catch (e) {
+                                   console.error("An error occurred.");
+                                   alert("An error occurred while processing your request.");
+                               }
+                           }
+                       };
+                       
+                       xhr.onerror = function() {
+                           console.error("Request failed.");
+                           alert("An error occurred while processing your request.");
+                       };
+                   };
+               });
+           </script>  
             </div>
             <div id="support">
                <form action="https://usebasin.com/f/217c5203e363" method="POST" class="contact-form" id="support-form">
