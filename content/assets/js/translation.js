@@ -220,7 +220,7 @@ var texts = {
       "submit-btn-text" : "Submit Message",
       "erfolg-title" : "Message successfully sent - WebTree",
       "erfolg-text-1" : "Your ",
-      "erfolg-text-2" : "inquiry ",
+      "erfolg-text-2" : "request ",
       "erfolg-text-3" : "has been sent successfully",
       "erfolg-text-4" : "We will get back to you as soon as possible.",
       "desired-design" : "Desired design / creation",
