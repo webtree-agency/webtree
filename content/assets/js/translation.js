@@ -311,7 +311,7 @@ var texts = {
         "privacy-policy" : "Datenschutz",
         "1. privacy policy at a glance" : "1. Daten­schutz auf einen Blick",
         "General information" : "Allgemeine Hinweise",
-        "hints" : "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Webseite besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.",
+        "hints" : "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Deinen personenbezogenen Daten passiert, wenn Sie diese Webseite besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.",
         "data-collection" : "Daten­erfassung auf dieser Webseite",
         "who-data" : "Wer ist verantwortlich für die Datenerfassung auf dieser Webseite?",
         "answer-data" : "Die Datenverarbeitung auf dieser Webseite erfolgt durch den Webseitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Webseite entnehmen.",
