@@ -242,6 +242,8 @@ var texts = {
       "blog-1-title-4": "Looking to the Future",
       "blog-1-text-4": "With every project we successfully complete, not only do our skills grow, but so does our network and our reputation as reliable partners for digital solutions. Our goal is to continue exploring innovative paths and helping our clients succeed in the digital world.",
       "blog-1-text-5": "Join us on the exciting journey from apprenticeship to success. Follow us on our blog, where we share insights into our projects, tips on entrepreneurship, and stories from our daily lives. Get inspired and discover how sports, school, and entrepreneurship can merge into a successful life path.",
+      "blog-title1" : "The Open Book of ",
+      "blog-title2" : "Web Development"
     },
     "de": {
         "we-are": "Wir sind",
@@ -483,6 +485,8 @@ var texts = {
         "blog-1-title-4" : "Zukunftsausblick",
         "blog-1-text-4" : "Mit jedem Projekt, das wir erfolgreich abschließen, wachsen nicht nur unsere Fähigkeiten, sondern auch unser Netzwerk und unsere Reputation als zuverlässige Partner für digitale Lösungen. Unser Ziel ist es, weiterhin innovative Wege zu beschreiten und unsere Kunden dabei zu unterstützen, in der digitalen Welt erfolgreich zu sein.",
         "blog-1-text-5" : "Erlebe mit uns den spannenden Weg von der Lehre bis zum Erfolg. Begleite uns auf unserem Blog, wo wir Einblicke in unsere Projekte, Tipps zur Selbstständigkeit und Geschichten aus unserem Alltag teilen. Lass dich inspirieren und entdecke, wie Sport, Schule und Selbstständigkeit zu einem erfolgreichen Lebensweg verschmelzen können.",
+        "blog-title1" : "Das offene Buch der ",
+        "blog-title2" : "Webentwicklung"
     }
   };
 
