@@ -1280,7 +1280,7 @@ padding-bottom: 6.5rem;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   transform: scale(1.05);
   transition: .3s all ease;
 }

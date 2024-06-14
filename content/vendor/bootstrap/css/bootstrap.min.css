@@ -9237,3 +9237,8 @@ textarea.form-control-lg{
     }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+@media (min-width: 992px) {
+    .w-lg-75 {
+      width: 75% !important;
+    }
+  }
