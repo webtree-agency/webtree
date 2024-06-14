@@ -243,7 +243,12 @@ var texts = {
       "blog-1-text-4": "With every project we successfully complete, not only do our skills grow, but so does our network and our reputation as reliable partners for digital solutions. Our goal is to continue exploring innovative paths and helping our clients succeed in the digital world.",
       "blog-1-text-5": "Join us on the exciting journey from apprenticeship to success. Follow us on our blog, where we share insights into our projects, tips on entrepreneurship, and stories from our daily lives. Get inspired and discover how sports, school, and entrepreneurship can merge into a successful life path.",
       "blog-title1" : "The Open Book of ",
-      "blog-title2" : "Web Development"
+      "blog-title2" : "Web Development",
+      "read-time-1": "Reading time 1 minute",
+      "read-time-2": "Reading time 2 minutes",
+      "read-time-3": "Reading time 3 minutes",
+      "read-time-4": "Reading time 4 minutes",
+      "read-time-5": "Reading time 5 minutes",
     },
     "de": {
         "we-are": "Wir sind",
@@ -486,7 +491,12 @@ var texts = {
         "blog-1-text-4" : "Mit jedem Projekt, das wir erfolgreich abschließen, wachsen nicht nur unsere Fähigkeiten, sondern auch unser Netzwerk und unsere Reputation als zuverlässige Partner für digitale Lösungen. Unser Ziel ist es, weiterhin innovative Wege zu beschreiten und unsere Kunden dabei zu unterstützen, in der digitalen Welt erfolgreich zu sein.",
         "blog-1-text-5" : "Erlebe mit uns den spannenden Weg von der Lehre bis zum Erfolg. Begleite uns auf unserem Blog, wo wir Einblicke in unsere Projekte, Tipps zur Selbstständigkeit und Geschichten aus unserem Alltag teilen. Lass dich inspirieren und entdecke, wie Sport, Schule und Selbstständigkeit zu einem erfolgreichen Lebensweg verschmelzen können.",
         "blog-title1" : "Das offene Buch der ",
-        "blog-title2" : "Webentwicklung"
+        "blog-title2" : "Webentwicklung",
+        "read-time-1": "Lesedauer 1 Minute",
+        "read-time-2": "Lesedauer 2 Minuten",
+        "read-time-3": "Lesedauer 3 Minuten",
+        "read-time-4": "Lesedauer 4 Minuten",
+        "read-time-5": "Lesedauer 5 Minuten",
     }
   };
 
