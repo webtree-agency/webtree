@@ -249,6 +249,7 @@ var texts = {
       "read-time-3": "Reading time 3 minutes",
       "read-time-4": "Reading time 4 minutes",
       "read-time-5": "Reading time 5 minutes",
+      "21-june" : "June 21, 2024",
     },
     "de": {
         "we-are": "Wir sind",
@@ -497,6 +498,7 @@ var texts = {
         "read-time-3": "Lesedauer 3 Minuten",
         "read-time-4": "Lesedauer 4 Minuten",
         "read-time-5": "Lesedauer 5 Minuten",
+        "21-june" : "21 Juni, 2024",
     }
   };
 
