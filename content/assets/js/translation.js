@@ -488,7 +488,7 @@ var texts = {
         "blog-1-title-3" : "Selbstständigkeit als Ziel",
         "blog-1-text-3" : "Unsere Webagentur, gegründet aus der Überzeugung, dass digitale Präsenz und Innovation Hand in Hand gehen müssen, bietet alles von Webentwicklung über IT-Support bis hin zu SEO-Optimierung. Wir geben alles für unsere Kunden.",
         "blog-1-title-4" : "Zukunftsausblick",
-        "blog-1-text-4" : "Mit jedem Projekt, das wir erfolgreich abschließen, wachsen nicht nur unsere Fähigkeiten, sondern auch unser Netzwerk und unsere Reputation als zuverlässige Partner für digitale Lösungen. Unser Ziel ist es, weiterhin innovative Wege zu beschreiten und unsere Kunden dabei zu unterstützen, in der digitalen Welt erfolgreich zu sein.",
+        "blog-1-text-4" : "Mit jedem Projekt, das wir erfolgreich abschliessen, wachsen nicht nur unsere Fähigkeiten, sondern auch unser Netzwerk und unsere Reputation als zuverlässige Partner für digitale Lösungen. Unser Ziel ist es, weiterhin innovative Wege zu beschreiten und unsere Kunden dabei zu unterstützen, in der digitalen Welt erfolgreich zu sein.",
         "blog-1-text-5" : "Erlebe mit uns den spannenden Weg von der Lehre bis zum Erfolg. Begleite uns auf unserem Blog, wo wir Einblicke in unsere Projekte, Tipps zur Selbstständigkeit und Geschichten aus unserem Alltag teilen. Lass dich inspirieren und entdecke, wie Sport, Schule und Selbstständigkeit zu einem erfolgreichen Lebensweg verschmelzen können.",
         "blog-title1" : "Das offene Buch der ",
         "blog-title2" : "Webentwicklung",
