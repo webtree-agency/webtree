@@ -27,7 +27,10 @@
     <url>
         <loc>https://www.webtree.ch/services.html</loc>
     </url>
-        <url>
+    <url>
         <loc>https://www.webtree.ch/selbststaendigkeit.html</loc>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/technologien.html</loc>
     </url>
 </urlset>
