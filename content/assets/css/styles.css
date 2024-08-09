@@ -1279,13 +1279,24 @@ padding-bottom: 6.5rem;
   color: var(--white);
 }
 
-.retro-layout .h-entry .featured-img {
+.retro-layout .h-entry .featured-img.top{
   position: absolute;
   height: 100%;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  transform: scale(1.05);
+  transition: .3s all ease;
+}
+
+.retro-layout .h-entry .featured-img.center{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   transform: scale(1.05);
   transition: .3s all ease;
 }

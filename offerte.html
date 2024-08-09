@@ -5,31 +5,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       
-      <!-- Open Graph Meta-Tags -->
-      <meta property="og:title" content="Gratis Offerte anfordern">
-      <meta property="og:description" content="Fordern Sie jetzt Ihr individuelles Angebot an!. Entdecken Sie unsere Leidenschaft für kreatives Webdesign und lassen Sie uns gemeinsam Ihre Online-Präsenz optimieren.">
-      <meta property="og:image" content="https://www.webtree.ch/content/assets/images/logo-googlesearch.png">
-      <meta property="og:url" content="https://www.webtree.ch/offerte.html">
-      <meta property="og:type" content="website">
-      <meta property="og:site_name" content="WebTree">
-  
-      <!-- Cache-Control -->
-      <meta http-equiv="Cache-Control" content="public, max-age=2629746">
-  
       <!-- SEO Meta-Tags -->
       <meta name="description" content="Fordern Sie jetzt Ihr individuelles Angebot an!. Entdecken Sie unsere Leidenschaft für kreatives Webdesign und lassen Sie uns gemeinsam Ihre Online-Präsenz optimieren.">
       <meta name="keywords" content="Angebote, Webentwicklung, IT Support, Multimedia Design, Content Creation, Hosting Services, Digitale Strategie, SEO-Optimierung, App-Entwicklung, E-Commerce-Lösungen, Social Media Management, Cloud-Services, Softwareentwicklung, Cybersecurity, Grafikdesign, Video-Produktion, Online-Marketing, Benutzererfahrung (UX) Design, Netzwerkadministration, Datenanalyse, Systemintegration, Technischer Support, IT-Beratung, Wartung und Support, Web-Hosting">
       
       <!-- Apple Meta-Tags -->
-      <meta name="apple-mobile-web-app-capable" content="yes">
       <link rel="icon" href="content/assets/svg/favicon-webtree.svg" type="image/svg+xml">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-      <title data-lang="offerte-title">Gratis Offerte anfordern</title>
+      <title data-lang="offerte-title">WebTree - Gratis Offerte anfordern</title>
       <link href="content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="content/assets/css/main.css">
       <link rel="stylesheet" href="content/assets/css/animated.css">
       <link rel="stylesheet" href="content/assets/css/styles.css">
-      <link rel="canonical" href="https://www.webtree.ch/offerte.html">
    </head>
    <body>
       <div class="circle"></div>
@@ -147,24 +134,14 @@
                <form action="https://usebasin.com/f/217c5203e363" method="POST" class="contact-form" id="development-form">
                   <input type="hidden" name="_subject" value="Entwicklung. Neue Offerten-Anfrage WebTree!">
                   <div class="input-wrap">
-                      <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                      <label for="firstname-contact" data-lang="firstname">Vorname</label>
-                      <i class="icon fa-solid fa-address-card"></i>
-                  </div>
-                  <div class="input-wrap">
-                      <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                      <label for="lastname-contact" data-lang="lastname">Nachname</label>
+                      <input id="name-contact" class="contact-input" autocomplete="off" name="name" type="text" pattern="[a-zA-Z\s\-]+" required>
+                      <label for="name-contact">Name</label>
                       <i class="icon fa-solid fa-address-card"></i>
                   </div>
                   <div class="input-wrap">
                       <input id="email-contact" class="contact-input" autocomplete="off" name="email" type="email" required>
                       <label for="email-contact" data-lang="mail">E-Mail</label>
                       <i class="icon fa-solid fa-envelope"></i>
-                  </div>
-                  <div class="input-wrap">
-                      <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
-                      <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
-                      <i class="icon fa-solid fa-phone"></i>
                   </div>
                   <div class="input-wrap">
                       <select id="webpage-type-contact" name="webpage-type" class="contact-input" required>
@@ -218,6 +195,17 @@
                       <i class="icon fa-regular fa-lightbulb"></i>
                   </div>
                   <div class="input-wrap w-100">
+                     <select id="budget-contact" name="budget" class="contact-input" required>
+                         <option value="" selected disabled></option>
+                         <option value="0-3K" >0-3K</option>
+                         <option value="3-5K" >3-5K</option>
+                         <option value="5-15K" >5-15K</option>
+                         <option value="+15K" >+15K</option>
+                     </select>
+                     <label for="budget-contact">Budget (CHF)</label>
+                     <i class="icon fa-solid fa-money-bill"></i>
+                 </div>
+                  <div class="input-wrap w-100">
                       <textarea id="message-contact" name="Besondere Anliegen" autocomplete="off" class="contact-input"></textarea>
                       <label for="message-contact" data-lang="concerns">Besondere Anliegen</label>
                       <i class="icon fa-solid fa-inbox"></i>
@@ -263,13 +251,8 @@
                <form action="https://usebasin.com/f/217c5203e363" method="POST" class="contact-form" id="design-form">
                   <input type="hidden" name="_subject" value="Content - Design. Neue Offerten-Anfrage WebTree!">
                   <div class="input-wrap">
-                      <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                      <label for="firstname-contact" data-lang="firstname">Vorname</label>
-                      <i class="icon fa-solid fa-address-card"></i>
-                  </div>
-                  <div class="input-wrap">
-                      <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                      <label for="lastname-contact" data-lang="lastname">Nachname</label>
+                      <input id="name-contact" class="contact-input" autocomplete="off" name="name" type="text" pattern="[a-zA-Z\s\-]+" required>
+                      <label for="name-contact">Name</label>
                       <i class="icon fa-solid fa-address-card"></i>
                   </div>
                   <div class="input-wrap">
@@ -278,15 +261,11 @@
                       <i class="icon fa-solid fa-envelope"></i>
                   </div>
                   <div class="input-wrap">
-                      <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
-                      <label for="phone-nr" data-lang="phone-nr">Telefonnummer</label>
-                      <i class="icon fa-solid fa-phone"></i>
-                  </div>
-                  <div class="input-wrap">
                       <select id="desired-design" name="desired-design" class="contact-input" required>
                           <option value="" selected disabled></option>
                           <option value="Multi Media Design">Multi Media Design</option>
                           <option value="Content Creation">Content Creation</option>
+                          <option value="Anderes" data-lang="other">Anderes</option>
                       </select>
                       <label for="desired-design" data-lang="desired-design"></label>
                       <i class="icon fa-solid fa-paintbrush"></i>
@@ -352,13 +331,8 @@
                <form action="https://usebasin.com/f/217c5203e363" method="POST" class="contact-form" id="support-form">
                   <input type="hidden" name="_subject" value="Support. Neue Offerten-Anfrage WebTree!">
                   <div class="input-wrap">
-                     <input id="firstname-contact" class="contact-input" autocomplete="off" name="firstname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                     <label for="firstname-contact" data-lang="firstname">Vorname</label>
-                     <i class="icon fa-solid fa-address-card"></i>
-                  </div>
-                  <div class="input-wrap">
-                     <input id="lastname-contact" class="contact-input" autocomplete="off" name="lastname" type="text" pattern="[a-zA-Z\s\-]+" required>
-                     <label for="lastname-contact" data-lang="lastname">Nachname</label>
+                     <input id="name-contact" class="contact-input" autocomplete="off" name="name" type="text" pattern="[a-zA-Z\s\-]+" required>
+                     <label for="name-contact">Name</label>
                      <i class="icon fa-solid fa-address-card"></i>
                   </div>
                   <div class="input-wrap">
@@ -367,16 +341,12 @@
                      <i class="icon fa-solid fa-envelope"></i>
                   </div>
                   <div class="input-wrap">
-                     <input id="phone-nr" class="contact-input" autocomplete="off" name="phone" type="number" required>
-                     <label for="phone-nr" data-lang="phone-nr"></label>
-                     <i class="icon fa-solid fa-phone"></i>
-                  </div>
-                  <div class="input-wrap">
                      <select id="desired-support" name="desired-support" class="contact-input" required>
                         <option value="" selected disabled></option>
                         <option value="IT-Support">IT-Support</option>
                         <option value="SEO-Optimierung" data-lang="seo-optimization"></option>
                         <option value="Hosting-Services">Hosting-Services</option>
+                        <option value="Anderes" data-lang="other">Anderes</option>
                      </select>
                      <label for="desired-support" data-lang="desired-support"></label>
                      <i class="icon fa-solid fa-headset"></i>
