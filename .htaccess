@@ -6,13 +6,14 @@ RewriteEngine On
 
 # Redirect specific files to their new locations under /blogs/
 RewriteCond %{HTTPS} on
-RewriteCond %{REQUEST_URI} ^/barrierefreies-design [OR]
-RewriteCond %{REQUEST_URI} ^/cyberkriminalitaet [OR]
-RewriteCond %{REQUEST_URI} ^/junge-unternehmer [OR]
-RewriteCond %{REQUEST_URI} ^/kunden-bindung [OR]
-RewriteCond %{REQUEST_URI} ^/selbststaendigkeit [OR]
-RewriteCond %{REQUEST_URI} ^/seo-grundlagen [OR]
-RewriteCond %{REQUEST_URI} ^/technologien
+RewriteCond %{REQUEST_URI} ^/barrierefreies-design$ [OR]
+RewriteCond %{REQUEST_URI} ^/cyberkriminalitaet$ [OR]
+RewriteCond %{REQUEST_URI} ^/junge-unternehmer$ [OR]
+RewriteCond %{REQUEST_URI} ^/kunden-bindung$ [OR]
+RewriteCond %{REQUEST_URI} ^/mobile-first$ [OR]
+RewriteCond %{REQUEST_URI} ^/selbststaendigkeit$ [OR]
+RewriteCond %{REQUEST_URI} ^/seo-grundlagen$ [OR]
+RewriteCond %{REQUEST_URI} ^/technologien$
 RewriteRule ^ https://webtree.ch/blogs%{REQUEST_URI} [R=301,L]
 
 # Handle 404 Errors - Redirect if file or directory does not exist
