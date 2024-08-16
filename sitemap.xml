@@ -4,15 +4,6 @@
         <loc>https://www.webtree.ch/blog.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/datenschutz.html</loc>
-    </url>
-    <url>
-        <loc>https://www.webtree.ch/junge-unternehmer.html</loc>
-    </url>
-    <url>
-        <loc>https://www.webtree.ch/seo-grundlagen.html</loc>
-    </url>
-    <url>
         <loc>https://www.webtree.ch/impressum.html</loc>
     </url>
     <url>
@@ -28,15 +19,30 @@
         <loc>https://www.webtree.ch/services.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/selbststaendigkeit.html</loc>
+        <loc>https://www.webtree.ch/datenschutz.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/technologien.html</loc>
+        <loc>https://www.webtree.ch/blogs/junge-unternehmer.html</loc>
     </url>
     <url>
-        <loc>https://www.webtree.ch/kunden-bindung.html</loc>
+        <loc>https://www.webtree.ch/blogs/seo-grundlagen.html</loc>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/blogs/selbststaendigkeit.html</loc>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/blogs/technologien.html</loc>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/blogs/kunden-bindung.html</loc>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/blogs/cyberkriminalitaet.html</loc>
     </url>
         <url>
-        <loc>https://www.webtree.ch/cyberkriminalitaet.html</loc>
+        <loc>https://www.webtree.ch/blogs/barrierefreies-design.html</loc>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/blogs/mobile-first.html</loc>
     </url>
 </urlset>
