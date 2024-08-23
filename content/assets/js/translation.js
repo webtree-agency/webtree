@@ -453,7 +453,59 @@ var texts = {
         "b2b-description": "Yes, the Mobile-First approach has also arrived in the B2B sector. A study shows that 50% of B2B-relevant search queries are already conducted on mobile devices. This number will continue to rise, making it clear that responsive web design is also indispensable in the B2B sector. Even if most of your traffic comes from desktop devices, this doesn’t mean you can skip mobile optimization. Since the introduction of Mobile-First indexing by Google, a mobile-optimized design is crucial for ranking in search results.",
 
         "conclusion-heading": "Conclusion: The Change is Inevitable",
-        "conclusion-description": "Mobile First is not a temporary trend but a necessity for any company that wants to succeed online. It’s not enough to simply create a minimalist design. The user experience and the context of use must also be considered. The challenge is to understand user behavior and adapt the design accordingly. This is the only way to ensure an optimal user experience across all devices. It’s time to rethink and firmly anchor the Mobile-First approach in your web strategy."
+        "conclusion-description": "Mobile First is not a temporary trend but a necessity for any company that wants to succeed online. It’s not enough to simply create a minimalist design. The user experience and the context of use must also be considered. The challenge is to understand user behavior and adapt the design accordingly. This is the only way to ensure an optimal user experience across all devices. It’s time to rethink and firmly anchor the Mobile-First approach in your web strategy.",
+        "cms_intro_heading": "Introduction to Content Management Systems (CMS)",
+        "date-cms": "August 23, 2024",
+        "read-time-3": "Reading time: 3 minutes",
+        "cms_intro_paragraph1": "A Content Management System (CMS) is software that facilitates the creation, editing, and organization of digital content.",
+        "cms_intro_paragraph2": "CMS solutions offer a user-friendly interface, enabling even non-technical users to manage content efficiently.",
+        "cms_intro_paragraph3": "Using a CMS can significantly reduce the time required to maintain a website.",
+      
+        "cms_work_heading": "How a CMS Works",
+        "cms_work_paragraph1": "A CMS separates content from design, ensuring that design changes do not affect the content.",
+        "cms_work_paragraph2": "Content is stored in a database and retrieved when needed.",
+        "cms_work_paragraph3": "Editors can create and manage content through a graphical user interface.",
+      
+        "cms_websites_heading": "Types of Websites You Can Create with a CMS",
+        "cms_websites_paragraph1": "With a CMS, you can create blogs, corporate websites, e-commerce platforms, and many other types of websites.",
+        "cms_websites_paragraph2": "The flexibility of a CMS allows you to quickly expand and customize a website.",
+      
+        "cms_vs_ecm_subheading": "Difference Between CMS and ECM",
+        "cms_vs_ecm_paragraph1": "An Enterprise Content Management (ECM) system is a more comprehensive solution that manages not only web content but also documents, images, and other digital assets.",
+        "cms_vs_ecm_paragraph2": "While a CMS focuses on managing web content, an ECM covers a broader range of content types.",
+      
+        "cms_examples_subheading": "Examples of Popular CMS",
+        "cms_examples_paragraph1": "WordPress is the most well-known CMS, used globally for a variety of websites.",
+        "cms_examples_paragraph2": "Other popular CMS options include Joomla, Drupal, and Typo3.",
+      
+        "cms_benefits_heading": "Benefits of a CMS",
+        "cms_benefits_paragraph1": "A CMS offers numerous advantages that greatly simplify website management:",
+        "cms_benefit1_subheading": "Ease of Use",
+        "cms_benefit1_paragraph": "Even without technical knowledge, users can create and manage content.",
+        "cms_benefit2_subheading": "Time-Saving",
+        "cms_benefit2_paragraph": "By automating many tasks, a CMS saves time and resources.",
+        "cms_benefit3_subheading": "Flexibility",
+        "cms_benefit3_paragraph": "A CMS allows for easy customization and expansion of websites.",
+      
+        "cms_choose_heading": "How to Choose the Right CMS",
+        "cms_choose_paragraph1": "When selecting a CMS, several factors should be considered:",
+        "cms_choose_factor1_subheading": "User-Friendliness",
+        "cms_choose_factor1_paragraph": "Is the CMS easy to use?",
+        "cms_choose_factor2_subheading": "Functionality",
+        "cms_choose_factor2_paragraph": "Does the CMS offer the necessary features?",
+        "cms_choose_factor3_subheading": "Security",
+        "cms_choose_factor3_paragraph": "How secure is the CMS?",
+        "cms_choose_factor4_subheading": "Adaptability",
+        "cms_choose_factor4_paragraph": "Can the CMS be tailored to specific needs?",
+        "cms_choose_factor5_subheading": "Cost",
+        "cms_choose_factor5_paragraph": "What are the associated costs of the CMS?",
+        "cms_choose_factor6_subheading": "Support",
+        "cms_choose_factor6_paragraph": "Is there adequate support available for the CMS?",
+        "cms_choose_factor7_subheading": "Community",
+        "cms_choose_factor7_paragraph": "Does the CMS have an active community?",
+      
+        "cms_best_heading": "Which is the Best CMS?",
+        "cms_best_paragraph": "The best CMS depends on individual needs and requirements. WordPress is the most popular choice due to its flexibility and user-friendliness."
     },
     "de": {
         "we-are": "Wir sind",
@@ -907,7 +959,59 @@ var texts = {
         "b2b-description": "Ja, der Mobile-First-Ansatz ist auch im B2B-Bereich angekommen. Eine Studie zeigt, dass bereits 50 % der B2B-relevanten Suchanfragen mobil durchgeführt werden. Diese Zahl wird weiter steigen, was deutlich macht, dass ein responsives Webdesign auch im B2B-Bereich unverzichtbar ist. Selbst wenn der Grossteil Ihres Traffics von Desktop-Geräten stammt, bedeutet dies nicht, dass Sie auf eine mobile Optimierung verzichten können. Seit der Einführung des Mobile-First-Indexing durch Google ist ein mobil-optimiertes Design entscheidend für das Ranking in den Suchergebnissen.",
 
         "conclusion-heading": "Fazit: Der Wandel ist unumgänglich",
-        "conclusion-description": "Mobile First ist kein vorübergehender Trend, sondern eine Notwendigkeit für jedes Unternehmen, das online erfolgreich sein möchte. Es reicht nicht aus, einfach ein minimalistisches Design zu erstellen. Auch die Benutzererfahrung und der Nutzungskontext müssen berücksichtigt werden. Die Herausforderung besteht darin, das Nutzerverhalten zu verstehen und das Design entsprechend anzupassen. Nur so kann eine optimale Benutzererfahrung über alle Geräte hinweg gewährleistet werden. Es ist an der Zeit, umzudenken und den Mobile-First-Ansatz fest in Ihre Webstrategie zu verankern."
+        "conclusion-description": "Mobile First ist kein vorübergehender Trend, sondern eine Notwendigkeit für jedes Unternehmen, das online erfolgreich sein möchte. Es reicht nicht aus, einfach ein minimalistisches Design zu erstellen. Auch die Benutzererfahrung und der Nutzungskontext müssen berücksichtigt werden. Die Herausforderung besteht darin, das Nutzerverhalten zu verstehen und das Design entsprechend anzupassen. Nur so kann eine optimale Benutzererfahrung über alle Geräte hinweg gewährleistet werden. Es ist an der Zeit, umzudenken und den Mobile-First-Ansatz fest in Ihre Webstrategie zu verankern.",
+        "cms_intro_heading": "Einführung in Content Management Systeme (CMS)",
+        "date-cms": "23 August, 2024",
+        "read-time-3": "Lesezeit: 3 Minuten",
+        "cms_intro_paragraph1": "Ein Content Management System (CMS) ist eine Software, die die Erstellung, Bearbeitung und Organisation von digitalen Inhalten erleichtert.",
+        "cms_intro_paragraph2": "CMS-Lösungen bieten eine benutzerfreundliche Oberfläche, die es auch technisch weniger versierten Personen ermöglicht, Inhalte zu verwalten.",
+        "cms_intro_paragraph3": "Durch den Einsatz eines CMS kann der Zeitaufwand für die Pflege einer Website erheblich reduziert werden.",
+      
+        "cms_work_heading": "Wie ein CMS funktioniert",
+        "cms_work_paragraph1": "Ein CMS trennt Inhalt und Design, sodass Änderungen am Design die Inhalte nicht beeinflussen.",
+        "cms_work_paragraph2": "Inhalte werden in einer Datenbank gespeichert und bei Bedarf abgerufen.",
+        "cms_work_paragraph3": "Redakteure können Inhalte über eine grafische Benutzeroberfläche erstellen und verwalten.",
+      
+        "cms_websites_heading": "Arten von Websites, die mit einem CMS erstellt werden können",
+        "cms_websites_paragraph1": "Mit einem CMS können Blogs, Unternehmenswebsites, E-Commerce-Plattformen und viele andere Arten von Websites erstellt werden.",
+        "cms_websites_paragraph2": "Die Flexibilität eines CMS ermöglicht es, eine Website schnell zu erweitern und anzupassen.",
+      
+        "cms_vs_ecm_subheading": "Unterschied zwischen CMS und ECM",
+        "cms_vs_ecm_paragraph1": "Ein Enterprise Content Management (ECM) System ist eine umfassendere Lösung, die neben Webinhalten auch Dokumente, Bilder und andere digitale Inhalte verwaltet.",
+        "cms_vs_ecm_paragraph2": "Während ein CMS sich auf die Verwaltung von Webinhalten konzentriert, deckt ein ECM ein breiteres Spektrum von Inhalten ab.",
+      
+        "cms_examples_subheading": "Beispiele für gängige CMS",
+        "cms_examples_paragraph1": "WordPress ist das bekannteste CMS, das weltweit für eine Vielzahl von Websites verwendet wird.",
+        "cms_examples_paragraph2": "Weitere beliebte CMS sind Joomla, Drupal und Typo3.",
+      
+        "cms_benefits_heading": "Vorteile eines CMS",
+        "cms_benefits_paragraph1": "Ein CMS bietet zahlreiche Vorteile, die die Verwaltung von Websites erheblich vereinfachen:",
+        "cms_benefit1_subheading": "Einfache Bedienung",
+        "cms_benefit1_paragraph": "Selbst ohne technische Vorkenntnisse können Benutzer Inhalte erstellen und verwalten.",
+        "cms_benefit2_subheading": "Zeitersparnis",
+        "cms_benefit2_paragraph": "Durch die Automatisierung vieler Aufgaben spart ein CMS Zeit und Ressourcen.",
+        "cms_benefit3_subheading": "Flexibilität",
+        "cms_benefit3_paragraph": "Ein CMS ermöglicht die einfache Anpassung und Erweiterung von Websites.",
+      
+        "cms_choose_heading": "Wie wählt man das richtige CMS aus?",
+        "cms_choose_paragraph1": "Bei der Wahl eines CMS sollten verschiedene Faktoren berücksichtigt werden:",
+        "cms_choose_factor1_subheading": "Benutzerfreundlichkeit",
+        "cms_choose_factor1_paragraph": "Ist das CMS einfach zu bedienen?",
+        "cms_choose_factor2_subheading": "Funktionalität",
+        "cms_choose_factor2_paragraph": "Bietet das CMS die benötigten Funktionen?",
+        "cms_choose_factor3_subheading": "Sicherheit",
+        "cms_choose_factor3_paragraph": "Wie sicher ist das CMS?",
+        "cms_choose_factor4_subheading": "Anpassungsfähigkeit",
+        "cms_choose_factor4_paragraph": "Kann das CMS an spezifische Anforderungen angepasst werden?",
+        "cms_choose_factor5_subheading": "Kosten",
+        "cms_choose_factor5_paragraph": "Welche Kosten sind mit dem CMS verbunden?",
+        "cms_choose_factor6_subheading": "Support",
+        "cms_choose_factor6_paragraph": "Gibt es ausreichenden Support für das CMS?",
+        "cms_choose_factor7_subheading": "Community",
+        "cms_choose_factor7_paragraph": "Verfügt das CMS über eine aktive Community?",
+      
+        "cms_best_heading": "Welches ist das beste CMS?",
+        "cms_best_paragraph": "Das beste CMS hängt von den individuellen Bedürfnissen und Anforderungen ab. WordPress ist aufgrund seiner Flexibilität und Benutzerfreundlichkeit die beliebteste Wahl."    
     }
 };
 
