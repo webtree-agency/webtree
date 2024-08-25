@@ -1,51 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://www.webtree.ch/</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>1.0</priority>
+    </url>
+
     <url>
         <loc>https://www.webtree.ch/blog.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.8</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/impressum.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.5</priority>
     </url>
-    <url>
-        <loc>https://www.webtree.ch/index.html</loc>
-    </url>
+
     <url>
         <loc>https://www.webtree.ch/offerte.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.7</priority>
     </url>
-        <url>
+
+    <url>
         <loc>https://www.webtree.ch/projekte.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.7</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/services.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.7</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/datenschutz.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.5</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/blogs/junge-unternehmer.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/blogs/seo-grundlagen.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/blogs/selbststaendigkeit.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/blogs/technologien.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/blogs/kunden-bindung.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/blogs/cyberkriminalitaet.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
-        <url>
+
+    <url>
         <loc>https://www.webtree.ch/blogs/barrierefreies-design.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
+
     <url>
         <loc>https://www.webtree.ch/blogs/mobile-first.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
-        <url>
+
+    <url>
         <loc>https://www.webtree.ch/blogs/cms.html</loc>
+        <lastmod>2024-08-25</lastmod>
+        <priority>0.6</priority>
     </url>
+
 </urlset>

@@ -505,7 +505,8 @@ var texts = {
         "cms_choose_factor7_paragraph": "Does the CMS have an active community?",
       
         "cms_best_heading": "Which is the Best CMS?",
-        "cms_best_paragraph": "The best CMS depends on individual needs and requirements. WordPress is the most popular choice due to its flexibility and user-friendliness."
+        "cms_best_paragraph": "The best CMS depends on individual needs and requirements. WordPress is the most popular choice due to its flexibility and user-friendliness.",
+        "index-seo-title": "WebTree - Innovative digital solutions for your success",
     },
     "de": {
         "we-are": "Wir sind",
@@ -1011,7 +1012,8 @@ var texts = {
         "cms_choose_factor7_paragraph": "Verfügt das CMS über eine aktive Community?",
       
         "cms_best_heading": "Welches ist das beste CMS?",
-        "cms_best_paragraph": "Das beste CMS hängt von den individuellen Bedürfnissen und Anforderungen ab. WordPress ist aufgrund seiner Flexibilität und Benutzerfreundlichkeit die beliebteste Wahl."    
+        "cms_best_paragraph": "Das beste CMS hängt von den individuellen Bedürfnissen und Anforderungen ab. WordPress ist aufgrund seiner Flexibilität und Benutzerfreundlichkeit die beliebteste Wahl.",
+        "index-seo-title": "WebTree - Innovative Digitale Lösungen für Deinen Erfolg",
     }
 };
 
