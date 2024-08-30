@@ -1,5 +1,15 @@
 var texts = {
     "en": {
+        "web-trends-title": "Web Design Trends 2024: The Future of Digital Design",
+        "mobile-first-title": "Mobile First Design: Optimization for Mobile Users",
+        "barrierefreiheit-title": "Accessible Web Design: Inclusion and Accessibility on the Internet",
+        "cms-title": "Content Management Systems: The Best Platforms for Your Website",
+        "cyber-title": "Cybercrime 2024: Trends and Protective Measures",
+        "junge-title": "Young Entrepreneurs: Success Stories and Tips for Starting Out",
+        "kunden-title": "Customer Retention: Strategies for Long-term Business Relationships",
+        "seo-title": "SEO Basics: Successful Search Engine Optimization Made Easy",
+        "selbst-title": "Self-employment: From Idea to Successful Business Creation",
+        "technologie-title": "Efficiency Improvement through Technology: Innovations for Businesses",
         "we-are": "We are",
         "your-growth": "Your growth, our",
         "about": "About",
@@ -541,6 +551,16 @@ var texts = {
         "fazit-content": "For anyone looking to create or manage a successful website, it's essential to stay updated with the latest web design trends. Whether you're building your website yourself or hiring an agency, these trends offer a wealth of inspiring opportunities to make your site unique and appealing. From innovative text layouts to cinematic elements and experimental navigation, there are countless ways to impress your visitors and optimize the user experience. If you're seeking a custom website for your business, it's crucial to choose a web design agency that not only knows the current trends but also understands how to apply them to your specific needs. At webtree, we specialize in developing unique websites tailored to your needs. We focus on customized solutions to ensure that your website stands out from the crowd and becomes a powerful success factor for your business. Whether you're an established company, a freelancer, or an emerging player looking to build a strong online presence, webtree is here for you. We're happy to advise you and work with you to develop a website that perfectly represents your brand, achieves your goals, and delights your visitors. Start your web design journey with webtree now and benefit from our expertise and passion for outstanding web design. We look forward to working with you and making your website a success."
     },
     "de": {
+        "web-trends-title" : "Webdesign-Trends 2024: Die Zukunft des digitalen Designs",
+        "mobile-first-title" : "Mobile First Design: Optimierung für mobile Nutzer",
+        "barrierefreiheit-title" : "Barrierefreies Webdesign: Inklusion und Zugänglichkeit im Internet",
+        "cms-title": "Content-Management-Systeme: Die besten Plattformen für Ihre Website",
+        "cyber-title" : "Cyberkriminalität 2024: Trends und Schutzmaßnahmen",
+        "junge-title" : "Junge Unternehmer: Erfolgsgeschichten und Tipps für den Start",
+        "kunden-title" : "Kundenbindung: Strategien für langfristige Geschäftsbeziehungen",
+        "seo-title" : "SEO-Grundlagen: Erfolgreiche Suchmaschinenoptimierung leicht gemacht",
+        "selbst-title" : "Selbstständigkeit: Von der Idee zur erfolgreichen Unternehmensgründung",
+        "technologie-title" : "Effizienzsteigerung durch Technologie: Innovationen für Unternehmen",
         "we-are": "Wir sind",
         "your-growth": "Dein Wachstum, unser",
         "about": "Über uns",
