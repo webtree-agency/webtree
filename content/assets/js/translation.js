@@ -506,7 +506,7 @@ var texts = {
       
         "cms_best_heading": "Which is the Best CMS?",
         "cms_best_paragraph": "The best CMS depends on individual needs and requirements. WordPress is the most popular choice due to its flexibility and user-friendliness.",
-        "index-seo-title": "WebTree - Innovative digital solutions for your success",
+        "index-seo-title": "WebTree - Your partner for web development, design, content creation, IT support and effective SEO strategies",
         "webdesign-trends": "Web Design Trends 2024: Pioneering Developments for Your Website",
         "intro-webdesign": "The year 2024 brings exciting trends in web design, driven by technological advancements and changing user expectations. In this article, we explore the standout trends that will shape the design and functionality of websites in the coming year. From the revival of skeuomorphism to immersive parallax scrolling and dynamic kinetic typography, we examine how these trends elevate the user experience. We also look at the growing use of custom illustrations, the role of data visualization, and the integration of artificial intelligence and machine learning in web design.",
         "30-08-24" : "August 30, 2024",
@@ -1045,7 +1045,7 @@ var texts = {
       
         "cms_best_heading": "Welches ist das beste CMS?",
         "cms_best_paragraph": "Das beste CMS hängt von den individuellen Bedürfnissen und Anforderungen ab. WordPress ist aufgrund seiner Flexibilität und Benutzerfreundlichkeit die beliebteste Wahl.",
-        "index-seo-title": "WebTree - Innovative Digitale Lösungen für Deinen Erfolg",
+        "index-seo-title": "WebTree – Ihr Partner für Webentwicklung, Design, Content Creation, IT-Support und effektive SEO-Strategien",
         "webdesign-trends": "Webdesign-Trends 2024: Zukunftsweisende Entwicklungen für Ihre Webseite",
         "intro-webdesign": "Das Jahr 2024 bringt im Bereich Webdesign spannende Trends mit sich, die durch technologische Fortschritte und veränderte Nutzererwartungen geprägt sind. In diesem Artikel werfen wir einen Blick auf die herausragenden Trends, die die Gestaltung und Funktionalität von Websites im kommenden Jahr prägen werden. Von der Wiederbelebung des Skeuomorphismus über das immersive Parallax-Scrolling bis hin zur dynamischen Kinetic Typography – wir beleuchten, wie diese Trends die Nutzererfahrung auf ein neues Level heben. Ebenso betrachten wir den steigenden Einsatz von individuellen Illustrationen, die Rolle der Datenvisualisierung und die Integration von Künstlicher Intelligenz und Machine Learning im Webdesign.",
         "30-8-24": "30. August 2024",
