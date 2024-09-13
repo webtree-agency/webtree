@@ -572,7 +572,66 @@ var texts = {
         "cloud_conclusion": "The cloud offers flexibility, reliability, and is more future-proof than the traditional on-premises world. Do you want to know if your company is ready for the cloud or planning a migration? Contact us, we are here to help!",
         "call_to_action": "Let's move to the cloud!",
         "06-9-24": "September 6, 2024",
-        "cloud-intro": "The cloud is revolutionizing the way companies manage their IT infrastructures. Instead of maintaining physical server rooms, the cloud offers a flexible, scalable and cost-effective solution. With services such as Microsoft 365 and Azure, companies can ensure their data is always available and protected while benefiting from the latest technologies. In this article, you will learn why the cloud is the future and how you can benefit from it."
+        "cloud-intro": "The cloud is revolutionizing the way companies manage their IT infrastructures. Instead of maintaining physical server rooms, the cloud offers a flexible, scalable and cost-effective solution. With services such as Microsoft 365 and Azure, companies can ensure their data is always available and protected while benefiting from the latest technologies. In this article, you will learn why the cloud is the future and how you can benefit from it.",
+        "13-9-24": "September 13, 2024",
+"website-speed": "Website Speed: Why It Is Crucial for Success and User Experience",
+        "website-speed-intro": "The speed of a website plays a central role in its success online, similar to how quick service in a restaurant ensures satisfied customers. Slow websites can not only lead to worse search engine rankings but also deter visitors, reducing traffic and conversion rates.",
+        
+        "what-is-speed": "What is Website Speed?",
+        "what-is-speed-intro": "Website speed refers to how quickly a browser can load a complete and functional webpage. Slow-loading websites often cause users to leave quickly and move to alternative offers. In contrast, fast websites benefit from higher traffic and better conversion rates.",
+
+        "importance-of-speed": "Why Is Website Speed So Important?",
+        "importance-of-speed-intro": "Website speed directly impacts conversion rates, bounce rates, SEO, and overall user experience.",
+
+        "conversion-rates": "Conversion Rates",
+        "conversion-rates-intro": "Studies have repeatedly shown that website speed has a direct effect on conversion rates – the likelihood of a visitor completing a desired action (e.g., making a purchase). Even small improvements can make a big difference:",
+        "mobify": "Mobify saw a 1.11% increase in conversions by reducing its load time by 100 milliseconds.",
+        "autoanything": "AutoAnything increased revenue by 12–13% after halving its load time.",
+        "walmart": "Walmart found that reducing its load time by just one second increased conversions by 2%.",
+
+        "bounce-rate": "Bounce Rate",
+        "bounce-rate-detail": "The bounce rate refers to how many users leave a site without performing any actions. A slow loading time significantly increases the bounce rate. For example, the BBC lost 10% of its users for every additional second of load time.",
+
+        "seo-performance": "SEO Performance",
+        "seo-performance-detail": "Google not only ranks content but also website speed, especially for mobile devices. Slow websites often rank lower in search results as Google prioritizes delivering relevant information quickly.",
+
+        "user-experience": "User Experience",
+        "user-experience-detail": "A slow website leads to frustration. Users expect a page to load in seconds and respond quickly to their actions. Delays cause them to leave and potentially never return.",
+
+        "factors-affecting-speed": "Factors That Affect Website Speed",
+        "factors-affecting-speed-intro": "Several factors influence website speed, ranging from page weight to network conditions and server location.",
+
+        "page-weight": "Page Weight",
+        "page-weight-detail": "The more resources (like JavaScript files, images, videos, or CSS) a website needs to load, the slower it will be. Modern websites are often complex and feature-rich, which can lead to longer load times. Nevertheless, developers should strive to minimize page weight for better performance.",
+
+        "network-conditions": "Network Conditions",
+        "network-conditions-detail": "Even a well-optimized website can load slower with poor network connections. Factors such as slow internet connections (e.g., 3G or 4G instead of WiFi) or regional differences in network quality can affect load times. Tools like Content Delivery Networks (CDNs) and compression techniques help improve performance.",
+
+        "hosting-location": "Hosting Location",
+        "hosting-location-detail": "The geographical location of the server hosting the website also affects load times. The farther the data has to travel from the server to the user, the higher the latency. CDNs can help by bringing content closer to the user's location.",
+
+        "measure-speed": "How to Measure Website Speed",
+        "measure-speed-intro": "There are many tools available for measuring website speed. Cloudflare and Google PageSpeed Insights provide comprehensive analysis and show which elements slow down the page. They measure key performance metrics such as load time, page size, and Time to First Byte (TTFB).",
+
+        "performance-metrics": "Important Website Performance Metrics",
+        "load-time": "Load Time",
+        "load-time-detail": "Measures how long it takes for a page to be fully loaded and visible in the browser.",
+
+        "page-size": "Page Size",
+        "page-size-detail": "The total file size of all elements that need to be loaded for the page to function.",
+
+        "ttfb": "Time to First Byte (TTFB)",
+        "ttfb-detail": "Measures the time between the browser's request and the arrival of the first data packet from the server. A good TTFB ensures a faster perceived website performance.",
+
+        "rtt": "Round Trip Time (RTT)",
+        "rtt-detail": "Measures the time it takes for requests to travel back and forth between the server and browser.",
+
+        "new-trends": "New Trends and Developments in Website Speed",
+        "new-trends-detail": "The rise of Progressive Web Apps (PWA) and Headless Commerce solutions enables developers to create fast, responsive websites that engage users in new ways. Technologies like lazy loading, where content is only loaded when needed, further enhance perceived speed.",
+
+        "conclusion": "Conclusion",
+        "conclusion-detail": "Website speed directly impacts success and user satisfaction. Investing in optimizing load times – through page weight minimization, optimized hosting solutions, or the use of a CDN – pays off in the long run with improved conversion rates and lower bounce rates.",
+
     },
     "de": {
         "web-trends-title" : "Webdesign-Trends 2024: Die Zukunft des digitalen Designs",
@@ -1143,6 +1202,65 @@ var texts = {
         "why_cloud_description": "On-Premises-Infrastrukturen erfordern physische Orte, Backup-Standorte",
         "06-9-24": "6 September, 2024",
         "cloud-intro": "Die Cloud revolutioniert die Art und Weise, wie Unternehmen ihre IT-Infrastrukturen verwalten. Statt physische Serverräume zu unterhalten, bietet die Cloud eine flexible, skalierbare und kosteneffiziente Lösung. Mit Diensten wie Microsoft 365 und Azure können Unternehmen sicherstellen, dass ihre Daten stets verfügbar und geschützt sind, während sie gleichzeitig von den neuesten Technologien profitieren. In diesem Artikel erfahren Sie, warum die Cloud die Zukunft ist und wie Sie davon profitieren können.",
+        "13-9-24": "13. September, 2024",
+       "website-speed": "Website-Geschwindigkeit: Warum sie entscheidend für Erfolg und Nutzererfahrung ist",
+        "website-speed-intro": "Die Geschwindigkeit einer Website spielt eine zentrale Rolle für den Erfolg im Internet, ähnlich wie ein schneller und effizienter Service in einem Restaurant für zufriedene Kunden sorgt. Langsame Webseiten können nicht nur zu schlechteren Suchmaschinen-Rankings führen, sondern auch Besucher abschrecken, was wiederum den Traffic und die Konversionsraten senkt.",
+
+        "what-is-speed": "Was versteht man unter Website-Geschwindigkeit?",
+        "what-is-speed-intro": "Die Website-Geschwindigkeit beschreibt, wie schnell ein Browser in der Lage ist, eine vollständige und funktionale Webseite zu laden. Websites mit langsamen Ladezeiten können dazu führen, dass Nutzer die Seite schnell wieder verlassen und zu alternativen Angeboten wechseln. Dagegen profitieren schnelle Websites nicht nur von höherem Traffic, sondern auch von besseren Konversionsraten.",
+
+        "importance-of-speed": "Warum ist die Geschwindigkeit der Website so wichtig?",
+        "importance-of-speed-intro": "Die Geschwindigkeit Ihrer Website wirkt sich direkt auf die Konversionsraten, die Absprungrate, SEO und die allgemeine Nutzererfahrung aus.",
+
+        "conversion-rates": "Konversionsraten",
+        "conversion-rates-intro": "Studien haben wiederholt gezeigt, dass die Ladegeschwindigkeit einer Website einen direkten Einfluss auf die Konversionsrate hat – also die Wahrscheinlichkeit, dass ein Besucher eine gewünschte Aktion durchführt (z.B. einen Kauf tätigt). Schon kleine Verbesserungen können einen großen Unterschied machen:",
+        "mobify": "Mobify erzielte durch die Reduzierung der Ladezeit um 100 Millisekunden eine Steigerung der Konversionen um 1,11 %. ",
+        "autoanything": "AutoAnything konnte durch die Halbierung der Ladezeit eine Umsatzsteigerung von 12–13 % verzeichnen.",
+        "walmart": "Walmart stellte fest, dass eine Sekunde weniger Ladezeit die Konversion um 2 % erhöhte.",
+
+        "bounce-rate": "Absprungrate",
+        "bounce-rate-detail": "Die Absprungrate gibt an, wie viele Nutzer die Seite verlassen, ohne eine weitere Aktion durchzuführen oder eine andere Seite aufzurufen. Eine langsame Ladezeit erhöht die Absprungrate erheblich. Beispielsweise verlor die BBC für jede zusätzliche Sekunde Ladezeit 10 % ihrer Nutzer.",
+
+        "seo-performance": "SEO-Performance",
+        "seo-performance-detail": "Google bewertet nicht nur den Inhalt, sondern auch die Geschwindigkeit einer Website, insbesondere auf mobilen Geräten. Langsame Websites schneiden in den Suchergebnissen oft schlechter ab, da Google seinen Nutzern relevante Informationen so schnell wie möglich liefern möchte.",
+
+        "user-experience": "Nutzererfahrung",
+        "user-experience-detail": "Eine langsame Website sorgt für Frustration. Nutzer erwarten, dass eine Seite innerhalb von Sekunden lädt und schnell auf ihre Eingaben reagiert. Verzögerungen führen dazu, dass sie die Seite verlassen und möglicherweise nie wieder zurückkehren.",
+
+        "factors-affecting-speed": "Faktoren, die die Website-Geschwindigkeit beeinflussen",
+        "factors-affecting-speed-intro": "Verschiedene Faktoren beeinflussen die Geschwindigkeit einer Website, von der Seitengröße bis hin zu Netzwerkbedingungen und dem Serverstandort.",
+
+        "page-weight": "Seitengröße",
+        "page-weight-detail": "Je mehr Ressourcen (wie JavaScript-Dateien, Bilder, Videos oder CSS) eine Website zum Laden benötigt, desto langsamer wird sie. Moderne Webseiten sind oft komplexer und beinhalten eine Vielzahl von Funktionen und Inhalten, was zu längeren Ladezeiten führen kann. Trotzdem sollten Entwickler versuchen, die Seitengröße zu minimieren, um eine gute Performance sicherzustellen.",
+
+        "network-conditions": "Netzwerkbedingungen",
+        "network-conditions-detail": "Selbst eine gut optimierte Website kann bei schlechten Netzwerkverbindungen langsamer laden. Faktoren wie langsame Internetverbindungen (z.B. 3G oder 4G statt WLAN) oder regionale Unterschiede in der Netzwerkqualität können die Ladezeit beeinflussen. Tools wie Content Delivery Networks (CDNs) und Kompressionstechniken helfen jedoch, die Performance zu verbessern.",
+
+        "hosting-location": "Hosting-Standort",
+        "hosting-location-detail": "Der geografische Standort des Servers, auf dem die Website gehostet wird, hat ebenfalls Einfluss auf die Ladezeit. Je weiter die Daten vom Server zum Nutzer zurückgelegt werden müssen, desto höher die Latenz. CDNs können hier Abhilfe schaffen, indem sie Inhalte näher an den Standort der Nutzer bringen.",
+
+        "measure-speed": "Wie lässt sich die Geschwindigkeit der Website messen?",
+        "measure-speed-intro": "Es gibt zahlreiche Tools zur Messung der Website-Geschwindigkeit. Cloudflare und Google PageSpeed Insights bieten umfassende Analysen und zeigen, welche Elemente die Ladezeit verlangsamen. Dabei werden wichtige Performance-Metriken wie Ladezeit, Seitengröße und Time to First Byte (TTFB) gemessen.",
+
+        "performance-metrics": "Wichtige Website-Performance-Metriken",
+        "load-time": "Ladezeit",
+        "load-time-detail": "Misst, wie lange es dauert, bis eine Seite vollständig geladen und im Browser sichtbar ist.",
+
+        "page-size": "Seitengröße",
+        "page-size-detail": "Die gesamte Dateigröße aller Elemente, die für die Funktionalität der Seite geladen werden müssen.",
+
+        "ttfb": "Time To First Byte (TTFB)",
+        "ttfb-detail": "Misst die Zeit, die zwischen der Anfrage des Browsers und dem Eintreffen des ersten Datenpakets vom Server vergeht. Ein guter TTFB-Wert sorgt für eine schnellere Gesamtwahrnehmung der Website.",
+
+        "rtt": "Round Trip Time (RTT)",
+        "rtt-detail": "Misst die Zeit, die Anfragen benötigen, um zwischen Server und Browser hin- und hergeschickt zu werden.",
+
+        "new-trends": "Neue Trends und Entwicklungen in der Website-Geschwindigkeit",
+        "new-trends-detail": "Die zunehmende Nutzung von Progressive Web Apps (PWA) und Headless Commerce Lösungen ermöglicht es, besonders schnelle und reaktionsfähige Websites zu erstellen, die Nutzer auf eine neue Art und Weise binden. Mit Technologien wie Lazy Loading, bei dem Inhalte nur bei Bedarf nachgeladen werden, können Entwickler die wahrgenommene Geschwindigkeit weiter verbessern.",
+
+        "conclusion": "Fazit",
+        "conclusion-detail": "Die Geschwindigkeit einer Website hat direkte Auswirkungen auf den Erfolg und die Zufriedenheit der Nutzer. Investitionen in die Optimierung der Ladezeiten, sei es durch Minimierung des Seitengewichts, optimierte Hosting-Lösungen oder den Einsatz eines CDN, lohnen sich langfristig durch verbesserte Konversionsraten und niedrigere Absprungraten.",
+        
     }
 };
 
