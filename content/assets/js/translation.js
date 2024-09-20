@@ -574,7 +574,7 @@ var texts = {
         "06-9-24": "September 6, 2024",
         "cloud-intro": "The cloud is revolutionizing the way companies manage their IT infrastructures. Instead of maintaining physical server rooms, the cloud offers a flexible, scalable and cost-effective solution. With services such as Microsoft 365 and Azure, companies can ensure their data is always available and protected while benefiting from the latest technologies. In this article, you will learn why the cloud is the future and how you can benefit from it.",
         "13-9-24": "September 13, 2024",
-"website-speed": "Website Speed: Why It Is Crucial for Success and User Experience",
+        "website-speed": "Website Speed: Why It Is Crucial for Success and User Experience",
         "website-speed-intro": "The speed of a website plays a central role in its success online, similar to how quick service in a restaurant ensures satisfied customers. Slow websites can not only lead to worse search engine rankings but also deter visitors, reducing traffic and conversion rates.",
         
         "what-is-speed": "What is Website Speed?",
@@ -631,6 +631,29 @@ var texts = {
 
         "conclusion": "Conclusion",
         "conclusion-detail": "Website speed directly impacts success and user satisfaction. Investing in optimizing load times – through page weight minimization, optimized hosting solutions, or the use of a CDN – pays off in the long run with improved conversion rates and lower bounce rates.",
+        "iot-first-title": "How the Internet of Things (IoT) is changing our lives",
+        "20-sep":"September 20, 2024",
+        "iot-evolution": "The Evolution of the Internet of Things (IoT)",
+        "iot-intro": "The Internet of Things (IoT) is significantly shaping our digital world, transforming both our daily lives and business processes. This technology describes the interconnection of physical devices capable of collecting, analyzing, and evaluating data. From smart household appliances to complex industrial systems, IoT offers automation and efficiency that surpass traditional technologies.",
+        
+        "what-is-iot": "What is the Internet of Things (IoT)?",
+        "iot-definition": "IoT refers to the interconnection of devices that use sensors to collect data and communicate with each other. This technology allows devices to perform tasks autonomously and learn from experience. Well-known examples include robotic vacuum cleaners, fitness trackers, or smart home devices.",
+        
+        "iot-features": "Key Features of IoT",
+        "iot-features-text": "Connected objects, unique identification through a UID, and process automation without user intervention are key features of IoT. This technology is present in many areas of our lives today, changing how we interact with devices.",
+        
+        "history-of-iot": "The History of IoT",
+        "iot-history": "The term 'Internet of Things' was coined by Kevin Ashton in 1999. Since then, the technology has rapidly evolved, supported by advances in wireless technologies, sensors, and artificial intelligence (AI). Milestones such as the networked Coca-Cola vending machine from the 1980s or LG's smart fridge in 2000 illustrate the early vision of IoT.",
+        
+        "iot-technologies": "Technologies and Applications",
+        "iot-technologies-text": "IoT is based on technologies like RFID tags, IPv6, and AI, which enable data collection, analysis, and the automatic triggering of actions. This technology has become indispensable in many areas: companies use IoT to increase efficiency, reduce costs, and develop new services.",
+        
+        "iot-benefits-challenges": "Benefits and Challenges",
+        "iot-benefits": "IoT offers many benefits, such as increased efficiency, cost savings, and improved comfort. At the same time, businesses and consumers face challenges like security concerns and the complexity of data analysis. Regular updates and the protection of personal data remain key issues.",
+        
+        "future-of-iot": "The Future of IoT",
+        "iot-future": "IoT will continue to grow and create new opportunities for consumers and businesses. Connected devices will increasingly shape our lives and make processes even more efficient.",
+        "30-8-24": "August 30, 2024",
 
     },
     "de": {
@@ -1260,7 +1283,28 @@ var texts = {
 
         "conclusion": "Fazit",
         "conclusion-detail": "Die Geschwindigkeit einer Website hat direkte Auswirkungen auf den Erfolg und die Zufriedenheit der Nutzer. Investitionen in die Optimierung der Ladezeiten, sei es durch Minimierung des Seitengewichts, optimierte Hosting-Lösungen oder den Einsatz eines CDN, lohnen sich langfristig durch verbesserte Konversionsraten und niedrigere Absprungraten.",
+        "iot-first-title": "Wie das Internet der Dinge (IoT) unser Leben verändert",
+        "20-sep":"20 September, 2024",
+        "iot-evolution": "Die Evolution des Internets der Dinge (IoT)",
+        "iot-intro": "Das Internet der Dinge (Internet of Things, IoT) prägt unsere digitale Welt maßgeblich und verändert sowohl unser tägliches Leben als auch Arbeitsprozesse. Diese Technologie beschreibt die Vernetzung physischer Geräte, die in der Lage sind, Daten zu sammeln, zu analysieren und auszuwerten. Von smarten Haushaltsgeräten bis hin zu komplexen Industriesystemen bietet das IoT Automatisierung und Effizienz, die weit über herkömmliche Technologien hinausgehen.",
         
+        "what-is-iot": "Was ist das Internet der Dinge (IoT)?",
+        "iot-definition": "IoT bezeichnet die Vernetzung von Geräten, die über Sensoren Daten sammeln und untereinander kommunizieren. Diese Technologie ermöglicht es Geräten, selbstständig Aufgaben zu erledigen und aus Erfahrungen zu lernen. Bekannte Beispiele sind Staubsaugerroboter, Fitnessarmbänder oder Smart-Home-Geräte.",
+        
+        "iot-features": "Wichtige Merkmale des IoT",
+        "iot-features-text": "Vernetzte Objekte, eindeutige Identifikation über eine UID und die Automatisierung von Prozessen ohne Benutzereingriffe sind zentrale Merkmale des IoT. Diese Technologie ist heute in vielen Bereichen unseres Lebens präsent und verändert die Art und Weise, wie wir mit Geräten interagieren.",
+        
+        "history-of-iot": "Die Geschichte des IoT",
+        "iot-history": "Der Begriff 'Internet of Things' wurde 1999 von Kevin Ashton geprägt. Seitdem hat sich die Technologie rasant weiterentwickelt, unterstützt durch Fortschritte in Drahtlostechnologien, Sensorik und Künstlicher Intelligenz (KI). Meilensteine wie der vernetzte Coca-Cola-Automat aus den 1980er Jahren oder LGs Smart-Kühlschrank im Jahr 2000 zeigen die frühe Vision des IoT.",
+        
+        "iot-technologies": "Technologien und Anwendung",
+        "iot-technologies-text": "Das IoT basiert auf Technologien wie RFID-Tags, IPv6 und KI, die es ermöglichen, Daten zu sammeln, zu analysieren und automatisch Aktionen auszulösen. Diese Technologie ist inzwischen aus vielen Bereichen nicht mehr wegzudenken: Unternehmen nutzen IoT, um ihre Effizienz zu steigern, Kosten zu senken und neue Services zu entwickeln.",
+        
+        "iot-benefits-challenges": "Vorteile und Herausforderungen",
+        "iot-benefits": "IoT bietet viele Vorteile, wie z. B. erhöhte Effizienz, Kosteneinsparungen und verbesserten Komfort. Gleichzeitig stehen Unternehmen und Verbraucher vor Herausforderungen, wie Sicherheitsbedenken und der Komplexität der Datenauswertung. Regelmäßige Updates und der Schutz persönlicher Daten bleiben zentrale Themen.",
+        
+        "future-of-iot": "Zukunft des IoT",
+        "iot-future": "Das IoT wird weiter wachsen und neue Möglichkeiten für Verbraucher und Unternehmen schaffen. Vernetzte Geräte werden zunehmend unser Leben bestimmen und Prozesse noch effizienter gestalten.",
     }
 };
 
