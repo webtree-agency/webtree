@@ -9,7 +9,7 @@
 
     <url>
         <loc>https://www.webtree.ch/blog.html</loc>
-        <lastmod>2024-09-20</lastmod>
+        <lastmod>2024-09-27</lastmod>
         <priority>0.8</priority>
     </url>
 
@@ -99,7 +99,7 @@
 
     <url>
         <loc>https://www.webtree.ch/blogs/web-trends-2024.html</loc>
-        <lastmod>2024-08-30</lastmod>
+        <lastmod>2024-09-27</lastmod>
         <priority>0.6</priority>
     </url>
 
@@ -117,6 +117,11 @@
     <url>
         <loc>https://www.webtree.ch/blogs/iot.html</loc>
         <lastmod>2024-09-20</lastmod>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.webtree.ch/blogs/schnelle-ladezeiten.html</loc>
+        <lastmod>2024-09-27</lastmod>
         <priority>0.6</priority>
     </url>
 </urlset>

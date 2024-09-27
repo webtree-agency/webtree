@@ -654,14 +654,44 @@ var texts = {
         "future-of-iot": "The Future of IoT",
         "iot-future": "IoT will continue to grow and create new opportunities for consumers and businesses. Connected devices will increasingly shape our lives and make processes even more efficient.",
         "30-8-24": "August 30, 2024",
+        "27-9-24" : "September 27, 2024",
+        "loading-time-title" : "Best practices for fast loading times on websites",
+        "intro-loadtime": "The average visitor to a website waits a maximum of three seconds before leaving the page. Moreover, your prospects, who are increasingly searching for content on their smartphones and tablets, often have limited data volumes available. This can quickly become a problem, especially for large websites that contain many images. Among other things, Google provides clear indications that the loading time of your website will play an increasingly important role. The right image format is a real secret weapon to keep your page load time as low as possible and improve the user experience of your users.",
 
+        "what-to-consider": "What to Consider with Image Formats",
+        "considerations": "Image formats are primarily about compatibility and compression of content. The well-known GIF dates back to 1989 and JPEG from the early '90s. These formats come from the digital Stone Age when the internet was still in its infancy.\n\nOver the past years and decades, the internet has undergone significant changes, and there are many promising alternatives to the common models on the market.\n\nThe problem? When choosing the right image format, you can quickly lose sight of the forest for the trees. Many formats claim to be the perfect image format, and the question arises as to which image format you choose for which visual representation and intention. Are you trying to save space and improve loading times? Or do you want an animation?",
+    
+        "future-formats-heading": "Image Formats with Future Potential",
+        "future-formats": "Some image formats have already shown their potential but have not been able to convince everyone. For example, Apple resisted Google's WebP for a long time and instead relied on HEIC, which was only used by Apple. At the same time, Apple felt pressured to use WebP, which has been increasingly adopted over the years.\nAVIF, for example, offers even less quality loss while reducing storage space. The successes of the format recently even led Netflix to switch its preview images, etc., to AVIF.\n\nIn this article, we would like to introduce you to individual formats and discuss which ones you should keep an eye on in the future. We will then give you some tips on how to optimize your images correctly.",
+    
+        "best-practices-heading": "Best Practices for Optimized Images and Fast Loading Times",
+        "best-practices-intro": "What you need to pay attention to:",
+    
+        "step1-heading": "1. Keep load over the network as small as possible",
+        "step1-content": "Reduce the file size of your images to minimize network load.",
+    
+        "step2-heading": "2. Avoid Cumulative Layout Shifts",
+        "step2-content": "Use height and width attributes so the browser can reserve space for images and keep the layout stable.",
+    
+        "step3-heading": "3. Quick availability of important images",
+        "step3-content": "Ensure that images important for the 'Largest Contentful Paint' are loaded quickly, e.g., through HTTP preload.",
+    
+        "step4-heading": "4. Crop images correctly",
+        "step4-content": "Crop your images to the required size to avoid unnecessary data.",
+    
+        "step5-heading": "5. Use appropriate image formats and compression rates",
+        "step5-content": "Use modern formats like WebP or AVIF and adjust the compression rate to achieve the best balance between quality and file size.",
+    
+        "conclusion-heading": "Conclusion",
+        "conclusion-content": "The loading speed of your website is becoming increasingly important. The right image format is an effective tool to keep the loading time as low as possible.\n\nDepending on your needs, there are different image formats that have their advantages and disadvantages. Whether you trust promising formats like AVIF, which global players like Netflix are already exploring, or continue to rely on the well-known formats like JPEG and PNG, depends on the application area and field of use.\n\nWhile logos and icons can be displayed in a space-saving manner with SVG in responsive design, you can achieve high savings with the HEIC format for images. On the other hand, GIF is the ideal format for you if you want to convey your message to the outside world in a humorous way with little effort.\n\nWe ourselves are increasingly using WebP extensively in our web projects and have found that this format has a good impact on the performance of the websites."
+    
     },
     "de": {
         "web-trends-title" : "Webdesign-Trends 2024: Die Zukunft des digitalen Designs",
         "mobile-first-title" : "Mobile First Design: Optimierung für mobile Nutzer",
         "barrierefreiheit-title" : "Barrierefreies Webdesign: Inklusion und Zugänglichkeit im Internet",
         "cms-title": "Content-Management-Systeme: Die besten Plattformen für Ihre Website",
-        "cyber-title" : "Cyberkriminalität 2024: Trends und Schutzmaßnahmen",
+        "cyber-title" : "Cyberkriminalität 2024: Trends und Schutzmassnahmen",
         "junge-title" : "Junge Unternehmer: Erfolgsgeschichten und Tipps für den Start",
         "kunden-title" : "Kundenbindung: Strategien für langfristige Geschäftsbeziehungen",
         "seo-title" : "SEO-Grundlagen: Erfolgreiche Suchmaschinenoptimierung leicht gemacht",
@@ -1236,7 +1266,7 @@ var texts = {
         "importance-of-speed-intro": "Die Geschwindigkeit Ihrer Website wirkt sich direkt auf die Konversionsraten, die Absprungrate, SEO und die allgemeine Nutzererfahrung aus.",
 
         "conversion-rates": "Konversionsraten",
-        "conversion-rates-intro": "Studien haben wiederholt gezeigt, dass die Ladegeschwindigkeit einer Website einen direkten Einfluss auf die Konversionsrate hat – also die Wahrscheinlichkeit, dass ein Besucher eine gewünschte Aktion durchführt (z.B. einen Kauf tätigt). Schon kleine Verbesserungen können einen großen Unterschied machen:",
+        "conversion-rates-intro": "Studien haben wiederholt gezeigt, dass die Ladegeschwindigkeit einer Website einen direkten Einfluss auf die Konversionsrate hat – also die Wahrscheinlichkeit, dass ein Besucher eine gewünschte Aktion durchführt (z.B. einen Kauf tätigt). Schon kleine Verbesserungen können einen grossen Unterschied machen:",
         "mobify": "Mobify erzielte durch die Reduzierung der Ladezeit um 100 Millisekunden eine Steigerung der Konversionen um 1,11 %. ",
         "autoanything": "AutoAnything konnte durch die Halbierung der Ladezeit eine Umsatzsteigerung von 12–13 % verzeichnen.",
         "walmart": "Walmart stellte fest, dass eine Sekunde weniger Ladezeit die Konversion um 2 % erhöhte.",
@@ -1251,10 +1281,10 @@ var texts = {
         "user-experience-detail": "Eine langsame Website sorgt für Frustration. Nutzer erwarten, dass eine Seite innerhalb von Sekunden lädt und schnell auf ihre Eingaben reagiert. Verzögerungen führen dazu, dass sie die Seite verlassen und möglicherweise nie wieder zurückkehren.",
 
         "factors-affecting-speed": "Faktoren, die die Website-Geschwindigkeit beeinflussen",
-        "factors-affecting-speed-intro": "Verschiedene Faktoren beeinflussen die Geschwindigkeit einer Website, von der Seitengröße bis hin zu Netzwerkbedingungen und dem Serverstandort.",
+        "factors-affecting-speed-intro": "Verschiedene Faktoren beeinflussen die Geschwindigkeit einer Website, von der Seitengrösse bis hin zu Netzwerkbedingungen und dem Serverstandort.",
 
-        "page-weight": "Seitengröße",
-        "page-weight-detail": "Je mehr Ressourcen (wie JavaScript-Dateien, Bilder, Videos oder CSS) eine Website zum Laden benötigt, desto langsamer wird sie. Moderne Webseiten sind oft komplexer und beinhalten eine Vielzahl von Funktionen und Inhalten, was zu längeren Ladezeiten führen kann. Trotzdem sollten Entwickler versuchen, die Seitengröße zu minimieren, um eine gute Performance sicherzustellen.",
+        "page-weight": "Seitengrösse",
+        "page-weight-detail": "Je mehr Ressourcen (wie JavaScript-Dateien, Bilder, Videos oder CSS) eine Website zum Laden benötigt, desto langsamer wird sie. Moderne Webseiten sind oft komplexer und beinhalten eine Vielzahl von Funktionen und Inhalten, was zu längeren Ladezeiten führen kann. Trotzdem sollten Entwickler versuchen, die Seitengrösse zu minimieren, um eine gute Performance sicherzustellen.",
 
         "network-conditions": "Netzwerkbedingungen",
         "network-conditions-detail": "Selbst eine gut optimierte Website kann bei schlechten Netzwerkverbindungen langsamer laden. Faktoren wie langsame Internetverbindungen (z.B. 3G oder 4G statt WLAN) oder regionale Unterschiede in der Netzwerkqualität können die Ladezeit beeinflussen. Tools wie Content Delivery Networks (CDNs) und Kompressionstechniken helfen jedoch, die Performance zu verbessern.",
@@ -1263,14 +1293,14 @@ var texts = {
         "hosting-location-detail": "Der geografische Standort des Servers, auf dem die Website gehostet wird, hat ebenfalls Einfluss auf die Ladezeit. Je weiter die Daten vom Server zum Nutzer zurückgelegt werden müssen, desto höher die Latenz. CDNs können hier Abhilfe schaffen, indem sie Inhalte näher an den Standort der Nutzer bringen.",
 
         "measure-speed": "Wie lässt sich die Geschwindigkeit der Website messen?",
-        "measure-speed-intro": "Es gibt zahlreiche Tools zur Messung der Website-Geschwindigkeit. Cloudflare und Google PageSpeed Insights bieten umfassende Analysen und zeigen, welche Elemente die Ladezeit verlangsamen. Dabei werden wichtige Performance-Metriken wie Ladezeit, Seitengröße und Time to First Byte (TTFB) gemessen.",
+        "measure-speed-intro": "Es gibt zahlreiche Tools zur Messung der Website-Geschwindigkeit. Cloudflare und Google PageSpeed Insights bieten umfassende Analysen und zeigen, welche Elemente die Ladezeit verlangsamen. Dabei werden wichtige Performance-Metriken wie Ladezeit, Seitengrösse und Time to First Byte (TTFB) gemessen.",
 
         "performance-metrics": "Wichtige Website-Performance-Metriken",
         "load-time": "Ladezeit",
         "load-time-detail": "Misst, wie lange es dauert, bis eine Seite vollständig geladen und im Browser sichtbar ist.",
 
-        "page-size": "Seitengröße",
-        "page-size-detail": "Die gesamte Dateigröße aller Elemente, die für die Funktionalität der Seite geladen werden müssen.",
+        "page-size": "Seitengrösse",
+        "page-size-detail": "Die gesamte Dateigrösse aller Elemente, die für die Funktionalität der Seite geladen werden müssen.",
 
         "ttfb": "Time To First Byte (TTFB)",
         "ttfb-detail": "Misst die Zeit, die zwischen der Anfrage des Browsers und dem Eintreffen des ersten Datenpakets vom Server vergeht. Ein guter TTFB-Wert sorgt für eine schnellere Gesamtwahrnehmung der Website.",
@@ -1286,7 +1316,7 @@ var texts = {
         "iot-first-title": "Wie das Internet der Dinge (IoT) unser Leben verändert",
         "20-sep":"20 September, 2024",
         "iot-evolution": "Die Evolution des Internets der Dinge (IoT)",
-        "iot-intro": "Das Internet der Dinge (Internet of Things, IoT) prägt unsere digitale Welt maßgeblich und verändert sowohl unser tägliches Leben als auch Arbeitsprozesse. Diese Technologie beschreibt die Vernetzung physischer Geräte, die in der Lage sind, Daten zu sammeln, zu analysieren und auszuwerten. Von smarten Haushaltsgeräten bis hin zu komplexen Industriesystemen bietet das IoT Automatisierung und Effizienz, die weit über herkömmliche Technologien hinausgehen.",
+        "iot-intro": "Das Internet der Dinge (Internet of Things, IoT) prägt unsere digitale Welt massgeblich und verändert sowohl unser tägliches Leben als auch Arbeitsprozesse. Diese Technologie beschreibt die Vernetzung physischer Geräte, die in der Lage sind, Daten zu sammeln, zu analysieren und auszuwerten. Von smarten Haushaltsgeräten bis hin zu komplexen Industriesystemen bietet das IoT Automatisierung und Effizienz, die weit über herkömmliche Technologien hinausgehen.",
         
         "what-is-iot": "Was ist das Internet der Dinge (IoT)?",
         "iot-definition": "IoT bezeichnet die Vernetzung von Geräten, die über Sensoren Daten sammeln und untereinander kommunizieren. Diese Technologie ermöglicht es Geräten, selbstständig Aufgaben zu erledigen und aus Erfahrungen zu lernen. Bekannte Beispiele sind Staubsaugerroboter, Fitnessarmbänder oder Smart-Home-Geräte.",
@@ -1301,10 +1331,40 @@ var texts = {
         "iot-technologies-text": "Das IoT basiert auf Technologien wie RFID-Tags, IPv6 und KI, die es ermöglichen, Daten zu sammeln, zu analysieren und automatisch Aktionen auszulösen. Diese Technologie ist inzwischen aus vielen Bereichen nicht mehr wegzudenken: Unternehmen nutzen IoT, um ihre Effizienz zu steigern, Kosten zu senken und neue Services zu entwickeln.",
         
         "iot-benefits-challenges": "Vorteile und Herausforderungen",
-        "iot-benefits": "IoT bietet viele Vorteile, wie z. B. erhöhte Effizienz, Kosteneinsparungen und verbesserten Komfort. Gleichzeitig stehen Unternehmen und Verbraucher vor Herausforderungen, wie Sicherheitsbedenken und der Komplexität der Datenauswertung. Regelmäßige Updates und der Schutz persönlicher Daten bleiben zentrale Themen.",
+        "iot-benefits": "IoT bietet viele Vorteile, wie z. B. erhöhte Effizienz, Kosteneinsparungen und verbesserten Komfort. Gleichzeitig stehen Unternehmen und Verbraucher vor Herausforderungen, wie Sicherheitsbedenken und der Komplexität der Datenauswertung. Regelmässige Updates und der Schutz persönlicher Daten bleiben zentrale Themen.",
         
         "future-of-iot": "Zukunft des IoT",
         "iot-future": "Das IoT wird weiter wachsen und neue Möglichkeiten für Verbraucher und Unternehmen schaffen. Vernetzte Geräte werden zunehmend unser Leben bestimmen und Prozesse noch effizienter gestalten.",
+        "27-9-24" : "27. September, 2024",
+        "loading-time-title" : "Best Practices für schnelle Ladezeiten auf Websites",
+        "intro-loadtime": "Der durchschnittliche Besucher einer Website wartet maximal drei Sekunden, bevor er die Seite wieder verlässt. Obendrein haben Ihre Interessent:innen, die immer mehr auf Ihren Smartphones und Tablets nach Inhalten suchen, meist nur ein beschränktes Datenvolumen zur Verfügung. Das kann gerade bei grossen Websites, die viele Bilder beinhalten, schnell zum Problem werden. Unter anderem aufgrund dieser Tatsachen gibt Google klare Hinweise, dass die Ladezeit Ihrer Webseite eine immer wichtigere Rolle spielen wird. Dabei stellt das richtige Bildformat eine echte Geheimwaffe dar, um die Ladezeit Ihrer Seite so niedrig wie möglich zu halten und die User-Experience Ihrer Nutzer:innen zu verbessern.",
+
+        "what-to-consider": "Was Sie bei Bildformaten beachten sollten",
+        "considerations": "Bei Bildformaten geht es in erster Linie um die Kompatibilität und Komprimierung der Inhalte. Das bekannte GIF stammt noch aus dem Jahr 1989 und JPEG aus den frühen 90ern. Die Formate kommen quasi aus der digitalen Steinzeit, als das Internet noch in den Kinderschuhen steckte.\n\nDabei unterlag das Internet in den letzten Jahren und Jahrzehnten einem grossen Wandel und es gibt eine Vielzahl an vielversprechenden Alternativen zu den gängigen Modellen auf dem Markt.\n\nDas Problem? Bei der Wahl des richtigen Bildformates sieht man schnell den Wald vor Bäumen nicht mehr. Viele Formate beanspruchen für sich, das perfekte Bildformat zu sein und es stellt sich die Frage, für welche visuelle Darstellung und welche Intention Sie welches Bildformat wählen. Versuchen Sie, Platz zu sparen und die Ladezeiten so zu verbessern? Oder möchten Sie eine Animation haben?",
+    
+        "future-formats-heading": "Bildformate mit Zukunftspotenzial",
+        "future-formats": "Einige Bildformate zeigten bereits ihr Potenzial, von dem sie jedoch nicht jeden überzeugen konnten. So sträubte sich Apple beispielsweise lange gegen das von Google stammende WebP und setzte stattdessen auf HEIC, welches jedoch nur von Apple genutzt wurde. Gleichzeitig sah sich Apple unter Druck gesetzt, WebP zu nutzen, das sich über die Jahre immer weiter durchsetzt.\nAVIF bietet zum Beispiel einen noch geringeren Qualitätsverlust bei gleichzeitiger Reduzierung des Speicherplatzes. Die Erfolge des Formates brachten zuletzt sogar Netflix dazu, seine Vorschaubilder etc. auf AVIF umzustellen.\n\nIn diesem Artikel möchten wir Ihnen einzelne Formate vorstellen und darauf eingehen, welche Sie in Zukunft auf dem Schirm haben sollten. Anschliessend geben wir Ihnen ein paar Tipps, wie Sie Ihre Bilder richtig optimieren.",
+    
+        "best-practices-heading": "Best Practices für optimierte Bilder und schnelle Ladezeiten",
+        "best-practices-intro": "Worauf Sie achten müssen:",
+    
+        "step1-heading": "1. Load übers Netzwerk so klein wie möglich halten",
+        "step1-content": "Reduzieren Sie die Dateigrösse Ihrer Bilder, um die Netzwerklast zu minimieren.",
+    
+        "step2-heading": "2. Vermeiden von Cumulative Layout Shifts",
+        "step2-content": "Verwenden Sie height- und width-Attribute, damit der Browser den Platz für Bilder reservieren kann und das Layout stabil bleibt.",
+    
+        "step3-heading": "3. Schnelle Verfügbarkeit von wichtigen Bildern",
+        "step3-content": "Stellen Sie sicher, dass Bilder, die für den „Largest Contentful Paint“ wichtig sind, schnell geladen werden, z.B. durch HTTP-Preload.",
+    
+        "step4-heading": "4. Bilder korrekt zuschneiden",
+        "step4-content": "Schneiden Sie Ihre Bilder auf die benötigte Grösse zu, um unnötige Daten zu vermeiden.",
+    
+        "step5-heading": "5. Sinnvolle Bildformate und Kompressionsraten verwenden",
+        "step5-content": "Verwenden Sie moderne Formate wie WebP oder AVIF und passen Sie die Kompressionsrate an, um die beste Balance zwischen Qualität und Dateigrösse zu erreichen.",
+    
+        "conclusion-heading": "Fazit",
+        "conclusion-content": "Die Ladegeschwindigkeit Ihrer Website spielt eine immer bedeutendere Rolle. Dabei stellt das richtige Bildformat ein wirkungsvolles Instrument dar, um die Ladezeit so niedrig wie möglich zu halten.\n\nJe nach Bedarf gibt es verschiedene Bildformate, die ihre Vor- und Nachteile mit sich bringen. Ob Sie auf vielversprechende Formate wie AVIF vertrauen, nach denen bereits Global Player wie Netflix Ihre Fühler ausgestreckt haben, oder weiterhin auf die altbekannten Formate wie JPEG und PNG setzen, hängt jeweils vom Anwendungsbereich und Einsatzgebiet ab.\n\nWährend sich Logos und Icons mit SVG platzsparend im Responsive Design darstellen lassen, können Sie mit dem Format HEIC hohe Einsparungen bei Bildern vorweisen. GIF ist dagegen das ideale Format für Sie, wenn Sie mit wenig Aufwand Ihre Botschaft auf humorvolle Art nach aussen tragen wollen.\n\nWir selbst setzen aktuell immer öfter in unseren Web-Projekten grossflächig auf WebP und haben die Erfahrung gemacht, dass sich dieses Format gut auf die Performance der Websites auswirkt."
     }
 };
 
