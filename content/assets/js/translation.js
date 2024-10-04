@@ -683,8 +683,35 @@ var texts = {
         "step5-content": "Use modern formats like WebP or AVIF and adjust the compression rate to achieve the best balance between quality and file size.",
     
         "conclusion-heading": "Conclusion",
-        "conclusion-content": "The loading speed of your website is becoming increasingly important. The right image format is an effective tool to keep the loading time as low as possible.\n\nDepending on your needs, there are different image formats that have their advantages and disadvantages. Whether you trust promising formats like AVIF, which global players like Netflix are already exploring, or continue to rely on the well-known formats like JPEG and PNG, depends on the application area and field of use.\n\nWhile logos and icons can be displayed in a space-saving manner with SVG in responsive design, you can achieve high savings with the HEIC format for images. On the other hand, GIF is the ideal format for you if you want to convey your message to the outside world in a humorous way with little effort.\n\nWe ourselves are increasingly using WebP extensively in our web projects and have found that this format has a good impact on the performance of the websites."
+        "conclusion-content": "The loading speed of your website is becoming increasingly important. The right image format is an effective tool to keep the loading time as low as possible.\n\nDepending on your needs, there are different image formats that have their advantages and disadvantages. Whether you trust promising formats like AVIF, which global players like Netflix are already exploring, or continue to rely on the well-known formats like JPEG and PNG, depends on the application area and field of use.\n\nWhile logos and icons can be displayed in a space-saving manner with SVG in responsive design, you can achieve high savings with the HEIC format for images. On the other hand, GIF is the ideal format for you if you want to convey your message to the outside world in a humorous way with little effort.\n\nWe ourselves are increasingly using WebP extensively in our web projects and have found that this format has a good impact on the performance of the websites.",
     
+        "internet-security-first-title": "How do you protect yourself on the Internet? - 10 tips for more security on the Internet",
+        "04-10-2024": "October 4, 2024",
+        "how-to-protect-yourself-online": "How to Protect Yourself Online – 10 Tips for More Internet Security",
+        "intro-internet-sicherheit": "In the digital age, where we spend more time online, it's more important than ever to protect yourself from cyber threats. While 100% security is not possible, a few basic measures can significantly reduce the risk. Here are ten tips to help you stay safer online.",
+        "tip1-title": "1. Protect Device Access",
+        "tip1-content": "Secure access to your devices using Face ID, fingerprints, or other biometric encryptions. This ensures that unauthorized people cannot access your smartphone or computer.",
+        "tip2-title": "2. Keep Software Updated",
+        "tip2-content": "Always keep your apps and programs up to date. Regular updates improve the security of your devices. Check settings to ensure updates are automatically installed.",
+        "tip3-title": "3. Scrutinize Websites",
+        "tip3-content": "Be cautious when entering personal information on websites. Suspicious sites often have lots of ads, pop-ups, and typos. Trust only reputable websites with a good reputation.",
+        "tip4-title": "4. Shop Only from Official Stores",
+        "tip4-content": "Bargains can be tempting, but they are often too good to be true. Only download apps from official stores like Google Play or the App Store, and verify the credibility of online shops before purchasing.",
+        "tip5-title": "5. Avoid E-Banking on Public Wi-Fi",
+        "tip5-content": "Avoid accessing your e-banking or personal accounts on public networks, such as in a café. Wait until you are at home on a secure Wi-Fi or mobile network to protect against unauthorized access.",
+        "tip6-title": "6. Back Up Data Regularly",
+        "tip6-content": "Make regular backups and store your photos and videos in the cloud. This way, you won't lose your data in case of device loss, and you can easily access it via the web.",
+        "tip7-title": "7. Use Strong Passwords",
+        "tip7-content": "Protect your accounts with strong, unique passwords. Do not use the same password for multiple accounts! A password manager, such as blue Security, can help you keep track of them.",
+        "tip8-title": "8. Be Critical of Messages",
+        "tip8-content": "Beware of fraudulent emails, SMS, and messages. Scammers use phishing tactics to steal personal data under false pretenses. Be sure to ignore suspicious messages and report them if necessary.",
+        "tip9-title": "9. Use Two-Factor Authentication",
+        "tip9-content": "Use two-factor authentication (2FA) for your accounts. In addition to your password, an additional code is required, which you receive via SMS. This increases the security of your accounts.",
+        "tip10-title": "10. Report Fraud",
+        "tip10-content": "If you fall victim to a cyberattack or receive a fraudulent message, report the incident. Use the National Cyber Security Center or platforms like iBarry for help.",
+        "conclusion-title": "Conclusion",
+        "conclusion-content": "With these tips, you can better protect yourself and your data on the internet. Stay vigilant and mindful of security measures to minimize the risk of cyberattacks. Your safety online is in your hands."
+  
     },
     "de": {
         "web-trends-title" : "Webdesign-Trends 2024: Die Zukunft des digitalen Designs",
@@ -1364,7 +1391,33 @@ var texts = {
         "step5-content": "Verwenden Sie moderne Formate wie WebP oder AVIF und passen Sie die Kompressionsrate an, um die beste Balance zwischen Qualität und Dateigrösse zu erreichen.",
     
         "conclusion-heading": "Fazit",
-        "conclusion-content": "Die Ladegeschwindigkeit Ihrer Website spielt eine immer bedeutendere Rolle. Dabei stellt das richtige Bildformat ein wirkungsvolles Instrument dar, um die Ladezeit so niedrig wie möglich zu halten.\n\nJe nach Bedarf gibt es verschiedene Bildformate, die ihre Vor- und Nachteile mit sich bringen. Ob Sie auf vielversprechende Formate wie AVIF vertrauen, nach denen bereits Global Player wie Netflix Ihre Fühler ausgestreckt haben, oder weiterhin auf die altbekannten Formate wie JPEG und PNG setzen, hängt jeweils vom Anwendungsbereich und Einsatzgebiet ab.\n\nWährend sich Logos und Icons mit SVG platzsparend im Responsive Design darstellen lassen, können Sie mit dem Format HEIC hohe Einsparungen bei Bildern vorweisen. GIF ist dagegen das ideale Format für Sie, wenn Sie mit wenig Aufwand Ihre Botschaft auf humorvolle Art nach aussen tragen wollen.\n\nWir selbst setzen aktuell immer öfter in unseren Web-Projekten grossflächig auf WebP und haben die Erfahrung gemacht, dass sich dieses Format gut auf die Performance der Websites auswirkt."
+        "conclusion-content": "Die Ladegeschwindigkeit Ihrer Website spielt eine immer bedeutendere Rolle. Dabei stellt das richtige Bildformat ein wirkungsvolles Instrument dar, um die Ladezeit so niedrig wie möglich zu halten.\n\nJe nach Bedarf gibt es verschiedene Bildformate, die ihre Vor- und Nachteile mit sich bringen. Ob Sie auf vielversprechende Formate wie AVIF vertrauen, nach denen bereits Global Player wie Netflix Ihre Fühler ausgestreckt haben, oder weiterhin auf die altbekannten Formate wie JPEG und PNG setzen, hängt jeweils vom Anwendungsbereich und Einsatzgebiet ab.\n\nWährend sich Logos und Icons mit SVG platzsparend im Responsive Design darstellen lassen, können Sie mit dem Format HEIC hohe Einsparungen bei Bildern vorweisen. GIF ist dagegen das ideale Format für Sie, wenn Sie mit wenig Aufwand Ihre Botschaft auf humorvolle Art nach aussen tragen wollen.\n\nWir selbst setzen aktuell immer öfter in unseren Web-Projekten grossflächig auf WebP und haben die Erfahrung gemacht, dass sich dieses Format gut auf die Performance der Websites auswirkt.",
+        "internet-security-first-title": "Wie schützt man sich im Internet? – 10 Tipps für mehr Sicherheit im Internet",
+        "04-10-2024": "4 October, 2024",
+        "how-to-protect-yourself-online": "Wie schützt man sich im Internet? – 10 Tipps für mehr Sicherheit im Internet",
+        "intro-internet-sicherheit": "Im digitalen Zeitalter, in dem wir immer mehr Zeit online verbringen, ist es wichtiger denn je, sich vor Cyberbedrohungen zu schützen. Eine 100-prozentige Sicherheit gibt es zwar nicht, aber mit ein paar grundlegenden Massnahmen kannst du das Risiko erheblich verringern. Hier sind zehn Tipps, die dir helfen, sicherer im Internet unterwegs zu sein.",
+        "tip1-title": "1. Zugang zu Geräten schützen",
+        "tip1-content": "Sichere den Zugang zu deinen Geräten mit Face ID, Fingerabdruck oder anderen biometrischen Verschlüsselungen. So stellst du sicher, dass Unbefugte keinen Zugriff auf dein Smartphone oder deinen Computer haben.",
+        "tip2-title": "2. Software aktualisieren",
+        "tip2-content": "Halte deine Apps und Programme stets auf dem neuesten Stand. Regelmässige Updates verbessern die Sicherheit deiner Geräte. Überprüfe die Einstellungen, um sicherzustellen, dass Updates automatisch installiert werden.",
+        "tip3-title": "3. Webseiten kritisch anschauen",
+        "tip3-content": "Sei vorsichtig, wenn du persönliche Daten auf Webseiten eingibst. Verdächtige Seiten haben oft viel Werbung, Pop-ups und Schreibfehler. Vertraue nur seriösen Websites mit einem guten Ruf.",
+        "tip4-title": "4. Nur in offiziellen Stores einkaufen",
+        "tip4-content": "Schnäppchen können verlockend sein, aber oft sind sie zu gut, um wahr zu sein. Lade Apps nur aus offiziellen Stores wie Google Play oder dem App Store herunter und überprüfe die Seriosität des Online-Shops vor dem Kauf.",
+        "tip5-title": "5. Kein E-Banking in fremdem WLAN",
+        "tip5-content": "Vermeide es, in öffentlichen Netzwerken, wie zum Beispiel in einem Café, auf dein E-Banking oder persönliche Konten zuzugreifen. Warte, bis du zu Hause im sicheren WLAN oder im Mobilfunknetz bist, um dich vor unbefugtem Zugriff zu schützen.",
+        "tip6-title": "6. Daten regelmässig speichern",
+        "tip6-content": "Mache regelmässige Backups und speichere deine Fotos und Videos in einer Cloud. So verlierst du deine Daten bei einem Geräteverlust nicht und kannst bequem über das Web darauf zugreifen.",
+        "tip7-title": "7. Sichere Passwörter nutzen",
+        "tip7-content": "Schütze deine Konten mit starken und einzigartigen Passwörtern. Verwende nicht dasselbe Passwort für mehrere Konten! Ein Passwortmanager, wie beispielsweise blue Security, kann dir dabei helfen, die Übersicht zu behalten.",
+        "tip8-title": "8. Nachrichten kritisch prüfen",
+        "tip8-content": "Sei vorsichtig bei betrügerischen E-Mails, SMS und Nachrichten. Betrüger nutzen die Phishing-Methode, um unter falschem Namen persönliche Daten zu stehlen. Achte darauf, verdächtige Nachrichten zu ignorieren und meldet diese, wenn nötig.",
+        "tip9-title": "9. Doppelter Login-Schutz",
+        "tip9-content": "Nutze die Zwei-Faktor-Authentifizierung (2FA) für deine Accounts. Neben deinem Passwort wird ein zusätzlicher Code abgefragt, den du per SMS erhältst. So erhöhst du die Sicherheit deiner Konten.",
+        "tip10-title": "10. Betrugsfall melden",
+        "tip10-content": "Wenn du Opfer eines Cyberangriffs wirst oder eine betrügerische Nachricht erhältst, melde den Vorfall. Nutze dafür das Nationale Zentrum für Cybersicherheit oder Plattformen wie iBarry für erste Hilfe.",
+        "conclusion-title": "Fazit",
+        "conclusion-content": "Mit diesen Tipps kannst du dich und deine Daten besser im Internet schützen. Sei wachsam und achte auf Sicherheitsmassnahmen, um das Risiko von Cyberangriffen zu minimieren. Deine Sicherheit im Netz liegt in deiner Hand."
     }
 };
 
