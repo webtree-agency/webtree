@@ -713,25 +713,51 @@ var texts = {
         "conclusion-content": "With these tips, you can better protect yourself and your data on the internet. Stay vigilant and mindful of security measures to minimize the risk of cyberattacks. Your safety online is in your hands.",
         "11-10-2024" : "October 11, 2024",
         "webdev-design-title": "Webdesign vs. Web Development: What's the Difference?",
-    "webdev-design-intro": "When creating a website, there are many factors to consider, and terms like web design and web development are often used interchangeably, although they have different roles. To clarify how these disciplines differ and collaborate, we take a look at both areas and explain when you need a web designer or a web developer.",
-    "webdev-design-what-is-webdesign": "What is Web Design?",
-    "webdev-design-desc-webdesign": "Web design includes all the visual elements of a website. These include aspects such as colors, fonts, images, and buttons. The goal of web designers is to create a user-friendly and appealing website that reflects the brand identity. They ensure that the user interface is intuitive and the website looks good on different screen sizes.",
-    "webdev-design-what-is-webdev": "What is Web Development?",
-    "webdev-design-desc-webdev": "Web development refers to the technical implementation and maintenance of a website. While web design covers the visual aspect, web development ensures that the site functions technically. Developers are responsible for writing the code that keeps a website running, integrating features, and fixing technical issues.",
-    "webdev-design-frontend-backend-heading": "Frontend and Backend Development",
-    "webdev-design-frontend-backend-desc": "Web development is divided into two main areas: frontend development and backend development.",
-    "webdev-design-frontend-dev-heading": "Frontend Development",
-    "webdev-design-frontend-dev-desc": "This is the part of the website that users see and interact with. Frontend developers ensure that design specifications are correctly implemented and that the website works well on different devices.",
-    "webdev-design-backend-dev-heading": "Backend Development",
-    "webdev-design-backend-dev-desc": "This area includes the server-side processes that run in the background. Backend developers work with databases and servers to ensure that the website is reliable and secure.",
-    "webdev-design-when-designer-or-dev-heading": "When Do You Need a Web Designer and When a Web Developer?",
-    "webdev-design-when-designer-or-dev-desc": "When it comes to creating or updating a website, the choice between web designers and web developers depends on the specific requirements of your project.",
-    "webdev-design-webdesigner-heading": "Web Designer",
-    "webdev-design-webdesigner-desc": "Web designers are needed when the visual design of the website is the focus. They help you improve the look and usability, which is especially important if your website is outdated or difficult to navigate.",
-    "webdev-design-webdev-heading": "Web Developer",
-    "webdev-design-webdev-desc": "You need a web developer when it comes to technical aspects like integrating new features, fixing bugs, or improving overall performance. A web developer also ensures the security of your website.",
-    "webdev-design-conclusion-heading": "Conclusion",
-    "webdev-design-conclusion-desc": "Web design and web development are two sides of the same coin. Both disciplines are important for creating a successful, user-friendly, and technically sound website. By understanding the differences, you can better assess which expertise you need for your project and hire the right professionals.",
+        "webdev-design-intro": "When creating a website, there are many factors to consider, and terms like web design and web development are often used interchangeably, although they have different roles. To clarify how these disciplines differ and collaborate, we take a look at both areas and explain when you need a web designer or a web developer.",
+        "webdev-design-what-is-webdesign": "What is Web Design?",
+        "webdev-design-desc-webdesign": "Web design includes all the visual elements of a website. These include aspects such as colors, fonts, images, and buttons. The goal of web designers is to create a user-friendly and appealing website that reflects the brand identity. They ensure that the user interface is intuitive and the website looks good on different screen sizes.",
+        "webdev-design-what-is-webdev": "What is Web Development?",
+        "webdev-design-desc-webdev": "Web development refers to the technical implementation and maintenance of a website. While web design covers the visual aspect, web development ensures that the site functions technically. Developers are responsible for writing the code that keeps a website running, integrating features, and fixing technical issues.",
+        "webdev-design-frontend-backend-heading": "Frontend and Backend Development",
+        "webdev-design-frontend-backend-desc": "Web development is divided into two main areas: frontend development and backend development.",
+        "webdev-design-frontend-dev-heading": "Frontend Development",
+        "webdev-design-frontend-dev-desc": "This is the part of the website that users see and interact with. Frontend developers ensure that design specifications are correctly implemented and that the website works well on different devices.",
+        "webdev-design-backend-dev-heading": "Backend Development",
+        "webdev-design-backend-dev-desc": "This area includes the server-side processes that run in the background. Backend developers work with databases and servers to ensure that the website is reliable and secure.",
+        "webdev-design-when-designer-or-dev-heading": "When Do You Need a Web Designer and When a Web Developer?",
+        "webdev-design-when-designer-or-dev-desc": "When it comes to creating or updating a website, the choice between web designers and web developers depends on the specific requirements of your project.",
+        "webdev-design-webdesigner-heading": "Web Designer",
+        "webdev-design-webdesigner-desc": "Web designers are needed when the visual design of the website is the focus. They help you improve the look and usability, which is especially important if your website is outdated or difficult to navigate.",
+        "webdev-design-webdev-heading": "Web Developer",
+        "webdev-design-webdev-desc": "You need a web developer when it comes to technical aspects like integrating new features, fixing bugs, or improving overall performance. A web developer also ensures the security of your website.",
+        "webdev-design-conclusion-heading": "Conclusion",
+        "webdev-design-conclusion-desc": "Web design and web development are two sides of the same coin. Both disciplines are important for creating a successful, user-friendly, and technically sound website. By understanding the differences, you can better assess which expertise you need for your project and hire the right professionals.",
+        "vpn-first-title" : "What is a VPN and why should you use it?",
+        "18-10-24": "October 18, 2024",  
+        "vpn-description": "A VPN (Virtual Private Network) is a tool that secures your internet connection by encrypting your data and routing it through a secure server. This hides your real IP address, keeping you anonymous online.",
+        "vpn-why-use": "Why should you use a VPN?",
+        "vpn-why-use-description": "Using a VPN protects your privacy, secures your online activities, and allows you to bypass restrictions while ensuring a safe browsing experience.",
+    
+        "vpn-benefits": "Benefits of using a VPN",
+        "vpn-benefit-privacy": "Privacy Protection: A VPN hides your online activities from hackers, governments, and even your Internet Service Provider.",
+        "vpn-benefit-public-wifi": "Secure public Wi-Fi: A VPN protects your data when using unsecured public networks.",
+        "vpn-benefit-geoblocking": "Bypass Geoblocking: Access content restricted in your region, such as streaming services like Netflix or YouTube.",
+        "vpn-benefit-banking": "Secure Online Banking: A VPN ensures that your banking information remains safe when accessing your accounts.",
+    
+        "vpn-top-providers": "Top VPN Providers",
+        "vpn-provider-intro": "Here are some of the best VPN providers to secure your online presence:",
+    
+        "vpn-nordvpn": "NordVPN",
+        "vpn-nordvpn-description": "NordVPN offers over 5000 servers worldwide, fast connections, and a kill switch feature for added protection.",
+    
+        "vpn-expressvpn": "ExpressVPN",
+        "vpn-expressvpn-description": "ExpressVPN provides fast and reliable service with servers in over 90 countries, making it ideal for streaming and bypassing geo-restrictions.",
+    
+        "vpn-cyberghost": "CyberGhost",
+        "vpn-cyberghost-description": "CyberGhost is easy to use and perfect for VPN beginners, with specialized servers for streaming and secure browsing.",
+    
+        "vpn-surfshark": "Surfshark",
+        "vpn-surfshark-description": "Surfshark is affordable yet powerful, offering unlimited device connections and fast speeds."
     
     },
     "de": {
@@ -1460,7 +1486,33 @@ var texts = {
     "webdev-design-webdev-desc": "Webentwickler brauchst du, wenn es um technische Aspekte geht, wie die Integration neuer Funktionen, das Beheben von Fehlern oder die allgemeine Performance-Optimierung. Auch die Sicherheit deiner Website wird durch einen Webentwickler gewährleistet.",
     "webdev-design-conclusion-heading": "Fazit",
     "webdev-design-conclusion-desc": "Webdesign und Webentwicklung sind zwei Seiten derselben Medaille. Beide Disziplinen sind wichtig, um eine erfolgreiche, benutzerfreundliche und technisch einwandfreie Website zu erstellen. Indem du die Unterschiede verstehst, kannst du besser einschätzen, welche Expertise du für dein Projekt benötigst, und die richtigen Fachkräfte engagieren.",
+    "vpn-first-title" : "Was ist ein VPN und warum solltest du es nutzen?",
+    "18-10-24": "18 Oktober 2024",
+    "vpn-description": "Ein VPN (Virtual Private Network) ist ein Tool, das deine Internetverbindung sichert, indem es deine Daten verschlüsselt und über einen sicheren Server leitet. Dies versteckt deine echte IP-Adresse und sorgt für Anonymität im Netz.",
 
+    "vpn-why-use": "Warum solltest du ein VPN nutzen?",
+    "vpn-why-use-description": "Mit einem VPN schützt du deine Privatsphäre, sicherst deine Online-Aktivitäten und umgehst Einschränkungen, während du sicher im Netz surfst.",
+
+    "vpn-benefits": "Vorteile der Nutzung eines VPNs",
+    "vpn-benefit-privacy": "Schutz der Privatsphäre: Ein VPN versteckt deine Online-Aktivitäten vor Hackern, Regierungen und deinem Internetanbieter.",
+    "vpn-benefit-public-wifi": "Sicheres öffentliches WLAN: Ein VPN schützt deine Daten, wenn du unsichere öffentliche Netzwerke nutzt.",
+    "vpn-benefit-geoblocking": "Geoblocking umgehen: Greife auf Inhalte zu, die in deiner Region gesperrt sind, wie Streaming-Dienste wie Netflix oder YouTube.",
+    "vpn-benefit-banking": "Sicheres Online-Banking: Mit einem VPN bleiben deine Bankdaten sicher, wenn du auf deine Konten zugreifst.",
+
+    "vpn-top-providers": "Top VPN-Anbieter",
+    "vpn-provider-intro": "Hier sind einige der besten VPN-Anbieter, um deine Online-Präsenz zu schützen:",
+
+    "vpn-nordvpn": "NordVPN",
+    "vpn-nordvpn-description": "NordVPN bietet über 5000 Server weltweit, schnelle Verbindungen und eine Kill-Switch-Funktion für zusätzlichen Schutz.",
+
+    "vpn-expressvpn": "ExpressVPN",
+    "vpn-expressvpn-description": "ExpressVPN bietet schnelle und zuverlässige Dienste mit Servern in über 90 Ländern, ideal zum Streamen und Umgehen von Geo-Sperren.",
+
+    "vpn-cyberghost": "CyberGhost",
+    "vpn-cyberghost-description": "CyberGhost ist benutzerfreundlich und perfekt für VPN-Anfänger, mit spezialisierten Servern für Streaming und sicheres Surfen.",
+
+    "vpn-surfshark": "Surfshark",
+    "vpn-surfshark-description": "Surfshark ist preiswert und leistungsstark und bietet unbegrenzte Geräteverbindungen sowie schnelle Geschwindigkeiten."
     }
 };
 
