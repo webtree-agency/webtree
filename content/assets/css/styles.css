@@ -1309,6 +1309,10 @@ padding-bottom: 6.5rem;
   margin-bottom: 30px;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
 .retro-layout .h-entry .date {
   font-size: 1rem;
 }
