@@ -252,6 +252,7 @@ padding-bottom: 6.5rem;
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-top: 40px;
 }
 
 .arrow-link {
