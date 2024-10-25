@@ -1070,7 +1070,7 @@ About Style
 
 #about {
   padding-bottom: 80px;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .hidden {
@@ -1182,7 +1182,7 @@ Services Style
 
 .services {
   position: relative;
-  padding: 80px 0;
+  padding: 0 0 80px;
 }
 
 .services:after {

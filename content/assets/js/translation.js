@@ -175,8 +175,8 @@ var texts = {
         "read-more": "Read More",
         "web-develop": "Web Development",
         "seo-optimization": "SEO-Optimization",
-        "service-text-1": "Creation and renewal of websites with individual character.",
-        "service-text-2": "Creative design for a wide range of digital media.",
+        "service-text-1": "Create and renew websites - unique and individual!",
+        "service-text-2": "Logos, videos and designs - we offer everything for you!",
         "service-text-3": "Expert advice and support for devices and systems.",
         "service-text-4": "Comprehensive hosting support for a strong online presence.",
         "service-text-5": "Improved and enhanced visibility for search engines.",
@@ -793,6 +793,7 @@ var texts = {
         "uiux-conclusion-heading": "Conclusion: How UI and UX Work Together",
         "uiux-conclusion-text": "While UX focuses on the structure and overall experience, UI focuses on aesthetics and interaction. Both are crucial for a successful product. UX ensures that the product solves a user's problem effectively, while UI ensures that it is visually appealing and easy to use.",
         "25-10-24": "October 25, 2024",
+        "brand-identity" : "Brand identity",
     },
     "de": {
         "web-trends-title" : "Webdesign-Trends 2024: Die Zukunft des digitalen Designs",
@@ -967,8 +968,8 @@ var texts = {
         "read-more": "Mehr erfahren",
         "web-develop": "Webentwicklung",
         "seo-optimization": "SEO-Optimierung",
-        "service-text-1": "Erstellen und erneuern von Webseiten mit individuellem Charakter.",
-        "service-text-2": "Kreative Gestaltung für vielfältige digitale Medien.",
+        "service-text-1": "Webseiten erstellen und erneuern – einzigartig und individuell!",
+        "service-text-2": "Logos, Videos und Designs – wir bieten alles für Dich!",
         "service-text-3": "Beratung und Support für Geräte und Systeme.",
         "service-text-4": "Hosting-Support für eine starke Online-Präsenz.",
         "service-text-5": "Verbesserung der Sichtbarkeit für Suchmaschinen.",
@@ -1582,6 +1583,7 @@ var texts = {
     "uiux-conclusion-heading": "Fazit: Wie UI und UX zusammenwirken",
     "uiux-conclusion-text": "Während sich UX auf die Struktur und das gesamte Erlebnis konzentriert, legt UI den Fokus auf Ästhetik und Interaktion. Beide sind entscheidend für ein erfolgreiches Produkt. UX stellt sicher, dass das Produkt ein Problem des Nutzers effektiv löst, während UI dafür sorgt, dass es optisch ansprechend und einfach zu bedienen ist.",
     "25-10-24" : "25 Oktober, 2024",
+    "brand-identity" : "Markenidentität",
     }
 };
 
