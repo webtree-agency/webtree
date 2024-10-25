@@ -151,10 +151,10 @@ height: 60px;
 padding-bottom: 6.5rem;
 }
 
-@media only screen and (max-device-width: 550px) {
+@media only screen and (max-device-width: 410) {
   #text-writer{
     height: 60px;
-    padding-bottom: 9rem;
+    padding-bottom: 8rem;
   }
 } 
 
