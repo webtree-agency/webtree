@@ -1017,6 +1017,11 @@ Banner Style
   color: var(--black);
   margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .main-banner .left-content h1{
+    font-size: 2.5rem;
+  }
+} 
 
 .main-banner .left-content p {
   margin-bottom: 30px;
