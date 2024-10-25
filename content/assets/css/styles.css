@@ -1414,3 +1414,7 @@ padding-bottom: 6.5rem;
 .bg-light-green{
   background-color: var(--opacity-light-green);
 }
+.green-amp{
+  color: var(--primary-green);
+  font-style: normal;
+}
