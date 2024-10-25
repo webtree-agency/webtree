@@ -181,15 +181,13 @@ padding-bottom: 6.5rem;
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 998px) {
   .parallax {
-    min-height: 30vh !important;
+    display: none;
   }
-}
 
-@media (max-width: 700px) {
-  .parallax {
-    min-height: 20vh !important;
+  .straight-line-divider {
+    display: block;
   }
 }
 
