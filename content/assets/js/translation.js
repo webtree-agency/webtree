@@ -15,7 +15,7 @@ var texts = {
         "projects": "Projects",
         "contact": "Contact",
         "landing-text": "WebTree - experts in the development and design of websites and brand identities. Swiss web agency for SMEs, start-ups and private individuals.",
-        "text-writer": "Your partner for digital solutions!",
+        "text-writer": "For your digital success!",
         "about-us-text": " Noah Benz and Jann Fanzun are the faces of WebTree. We are 100% committed to you and deliver your website, designs and SEO solutions that fit your needs",
         "innovative": "On-time",
         "reliable": "Reliable",
@@ -810,7 +810,7 @@ var texts = {
         "projects": "Projekte",
         "contact": "Kontakt",
         "landing-text": "WebTree – Experten für die Entwicklung und Gestaltung von Webseiten und Markenidentitäten. Schweizer Webagentur für KMUs, Startups und Privatpersonen.",
-        "text-writer": "Dein Partner für digitale Lösungen!",
+        "text-writer": "Für Deinen digitalen Erfolg!",
         "about-us-text": " Noah Benz und Jann Fanzun sind die Gesichter von WebTree. Wir setzen uns 100 % für Dich ein und liefern Dir Deine Webseite, Designs und SEO-Lösungen, die zu Deinen Bedürfnissen passen.",
         "innovative": "Zeitgerecht",
         "reliable": "Zuverlässig",
@@ -1586,8 +1586,8 @@ var texts = {
 };
 
 const textElement = document.getElementById("text-writer");
-const enText = "Your partner for digital solutions!";
-const deText = "Dein Partner für digitale Lösungen!";
+const enText = "For your digital success!";
+const deText = "Für Deinen digitalen Erfolg!";
 let text = "";
 let typingTimeout;
 let isTyping = false;
