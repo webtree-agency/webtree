@@ -1309,7 +1309,7 @@ var texts = {
       
         "cms_best_heading": "Welches ist das beste CMS?",
         "cms_best_paragraph": "Das beste CMS hängt von den individuellen Bedürfnissen und Anforderungen ab. WordPress ist aufgrund seiner Flexibilität und Benutzerfreundlichkeit die beliebteste Wahl.",
-        "index-seo-title": "WebTree – Ihr Partner für Webentwicklung, Design, Content Creation, IT-Support und effektive SEO-Strategien",
+        "index-seo-title": "WebTree – Dein Partner für Webentwicklung, Design, effektive SEO-Strategien, Content Creation und IT-Support.",
         "webdesign-trends": "Webdesign-Trends 2024: Zukunftsweisende Entwicklungen für Ihre Webseite",
         "intro-webdesign": "Das Jahr 2024 bringt im Bereich Webdesign spannende Trends mit sich, die durch technologische Fortschritte und veränderte Nutzererwartungen geprägt sind. In diesem Artikel werfen wir einen Blick auf die herausragenden Trends, die die Gestaltung und Funktionalität von Websites im kommenden Jahr prägen werden. Von der Wiederbelebung des Skeuomorphismus über das immersive Parallax-Scrolling bis hin zur dynamischen Kinetic Typography – wir beleuchten, wie diese Trends die Nutzererfahrung auf ein neues Level heben. Ebenso betrachten wir den steigenden Einsatz von individuellen Illustrationen, die Rolle der Datenvisualisierung und die Integration von Künstlicher Intelligenz und Machine Learning im Webdesign.",
         "30-8-24": "30. August 2024",
