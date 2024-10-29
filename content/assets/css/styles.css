@@ -162,7 +162,7 @@ padding-bottom: 6.5rem;
 .parallax {
   background-color: var(--opacity-light-green);
   background-image: url(../images/parallax.webp);
-  min-height: 40vh !important;
+  min-height: 50vh !important;
   background-attachment: fixed !important;
   background-position: center !important;
   background-repeat: no-repeat !important;

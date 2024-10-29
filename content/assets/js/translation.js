@@ -176,7 +176,7 @@ var texts = {
         "service-text-1": "Create and renew websites - unique and individual.",
         "service-text-2": "Logos, videos, flyers and designs - we offer everything for you.",
         "service-text-3": "Expert advice and support for devices and systems.",
-        "service-text-4": "Reliable hosting support for your website.",
+        "service-text-4": "Reliable and fast hosting support for your website.",
         "service-text-5": "Improved and enhanced visibility for search engines.",
         "service-text-6": "High-quality media for Instagram, TikTok, YouTube.",
         "service-full-text-1": "Explore our ",
