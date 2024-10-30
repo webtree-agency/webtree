@@ -364,7 +364,7 @@
 }
 
 .burger-img {
-    background-image: url(../images/burger-ipad-min.webp);
+    background-image: url(../images/projekte/burger-ipad-min.webp);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -374,7 +374,7 @@
 }
 
 .colin-img {
-    background-image: url(../svg/colin-ipad.svg);
+    background-image: url(../images/projekte/colin-ipad.webp);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -384,7 +384,7 @@
 }
 
 .mdc-img {
-    background-image: url(../svg/mdc-ipad.svg);
+    background-image: url(../images/projekte/mdc-ipad.webp);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -392,19 +392,9 @@
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
-.jungle-img {
-    background-image: url(../images/jungle-ipad.webp);
-    background-size: cover;
-    background-position: center top;
-    width: auto;
-    height: 100%;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-}
-
 
 .urban-img {
-    background-image: url(../svg/urbanforge-ipad.svg);
+    background-image: url(../images/projekte/urbanforge-ipad.webp);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -414,7 +404,7 @@
 }
 
 .pangri-img {
-    background-image: url(../svg/pangri-ipad.svg);
+    background-image: url(../images/projekte/pangri-ipad.webp);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -424,7 +414,7 @@
 }
 
 .faraci-img {
-    background-image: url(../images/ipad-bennesch-faraci.webp);
+    background-image: url(../images/projekte/ipad-bennesch-faraci.webp);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -434,7 +424,7 @@
 }
 
 .miki-img {
-    background-image: url(../images/miki-ipad.webp);
+    background-image: url(../images/projekte/miki-ipad.webp);
     background-size: cover;
     background-position: center top;
     width: auto;
@@ -492,82 +482,73 @@
 
 @media (max-width: 1800px) {
     .burger-img {
-        background-image: url(../images/burger-laptop-min.webp);
+        background-image: url(../images/projekte/burger-laptop-min.webp);
         background-position: center top;
     }
 
     .colin-img {
-        background-image: url(../svg/colin-laptop.svg);
+        background-image: url(../images/projekte/colin-laptop.webp);
         background-position: center top;
     }
 
     .mdc-img {
-        background-image: url(../svg/mdc-laptop.svg);
+        background-image: url(../images/projekte/mdc-laptop.webp);
         background-position: center top;
     }
-
-    .jungle-img{
-        background-image: url(../images/jungle-laptop.webp);
-        background-position: center center;
-    }
     .urban-img {
-        background-image: url(../svg/urbanforge-laptop.svg);
+        background-image: url(../images/projekte/urbanforge-laptop.webp);
         background-position: center ;
     }
 
     .pangri-img {
-        background-image: url(../svg/pangri-laptop.svg);
+        background-image: url(../images/projekte/pangri-laptop.webp);
         background-position: center top;
     }
 
     .faraci-img {
-        background-image: url(../images/desktop-bennesch-faraci.webp);
+        background-image: url(../images/projekte/desktop-bennesch-faraci.webp);
         background-position: center top;
     }
 
     .miki-img {
-        background-image: url(../images/miki-lappi.webp);
+        background-image: url(../images/projekte/miki-lappi.webp);
         background-position: center top;
     }
 }
 
 @media (max-width: 980px) {
     .burger-img {
-        background-image: url(../images/burger-ipad-min.webp);
+        background-image: url(../images/projekte/burger-ipad-min.webp);
         background-position: center top;
     }
 
     .colin-img {
-        background-image: url(../svg/colin-ipad.svg);
+        background-image: url(../images/projekte/colin-ipad.webp);
         background-position: center top;
     }
 
     .mdc-img {
-        background-image: url(../svg/mdc-ipad.svg);
-        background-position: center top;
-    }
-    .jungle-img{
-        background-image: url(../images/jungle-ipad.webp);
+        background-image: url(../images/projekte/mdc-ipad.webp);
         background-position: center top;
     }
 
     .urban-img {
-        background-image: url(../svg/urbanforge-ipad.svg);
+        background-image: url(../images/projekte/urbanforge-ipad.webp);
         background-position: center top;
     }
 
     .pangri-img {
-        background-image: url(../svg/pangri-ipad.svg);
+        background-image: url(../images/projekte/pangri-ipad.webp);
         background-position: center top;
     }
 
     .faraci-img {
-        background-image: url(../images/ipad-bennesch-faraci.webp);
+        background-image: url(../images/projekte/ipad-bennesch-faraci.webp);
         background-position: center top;
     }
 
     .miki-img {
-        background-image: url(../images/miki-ipad.webp);
+        background-image: url(../images/projekte/miki-ipad.webp);
         background-position: center top;
     }
 }
@@ -575,41 +556,36 @@
 
 @media (max-width: 580px) {
     .burger-img {
-        background-image: url(../images/burger-handy-min.webp);
+        background-image: url(../images/projekte/burger-handy-min.webp);
         background-position: center top;
     }
 
     .colin-img {
-        background-image: url(../svg/colin-handy.svg);
+        background-image: url(../images/projekte/colin-handy.webp);
         background-position: center top;
     }
 
     .mdc-img {
-        background-image: url(../svg/mdc-handy.svg);
+        background-image: url(../images/projekte/mdc-handy.webp);
         background-position: center center;
     }
-
-    .jungle-img{
-        background-image: url(../images/jungle-handy.webp);
-        background-position: center top;
-    }
     .urban-img {
-        background-image: url(../svg/urbanforge-handy.svg);
+        background-image: url(../images/projekte/urbanforge-handy.webp);
         background-position: center top;
     }
 
     .pangri-img {
-        background-image: url(../svg/pangri-handy.svg);
+        background-image: url(../images/projekte/pangri-handy.webp);
         background-position: center top;
     }
 
     .faraci-img {
-        background-image: url(../images/phone-bennesch-faraci.webp);
+        background-image: url(../images/projekte/phone-bennesch-faraci.webp);
         background-position: center top;
     }
 
     .miki-img {
-        background-image: url(../images/miki-handy.webp);
+        background-image: url(../images/projekte/miki-handy.webp);
         background-position: center top;
     }
 }
