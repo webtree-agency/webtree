@@ -793,6 +793,40 @@ var texts = {
         "25-10-24": "October 25, 2024",
         "brand-identity" : "Brand identity",
         "request-offer": "Request offer", 
+        "datenschutz-first-title": "The new Swiss Data Protection Act from 2025: everything you need to know",
+        "title-modernization": "Modernization in Line with EU Standards",
+        "text-modernization": "The new data protection law aligns Swiss regulations with EU standards, simplifying international data exchange and ensuring compatibility with GDPR. But what does this mean in practice?",
+        
+        "title-rights": "Stronger Rights for Individuals",
+        "text-rights": "Starting in 2025, individuals will have broader access to information about the use of their data. Citizens can request detailed reports on what data is collected, how it’s used, and who receives it. They’ll also have the right to object to data processing and demand data portability.",
+        
+        "title-requirements": "More Stringent Requirements for Businesses",
+        "text-requirements": "The new regulations impose a higher burden on companies. They must embed privacy measures into their processes from the ground up, following 'Privacy by Design' and 'Privacy by Default' principles. Failure to comply could lead to significant fines and damage to reputation.",
+        
+        "title-consequences": "Consequences of Non-Compliance",
+        "text-consequences": "Companies that fail to meet the new standards face fines up to 250,000 CHF and risk losing customer trust. Even minor breaches could have serious implications in today’s privacy-conscious world.",
+        
+        "list-title-prepared": "Are You Prepared?",
+        "list-text-prepared": "Now is the time to assess and adjust your systems to ensure compliance with the new law. Remember, data protection is not just a requirement but a critical factor for building trust in the digital age.",
+        "intro.text": "Digitalization is rapidly transforming our world, including the way personal data is processed and protected. Starting in 2025, a new data protection law will come into effect in Switzerland, which is stricter, more comprehensive, and adapted to the needs of our time. What can we expect, and what are the potential consequences?",
+        
+        "modernization.title": "Modernization in Line with EU Standards",
+        "modernization.text": "The new data protection law (nDSG) aligns Switzerland with the standards of the EU General Data Protection Regulation (GDPR). This will simplify international exchange and ensure compatibility with EU law. But what does this mean concretely for Swiss citizens and businesses?",
+        
+        "rights.title": "Stronger Rights for Individuals",
+        "rights.text": "A central element of the new law is the strengthening of individual rights. Citizens will have extensive rights to information regarding the use of their data starting in 2025. They can demand that companies disclose exactly what data is collected, how it is used, and to whom it may be shared. The right to data portability and the ability to object to data processing will also be reinforced.",
+        
+        "requirements.title": "More Stringent Requirements for Businesses",
+        "requirements.text": "For companies, the new law means increased effort. The requirements for protecting personal data will significantly rise. Data protection must now be actively and comprehensively integrated into business processes—through 'Privacy by Design' and 'Privacy by Default.' Companies must ensure that data protection is built into their systems and processes from the outset, with all default settings being privacy-friendly.",
+        
+        "consequences.title": "Consequences of Non-Compliance",
+        "consequences.text": "The penalties for violations are severe. The maximum fines can reach up to 250,000 CHF in cases of serious breaches of the regulations. In addition to financial penalties, companies risk damage to their reputation and loss of customer trust, which can have severe consequences, especially for online businesses.",
+        
+        "prepared.title": "Are You Prepared?",
+        "prepared.text": "The introduction of the new data protection law clearly shows that protecting personal data is a top priority. Companies are urged to respond quickly and adjust their systems to avoid hefty fines and reputational damage. For individuals, the law is a step towards greater transparency and control over their data.",
+        "1-nov":"November 1, 2024",
+
+
     },
     "de": {
         "web-trends-title" : "Webdesign-Trends 2024: Die Zukunft des digitalen Designs",
@@ -1582,6 +1616,39 @@ var texts = {
     "25-10-24" : "25 Oktober, 2024",
     "brand-identity" : "Markenidentität",
     "request-offer": "Offerte anfordern", 
+    "datenschutz-first-title": "Das neue Schweizer Datenschutzgesetz ab 2025: Alles, was Sie wissen müssen",
+    "title-modernization": "Modernisierung nach EU-Standards",
+    "text-modernization": "Das neue Datenschutzgesetz bringt die Schweizer Vorschriften auf den EU-Standard, erleichtert den internationalen Datenaustausch und sorgt für Kompatibilität mit der DSGVO. Aber was bedeutet das in der Praxis?",
+    
+    "title-rights": "Stärkere Rechte für Einzelpersonen",
+    "text-rights": "Ab 2025 haben Bürger einen besseren Zugang zu Informationen über die Verwendung ihrer Daten. Sie können detaillierte Auskunft darüber verlangen, welche Daten gesammelt werden, wie sie verwendet werden und an wen sie weitergegeben werden. Zudem haben sie das Recht, der Datenverarbeitung zu widersprechen und ihre Daten portieren zu lassen.",
+    
+    "title-requirements": "Höhere Anforderungen für Unternehmen",
+    "text-requirements": "Die neuen Vorschriften stellen Unternehmen vor eine grosse Herausforderung. Sie müssen Datenschutzmassnahmen von Anfang an in ihre Prozesse integrieren und dabei die Prinzipien 'Privacy by Design' und 'Privacy by Default' einhalten. Verstösse können zu erheblichen Geldstrafen und Reputationsschäden führen.",
+    
+    "title-consequences": "Folgen bei Nichteinhaltung",
+    "text-consequences": "Unternehmen, die die neuen Standards nicht erfüllen, drohen Bussgelder von bis zu 250.000 CHF und der Verlust des Kundenvertrauens. Selbst kleinere Verstösse können in der datenschutzbewussten Welt von heute schwerwiegende Auswirkungen haben.",
+    
+    "list-title-prepared": "Sind Sie vorbereitet?",
+    "list-text-prepared": "Jetzt ist der richtige Zeitpunkt, Ihre Systeme zu überprüfen und anzupassen, um die Einhaltung des neuen Gesetzes sicherzustellen. Datenschutz ist nicht nur eine Pflicht, sondern auch ein entscheidender Faktor für das Vertrauen im digitalen Zeitalter.",
+    "intro.text": "Die Digitalisierung verändert unsere Welt rasant, und damit auch die Art, wie persönliche Daten verarbeitet und geschützt werden. Ab 2025 tritt in der Schweiz ein neues Datenschutzgesetz in Kraft, das strenger, umfassender und an die Erfordernisse der heutigen Zeit angepasst ist. Was kommt auf uns zu, und was sind die möglichen Konsequenzen?",
+    
+    "modernization.title": "Modernisierung nach EU-Vorbild",
+    "modernization.text": "Mit dem neuen Datenschutzgesetz (nDSG) schliesst die Schweiz zu den Standards der EU-Datenschutz-Grundverordnung (DSGVO) auf. Der internationale Austausch und die Kompatibilität mit der EU-Rechtslage werden so vereinfacht. Doch was bedeutet das konkret für Schweizer Bürger und Unternehmen?",
+    
+    "rights.title": "Mehr Rechte für Bürger",
+    "rights.text": "Ein zentrales Element des neuen Gesetzes ist die Stärkung der Rechte von Privatpersonen. Bürger haben ab 2025 einen weitreichenden Anspruch auf Informationen über die Verwendung ihrer Daten. Sie können verlangen, dass Unternehmen genau offenlegen, welche Daten gesammelt werden, wofür sie verwendet werden und an wen sie gegebenenfalls weitergeleitet werden. Auch das Recht auf Datenportabilität und die Möglichkeit, der Datenverarbeitung zu widersprechen, werden gestärkt.",
+    
+    "requirements.title": "Schärfere Auflagen für Unternehmen",
+    "requirements.text": "Für Unternehmen bedeutet das neue Gesetz einen erhöhten Aufwand. Die Anforderungen an den Schutz persönlicher Daten steigen deutlich. Datenschutz muss nun aktiv und umfassend in den Unternehmensprozessen verankert werden – etwa durch „Privacy by Design“ und „Privacy by Default“. Unternehmen müssen sicherstellen, dass der Schutz der Daten von Beginn an in ihre Systeme und Prozesse integriert ist und alle Voreinstellungen datenschutzfreundlich sind.",
+    
+    "consequences.title": "Folgen von Verstössen",
+    "consequences.text": "Die Konsequenzen bei Verstössen sind drastisch. Die Höchstgrenze der Bussgelder liegt bei 250.000 CHF und kann im Falle grober Verstösse gegen die Vorschriften verhängt werden. Zudem drohen Image-Schäden und der Vertrauensverlust bei Kunden, was insbesondere für Unternehmen im Online-Bereich schwerwiegende Folgen haben kann.",
+    
+    "prepared.title": "Sind Sie vorbereitet?",
+    "prepared.text": "Die Einführung des neuen Datenschutzgesetzes zeigt klar, dass der Schutz persönlicher Daten oberste Priorität hat. Unternehmen sind angehalten, schnell zu reagieren und ihre Systeme anzupassen, um hohen Bussgeldern und Reputationsschäden vorzubeugen. Für Privatpersonen ist das Gesetz ein Schritt in Richtung mehr Transparenz und Kontrolle.",
+    "1-nov":"1 November, 2024",
+
     }
 };
 
