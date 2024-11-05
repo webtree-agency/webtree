@@ -1,0 +1,91 @@
+.container-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.item-box {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.placeholder {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.usage-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.download-btn, .download-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.download-btn i, .download-button i {
+  margin-left: 5px;
+}
+
+/* Spezifische Hintergründe */
+.color-box {
+  background-color: #e0e0e0;
+}
+
+.mockup-box.mockup {
+  background-color: #c4c4c4;
+  color: #000;
+}
+
+.mockup-box.brand-pattern {
+  background-color: #555;
+  color: #fff;
+}
+
+.container-box-three {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Abstand zwischen den Boxen */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.color-box-three {
+  flex: 1 1 calc(33.33% - 16px); /* 3 Boxen pro Zeile */
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .color-box-three {
+    flex: 1 1 calc(50% - 16px); /* 2 Boxen pro Zeile auf kleineren Bildschirmen */
+  }
+}
+
+@media (max-width: 480px) {
+  .color-box-three {
+    flex: 1 1 100%; /* 1 Box pro Zeile auf sehr kleinen Bildschirmen */
+  }
+}

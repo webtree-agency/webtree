@@ -13,54 +13,9 @@
       <link rel="stylesheet" href="../content/assets/css/main.css">
       <link rel="stylesheet" href="../content/assets/css/animated.css">
       <link rel="stylesheet" href="../content/assets/css/styles.css">
+      <link rel="stylesheet" href="../content/assets/css/clientdashboard.css">
    </head>
    <body>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-        var dropdownBtn = document.querySelector('.dropdown .dropbtn');
-        var dropdownContent = document.querySelector('.dropdown .dropdown-content');
-        
-        dropdownBtn.addEventListener('click', function() {
-           dropdownContent.classList.toggle('show');
-        });
-        
-        window.addEventListener('click', function(event) {
-           if (!event.target.matches('.dropdown .dropbtn')) {
-               var dropdowns = document.getElementsByClassName('dropdown-content');
-               for (var i = 0; i < dropdowns.length; i++) {
-                   var openDropdown = dropdowns[i];
-                   if (openDropdown.classList.contains('show')) {
-                       openDropdown.classList.remove('show');
-                   }
-               }
-           }
-        });
-        });
-     </script>
-     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const buttons = document.querySelectorAll('.service-selection');
-            const listItems = document.querySelectorAll('.nacc li');
-        
-            buttons.forEach((button, index) => {
-                button.addEventListener('click', function () {
-                    buttons.forEach(btn => btn.classList.remove('active'));
-        
-                    button.classList.add('active');
-        
-                    listItems.forEach(li => li.classList.remove('active'));
-        
-                    listItems[index].classList.add('active');
-                });
-            });
-        });
-     </script>
-     
-     <script src="../content/vendor/jquery/jquery.min.js"></script>
-     <script src="../content/assets/js/translation.js"></script>
-     <script src="../content/assets/js/script.js"></script>
-     <script src="https://kit.fontawesome.com/a7cae2adf0.js" crossorigin="anonymous"></script>
-    <script src="../content/assets/js/script1.js"></script>
       <div class="circle"></div>
       <div id="js-preloader" class="js-preloader">
          <div class="preloader-inner">
@@ -156,9 +111,141 @@
                      <div class="line-dec"></div>
                   </div>
                </div>
-               <div class="col-lg-12 text-left">
+               <div class="container col-lg-12 my-4">
+                  <div class="container-box">
+                    <div class="item-box">
+                      <div class="title">Primary Logo</div>
+                      <div class="placeholder">LOGO HERE</div>
+                      <hr>
+                      <a href="../content/assets/images/project-devices.webp" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                      <p class="usage-text">This should be used first if space allows for it. Use it on websites, footers, stationary, signage etc.</p>
+                    </div>
+                    <div class="item-box">
+                      <div class="title">Secondary Logo</div>
+                      <div class="placeholder">LOGO HERE</div>
+                      <hr>
+                      <a href="../content/assets/images/project-devices.webp" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                      <p class="usage-text">For when the primary logo doesn't fit in the required space. Used on websites, large elements etc.</p>
+                    </div>
+                    <div class="item-box">
+                      <div class="title">Submark Logo</div>
+                      <div class="placeholder">LOGO HERE</div>
+                      <hr>
+                      <a href="../content/assets/images/project-devices.webp" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                      <p class="usage-text">For when the primary logo doesn't fit in the required space. Used on websites & printed materials.</p>
+                    </div>
+                    <div class="item-box">
+                      <div class="title">Logo Mark</div>
+                      <div class="placeholder">LOGO HERE</div>
+                      <hr>
+                      <a href="../content/assets/images/project-devices.webp" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                      <p class="usage-text">Social media profile pictures, stamps, favicon etc. Use this when the other variations simply won’t fit.</p>
+                    </div>
+                  </div>
+                </div>
                 
-               </div>
+                <div class="container col-lg-12 my-4">
+                  <div class="container-box-three">
+                    <div class="color-box-three">
+                      <p><strong>Colour Name</strong><br>Primary Colour</p>
+                      <p class="text-left">CMYK: C:0 M:0 Y:0 K:0<br>RGB: R:0 G:0 B:0<br>HEX: #000000</p>
+                    </div>
+                    <div class="color-box-three">
+                      <p><strong>Colour Name</strong><br>Secondary Colour</p>
+                      <p class="text-left">CMYK: C:0 M:0 Y:0 K:0<br>RGB: R:0 G:0 B:0<br>HEX: #000000</p>
+                    </div>
+                    <div class="color-box-three">
+                      <p><strong>Colour Name</strong><br>Accent Colour</p>
+                      <p class="text-left">CMYK: C:0 M:0 Y:0 K:0<br>RGB: R:0 G:0 B:0<br>HEX: #000000</p>
+                    </div>
+                    <div class="color-box-three">
+                      <p><strong>Colour Name</strong><br>Accent Colour</p>
+                      <p class="text-left">CMYK: C:0 M:0 Y:0 K:0<br>RGB: R:0 G:0 B:0<br>HEX: #000000</p>
+                    </div>
+                    <div class="color-box-three">
+                      <p><strong>Colour Name</strong><br>Font Colour</p>
+                      <p class="text-left">CMYK: C:0 M:0 Y:0 K:0<br>RGB: R:0 G:0 B:0<br>HEX: #000000</p>
+                    </div>
+                    <div class="color-box-three">
+                      <p><strong>Colour Name</strong><br>Font Colour</p>
+                      <p class="text-left">CMYK: C:0 M:0 Y:0 K:0<br>RGB: R:0 G:0 B:0<br>HEX: #000000</p>
+                    </div>
+                  </div>
+                </div>              
+                
+                <div class="container col-lg-12 my-4">
+                  <div class="container-box">
+                    <div class="item-box">
+                      <div class="title">Primary Font</div>
+                      <div class="placeholder">FONT NAME HERE</div>
+                      <hr>
+                      <p class="usage-text">The primary font is your default typeface & should be used within headers & titles.</p>
+                    </div>
+                    <div class="item-box">
+                      <div class="title">Secondary Font</div>
+                      <div class="placeholder">FONT NAME HERE</div>
+                      <hr>
+                      <p class="usage-text">The secondary font compliments your primary font. This will be used on subheadings.</p>
+                    </div>
+                    <div class="item-box">
+                      <div class="title">Complementary Font</div>
+                      <div class="placeholder">FONT NAME HERE</div>
+                      <hr>
+                      <p class="usage-text">This compliments the primary & secondary font. This should be used within body copy.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="container col-lg-12 my-4">
+                  <div class="container-box">
+                    <div class="item-box mockup-box mockup">
+                      ADD MOCKUP
+                      <a href="mockup.pdf" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                    <div class="item-box mockup-box brand-pattern">
+                      ADD BRAND PATTERN
+                      <a href="brand-pattern.pdf" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="container col-lg-12 my-4">
+                  <div class="container-box">
+                    <div class="item-box">
+                      <div class="title">Offerte</div>
+                      <p>Hier können Sie die Offerte herunterladen.</p>
+                      <a href="offerte.pdf" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                    <div class="item-box">
+                      <div class="title">Schriftliche Vereinbarung</div>
+                      <p>Hier können Sie die schriftliche Vereinbarung herunterladen.</p>
+                      <a href="vereinbarung.pdf" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                    <div class="item-box">
+                      <div class="title">Brandguideline Sheet</div>
+                      <p>Hier können Sie das Brandguideline Sheet herunterladen.</p>
+                      <a href="brandguideline.pdf" download class="download-btn circle-big">
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
             </div>
          </div>
          </div>
@@ -201,4 +288,49 @@
          </div>
       </footer>
    </body>
+   <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      var dropdownBtn = document.querySelector('.dropdown .dropbtn');
+      var dropdownContent = document.querySelector('.dropdown .dropdown-content');
+      
+      dropdownBtn.addEventListener('click', function() {
+         dropdownContent.classList.toggle('show');
+      });
+      
+      window.addEventListener('click', function(event) {
+         if (!event.target.matches('.dropdown .dropbtn')) {
+             var dropdowns = document.getElementsByClassName('dropdown-content');
+             for (var i = 0; i < dropdowns.length; i++) {
+                 var openDropdown = dropdowns[i];
+                 if (openDropdown.classList.contains('show')) {
+                     openDropdown.classList.remove('show');
+                 }
+             }
+         }
+      });
+      });
+   </script>
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          const buttons = document.querySelectorAll('.service-selection');
+          const listItems = document.querySelectorAll('.nacc li');
+      
+          buttons.forEach((button, index) => {
+              button.addEventListener('click', function () {
+                  buttons.forEach(btn => btn.classList.remove('active'));
+      
+                  button.classList.add('active');
+      
+                  listItems.forEach(li => li.classList.remove('active'));
+      
+                  listItems[index].classList.add('active');
+              });
+          });
+      });
+   </script>
+   
+   <script src="../content/vendor/jquery/jquery.min.js"></script>
+   <script src="../content/assets/js/translation.js"></script>
+   <script src="../content/assets/js/script.js"></script>
+   <script src="https://kit.fontawesome.com/a7cae2adf0.js" crossorigin="anonymous"></script>
 </html>
