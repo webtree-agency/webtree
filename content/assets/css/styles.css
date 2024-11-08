@@ -7,6 +7,8 @@
   --opacity-light-green: hsla(145, 50%, 50%, 6.5%);
   --light-white-green: #f2faf6;
   --grey: #999999;
+  --light-grey: #ccc;
+  --ultra-light-grey: #ddd;
 }
 
 #changing-sentence {
@@ -1294,6 +1296,10 @@ padding-bottom: 6.5rem;
 
 .mt-30 {
   margin-top: 30px;
+}
+
+.mt-10 {
+  margin-top: 10px;
 }
 
 .retro-layout .h-entry .date {

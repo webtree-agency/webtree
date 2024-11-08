@@ -1,5 +1,5 @@
 .container-box {
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-grey);
   border-radius: 8px;
   display: flex;
   gap: 10px;
@@ -9,55 +9,42 @@
 
 .item-box {
   flex: 1;
-  border: 1px solid #ddd;
+  border: 1px solid var(--ultra-light-grey);
   border-radius: 8px;
   padding: 20px;
   text-align: center;
   position: relative;
 }
 
-.title {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.placeholder {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 20px 0;
-}
-
-.usage-text {
-  font-size: 0.9rem;
-  color: #555;
-  margin-top: 10px;
-}
-
 .download-btn, .download-button {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   text-decoration: none;
+  color: var(--black);
+  transition: color 0.3s ease;
 }
 
+.download-btn:hover, .download-button:hover {
+  color: var(--light-green);
+  cursor: pointer;
+}
 .download-btn i, .download-button i {
   margin-left: 5px;
 }
 
-/* Spezifische Hintergründe */
 .color-box {
-  background-color: #e0e0e0;
+  background-color: var(--ultra-light-grey);
 }
 
 .mockup-box.mockup {
-  background-color: #c4c4c4;
-  color: #000;
+  background-color: var(--light-grey);
+  color: var(--black);
 }
 
 .mockup-box.brand-pattern {
-  background-color: #555;
-  color: #fff;
+  color: var(--white);
 }
 
 .container-box-three {
@@ -65,14 +52,14 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-between;
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-grey);
   border-radius: 8px;
   padding: 20px;
 }
 
 .color-box-three {
-  flex: 1 1 calc(33.33% - 10px); /* 3 Boxen pro Zeile */
-  border: 1px solid #ddd;
+  flex: 1 1 calc(33.33% - 10px);
+  border: 1px solid var(--ultra-light-grey);
   border-radius: 8px;
   padding: 20px;
   text-align: left;
@@ -80,13 +67,13 @@
 
 .color-values {
   display: grid;
-  grid-template-columns: 80px auto; /* 80px für Label, Rest für Wert */
+  grid-template-columns: 80px auto;
   gap: 5px 15px;
   margin-top: 10px;
 }
 
 .color-row {
-  display: contents; /* Elemente innerhalb der Zeile bleiben im Grid */
+  display: contents;
 }
 
 .label {
@@ -96,19 +83,19 @@
 
 .value {
   text-align: left;
-  font-family: monospace; /* Monospaced Schriftart für bessere Ausrichtung */
+  font-family: monospace;
 }
 
 
 @media (max-width: 768px) {
   .color-box-three {
-    flex: 1 1 calc(50% - 16px); /* 2 Boxen pro Zeile auf kleineren Bildschirmen */
+    flex: 1 1 calc(50% - 16px);
   }
 }
 
 @media (max-width: 480px) {
   .color-box-three {
-    flex: 1 1 100%; /* 1 Box pro Zeile auf sehr kleinen Bildschirmen */
+    flex: 1 1 100%;
   }
 }
 
@@ -129,30 +116,18 @@
   flex: 1;
 }
 
-.phase span {
-  display: block;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.phase p {
-  font-size: 0.9em;
-  color: #666;
-}
-
 .progress-bar {
   position: relative;
-  background-color: #4caf50;
+  background-color: var(--primary-green);
   height: 25px;
   border-radius: 100px;
   overflow: hidden;
 }
 
 .progress {
-  background-color: #e0e0e0;
+  background-color: var(--ultra-light-grey);
   height: 100%;
-  color: white;
+  color: var(--white);
   text-align: center;
   line-height: 25px;
   font-weight: bold;
@@ -161,7 +136,7 @@
 }
 
 .border-box {
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-grey);
   border-radius: 8px;
   padding: 20px;
 }
