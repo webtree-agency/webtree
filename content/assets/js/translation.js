@@ -1682,8 +1682,8 @@ var texts = {
     "secondary-logo": "Sekundäres Logo",
     "submark-logo": "Submark-Logo",
     "logo-mark": "Logo-Marke",
-    "primary-logo-text": "Sollte verwendet werden, wenn genügend Platz vorhanden ist. Nutzen Sie es auf Websites, Fußzeilen, Briefpapier, Beschilderungen usw.",
-    "secondary-logo-text": "Für den Fall, dass das primäre Logo nicht in den benötigten Platz passt. Wird auf Websites, großen Elementen usw. verwendet.",
+    "primary-logo-text": "Sollte verwendet werden, wenn genügend Platz vorhanden ist. Nutzen Sie es auf Websites, Fusszeilen, Briefpapier, Beschilderungen usw.",
+    "secondary-logo-text": "Für den Fall, dass das primäre Logo nicht in den benötigten Platz passt. Wird auf Websites, grossen Elementen usw. verwendet.",
     "submark-logo-text": "Für den Fall, dass das primäre Logo nicht in den benötigten Platz passt. Wird auf Websites & Druckmaterialien verwendet.",
     "logo-mark-text": "Profilbilder in sozialen Medien, Stempel, Favicons usw. Verwenden Sie dies, wenn die anderen Varianten einfach nicht passen.",
     "primary-color": "Primärfarbe",
@@ -1695,7 +1695,7 @@ var texts = {
     "complementary-font": "Komplementäre Schriftart",
     "primary-font-text": "Die primäre Schriftart ist Ihre Standardschrift und sollte in Überschriften und Titeln verwendet werden.",
     "secondary-font-text": "Die sekundäre Schriftart ergänzt Ihre primäre Schrift. Sie wird für Zwischenüberschriften verwendet.",
-    "complementary-font-text": "Ergänzt die primäre und sekundäre Schriftart. Sollte im Fließtext verwendet werden.",
+    "complementary-font-text": "Ergänzt die primäre und sekundäre Schriftart. Sollte im Fliesstext verwendet werden.",
     "offer": "Offerte",
     "written-agreement": "Schriftliche Vereinbarung"
     }
