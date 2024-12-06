@@ -2031,7 +2031,7 @@ var texts = {
     "ki-weiter-tools": "KI-Tools für Webdesigner",
     "ki-weiter-tools-desc": "KI-Bildgeneratoren für Webdesign: Diese Tools sind besonders nützlich, um einzigartige Designideen zu entwickeln. Sie können dir helfen, Bilder zu erstellen, die sich von Standard-Stockfotos abheben. Tools wie Leonardo.ai und Midjourney sind ideal für diese Aufgaben.",
     "ki-content-generierung": "Content-Generierung mit KI: KI-Textgeneratoren wie Creaitor.ai und Neuroflash helfen dir, ansprechende und zielgruppengerechte Texte zu erstellen. Besonders für schnelles Content-Marketing oder SEO-Optimierungen sind diese Tools wertvoll.",
-    "ki-weitere-tools": "Weitere KI-Tools für Webdesigner: Neben den großen Tools gibt es noch zahlreiche kleinere Hilfsmittel wie Khroma für Farbpaletten oder AttentionInsight für die Analyse von Webseitenlayouts.",
+    "ki-weitere-tools": "Weitere KI-Tools für Webdesigner: Neben den grossen Tools gibt es noch zahlreiche kleinere Hilfsmittel wie Khroma für Farbpaletten oder AttentionInsight für die Analyse von Webseitenlayouts.",
     "ki-fazit": "Fazit: KI im Webdesign",
     "ki-fazit-desc": "KI im Webdesign ist eine spannende Entwicklung, die den Berufsalltag von Webdesignern verändern wird. Sie wird viele Aufgaben erleichtern, jedoch wird sie den kreativen und beratenden Teil des Berufs nicht vollständig ersetzen. Als Webdesigner solltest du die KI als Unterstützung und nicht als Konkurrenz sehen. Bleibe flexibel und nutze die Vorteile der KI-Tools, um deine Arbeit effizienter zu gestalten und dich von der Masse abzuheben.",
     "6-12-24": "6. Dezember 2024",
