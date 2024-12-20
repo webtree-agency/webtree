@@ -15,7 +15,7 @@
 
     <url>
         <loc>https://www.webtree.ch/blog.html</loc>
-        <lastmod>2024-12-13</lastmod>
+        <lastmod>2024-12-20</lastmod>
         <priority>0.8</priority>
     </url>
 
@@ -176,6 +176,11 @@
     <url>
         <loc>https://www.webtree.ch/blogs/open-source.html</loc>
         <lastmod>2024-12-13</lastmod>
+        <priority>0.6</priority>
+    </url>
+        <url>
+        <loc>https://www.webtree.ch/blogs/crypto.html</loc>
+        <lastmod>2024-12-20</lastmod>
         <priority>0.6</priority>
     </url>
 </urlset>
